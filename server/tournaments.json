@@ -1,0 +1,1542 @@
+[
+  {
+    "_id": 73,
+    "name": "Tashkent Open",
+    "start_year": 1997,
+    "end_year": 2002,
+    "active": false
+  },
+  {
+    "_id": 434,
+    "name": "Seoul Open",
+    "start_year": 1987,
+    "end_year": 1996,
+    "active": false
+  },
+  {
+    "_id": 309,
+    "name": "Madrid Tennis Grand Prix",
+    "start_year": 1972,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 96,
+    "name": "Olympics",
+    "start_year": 1896,
+    "active": true
+  },
+  {
+    "_id": 301,
+    "name": "Auckland Open",
+    "start_year": 1886,
+    "active": true,
+    "website": "http://www.asbclassic.co.nz/"
+  },
+  {
+    "_id": 308,
+    "name": "Bavarian International Tennis Championships",
+    "start_year": 1899,
+    "active": true,
+    "website": "https://www.bmwopen.de/"
+  },
+  {
+    "_id": 311,
+    "name": "Queen's Club Championships",
+    "start_year": 1886,
+    "active": true,
+    "website": "https://www.lta.org.uk/fan-zone/international/cinch-championships/"
+  },
+  {
+    "_id": 314,
+    "name": "Swiss Open",
+    "start_year": 1915,
+    "active": true,
+    "website": "https://swissopengstaad.ch/"
+  },
+  {
+    "_id": 653,
+    "name": "Fort Worth WCT",
+    "start_year": 1975,
+    "end_year": 1976,
+    "active": false
+  },
+  {
+    "_id": 315,
+    "name": "Hall of Fame Open",
+    "start_year": 1976,
+    "active": true,
+    "website": "https://www.infosyshalloffameopen.com/en/"
+  },
+  {
+    "_id": 316,
+    "name": "Swedish Open",
+    "start_year": 1948,
+    "active": true,
+    "website": "https://www.nordeaopen.se/"
+  },
+  {
+    "_id": 317,
+    "name": "Dutch Open",
+    "start_year": 1957,
+    "end_year": 2008,
+    "active": false
+  },
+  {
+    "_id": 319,
+    "name": "Austrian Open Kitzbuhel",
+    "start_year": 1894,
+    "active": true,
+    "website": "https://www.generaliopen.com/"
+  },
+  {
+    "_id": 321,
+    "name": "Stuttgart Open",
+    "start_year": 1916,
+    "active": true,
+    "website": "https://www.bossopen.com/"
+  },
+  {
+    "_id": 322,
+    "name": "Geneva Open",
+    "start_year": 1980,
+    "active": true,
+    "website": "https://www.gonetgenevaopen.com/"
+  },
+  {
+    "_id": 325,
+    "name": "Campionati Internazionali di Sicilia",
+    "start_year": 1935,
+    "end_year": 2006,
+    "active": false
+  },
+  {
+    "_id": 327,
+    "name": "Grand Prix de Tennis de Toulouse",
+    "start_year": 1982,
+    "end_year": 2000,
+    "active": false
+  },
+  {
+    "_id": 328,
+    "name": "Swiss Indoors",
+    "start_year": 1970,
+    "active": true,
+    "website": "https://www.swissindoors.ch/"
+  },
+  {
+    "_id": 329,
+    "name": "Japan Open",
+    "start_year": 1915,
+    "active": true,
+    "website": "https://japanopentennis.com/"
+  },
+  {
+    "_id": 336,
+    "name": "Hong Kong Open",
+    "start_year": 1980,
+    "active": true,
+    "website": "http://www.hktennisopen.hk/en/"
+  },
+  {
+    "_id": 337,
+    "name": "Vienna Open",
+    "start_year": 1974,
+    "active": true,
+    "website": "https://www.erstebank-open.com/"
+  },
+  {
+    "_id": 313,
+    "name": "Bristol Open",
+    "start_year": 1888,
+    "end_year": 1989,
+    "active": false
+  },
+  {
+    "_id": 338,
+    "name": "Sydney International",
+    "start_year": 1885,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 339,
+    "name": "Brisbane International",
+    "start_year": 2009,
+    "active": true,
+    "website": "https://www.brisbaneinternational.com.au/"
+  },
+  {
+    "_id": 711,
+    "name": "Tulsa Grand Prix Tennis Tournament",
+    "start_year": 1978,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 710,
+    "name": "Washington Indoor",
+    "start_year": 1972,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 709,
+    "name": "Sarasota Grand Prix",
+    "start_year": 1978,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 707,
+    "name": "South Orange Open",
+    "start_year": 1970,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 704,
+    "name": "Ancona Open",
+    "start_year": 1982,
+    "end_year": 1982,
+    "active": false
+  },
+  {
+    "_id": 703,
+    "name": "Ferrara Open",
+    "start_year": 1983,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 702,
+    "name": "ATP Venice",
+    "start_year": 1981,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 437,
+    "name": "Little Caesars Championship Tennis Tournament",
+    "start_year": 1988,
+    "end_year": 1988,
+    "active": false
+  },
+  {
+    "_id": 435,
+    "name": "Rye Brook Open",
+    "start_year": 1987,
+    "end_year": 1988,
+    "active": false
+  },
+  {
+    "_id": 431,
+    "name": "ATP Luxembourg",
+    "start_year": 1984,
+    "end_year": 1984,
+    "active": false
+  },
+  {
+    "_id": 392,
+    "name": "Mar del Plata Open",
+    "start_year": 1981,
+    "end_year": 1981,
+    "active": false
+  },
+  {
+    "_id": 389,
+    "name": "Denver Open",
+    "start_year": 1972,
+    "end_year": 1982,
+    "active": false
+  },
+  {
+    "_id": 366,
+    "name": "ATP Saint-Vincent",
+    "start_year": 1986,
+    "end_year": 1989,
+    "active": false
+  },
+  {
+    "_id": 362,
+    "name": "Manila International Championships",
+    "start_year": 1968,
+    "end_year": 1981,
+    "active": false
+  },
+  {
+    "_id": 358,
+    "name": "San Juan Open",
+    "start_year": 1980,
+    "end_year": 1981,
+    "active": false
+  },
+  {
+    "_id": 243,
+    "name": "Western Australian Open",
+    "start_year": 1896,
+    "end_year": 1984,
+    "active": false
+  },
+  {
+    "_id": 356,
+    "name": "Napa Open",
+    "start_year": 1981,
+    "end_year": 1981,
+    "active": false
+  },
+  {
+    "_id": 355,
+    "name": "WCT Invitational",
+    "start_year": 1978,
+    "end_year": 1981,
+    "active": false
+  },
+  {
+    "_id": 351,
+    "name": "ATP Linz",
+    "start_year": 1979,
+    "end_year": 1982,
+    "active": false
+  },
+  {
+    "_id": 1,
+    "name": "Frankfurt WCT",
+    "start_year": 1980,
+    "end_year": 1982,
+    "active": false
+  },
+  {
+    "_id": 3,
+    "name": "Frankfurt Cup",
+    "start_year": 1987,
+    "end_year": 1989,
+    "active": false
+  },
+  {
+    "_id": 349,
+    "name": "Stowe Open",
+    "start_year": 1978,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 346,
+    "name": "Tampa Open",
+    "start_year": 1981,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 345,
+    "name": "Monterrey WCT",
+    "start_year": 1976,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 344,
+    "name": "Cacharel Caracas Open",
+    "start_year": 1956,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 343,
+    "name": "Columbus Open",
+    "start_year": 1970,
+    "end_year": 1984,
+    "active": false
+  },
+  {
+    "_id": 342,
+    "name": "Aix-en-Provence Open",
+    "start_year": 1955,
+    "end_year": 1984,
+    "active": false
+  },
+  {
+    "_id": 341,
+    "name": "Moselle Open",
+    "start_year": 2003,
+    "active": true,
+    "website": "https://www.moselle-open.com/"
+  },
+  {
+    "_id": 347,
+    "name": "British Hard Court Championships",
+    "start_year": 1924,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 352,
+    "name": "Paris Masters",
+    "start_year": 1969,
+    "active": true,
+    "website": "https://www.rolexparismasters.com/"
+  },
+  {
+    "_id": 357,
+    "name": "Eurocard Open",
+    "start_year": 1988,
+    "end_year": 2001,
+    "active": false
+  },
+  {
+    "_id": 360,
+    "name": "Grand Prix Hassan II",
+    "start_year": 1984,
+    "active": true,
+    "website": "https://www.frmt.ma/"
+  },
+  {
+    "_id": 375,
+    "name": "Open Sud de France",
+    "start_year": 1987,
+    "active": true,
+    "website": "https://www.opensuddefrance.com/"
+  },
+  {
+    "_id": 403,
+    "name": "Miami Open",
+    "start_year": 1985,
+    "active": true,
+    "website": "https://www.miamiopen.com/"
+  },
+  {
+    "_id": 404,
+    "name": "Indian Wells Open",
+    "start_year": 1974,
+    "active": true,
+    "website": "https://bnpparibasopen.com/"
+  },
+  {
+    "_id": 407,
+    "name": "Rotterdam Open",
+    "start_year": 1972,
+    "active": true,
+    "website": "https://www.abnamro-open.nl/"
+  },
+  {
+    "_id": 408,
+    "name": "Milan Indoor",
+    "start_year": 1978,
+    "end_year": 2005,
+    "active": false
+  },
+  {
+    "_id": 415,
+    "name": "WCT Tournament of Champions",
+    "start_year": 1977,
+    "end_year": 1990,
+    "active": false
+  },
+  {
+    "_id": 54,
+    "name": "Prague Open",
+    "start_year": 1987,
+    "end_year": 1999,
+    "active": false
+  },
+  {
+    "_id": 410,
+    "name": "Monte-Carlo Masters",
+    "start_year": 1896,
+    "active": true,
+    "website": "https://montecarlotennismasters.com/en"
+  },
+  {
+    "_id": 414,
+    "name": "Hamburg European Open",
+    "start_year": 1892,
+    "active": true,
+    "website": "https://www.hamburgopenatp500.com/"
+  },
+  {
+    "_id": 416,
+    "name": "Italian Open",
+    "start_year": 1930,
+    "active": true,
+    "website": "https://www.internazionalibnlditalia.com/"
+  },
+  {
+    "_id": 2045,
+    "name": "Indian Open",
+    "start_year": 1923,
+    "end_year": 1977,
+    "active": false
+  },
+  {
+    "_id": 418,
+    "name": "Washington Open",
+    "start_year": 1969,
+    "active": true,
+    "website": "https://www.mubadalacitidcopen.com/en/"
+  },
+  {
+    "_id": 419,
+    "name": "Indianapolis Tennis Championships",
+    "start_year": 1987,
+    "end_year": 2009,
+    "active": false
+  },
+  {
+    "_id": 421,
+    "name": "Canadian Open",
+    "start_year": 1881,
+    "active": true,
+    "website": "https://omniumbanquenationale.com/en/"
+  },
+  {
+    "_id": 422,
+    "name": "Cincinnati Open",
+    "start_year": 1899,
+    "active": true,
+    "website": "https://www.cincinnatiopen.com/"
+  },
+  {
+    "_id": 423,
+    "name": "Los Angeles Open",
+    "start_year": 1927,
+    "end_year": 2012,
+    "active": false
+  },
+  {
+    "_id": 424,
+    "name": "Dallas Open",
+    "start_year": 2022,
+    "active": true,
+    "website": "https://www.dallasopen.com/"
+  },
+  {
+    "_id": 425,
+    "name": "Barcelona Open",
+    "start_year": 1953,
+    "active": true,
+    "website": "https://www.barcelonaopenbancsabadell.com/en/home/"
+  },
+  {
+    "_id": 429,
+    "name": "Stockholm Open",
+    "start_year": 1969,
+    "active": true,
+    "website": "https://www.stockholmopen.se/en/"
+  },
+  {
+    "_id": 433,
+    "name": "Tennis Channel Open",
+    "start_year": 1986,
+    "end_year": 2008,
+    "active": false
+  },
+  {
+    "_id": 438,
+    "name": "Kremlin Cup",
+    "start_year": 1990,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 439,
+    "name": "Croatia Open",
+    "start_year": 1990,
+    "active": true,
+    "website": "https://www.croatiaopen.hr/"
+  },
+  {
+    "_id": 440,
+    "name": "Rosmalen Grass Court Championships",
+    "start_year": 1990,
+    "active": true,
+    "website": "https://libema-open.nl/en/"
+  },
+  {
+    "_id": 451,
+    "name": "Qatar Open",
+    "start_year": 1993,
+    "active": true,
+    "website": "https://www.qatartennis.org/"
+  },
+  {
+    "_id": 468,
+    "name": "Portugal Open",
+    "start_year": 1990,
+    "end_year": 2014,
+    "active": false
+  },
+  {
+    "_id": 475,
+    "name": "Orange Warsaw Open",
+    "start_year": 2001,
+    "end_year": 2008,
+    "active": false
+  },
+  {
+    "_id": 481,
+    "name": "Copenhagen Open",
+    "start_year": 1973,
+    "end_year": 2003,
+    "active": false
+  },
+  {
+    "_id": 495,
+    "name": "Dubai Tennis Championships",
+    "start_year": 1993,
+    "active": true,
+    "website": "https://www.dubaidutyfreetennischampionships.com/"
+  },
+  {
+    "_id": 496,
+    "name": "Open 13",
+    "start_year": 1993,
+    "active": true,
+    "website": "https://www.open13.org/"
+  },
+  {
+    "_id": 499,
+    "name": "Delray Beach Open",
+    "start_year": 1993,
+    "active": true,
+    "website": "https://yellowtennisball.com/"
+  },
+  {
+    "_id": 500,
+    "name": "Halle Open",
+    "start_year": 1993,
+    "active": true,
+    "website": "https://www.terrawortmann-open.de/en/"
+  },
+  {
+    "_id": 506,
+    "name": "Argentina Open",
+    "start_year": 1927,
+    "active": true,
+    "website": "https://argentinaopentennis.com/"
+  },
+  {
+    "_id": 520,
+    "name": "Roland Garros",
+    "start_year": 1891,
+    "active": true,
+    "website": "https://www.rolandgarros.com/en_fr/index.html"
+  },
+  {
+    "_id": 533,
+    "name": "Brasil Open",
+    "start_year": 2001,
+    "end_year": 2019,
+    "active": false
+  },
+  {
+    "_id": 540,
+    "name": "Wimbledon",
+    "start_year": 1877,
+    "active": true,
+    "website": "https://www.wimbledon.com/index.html"
+  },
+  {
+    "_id": 560,
+    "name": "US Open",
+    "start_year": 1881,
+    "active": true,
+    "website": "https://www.usopen.org/"
+  },
+  {
+    "_id": 568,
+    "name": "St. Petersburg Open",
+    "start_year": 1995,
+    "end_year": 2021,
+    "active": false
+  },
+  {
+    "_id": 573,
+    "name": "Valencia Open",
+    "start_year": 1995,
+    "end_year": 2015,
+    "active": false
+  },
+  {
+    "_id": 580,
+    "name": "Australian Open",
+    "start_year": 1905,
+    "active": true,
+    "website": "https://www.ausopen.com/"
+  },
+  {
+    "_id": 605,
+    "name": "ATP Finals",
+    "start_year": 1970,
+    "active": true,
+    "website": "https://www.nittoatpfinals.com/"
+  },
+  {
+    "_id": 615,
+    "name": "World Team Cup",
+    "start_year": 1975,
+    "end_year": 2012,
+    "active": false
+  },
+  {
+    "_id": 620,
+    "name": "Brighton International",
+    "start_year": 1996,
+    "end_year": 2000,
+    "active": false
+  },
+  {
+    "_id": 1727,
+    "name": "Louisville Open",
+    "start_year": 1970,
+    "end_year": 1979,
+    "active": false
+  },
+  {
+    "_id": 717,
+    "name": "U.S. Men's Clay Court Championships",
+    "start_year": 1910,
+    "active": true,
+    "website": "https://www.mensclaycourt.com/"
+  },
+  {
+    "_id": 1725,
+    "name": "Pepsi Grand Slam",
+    "start_year": 1976,
+    "end_year": 1981,
+    "active": false
+  },
+  {
+    "_id": 3934,
+    "name": "WCT Challenge Cup",
+    "start_year": 1976,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 4,
+    "name": "Grand Slam Cup",
+    "start_year": 1990,
+    "end_year": 1999,
+    "active": false
+  },
+  {
+    "_id": 803,
+    "name": "Delray Beach WCT",
+    "start_year": 1982,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 802,
+    "name": "Richmond WCT",
+    "start_year": 1966,
+    "end_year": 1981,
+    "active": false
+  },
+  {
+    "_id": 727,
+    "name": "Verizon Tennis Challenge",
+    "start_year": 1983,
+    "end_year": 2001,
+    "active": false
+  },
+  {
+    "_id": 726,
+    "name": "Bahia Open",
+    "start_year": 1982,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 724,
+    "name": "Hilton Head WCT",
+    "start_year": 1982,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 723,
+    "name": "Lisbon Open",
+    "start_year": 1983,
+    "end_year": 1983,
+    "active": false
+  },
+  {
+    "_id": 715,
+    "name": "New Orleans Grand Prix",
+    "start_year": 1978,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 714,
+    "name": "Friendship Cup",
+    "start_year": 1979,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 712,
+    "name": "ATP Birmingham",
+    "start_year": 1973,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 5,
+    "name": "Nottingham Open",
+    "start_year": 1887,
+    "end_year": 2008,
+    "active": false
+  },
+  {
+    "_id": 741,
+    "name": "Eastbourne International",
+    "start_year": 2009,
+    "active": true,
+    "website": "https://www.lta.org.uk/fan-zone/international/rothesay-international-eastbourne/"
+  },
+  {
+    "_id": 747,
+    "name": "China Open",
+    "start_year": 1993,
+    "active": true,
+    "website": "https://www.chinaopen.com/"
+  },
+  {
+    "_id": 773,
+    "name": "Romanian Open",
+    "start_year": 1993,
+    "end_year": 2016,
+    "active": false,
+    "website": "https://www.bcropenromania.ro/"
+  },
+  {
+    "_id": 807,
+    "name": "Mexican Open",
+    "start_year": 1993,
+    "active": true,
+    "website": "https://www.abiertomexicanodetenis.com/en/"
+  },
+  {
+    "_id": 891,
+    "name": "Maharashtra Open",
+    "start_year": 1996,
+    "end_year": 2023,
+    "active": false,
+    "website": "https://www.maharashtraopen.com/"
+  },
+  {
+    "_id": 1536,
+    "name": "Madrid Open",
+    "start_year": 2002,
+    "active": true,
+    "website": "https://www.mutuamadridopen.com/"
+  },
+  {
+    "_id": 1720,
+    "name": "Thailand Open",
+    "start_year": 2003,
+    "end_year": 2013,
+    "active": false
+  },
+  {
+    "_id": 2276,
+    "name": "Zagreb Indoors",
+    "start_year": 1996,
+    "end_year": 2015,
+    "active": false
+  },
+  {
+    "_id": 7310,
+    "name": "Manchester Open",
+    "start_year": 1913,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 2805,
+    "name": "ATP Florence",
+    "start_year": 1973,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 2807,
+    "name": "Gijon Open",
+    "start_year": 2022,
+    "active": true,
+    "website": "https://www.gijonopen.com/"
+  },
+  {
+    "_id": 2809,
+    "name": "Tennis Napoli Cup",
+    "start_year": 2022,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 2841,
+    "name": "Srpska Open",
+    "start_year": 2023,
+    "end_year": 2023,
+    "active": false
+  },
+  {
+    "_id": 705,
+    "name": "Volvo International",
+    "start_year":1972,
+    "end_year": 2001,
+    "active": false
+  },
+  {
+    "_id": 3348,
+    "name": "Connecticut Open",
+    "start_year": 1948,
+    "end_year": 2019,
+    "active": false
+  },
+  {
+    "_id": 3465,
+    "name": "Kingfisher Airlines Tennis Open",
+    "start_year": 1996,
+    "end_year": 2007,
+    "active": false
+  },
+  {
+    "_id": 427,
+    "name": "Australian Indoor Tennis Championships",
+    "start_year": 1973,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 4138,
+    "name": "Tel Aviv Open",
+    "start_year": 1978,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 426,
+    "name": "South African Open",
+    "start_year": 1891,
+    "end_year": 1995,
+    "active": false
+  },
+  {
+    "_id": 4140,
+    "name": "Korea Open",
+    "start_year": 2022,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 4462,
+    "name": "Tiriac Open",
+    "start_year": 2024,
+    "active": true
+  },
+  {
+    "_id": 5012,
+    "name": "SA Tennis Open",
+    "start_year": 2009,
+    "end_year": 2011,
+    "active": false
+  },
+  {
+    "_id": 5014,
+    "name": "Shanghai Masters",
+    "start_year": 2009,
+    "active": true,
+    "website": "https://en.shanghairolexmasters.com/"
+  },
+  {
+    "_id": 5053,
+    "name": "Serbia Open",
+    "start_year": 2009,
+    "end_year": 2022,
+    "active": false,
+    "website": "https://serbiaopen.org/en/"
+  },
+  {
+    "_id": 6003,
+    "name": "Malaysian Open",
+    "start_year": 1921,
+    "end_year": 2015,
+    "active": false
+  },
+  {
+    "_id": 6116,
+    "name": "Atlanta Open",
+    "start_year": 2010,
+    "active": true,
+    "website": "https://www.atlantaopentennis.com/"
+  },
+  {
+    "_id": 6120,
+    "name": "Open de Nice Cote d'Azur",
+    "start_year": 1895,
+    "end_year": 2016,
+    "active": false
+  },
+  {
+    "_id": 6242,
+    "name": "Winston-Salem Open",
+    "start_year": 2011,
+    "active": true,
+    "website": "https://www.winstonsalemopen.com/"
+  },
+  {
+    "_id": 6710,
+    "name": "Dusseldorf Open",
+    "start_year": 2013,
+    "end_year": 2014,
+    "active": false
+  },
+  {
+    "_id": 6718,
+    "name": "Colombia Open",
+    "start_year": 2013,
+    "end_year": 2015,
+    "active": false
+  },
+  {
+    "_id": 6932,
+    "name": "Rio Open",
+    "start_year": 2014,
+    "active": true,
+    "website": "https://www.rioopen.com/"
+  },
+  {
+    "_id": 6967,
+    "name": "Shenzhen Open",
+    "start_year": 2014,
+    "end_year": 2018,
+    "active": false
+  },
+  {
+    "_id": 7161,
+    "name": "Ecuador Open",
+    "start_year": 2015,
+    "end_year": 2018,
+    "active": false
+  },
+  {
+    "_id": 7163,
+    "name": "Istanbul Open",
+    "start_year": 2015,
+    "end_year": 2018,
+    "active": false,
+    "website": "https://www.istopen.net/"
+  },
+  {
+    "_id": 7290,
+    "name": "Estoril Open",
+    "start_year": 2015,
+    "active": true,
+    "website": "https://www.millenniumestorilopen.com/"
+  },
+  {
+    "_id": 7434,
+    "name": "Sofia Open",
+    "start_year": 2016,
+    "end_year": 2023,
+    "active": false,
+    "website": "https://sofiaopen.bg/"
+  },
+  {
+    "_id": 406,
+    "name": "Brussels Indoor",
+    "start_year": 1980,
+    "end_year": 1992,
+    "active": false
+  },
+  {
+    "_id": 7480,
+    "name": "Los Cabos Open",
+    "start_year": 2016,
+    "active": true,
+    "website": "https://www.abiertoloscabos.com/"
+  },
+  {
+    "_id": 7485,
+    "name": "European Open",
+    "start_year": 2016,
+    "active": true,
+    "website": "https://www.europeanopen.be/"
+  },
+  {
+    "_id": 7581,
+    "name": "Chengdu Open",
+    "start_year": 2016,
+    "active": true,
+    "website": "https://www.chengduopentennis.com/"
+  },
+  {
+    "_id": 7648,
+    "name": "Hungarian Open",
+    "start_year": 2017,
+    "end_year": 2019,
+    "active": false,
+    "website": "https://huntennis.hu/"
+  },
+  {
+    "_id": 7694,
+    "name": "Lyon Open",
+    "start_year": 2017,
+    "active": true,
+    "website": "https://openparc.com/"
+  },
+  {
+    "_id": 7696,
+    "name": "Next Generation ATP Finals",
+    "start_year": 2017,
+    "active": true,
+    "website": "https://www.nextgenatpfinals.com/en/"
+  },
+  {
+    "_id": 411,
+    "name": "Chicago Grand Prix",
+    "start_year": 1985,
+    "end_year": 1991,
+    "active": false
+  },
+  {
+    "_id": 8099,
+    "name": "Davis Cup",
+    "start_year": 1900,
+    "active": true,
+    "website": "https://www.daviscup.com/"
+  },
+  {
+    "_id": 8888,
+    "name": "ATP Cup",
+    "start_year": 2018,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 8994,
+    "name": "Mallorca Championships",
+    "start_year": 2021,
+    "active": true,
+    "website": "https://mallorca-championships.com/"
+  },
+  {
+    "_id": 8996,
+    "name": "Chile Open",
+    "start_year": 1930,
+    "active": true,
+    "website": "https://www.chileopen.cl/"
+  },
+  {
+    "_id": 8998,
+    "name": "Great Ocean RoadOpen",
+    "start_year": 2021,
+    "end_year": 2021,
+    "active": false
+  },
+  {
+    "_id": 9158,
+    "name": "Cordoba Open",
+    "start_year": 2019,
+    "active": true,
+    "website": "https://www.cordobaopen.com/"
+  },
+  {
+    "_id": 9164,
+    "name": "Zhuhai Championships",
+    "start_year": 2019,
+    "active": true,
+    "website": "https://www.zhuhaichampionships.cn/"
+  },
+  {
+    "_id": 9210,
+    "name": "Laver Cup",
+    "start_year": 2017,
+    "active": true,
+    "website": "https://lavercup.com/"
+  },
+  {
+    "_id": 401,
+    "name": "U.S. Pro Indoor",
+    "start_year": 1962,
+    "end_year": 1998,
+    "active": false
+  },
+  {
+    "_id": 9404,
+    "name": "Bett1Hulks Indoors",
+    "start_year": 2020,
+    "end_year": 2020,
+    "active": false,
+    "website": "https://www.bett1hulks.de/"
+  },
+  {
+    "_id": 9406,
+    "name": "Bett1Hulks Championship",
+    "start_year": 2020,
+    "end_year": 2020,
+    "active": false
+  },
+  {
+    "_id": 9410,
+    "name": "Almaty Open",
+    "start_year": 2020,
+    "active": true,
+    "website": "https://www.ktf.kz/en"
+  },
+  {
+    "_id": 9426,
+    "name": "Antalya Open",
+    "start_year": 2017,
+    "end_year": 2021,
+    "active": false
+  },
+  {
+    "_id": 9428,
+    "name": "Murray River Open",
+    "start_year": 2021,
+    "end_year": 2021,
+    "active": false
+  },
+  {
+    "_id": 9460,
+    "name": "Singapore Open",
+    "start_year": 1989,
+    "end_year": 2021,
+    "active": false
+  },
+  {
+    "_id": 9462,
+    "name": "Andalucia Open",
+    "start_year": 2021,
+    "end_year": 2021,
+    "active": false,
+    "website": "https://www.andaluciaopen.com/"
+  },
+  {
+    "_id": 9481,
+    "name": "Sardegna Open",
+    "start_year": 2020,
+    "end_year": 2023,
+    "active": false
+  },
+  {
+    "_id": 9510,
+    "name": "Emilia-Romagna Open",
+    "start_year": 2021,
+    "end_year": 2021,
+    "active": false,
+    "website": "https://parmaladiesopen.com/en/home-english/"
+  },
+  {
+    "_id": 9512,
+    "name": "Belgrade Open",
+    "start_year": 2021,
+    "end_year": 2021,
+    "active": false
+  },
+  {
+    "_id": 9569,
+    "name": "San Diego Open",
+    "start_year": 2021,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 9665,
+    "name": "Melbourne Summer Set",
+    "start_year": 2022,
+    "end_year": 2022,
+    "active": false
+  },
+  {
+    "_id": 9667,
+    "name": "Adelaide International",
+    "start_year": 2020,
+    "active": true,
+    "website": "https://adelaideinternational.com.au/"
+  },
+  {
+    "_id": 9900,
+    "name": "United Cup",
+    "start_year": 2022,
+    "active": true,
+    "website": "http://www.unitedcup.com/"
+  },
+  {
+    "_id": 402,
+    "name": "Memphis Open",
+    "start_year": 1975,
+    "end_year": 2017,
+    "active": false
+  },
+  {
+    "_id": 6,
+    "name": "New York Open",
+    "start_year": 2018,
+    "end_year": 2020,
+    "active": false
+  },
+  {
+    "_id": 7,
+    "name": "Pacific Coast Championships",
+    "start_year": 1889,
+    "end_year": 2013,
+    "active": false
+  },
+  {
+    "_id": 2016,
+    "name": "Dewar Cup Finals",
+    "start_year": 1968,
+    "end_year": 1976,
+    "active": false
+  },
+  {
+    "_id": 80,
+    "name": "U.S. Pro Tennis Championships",
+    "start_year": 1927,
+    "end_year": 1999,
+    "active": false
+  },
+  {
+    "_id": 201,
+    "name": "Guaruja Open",
+    "start_year": 1980,
+    "end_year": 1992,
+    "active": false
+  },
+  {
+    "_id": 224,
+    "name": "OTB Open",
+    "start_year": 1987,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 240,
+    "name": "Itaparica Open",
+    "start_year": 1986,
+    "end_year": 1990,
+    "active": false
+  },
+  {
+    "_id": 302,
+    "name": "Toronto Indoor",
+    "start_year": 1972,
+    "end_year": 1990,
+    "active": false
+  },
+  {
+    "_id": 310,
+    "name": "Oporto Open",
+    "start_year": 1995,
+    "end_year": 1996,
+    "active": false
+  },
+  {
+    "_id": 312,
+    "name": "Internazionali di Tennis Carisbo",
+    "start_year": 1985,
+    "end_year": 1998,
+    "active": false
+  },
+  {
+    "_id": 323,
+    "name": "Bordeaux Grand Prix",
+    "start_year": 1979,
+    "end_year": 1995,
+    "active": false
+  },
+  {
+    "_id": 348,
+    "name": "European Indoor Championships",
+    "start_year": 1990,
+    "end_year": 1991,
+    "active": false
+  },
+  {
+    "_id": 8,
+    "name": "ATP Bolzano",
+    "start_year": 1992,
+    "end_year": 1993,
+    "active": false
+  },
+  {
+    "_id": 9,
+    "name": "Ostrava Open",
+    "start_year": 1994,
+    "end_year": 1998,
+    "active": false
+  },
+  {
+    "_id": 2,
+    "name": "BP National Championships",
+    "start_year": 1988,
+    "end_year": 1995,
+    "active": false
+  },
+  {
+    "_id": 52,
+    "name": "Sanremo Open",
+    "start_year": 1990,
+    "end_year": 1990,
+    "active": false
+  },
+  {
+    "_id": 367,
+    "name": "Athens Open",
+    "start_year": 1986,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 428,
+    "name": "Tokyo Indoor",
+    "start_year": 1966,
+    "end_year": 1995,
+    "active": false
+  },
+  {
+    "_id": 430,
+    "name": "Wembley Championships",
+    "start_year": 1934,
+    "end_year": 1990,
+    "active": false
+  },
+  {
+    "_id": 436,
+    "name": "XL Bermuda Open",
+    "start_year": 1995,
+    "end_year": 1996,
+    "active": false
+  },
+  {
+    "_id": 457,
+    "name": "Taipei Grand Prix",
+    "start_year": 1977,
+    "end_year": 1992,
+    "active": false
+  },
+  {
+    "_id": 463,
+    "name": "Brasilia Open",
+    "start_year": 1991,
+    "end_year": 1991,
+    "active": false
+  },
+  {
+    "_id": 473,
+    "name": "Merano Open",
+    "start_year": 1999,
+    "end_year": 1999,
+    "active": false
+  },
+  {
+    "_id": 9,
+    "name": "Internazionali di Tennis San Marino Open",
+    "start_year": 1988,
+    "end_year": 2000,
+    "active": false
+  },
+  {
+    "_id": 494,
+    "name": "Jakarta Open",
+    "start_year": 1993,
+    "end_year": 1996,
+    "active": false
+  },
+  {
+    "_id": 497,
+    "name": "ATP Zaragoza",
+    "start_year": 1993,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 498,
+    "name": "ATP Osaka",
+    "start_year": 1993,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 517,
+    "name": "Oahu Open",
+    "start_year": 1994,
+    "end_year": 1994,
+    "active": false
+  },
+  {
+    "_id": 544,
+    "name": "ATP Montevideo",
+    "start_year": 1994,
+    "end_year": 1995,
+    "active": false
+  },
+  {
+    "_id": 205,
+    "name": "Lagos Open",
+    "start_year": 1976,
+    "end_year": 1980,
+    "active": false
+  },
+  {
+    "_id": 206,
+    "name": "Egyptian Open",
+    "start_year": 1925,
+    "end_year": 1982,
+    "active": false
+  },
+  {
+    "_id": 304,
+    "name": "Lorraine Open",
+    "start_year": 1979,
+    "end_year": 1989,
+    "active": false
+  },
+  {
+    "_id": 318,
+    "name": "Livingston Open",
+    "start_year": 1984,
+    "end_year": 1989,
+    "active": false
+  },
+  {
+    "_id": 320,
+    "name": "Grand Prix Cleveland",
+    "start_year": 1972,
+    "end_year": 1985,
+    "active": false
+  },
+  {
+    "_id": 324,
+    "name": "Hawaii Open",
+    "start_year": 1974,
+    "end_year": 1984,
+    "active": false
+  },
+  {
+    "_id": 331,
+    "name": "Melbourne Indoor",
+    "start_year": 1980,
+    "end_year": 1985,
+    "active": false
+  },
+  {
+    "_id": 332,
+    "name": "Cologne Grand Prix",
+    "start_year": 1976,
+    "end_year": 1986,
+    "active": false
+  },
+  {
+    "_id": 335,
+    "name": "Torneo Internazionale Citta di Treviso",
+    "start_year": 1974,
+    "end_year": 1974,
+    "active": false
+  }
+]
