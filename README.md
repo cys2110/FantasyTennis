@@ -3,7 +3,7 @@
 1. [Languages, Frameworks, Libraries and Websites Use](#languages-frameworks-libraries-and-websites-used)
 1. [Social Media Links](#social-media-links)
 
-This app is a fantasy tennis app which allows users to predict tournament results. Right up until matches start, users will be able to predict who will win each match during a tournament. Users will be able to earn points based on whether they predict the correct winner, the correct number of sets, the correct number of games and the correct score in a match. A stretch goal of the app will be the implementation of leagues that users can join.
+This app is a fantasy tennis app which allows users to predict tournament results. Right up until matches start, users will be able to predict who will win each match during a tournament. Users will be able to earn points based on whether they predict the correct winner, the correct number of sets, the correct number of games and the correct score in a match. A stretch goal of the app will be the implementation of leagues that users can join. Other stretch goals will be the inclusion of data on past editions of tournaments and player stats to help users in making their predictions.
 
 The app will be built using the MEVN stack. The plans for the project can be found below:
 - [Entity relationship diagram](https://drive.google.com/file/d/1GW836gya2lA-cYJIx7QOMXJ1mb_laLAb/view?usp=sharing)
