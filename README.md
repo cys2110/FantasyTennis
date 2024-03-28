@@ -11,12 +11,6 @@ The app will be built using the MEVN stack. The plans for the project can be fou
 - [Wireframe](https://www.figma.com/file/z7MjgsNpTdt9BO59YHnqip/FantasyATP?type=design&node-id=0%3A1&mode=dev&t=bIkm2yj7S2aqeHXT-1)
 - [Project management](https://trello.com/invite/b/Yq4RN6ek/ATTI8d280093b9dc76ca176479456457a90a4A086300/fantasytennis)
 
-![ERD](./planning/ERD.png)
-
-![CHD](./planning/CHD.png)
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fz7MjgsNpTdt9BO59YHnqip%2FFantasyATP%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DbIkm2yj7S2aqeHXT-1" allowfullscreen></iframe>
-
 ## Languages, Frameworks, Libraries and Websites Used
 
 - [Trello](https://trello.com/)
