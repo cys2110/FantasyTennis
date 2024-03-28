@@ -31,5 +31,5 @@ The app will be built using the MEVN stack. The plans for the project can be fou
 
 ## Social Media Links
 
-[Github](https://github.com/cys2110)
-[LinkedIn](www.linkedin.com/in/claire-y-sheridan)
+- [Github](https://github.com/cys2110)
+- [LinkedIn](www.linkedin.com/in/claire-y-sheridan)
