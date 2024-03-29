@@ -5,6 +5,10 @@ const logger = require('morgan')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const PORT = process.env.PORT || 3000
+const tournamentController = require('./controllers/TournamentsController')
+const playerController = require('./controllers/PlayersController')
+const editionController = require('./controllers/EditionsController')
+const matchScoreController = require('./controllers/MatchScoresController')
 
 const app = express()
 const session = require('express-session')
@@ -29,6 +33,17 @@ app.use(function(req, res, next) {
 app.get('/', (req, res) => {
     res.send('This is root!')
   })
+
+app.get('/tournaments/:id', tournamentController.getTournamentById)
+
+app.get('/players/id/:id', playerController.getPlayerById)
+app.get('/players/name/:name', playerController.getPlayerByName)
+
+app.get('/editions/id/:id', editionController.getEditionById)
+app.get('/editions/tournaments/:tournament', editionController.getEditionsByTournament)
+
+app.get('/match-scores/editions/:edition', matchScoreController.getMatchByEdition)
+app.get('/match-scores/player/id/:id', matchScoreController.getMatchesByPlayerId)
 
 app.get('/auth/google', passport.authenticate(
     'google',
