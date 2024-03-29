@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
     res.send('This is root!')
   })
 
-app.get('/tournaments/:id', tournamentController.getTournamentById)
+app.get('/tournaments/id/:id', tournamentController.getTournamentById)
 
 app.get('/players/id/:id', playerController.getPlayerById)
 app.get('/players/name/:name', playerController.getPlayerByName)

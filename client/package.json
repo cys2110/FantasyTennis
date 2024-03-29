@@ -9,10 +9,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/pro-duotone-svg-icons": "^6.5.1",
+    "@fortawesome/pro-light-svg-icons": "^6.5.1",
+    "@fortawesome/pro-regular-svg-icons": "^6.5.1",
+    "@fortawesome/pro-solid-svg-icons": "^6.5.1",
+    "@fortawesome/pro-thin-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-light-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-regular-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-solid-svg-icons": "^6.5.1",
+    "@fortawesome/sharp-thin-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "axios": "^1.6.8",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.1.6"
   }
