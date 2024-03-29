@@ -15,7 +15,7 @@ const Player = new Schema(
         country_yr: {type: Number, required: false},
         prev_country: {type: String, required: false},
         prev_country_yr: {type: Number, required: false},
-        birthday: {type: Date, required: false},
+        dob: {type: Date, required: false},
         right_handed: {type: Boolean, required: false},
         backhand: {type: Number, required: false},
         height: {
@@ -23,18 +23,18 @@ const Player = new Schema(
             ft: {type: String, required: false}
         },
         coaches: [{type: String, required: false}],
-        preferred_surface: {type: String, required: false, enum: ['grass', 'clay', 'hard', 'carpet']},
+        preferred_surface: [{type: String, required: false, enum: ['grass', 'clay', 'hard', 'carpet']}],
         age_started: {type: Number, required: false},
         rank: {
             career_high: {type: Number, required: false},
             date: {type: Date, required: false}
         },
-        pm_USD: {type: Number, required: true},
-        titles: {type: Number, required: true},
-        win: {type: Number, required: true},
-        loss: {type: Number, required: true},
-        gladiator: {type: Boolean, required: true},
-        headshot: {type: Boolean, required: true},
+        pm_USD: {type: Number, required: true, default: 0},
+        titles: {type: Number, required: true, default: 0},
+        win: {type: Number, required: true, default: 0},
+        loss: {type: Number, required: true, default: 0},
+        gladiator: {type: Boolean, required: true, default: false},
+        headshot: {type: Boolean, required: true, default: false},
         majors: {
             ao: {
                 round: {type: String, required: false},

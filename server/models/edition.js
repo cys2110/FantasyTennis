@@ -2,7 +2,7 @@ const { Schema } = require('mongoose')
 
 const options = {discriminatorKey: 'kind'}
 
-const Edition = new Schema(
+const EditionSchema = new Schema(
     {
         _id: {type: Number, required: true},
         tourney: {type: Number, ref: 'Tournament'},
@@ -19,7 +19,7 @@ const Edition = new Schema(
     {timestamps: true}, options
 )
 
-const Draw = new Schema(
+const DrawSchema = new Schema(
     {
         type_of_draw: {type: Number, required: true, enum: [32, 64, 128]},
         location: {
@@ -106,6 +106,6 @@ const Draw = new Schema(
 )
 
 module.exports = {
-    Edition,
-    Draw
+    EditionSchema,
+    DrawSchema
 }

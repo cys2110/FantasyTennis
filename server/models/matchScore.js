@@ -36,7 +36,8 @@ const MatchScore = new Schema(
             set5: [{type: Number, required: false}],
             tiebreak5: [{type: Number, required: false}],
         }
-    }
+    },
+    {timestamps: true}
 )
 
 module.exports = MatchScore
