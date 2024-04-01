@@ -18,7 +18,7 @@ onMounted(() => {
 
 <template>
   <h1>Upcoming Tournaments</h1>
-  <div class="results-wrapper">
+  <div class="results-wrapper" v-if="upcoming">
     <HomeCard v-for="tournament in upcoming" :key="tournament._id" :tournament="tournament" />
   </div>
 </template>

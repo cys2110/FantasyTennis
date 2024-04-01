@@ -57,7 +57,7 @@ watch(search, () => {
             <li class="dropdown-search-item" v-for="year in filteredYears" @click="setSearch(year)" >{{ year }}</li>
         </div>
     </div>
-    <div class="results-wrapper">
+    <div class="results-wrapper" v-if="results">
         <CalendarCard v-for="result in results" :key="result._id" :tournament="result" />
     </div>
 </template>

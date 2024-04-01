@@ -25,14 +25,14 @@ const categorySrc = computed(() => {
             <div class="category" v-if="tournament.category">
                 <img :src="categorySrc" />
             </div>
-            <div class="card-heading"><span v-if="tournament.sponsor_name">{{ tournament.sponsor_name }} | </span><span>{{ tournament.tourney.name }}</span></div>
+            <div class="card-heading"><span v-if="tournament.sponsor_name">{{ tournament.sponsor_name }} | </span><span><RouterLink :to="{name: 'Tournament', params: { id: tournament.tourney._id}}" >{{ tournament.tourney.name }}</RouterLink> </span></div>
             <div class="card-subheading">{{ tournament.location.city }} <img :src="flagSrc" /> | {{ formattedDates(tournament.start_date, tournament.end_date) }}</div>
         </div>
         <div class="card-details">
             <div class="surface" v-if="tournament.surface">{{ tournament.surface.environment }} {{ tournament.surface.type }}<span v-if="tournament.surface.hard_type"> ({{ tournament.surface.hard_type }})</span></div>
-            <div class="overview"><RouterLink :to="`/tournaments/${tournament.tourney._id}/${tournament.year}`" >Overview</RouterLink></div>
+            <!-- <div class="overview"><RouterLink :to="{ name: 'EditionOverview', params: { id: tournament.tourney._id, year: tournament.year}}" >Overview</RouterLink></div>
             <div class="results"><RouterLink :to="`/tournaments/${tournament.tourney._id}/${tournament.year}/results`" >Results</RouterLink></div>
-            <div class="draw"><RouterLink :to="`/tournaments/${tournament.tourney._id}/${tournament.year}/draw`" >Draw</RouterLink></div>
+            <div class="draw"><RouterLink :to="`/tournaments/${tournament.tourney._id}/${tournament.year}/draw`" >Draw</RouterLink></div> -->
         </div>
     </div>
 </template>

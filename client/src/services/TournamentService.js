@@ -11,6 +11,6 @@ const apiClient = axios.create({
 
 export default {
     getTournamentById(id) {
-        return apiClient.get('/id' + id)
+        return apiClient.get('/id/' + id)
     }
 }

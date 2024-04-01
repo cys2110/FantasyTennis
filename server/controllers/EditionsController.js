@@ -17,7 +17,7 @@ const getEditionById = async(req, res) => {
 const getEditionsByTournament = async(req, res) => {
     try {
         const { tournament } = req.params
-        const editions = await Edition.find({ tournament: tournament })
+        const editions = await Edition.find({ tourney: tournament }).populate({path: 'winner', select: ['headshot', 'full_name', 'country']}).populate({path: 'finalist', select: ['headshot', 'full_name', 'country']})
         if (editions) {
             res.json(editions)
         } else {

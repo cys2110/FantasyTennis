@@ -23,14 +23,6 @@ const router = createRouter({
       component: ResultsArchive
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    },
-    {
       path: '/players/:id',
       component: PlayerLayout,
       children: [
@@ -44,29 +36,30 @@ const router = createRouter({
     {
       path: '/tournaments/:id',
       name: 'Tournament',
+      props: true,
       component: Tournament
     },
-    {
-      path: '/tournaments/:id/:year',
-      component: EditionLayout,
-      children: [
-        {
-          path: '',
-          name: 'EditionOverview',
-          component: EditionOverview
-        },
-        {
-          path: '/results',
-          name: 'Results',
-          component: Results
-        },
-        {
-          path: 'draw',
-          name: 'Draw',
-          component: Draw
-        }
-      ]
-    }
+    // {
+    //   path: '/tournaments/:id/:year',
+    //   component: EditionLayout,
+    //   children: [
+    //     {
+    //       path: '',
+    //       name: 'EditionOverview',
+    //       component: EditionOverview
+    //     },
+    //     {
+    //       path: '/results',
+    //       name: 'Results',
+    //       component: Results
+    //     },
+    //     {
+    //       path: 'draw',
+    //       name: 'Draw',
+    //       component: Draw
+    //     }
+    //   ]
+    // }
   ]
 })
 
