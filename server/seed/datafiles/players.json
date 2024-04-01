@@ -1,87 +1,30 @@
 [
   {
-    "_id": "kc12",
-    "first_name": "Mitchell",
-    "last_name": "Krueger",
-    "status": {
-      "active": true,
-      "turned_pro": 2012
-    },
-    "country": "USA",
-    "dob": "1994-01-12T00:00:00.000000Z",
-    "right_handed": true,
-    "backhand": 2,
-    "height": {
-      "cm": "188",
-      "ft": "6'2\""
-    },
-    "coaches": [
-      "Craig Kardon"
-    ],
-    "preferred_surface": [
-      "hard"
-    ],
-    "age_started": 3,
-    "rank": {
-      "career_high": 135,
-      "date": "2022-07-18T00:00:00.000000Z"
-    },
-    "pm_USD": 1248251,
-    "titles": 0,
-    "gladiator": true,
-    "headshot": true,
-    "majors": {
-      "ao": {
-        "round": "1st round",
-        "years": [
-          2019
-        ]
-      },
-      "rg": {},
-      "wimbledon": {},
-      "uso": {
-        "round": "2nd round",
-        "years": [
-          2020
-        ]
-      },
-      "finals": {},
-      "gs_cup": {},
-      "olympics": {},
-      "wct": {},
-      "davis": {},
-      "hopman": {}
-    }
-  },
-  {
-    "_id": "n0be",
-    "first_name": "Adam",
-    "last_name": "Neff",
+    "_id": "s0nv",
+    "first_name": "Abdullah",
+    "last_name": "Shelbayh",
     "status": {
       "active": true
     },
-    "country": "USA",
-    "dob": "2001-05-30T00:00:00.000000Z",
-    "right_handed": true,
+    "country": "JOR",
+    "dob": "2003-11-16T00:00:00.000000Z",
+    "right_handed": false,
     "backhand": 2,
     "height": {
-      "cm": "183",
-      "ft": "6'0\""
+      "cm": "180",
+      "ft": "5'11\""
     },
-    "coaches": [
-      "Grant Chen"
-    ],
     "preferred_surface": [
-      "hard"
+      "clay"
     ],
-    "age_started": 6,
+    "age_started": 5,
     "rank": {
-      "career_high": 827,
-      "date": "2023-11-27T00:00:00.000000Z"
+      "career_high": 181,
+      "date": "2024-01-29T00:00:00.000000Z"
     },
-    "pm_USD": 20395,
+    "pm_USD": 438367,
     "titles": 0,
-    "gladiator": false,
+    "gladiator": true,
     "headshot": true,
     "majors": {
       "ao": {},
@@ -97,15 +40,137 @@
     }
   },
   {
-    "_id": "mp01",
-    "first_name": "Michael",
-    "last_name": "Mmoh",
+    "_id": "z0a1",
+    "first_name": "Giulio",
+    "last_name": "Zeppieri",
     "status": {
       "active": true,
-      "turned_pro": 2016
+      "turned_pro": 2019
+    },
+    "country": "ITA",
+    "dob": "2001-12-07T00:00:00.000000Z",
+    "right_handed": false,
+    "backhand": 2,
+    "height": {
+      "cm": "183",
+      "ft": "6'0\""
+    },
+    "coaches": [
+      "Massimo Sartori",
+      "Nicola Ceragioli",
+      "Tommaso Castagnola"
+    ],
+    "preferred_surface": [
+      "hard"
+    ],
+    "age_started": 5,
+    "rank": {
+      "career_high": 110,
+      "date": "2024-01-29T00:00:00.000000Z"
+    },
+    "pm_USD": 778892,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "2nd round",
+        "years": [
+          2024
+        ]
+      },
+      "rg": {
+        "round": "2nd round",
+        "years": [
+          2023
+        ]
+      },
+      "wimbledon": {},
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "hb64",
+    "first_name": "Quentin",
+    "last_name": "Halys",
+    "status": {
+      "active": true,
+      "turned_pro": 2012
+    },
+    "country": "FRA",
+    "dob": "1996-10-26T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "191",
+      "ft": "6'3\""
+    },
+    "coaches": [
+      "Nicolas Devilder"
+    ],
+    "preferred_surface": [
+      "hard"
+    ],
+    "age_started": 5,
+    "rank": {
+      "career_high": 61,
+      "date": "2023-01-16T00:00:00.000000Z"
+    },
+    "pm_USD": 2795045,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "2nd round",
+        "years": [
+          2016
+        ]
+      },
+      "rg": {
+        "round": "2nd round",
+        "years": [
+          2016
+        ]
+      },
+      "wimbledon": {
+        "round": "3rd round",
+        "years": [
+          2023
+        ]
+      },
+      "uso": {
+        "round": "1st round",
+        "years": [
+          2021,
+          2022,
+          2023
+        ]
+      },
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "k0a3",
+    "first_name": "Patrick",
+    "last_name": "Kypson",
+    "status": {
+      "active": true,
+      "turned_pro": 2019
     },
     "country": "USA",
-    "dob": "1998-01-10T00:00:00.000000Z",
+    "dob": "1999-10-28T00:00:00.000000Z",
     "right_handed": true,
     "backhand": 2,
     "height": {
@@ -113,35 +178,328 @@
       "ft": "6'2\""
     },
     "coaches": [
-      "Andres Alarcon"
+      "Alejandro Gonzalez"
     ],
-    "preferred_surface": [
-      "hard"
-    ],
-    "age_started": 3,
     "rank": {
-      "career_high": 81,
-      "date": "2023-09-11T00:00:00.000000Z"
+      "career_high": 140,
+      "date": "2024-03-18T00:00:00.000000Z"
     },
-    "pm_USD": 2164376,
+    "pm_USD": 435436,
     "titles": 0,
-    "gladiator": true,
+    "gladiator": false,
     "headshot": true,
     "majors": {
       "ao": {
-        "round": "3rd round",
+        "round": "1st round",
         "years": [
-          2023
+          2024
         ]
       },
       "rg": {
         "round": "1st round",
         "years": [
-          2020,
-          2022,
           2023
         ]
       },
+      "wimbledon": {},
+      "uso": {
+        "round": "1st round",
+        "years": [
+          2017
+        ]
+      },
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "m0oq",
+    "first_name": "James",
+    "last_name": "McCabe",
+    "status": {
+      "active": true
+    },
+    "country": "AUS",
+    "dob": "2003-07-05T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "188",
+      "ft": "6'2\""
+    },
+    "coaches": [
+      "Patrick McCabe"
+    ],
+    "rank": {
+      "career_high": 258,
+      "date": "2023-09-18T00:00:00.000000Z"
+    },
+    "pm_USD": 238496,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "1st round",
+        "years": [
+          2024
+        ]
+      },
+      "rg": {},
+      "wimbledon": {},
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "pg94",
+    "first_name": "Marc",
+    "last_name": "Polmans",
+    "status": {
+      "active": true,
+      "turned_pro": 2015
+    },
+    "country": "AUS",
+    "dob": "1997-05-02T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "188",
+      "ft": "6'2\""
+    },
+    "coaches": [
+      "Greg Polmans"
+    ],
+    "preferred_surface": [
+      "hard"
+    ],
+    "age_started": 4,
+    "rank": {
+      "career_high": 116,
+      "date": "2020-10-12T00:00:00.000000Z"
+    },
+    "pm_USD": 1651038,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "2nd round",
+        "years": [
+          2020
+        ]
+      },
+      "rg": {
+        "round": "2nd round",
+        "years": [
+          2020
+        ]
+      },
+      "wimbledon": {
+        "round": "2nd round",
+        "years": [
+          2021
+        ]
+      },
+      "uso": {
+        "round": "1st round",
+        "years": [
+          2020
+        ]
+      },
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "s0ia",
+    "first_name": "Dane",
+    "last_name": "Sweeny",
+    "status": {
+      "active": true
+    },
+    "country": "AUS",
+    "dob": "2001-02-12T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "170",
+      "ft": "5'7\""
+    },
+    "coaches": [
+      "Clay Sweeny"
+    ],
+    "preferred_surface": [
+      "hard"
+    ],
+    "age_started": 2,
+    "rank": {
+      "career_high": 194,
+      "date": "2024-02-12T00:00:00.000000Z"
+    },
+    "pm_USD": 420274,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "1st round",
+        "years": [
+          2024
+        ]
+      },
+      "rg": {},
+      "wimbledon": {},
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "j553",
+    "first_name": "Omar",
+    "last_name": "Jasika",
+    "status": {
+      "active": true
+    },
+    "country": "AUS",
+    "dob": "1997-05-18T00:00:00.000000Z",
+    "right_handed": false,
+    "backhand": 2,
+    "height": {
+      "cm": "183",
+      "ft": "6'0\""
+    },
+    "coaches": [
+      "Admir Jasika-Mitch"
+    ],
+    "age_started": 9,
+    "rank": {
+      "career_high": 207,
+      "date": "2024-03-04T00:00:00.000000Z"
+    },
+    "pm_USD": 422611,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "2nd round",
+        "years": [
+          2016
+        ]
+      },
+      "rg": {},
+      "wimbledon": {},
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "va70",
+    "first_name": "Mate",
+    "last_name": "Valkusz",
+    "status": {
+      "active": true
+    },
+    "country": "HUN",
+    "dob": "1998-08-13T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "183",
+      "ft": "6'0\""
+    },
+    "coaches": [
+      "Zoltan Kuharsky"
+    ],
+    "preferred_surface": [
+      "clay"
+    ],
+    "age_started": 5,
+    "rank": {
+      "career_high": 204,
+      "date": "2023-06-12T00:00:00.000000Z"
+    },
+    "pm_USD": 268275,
+    "titles": 0,
+    "gladiator": false,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "1st round",
+        "years": [
+          2024
+        ]
+      },
+      "rg": {},
+      "wimbledon": {},
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "wb08",
+    "first_name": "Yosuke",
+    "last_name": "Watanuki",
+    "status": {
+      "active": true,
+      "turned_pro": 2016
+    },
+    "country": "JPN",
+    "dob": "1998-04-12T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "180",
+      "ft": "5'11\""
+    },
+    "coaches": [
+      "Keisuke Watanuki"
+    ],
+    "rank": {
+      "career_high": 72,
+      "date": "2023-10-30T00:00:00.000000Z"
+    },
+    "pm_USD": 1010727,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {
+        "round": "2nd round",
+        "years": [
+          2023
+        ]
+      },
+      "rg": {},
       "wimbledon": {
         "round": "2nd round",
         "years": [
@@ -149,7 +507,7 @@
         ]
       },
       "uso": {
-        "round": "3rd round",
+        "round": "1st round",
         "years": [
           2023
         ]
@@ -163,30 +521,80 @@
     }
   },
   {
-    "_id": "q02l",
-    "first_name": "Ethan",
-    "last_name": "Quinn",
+    "_id": "t0a1",
+    "first_name": "Thiago Agustin",
+    "last_name": "Tirante",
     "status": {
       "active": true,
-      "turned_pro": 2023
+      "turned_pro": 2016
     },
-    "country": "USA",
-    "dob": "2004-03-12T00:00:00.000000Z",
+    "country": "ARG",
+    "dob": "2001-04-10T00:00:00.000000Z",
     "right_handed": true,
     "backhand": 2,
     "height": {
-      "cm": "191",
-      "ft": "6'3\""
+      "cm": "185",
+      "ft": "6'1\""
     },
     "coaches": [
-      "Brad Stine",
-      "Nick Papac"
+      "Javier Nalbandian",
+      "Miguel Pastura"
+    ],
+    "preferred_surface": [
+      "hard"
     ],
     "rank": {
-      "career_high": 253,
-      "date": "2024-03-18T00:00:00.000000Z"
+      "career_high": 97,
+      "date": "2024-03-04T00:00:00.000000Z"
     },
-    "pm_USD": 259671,
+    "pm_USD": 570689,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {},
+      "rg": {
+        "round": "2nd round",
+        "years": [
+          2023
+        ]
+      },
+      "wimbledon": {},
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "b0fv",
+    "first_name": "Roman Andres",
+    "last_name": "Burruchaga",
+    "status": {
+      "active": true
+    },
+    "country": "ARG",
+    "dob": "2002-01-23T00:00:00.000000Z",
+    "right_handed": true,
+    "height": {
+      "cm": "183",
+      "ft": "6'0\""
+    },
+    "coaches": [
+      "Mariano Hood"
+    ],
+    "preferred_surface": [
+      "clay"
+    ],
+    "age_started": 6,
+    "rank": {
+      "career_high": 157,
+      "date": "2024-02-19T00:00:00.000000Z"
+    },
+    "pm_USD": 190634,
     "titles": 0,
     "gladiator": true,
     "headshot": true,
@@ -194,12 +602,97 @@
       "ao": {},
       "rg": {},
       "wimbledon": {},
-      "uso": {
-        "round": "1st round",
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "gj16",
+    "first_name": "Federico Agustin",
+    "last_name": "Gomez",
+    "status": {
+      "active": true
+    },
+    "country": "ARG",
+    "dob": "1996-11-26T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "191",
+      "ft": "6'3\""
+    },
+    "preferred_surface": [
+      "clay"
+    ],
+    "age_started": 5,
+    "rank": {
+      "career_high": 342,
+      "date": "2024-02-19T00:00:00.000000Z"
+    },
+    "pm_USD": 73911,
+    "titles": 0,
+    "gladiator": false,
+    "headshot": false,
+    "majors": {
+      "ao": {},
+      "rg": {},
+      "wimbledon": {},
+      "uso": {},
+      "finals": {},
+      "gs_cup": {},
+      "olympics": {},
+      "wct": {},
+      "davis": {},
+      "hopman": {}
+    }
+  },
+  {
+    "_id": "u182",
+    "first_name": "Camilo",
+    "last_name": "Ugo Carabelli",
+    "status": {
+      "active": true,
+      "turned_pro": 2016
+    },
+    "country": "ARG",
+    "dob": "1999-06-17T00:00:00.000000Z",
+    "right_handed": true,
+    "backhand": 2,
+    "height": {
+      "cm": "185",
+      "ft": "6'1\""
+    },
+    "coaches": [
+      "Leonardo Olguin",
+      "Marcos Massonneau"
+    ],
+    "preferred_surface": [
+      "hard"
+    ],
+    "age_started": 6,
+    "rank": {
+      "career_high": 96,
+      "date": "2022-08-15T00:00:00.000000Z"
+    },
+    "pm_USD": 556066,
+    "titles": 0,
+    "gladiator": true,
+    "headshot": true,
+    "majors": {
+      "ao": {},
+      "rg": {
+        "round": "2nd round",
         "years": [
-          2023
+          2022
         ]
       },
+      "wimbledon": {},
+      "uso": {},
       "finals": {},
       "gs_cup": {},
       "olympics": {},

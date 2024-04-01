@@ -29,7 +29,7 @@ const DrawSchema = new Schema(
         },
         surface: {
             environment: {type: String, required: false},
-            type: {type: String, required: true, enum: ['clay', 'carpet', 'hard', 'grass']},
+            type: {type: String, required: false, enum: ['clay', 'carpet', 'hard', 'grass']},
             hard_type: {type: String, required: false}
         },
         winner: {type: String, ref: 'Player'},

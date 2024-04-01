@@ -21,7 +21,9 @@ def parse_array(s):
     return [item.strip() for item in s[1:-1].split(':')]
 
 def parse_int_array(s):
-    return[int(item.strip()) for item in s[1:-1].split(':')] if s else None
+    if not s:
+        return None
+    return[int(item.strip()) for item in s[1:-1].split(':')]
 
 def parse_date(date_str):
     if not date_str:
@@ -54,7 +56,7 @@ def edition_csv_to_json(csv_path, json_path):
         for row in csv_data:
             edition = strip_empty_fields({
                 '_id': parse_int(row['_id']),
-                'tournament': parse_int(row['tournament']),
+                'tourney': parse_int(row['tournament']),
                 'year': parse_int(row['year']),
                 'sponsor_name': row['sponsor_name'],
                 'start_date': parse_date(row['start_date']),
@@ -94,6 +96,14 @@ def edition_csv_to_json(csv_path, json_path):
                     'quarterfinalist': strip_empty_fields({
                         'prize_money': parse_int(row['qf_pm']),
                         'points': parse_int(row['qf_pts'])
+                    }),
+                    'round4': strip_empty_fields({
+                        'prize_money': parse_int(row['r4_pm']),
+                        'points': parse_int(row['r4_pts'])
+                    }),
+                    'round3': strip_empty_fields({
+                        'prize_money': parse_int(row['r3_pm']),
+                        'points': parse_int(row['r3_pts'])
                     }),
                     'round2': strip_empty_fields({
                         'prize_money': parse_int(row['r2_pm']),
@@ -143,6 +153,126 @@ def edition_csv_to_json(csv_path, json_path):
                     'seed': 8,
                     'player': row['seed8'],
                     'rank': parse_int(row['seed8_rank'])
+                },
+                {
+                    'seed': 9,
+                    'player': row['seed9'],
+                    'rank': parse_int(row['seed9_rank'])
+                },
+                {
+                    'seed': 10,
+                    'player': row['seed10'],
+                    'rank': parse_int(row['seed10_rank'])
+                },
+                {
+                    'seed': 11,
+                    'player': row['seed11'],
+                    'rank': parse_int(row['seed11_rank'])
+                },
+                {
+                    'seed': 12,
+                    'player': row['seed12'],
+                    'rank': parse_int(row['seed12_rank'])
+                },
+                {
+                    'seed': 13,
+                    'player': row['seed13'],
+                    'rank': parse_int(row['seed13_rank'])
+                },
+                {
+                    'seed': 14,
+                    'player': row['seed14'],
+                    'rank': parse_int(row['seed14_rank'])
+                },
+                {
+                    'seed': 15,
+                    'player': row['seed15'],
+                    'rank': parse_int(row['seed15_rank'])
+                },
+                {
+                    'seed': 16,
+                    'player': row['seed16'],
+                    'rank': parse_int(row['seed16_rank'])
+                },
+                {
+                    'seed': 17,
+                    'player': row['seed17'],
+                    'rank': parse_int(row['seed17_rank'])
+                },
+                {
+                    'seed': 18,
+                    'player': row['seed18'],
+                    'rank': parse_int(row['seed18_rank'])
+                },
+                {
+                    'seed': 19,
+                    'player': row['seed19'],
+                    'rank': parse_int(row['seed19_rank'])
+                },
+                {
+                    'seed': 20,
+                    'player': row['seed20'],
+                    'rank': parse_int(row['seed20_rank'])
+                },
+                {
+                    'seed': 21,
+                    'player': row['seed21'],
+                    'rank': parse_int(row['seed21_rank'])
+                },
+                {
+                    'seed': 22,
+                    'player': row['seed22'],
+                    'rank': parse_int(row['seed22_rank'])
+                },
+                {
+                    'seed': 23,
+                    'player': row['seed23'],
+                    'rank': parse_int(row['seed23_rank'])
+                },
+                {
+                    'seed': 24,
+                    'player': row['seed24'],
+                    'rank': parse_int(row['seed24_rank'])
+                },
+                {
+                    'seed': 25,
+                    'player': row['seed25'],
+                    'rank': parse_int(row['seed25_rank'])
+                },
+                {
+                    'seed': 26,
+                    'player': row['seed26'],
+                    'rank': parse_int(row['seed26_rank'])
+                },
+                {
+                    'seed': 27,
+                    'player': row['seed27'],
+                    'rank': parse_int(row['seed27_rank'])
+                },
+                {
+                    'seed': 28,
+                    'player': row['seed28'],
+                    'rank': parse_int(row['seed28_rank'])
+                },
+                {
+                    'seed': 29,
+                    'player': row['seed29'],
+                    'rank': parse_int(row['seed29_rank'])
+                },
+                {
+                    'seed': 30,
+                    'player': row['seed30'],
+                    'rank': parse_int(row['seed30_rank'])
+                },
+                {
+                    'seed': 31,
+                    'player': row['seed31'],
+                    'rank': parse_int(row['seed31_rank'])
+                },
+                {
+                    'seed': 32,
+                    'player': row['seed32'],
+                    'rank': parse_int(row['seed32_rank'])
                 }],
                 'entry_info': strip_empty_fields({
                     'lda': strip_empty_fields({
@@ -192,7 +322,11 @@ def matchScore_csv_to_json(csv_path, json_path):
                     'set2': parse_int_array(row['set2']),
                     'tiebreak2': parse_int_array(row['tb2']),
                     'set3': parse_int_array(row['set3']),
-                    'tiebreak3': parse_int_array(row['tb3'])
+                    'tiebreak3': parse_int_array(row['tb3']),
+                    'set4': parse_int_array(row['set4']),
+                    'tiebreak4': parse_int_array(row['tb4']),
+                    'set5': parse_int_array(row['set5']),
+                    'tiebreak5': parse_int_array(row['tb5'])
                 })
             })
             values_list.append(match)

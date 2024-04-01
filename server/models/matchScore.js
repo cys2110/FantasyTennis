@@ -15,7 +15,7 @@ const MatchScore = new Schema(
         player_2_seed: {type: Number, required: false},
         player_2_status: {type: String, required: false, enum: ['Alt', 'LL', 'Q', 'SE', 'PR', 'WC']},
         player_2_rank: {type: Number, required: false},
-        winner: {type: Number, required: true},
+        winner: {type: Number, required: false},
         winner_id: {type: String, ref: 'Player'},
         duration_mins: {type: Number, required: false},
         bye: {type: Boolean, required: false},

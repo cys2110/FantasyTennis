@@ -7,6 +7,7 @@ import EditionLayout from '../views/Edition/EditionLayout.vue'
 import EditionOverview from '../views/Edition/EditionOverview.vue'
 import Results from '../views/Edition/Results.vue'
 import Draw from '../views/Edition/Draw.vue'
+import ResultsArchive from '@/views/ResultsArchive.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,6 +16,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/results-archive',
+      name: 'results archive',
+      component: ResultsArchive
     },
     {
       path: '/about',

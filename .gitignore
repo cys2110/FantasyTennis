@@ -2,6 +2,4 @@ server/node_modules
 
 server.DS_Store
 
-server/.env
-
 server/config.js

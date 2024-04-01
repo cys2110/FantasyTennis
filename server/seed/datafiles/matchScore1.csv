@@ -1,0 +1,909 @@
+edition,round,no,p1,p1name,p1seed,p1status,p1rank,p2,p2name,p2seed,p2status,p2rank,winner,winnerid,duration,bye,ret,def,wo,ump,date,set1,tb1,set2,tb2,set3,tb3
+74802024,R32,1,z355,Alexander Zverev,1,,6,,,,,,1,z355,,true
+74802024,R32,2,c0e9,Flavio Cobolli,,Q,69,n732,Yoshihito Nishioka,,,84,2,n732,49,,,,,Adel Borghei,2024-02-20,[6:1],,[6:0]
+74802024,R32,3,kd46,Thanasi Kokkinakis,,,103,d0co,Jack Draper,,,53,1,kd46,178,,,,,Raluca Andrei,2024-02-19,[4:6],,[7:6],[7:5],[6:4]
+74802024,R32,4,e687,Daniel Evans,,,42,sx50,Roman Safiullin,5,,38,1,e687,101,,,,,Manuel Absolu,2024-02-19,[6:2],,[6:4]
+74802024,R32,5,dh58,Alex de Minaur,3,,9,,,,,,1,dh58,,true
+74802024,R32,6,lb66,Constant Lestienne,,,99,m0qi,Alex Michelsen,,,74,2,m0qi,109,,,,,Martina Baldi,2024-02-19,[6:3],,[7:6],[7:3]
+74802024,R32,7,sm37,Diego Schwartzman,,WC,115,n0am,Emilio Nava,,Q,146,2,n0am,90,,,,,Aurelie Tourte,2024-02-20,[6:4],,[6:3]
+74802024,R32,8,e873,Ernesto Escobedo,,WC,494,tc61,Jordan Thompson,8,,40,2,tc61,104,,,,,Jimmy Pinoargote,2024-02-20,[6:4],,[6:3]
+74802024,R32,9,ph71,Max Purcell,7,,51,a0fc,Matteo Arnaldi,,,41,1,ph71,150,,,,,Jimmy Pinoargote,2024-02-19,[6:4],,[4:6],,[6:4]
+74802024,R32,10,ke73,Dominik Koepfer,,,57,bt72,Nuno Borges,,,47,2,bt72,82,,,,,Raluca Andrei,2024-02-20,[7:6],[7:2],[6:2]
+74802024,R32,11,da81,Taro Daniel,,,62,gc88,Marcos Giron,,,44,2,gc88,102,,,,,Martina Baldi,2024-02-20,[6:4],,[7:5]
+74802024,R32,12,,,,,,rh16,Casper Ruud,4,,12,2,rh24,,true
+74802024,R32,13,ki95,Miomir Kecmanovic,6,,54,h0bh,Rinky Hijikata,,,79,2,h0bh,112,,,,,Nacho Forcadell,2024-02-20,[6:3],,[7:6],[7:2]
+74802024,R32,14,k0az,Aleksandar Kovacevic,,Q,100,h09p,Brandon Holt,,Q,295,1,k0az,68,,,,,Nacho Forcadell,2024-02-19,[6:1],,[6:4]
+74802024,R32,15,v832,Aleksandar Vukic,,,72,p0j1,Rodrigo Pacheco Mendez,,WC,692,1,v832,138,,,,,Jimmy Pinoargote,2024-02-20,[7:6],[7:5],[7:6],[12:10]
+74802024,R32,16,,,,,,te51,Stefanos Tsitsipas,2,,11,2,te51,,true
+74802024,R16,1,z355,Alexander Zverev,1,,6,n732,Yoshihito Nishioka,,,84,1,z355,60,,,,,Aurelie Tourte,2024-02-21,[6:3],,[6:0]
+74802024,R16,2,kd46,Thanasi Kokkinakis,,,103,e687,Daniel Evans,,,42,1,kd46,128,,,,,Manuel Absolu,2024-02-21,[6:4],,[6:2]
+74802024,R16,3,dh58,Alex de Minaur,3,,9,m0qi,Alex Michelsen,,,74,2,m0qi,82,,,,,Aurelie Tourte,2024-02-21,[6:4],,[6:1]
+74802024,R16,4,n0am,Emilio Nava,,Q,146,tc61,Jordan Thompson,8,,40,2,tc61,117,,,,,Adel Borghei,2024-02-21,[7:6],[7:5],[6:3]
+74802024,R16,5,ph71,Max Purcell,7,,51,bt72,Nuno Borges,,,47,2,bt72,78,,,,,Nacho Forcadell,2024-02-21,[6:3],,[6:3]
+74802024,R16,6,gc88,Marcos Giron,,,44,rh16,Casper Ruud,4,,12,2,rh16,62,,,,,Jimmy Pinoargote,2024-02-21,[6:1],,[6:0]
+74802024,R16,7,h0bh,Rinky Hijikata,,,79,k0az,Aleksandar Kovacevic,,Q,100,2,k0az,143,,,,,Martina Baldi,2024-02-21,[6:3],,[4:6],,[6:4]
+74802024,R16,8,v832,Aleksandar Vukic,,,72,te51,Stefanos Tsitsipas,2,,11,2,te51,63,,,,,Raluca Andrei,2024-02-21,[6:3],,[6:0]
+74802024,QF,1,z355,Alexander Zverev,1,,6,kd46,Thanasi Kokkinakis,,,103,1,z355,118,,,,,Nacho Forcadell,2024-02-22,[6:3],,[6:4]
+74802024,QF,2,m0qi,Alex Michelsen,,,74,tc61,Jordan Thompson,8,,40,2,tc61,159,,,,,Jimmy Pinoargote,2024-02-22,[0:6],,[7:6],[7:1],[7:5]
+74802024,QF,3,bt72,Nuno Borges,,,47,rh16,Casper Ruud,4,,12,2,rh16,67,,,,,Raluca Andrei,2024-02-22,[6:3],,[6:2]
+74802024,QF,4,k0az,Aleksandar Kovacevic,,Q,100,te51,Stefanos Tsitsipas,2,,11,2,te51,99,,,,,Aurelie Tourte,2024-02-22,[7:6],[7:1],[6:3]
+74802024,SF,1,z355,Alexander Zverev,1,,6,tc61,Jordan Thompson,8,,40,2,tc61,220,,,,,Raluca Andrei,2024-02-23,[7:5],,[4:6],,[7:6],[7:2]
+74802024,SF,2,rh16,Casper Ruud,4,,12,te51,Stefanos Tsitsipas,2,,11,1,rh16,109,,,,,Jimmy Pinoargote,2024-02-23,[6:4],,[7:6],[7:4]
+74802024,F,,tc61,Jordan Thompson,8,,40,rh16,Casper Ruud,4,,12,1,tc61,122,,,,,Aurelie Tourte,2024-02-24,[6:3],,[7:6],[7:4]
+69322024,R32,1,a0e2,Carlos Alcaraz,1,,2,mj08,Thiago Monteiro,,WC,117,2,mj08,18,,true,,,Arnaud Gabas,2024-02-20,[1:1]
+69322024,R32,2,mw75,Felipe Meligeni Alves,,Q,154,cg04,Pedro Cachin,,,76,1,mw75,116,,,,,Jaume Campistol,2024-02-20,[6:2],,[3:6],,[6:3]
+69322024,R32,3,d0cg,Facundo Diaz Acosta,,,59,w367,Stan Wawrinka,,,67,1,d0cg,114,,,,,Fabio Souza,2024-02-20,[7:5],,[6:4]
+69322024,R32,4,mw02,Corentin Moutet,,Q,147,b0bi,Sebastian Baez,5,,30,2,b0bi,98,,,,,Carlos Bernardes,2024-02-20,[6:4],,[6:3]
+69322024,R32,5,c0au,Francisco Cerundolo,4,,22,c0df,Francisco Comesana,,Q,119,1,c0au,114,,,,,Fabio Souza,2024-02-19,[6:1],,[1:6],,[6:2]
+69322024,R32,6,v836,Juan Pablo Varillas,,,108,r772,Albert Ramos-Vinolas,,,96,2,r772,163,,,,,Carlos Bernardes,2024-02-19,[3:6],,[6:3],,[7:5]
+69322024,R32,7,l987,Dusan Lajovic,,,58,ge33,Daniel Elahi Galan,,,78,1,l987,163,,,,,Taise Soares,2024-02-20,[4:6],,[7:6],[10:8],[6:1]
+69322024,R32,8,z419,Bernabe Zapata Miralles,,,93,db63,Laslo Djere,6,,35,2,db63,94,,,,,Fabio Souza,2024-02-19,[6:3],,[6:1]
+69322024,R32,9,f0f1,Arthur Fils,7,,36,f0fv,Joao Fonseca,,WC,655,2,f0fv,90,,,,,Jaume Campistol,2024-02-21,[6:0],,[6:4]
+69322024,R32,10,cf59,Roberto Carballes Baena,,,66,gd64,Cristian Garin,,,88,2,gd64,184,,,,,Rafael Maia,2024-02-20,[2:6],,[7:6],[7:1],[6:3]
+69322024,R32,11,ce77,Federico Coria,,,85,n0bs,Mariano Navone,,Q,113,2,n0bs,138,,,,,Ana Carvalho,2024-02-20,[1:6],,[6:4],,[6:2]
+69322024,R32,12,h997,Yannick Hanfmann,,,56,j551,Nicolas Jarry,3,,19,1,h997,114,,,,,Fabio Souza,2024-02-20,[6:1],,[1:6],,[7:5]
+69322024,R32,13,o513,Sebastian Ofner,8,,37,mu94,Jaume Munar,,,73,2,mu94,67,,,,,Carlos Bernardes,2024-02-19,[6:3],,[6:1]
+69322024,R32,14,te30,Alejandro Tabilo,,,52,sx91,Thiago Seyboth Wild,,,82,2,sx91,135,,,,,Jaume Campistol,2024-02-19,[2:6],,[6:4],,[6:4]
+69322024,R32,15,h0du,Gustavo Heide,,WC,236,bs86,Tomas Barrios Vera,,,120,2,bs86,106,,,,,Jaume Campistol,2024-02-19,[7:5],,[6:3]
+69322024,R32,16,da31,Hugo Dellien,,,135,n771,Cameron Norrie,2,,23,2,n771,81,,,,,Rafael Maia,2024-02-19,[6:3],,[6:2]
+69322024,R16,1,mj08,Thiago Monteiro,,WC,117,mw75,Felipe Meligeni Alves,,Q,154,1,mj08,102,,,,,Carlos Bernardes,2024-02-22,[7:5],,[6:3]
+69322024,R16,2,d0cg,Facundo Diaz Acosta,,,59,b0bi,Sebastian Baez,5,,30,2,b0bi,108,,,,,Ana Carvalho,2024-02-22,[7:6],[7:1],[6:3]
+69322024,R16,3,c0au,Francisco Cerundolo,4,,22,r772,Albert Ramos-Vinolas,,,96,1,c0au,81,,,,,Carlos Bernardes,2024-02-21,[6:2],,[6:1]
+69322024,R16,4,l987,Dusan Lajovic,,,58,db63,Laslo Djere,6,,35,1,l987,107,,,,,Rafael Maia,2024-02-22,[6:2],,[7:5]
+69322024,R16,5,f0fv,Joao Fonseca,,WC,655,gd64,Cristian Garin,,,88,1,f0fv,91,,,,,Jaume Campistol,2024-02-22,[6:4],,[6:4]
+69322024,R16,6,n0bs,Mariano Navone,,Q,113,h997,Yannick Hanfmann,,,56,1,n0bs,76,,,,,Arnaud Gabas,2024-02-22,[6:1],,[6:2]
+69322024,R16,7,mu954,Jaume Munar,,,73,sx91,Thiago Seyboth Wild,,,82,2,sx91,135,,,,,Arnaud Gabas,2024-02-22,[6:2],,[4:6],,[6:3]
+69322024,R16,8,bs86,Tomas Barrios Vera,,,120,n771,Cameron Norrie,2,,23,2,n771,61,,,,,Fabio Souza,2024-02-22,[6:1],,[6:1]
+69322024,QF,1,mj08,Thiago Monteiro,,WC,117,b0bi,Sebastian Baez,5,,30,2,b0bi,133,,,,,Arnaud Gabas,2024-02-23,[6:4],,[1:6],,[6:2]
+69322024,QF,2,c0au,Francisco Cerundolo,4,,22,l987,Dusan Lajovic,,,58,1,c0au,143,,,,,Carlos Bernardes,2024-02-23,[3:6],,[6:4],,[6:4]
+69322024,QF,3,f0fv,Joao Fonseca,,WC,655,n0bs,Mariano Navone,,Q,113,2,n0bs,140,,,,,Arnaud Gabas,2024-02-23,[2:6],,[6:3],,[6:3]
+69322024,QF,4,sx91,Thiago Seyboth Wild,,,82,n771,Cameron Norrie,2,,23,2,n771,120,,,,,Jaume Campistol,2024-02-23,[6:1],,[3:6],,[6:2]
+69322024,SF,1,b0bi,Sebastian Baez,5,,30,c0au,Francisco Cerundolo,4,,22,1,b0bi,84,,,,,Jaume Campistol,2024-02-24,[7:5],,[6:0]
+69322024,SF,2,n0bs,Mariano Navone,,Q,113,n771,Cameron Norrie,2,,23,1,n0bs,119,,,,,Arnaud Gabas,2024-02-24,[6:4],,[6:2]
+69322024,F,,b0bi,Sebastian Baez,5,,30,n0bs,Mariano Navone,,Q,113,1,b0bi,82,,,,,Carlos Bernardes,2024-02-25,[6:2],,[6:1]
+3752024,R32,1,r0dg,Holger Rune,1,WC,7,,,,,,1,r0dg,,true
+3752024,R32,2,l0cx,Pablo Llamas Ruiz,,Q,156,g628,Richard Gasquet,,,130,1,l0cx,114,,,,,Ruth Concas,2024-01-30,[7:6],[8:6],[7:5]
+3752024,R32,3,bm95,Benjamin Bonzi,,,126,mp01,Michael Mmoh,,,133,2,mp01,94,,,,,Richard Haigh,2024-01-29,[6:3],,[7:5]
+3752024,R32,4,e768,Antoine Escoffier,,Q,172,mp20,Alexandre Muller,7,,71,2,mp20,98,,,,,Renaud Lichtenstein,2024-01-30,[7:6],[7:4],[6:3]
+3752024,R32,5,cg80,Borna Coric,4,,37,,,,,,1,cg80,,true
+3752024,R32,6,mu94,Jaume Munar,,,75,mo44,Pedro Martinez,,,99,2,mo44,137,,,,,Renaud Lichtenstein,2024-01-29,[6:4],,[7:6],[7:3]
+3752024,R32,7,z419,Bernabe Zapata Miralles,,,80,lb66,Constant Lestienne,,,106,2,lb66,130,,,,,Manuel Messina,2024-01-31,[4:6],,[6:4],,[6:2]
+3752024,R32,8,c0e9,Flavio Cobolli,,,76,mc65,Gael Monfils,8,,70,1,c0e9,160,,,,,Richard Haigh,2024-01-31,[6:7],[8:10],[6:3],,[6:0]
+3752024,R32,9,mc10,Andy Murray,5,,49,pd31,Benoit Paire,,,112,2,pd31,159,,,,,Manuel Messina,2024-01-29,[2:6],,[7:6],[7:5],[6:3]
+3752024,R32,10,m0g4,Harold Mayot,,WC,144,pf39,Lucas Pouille,,WC,315,1,m0g4,118,,,,,Manuel Absolu,2024-01-30,[6:4],,[7:5]
+3752024,R32,11,mn13,Maximilian Marterer,,,92,c0h0,Arthur Cazaux,,,83,2,c0h0,83,,,,,Renaud Lichtenstein,2024-01-30,[6:1],,[6:3]
+3752024,R32,12,,,,,,ag37,Felix Auger-Aliassime,3,,30,2,ag37,,true
+3752024,R32,13,s0h2,Alexander Shevchenko,6,,59,s0gd,Dalibor Svrcina,,Q,194,1,s0h2,170,,,,,Manuel Absolu,2024-01-31,[6:4],,[4:6],,[6:2]
+3752024,R32,14,bv16,Ugo Blanchet,,Q,214,bk24,Gregoire Barrere,,,104,2,bk24,123,,,,,Manuel Messina,2024-01-30,[6:7],[7:9],[6:4],,[6:2]
+3752024,R32,15,g09o,Hugo Gaston,,,88,su55,Denis Shapovalov,,,137,2,su55,66,,,,,Richard Haigh,2024-01-30,[6:1],,[6:3]
+3752024,R32,16,,,,,,bk92,Alexander Bublik,2,,27,2,bk92,,true
+3752024,R16,1,r0dg,Holger Rune,1,WC,7,l0cx,Pablo Llamas Ruiz,,Q,156,2,r0dg,86,,,,,Renaud Lichtenstein,2024-02-01,[7:5],,[6:2]
+3752024,R16,2,mp01,Michael Mmoh,,,133,mp20,Alexandre Muller,7,,71,1,mp01,95,,,,,Ruth Concas,2024-01-31,[6:4],,[6:4]
+3752024,R16,3,cg80,Borna Coric,4,,37,mo44,Pedro Martinez,,,99,1,cg80,94,,,,,Louis Boucharinc,2024-02-01,[6:4],,[6:0]
+3752024,R16,4,lb66,Constant Lestienne,,,106,c0e9,Flavio Cobolli,,,76,2,c0e9,80,,,,,Richard Haigh,2024-02-01,[6:4],,[6:1]
+3752024,R16,5,pd31,Benoit Paire,,,112,m0g4,Harold Mayot,,WC,144,2,m0g4,70,,,,,Manuel Absolu,2024-01-31,[6:1],,[6:4]
+3752024,R16,6,c0h0,Arthur Cazaux,,,83,ag37,Felix Auger-Aliassime,3,,30,2,ag37,168,,,,,Ruth Concas,2024-02-01,[7:5],,[2:6],,[7:6],[7:4]
+3752024,R16,7,s0h2,Alexander Shevchenko,6,,59,bk24,Gregoire Barrere,,,104,1,s0h2,119,,,,,Manuel Messina,2024-02-01,[7:6],[7:3],[2:6],,[6:3]
+3752024,R16,8,su55,Denis Shapovalov,,,137,bk92,Alexander Bublik,2,,27,2,bk92,145,,,,,Manuel Messina,2024-01-31,[1:6],,[7:6],[12:10],[6:3]
+3752024,QF,1,r0dg,Holger Rune,1,WC,7,mp01,Michael Mmoh,,,133,1,r0dg,122,,,,,Richard Haigh,2024-02-02,[7:6],[8:6],[6:4]
+3752024,QF,2,cg80,Borna Coric,4,,37,c0e9,Flavio Cobolli,,,76,1,cg80,95,,,,,Renaud Lichtenstein,2024-02-02,[6:3],,[6:4]
+3752024,QF,3,m0g4,Harold Mayot,,WC,144,ag37,Felix Auger-Aliassime,3,,30,2,ag37,79,,,,,Manuel Messina,2024-02-02,[7:5],,[6:1]
+3752024,QF,4,s0h2,Alexander Shevchenko,6,,59,bk92,Alexander Bublik,2,,27,2,bk92,126,,,,,Ruth Concas,2024-02-02,[4:6],,[6:3],,[6:4]
+3752024,SF,1,r0dg,Holger Rune,1,WC,7,cg80,Borna Coric,4,,37,2,cg80,57,,true,,,Renaud Lichtenstein,2024-02-03,[6:3],,[4:1]
+3752024,SF,2,ag37,Felix Auger-Aliassime,3,,30,bk92,Alexander Bublik,2,,27,2,bk92,157,,,,,Manuel Messina,2024-02-03,[4:6],,[6:4],,[6:4]
+3752024,F,,cg80,Borna Coric,4,,37,bk92,Alexander Bublik,2,,27,2,bk92,138,,,,,Richard Haigh,2024-02-04,[5:7],,[6:2],,[6:3]
+4952024,R32,1,mm58,Daniil Medvedev,1,,4,s0h2,Alexander Shevchenko,,,47,1,mm58,88,,,,,Manuel Messina,2024-02-27,[6:3],,[7:5],,,,,,,
+4952024,R32,2,n897,Sumit Nagal,,WC,97,su87,Lorenzo Sonego,,,48,2,su87,139,,,,,Miriam Bley,2024-02-27,[6:4],,[5:7],,[6:1],,,,,
+4952024,R32,3,m0ni,Jakub Mensik,,SE,87,cg80,Borna Coric,,,31,1,m0ni,174,,,,,Pierre Bacchi,2024-02-27,[4:6],,[6:3],,[7:6],[9:7],,,,
+4952024,R32,4,m0ci,Fabian Marozsan,,,59,dh50,Alejandro Davidovich Fokina,8,,24,2,dh50,60,,,,,Manuel Messina,2024-02-27,[6:3],,[4:6],,[6:1],,,,,
+4952024,R32,5,hb71,Hubert Hurkacz,3,,8,sl28,Jan-Lennard Struff,,,25,1,hb71,159,,,,,Mohamed El Jennati,2024-02-26,[7:6],[7:5],[6:7],[4:7],[7:6],[8:6],,,,
+4952024,R32,6,mn13,Maximilian Marterer,,Q,96,o483,Christopher O'Connell,,,68,2,o483,76,,,,,Ahmed Youssef,2024-02-27,[6:2],,[6:4],,,,,,,
+4952024,R32,7,su55,Denis Shapovalov,,PR,120,mc10,Andy Murray,,,67,2,mc10,152,,,,,Pierre Bacchi,2024-02-26,[4:6],,[7:6],[7:5],[6:3],,,,,
+4952024,R32,8,mc65,Gael Monfils,,WC,54,hh26,Ugo Humbert,5,,18,2,hh26,132,,,,,Pierre Bacchi,2024-02-27,[4:6],,[6:3],,[6:3],,,,,
+4952024,R32,9,bk92,Alexander Bublik,7,,23,m0fh,Tomas Machac,,Q,65,1,bk92,117,,,,,Miriam Bley,2024-02-26,[2:6],,[6:3],,[7:6],[7:5],,,,
+4952024,R32,10,gj37,Tallon Griekspoor,,,28,s0nv,Abdullah Shelbayh,,WC,228,1,gj37,62,,true,,,Ahmed Youssef,2024-02-26,[7:5],,[2:0],,,,,,,
+4952024,R32,11,l0bv,Jiri Lehecka,,,36,f724,Marton Fucsovics,,Q,77,1,l0bv,142,,,,,Pablo Rodriguez,2024-02-27,[6:4],,[3:6],,[7:5],,,,,
+4952024,R32,12,v0dz,Luca Van Assche,,LL,72,ke29,Karen Khachanov,4,,15,2,ke29,80,,,,,Adel Nour,2024-02-27,[6:2],,[6:3],,,,,,,
+4952024,R32,13,me82,Adrian Mannarino,6,,19,v812,Botic van de Zandschulp,,,75,2,v812,112,,,,,Manuel Messina,2024-02-26,[7:6],[7:3],[7:5],,,,,,,
+4952024,R32,14,k09f,Pavel Kotov,,,63,k0ah,Sebastian Korda,,,33,2,k0ah,54,,,,,Pablo Rodriguez,2024-02-26,[6:0],,[6:2],,,,,,,
+4952024,R32,15,m0ej,Lorenzo Musetti,,,26,c0h0,Arthur Cazaux,,Q,862,2,c0h0,117,,,,,Mohamed El Jennati,2024-02-27,[6:4],,[7:6],[7:2],,,,,,
+4952024,R32,16,z371,Zhizhen Zhang,,,46,re44,Andrey Rublev,2,,5,2,re44,110,,,,,Adel Nour,2024-02-26,[6:7],[4:7],[6:2],,[6:4],,,,,
+4952024,R16,1,mm58,Daniil Medvedev,1,,4,su87,Lorenzo Sonego,,,48,1,mm58,120,,,,,Pierre Bacchi,2024-02-28,[3:6],,[6:3],,[6:3],,,,,
+4952024,R16,2,m0ni,Jakub Mensik,,SE,87,dh50,Alejandro Davidovich Fokina,8,,24,2,dh50,73,,true,,,Mohamed El Jennati,2024-02-28,[7:6],[9:7],[1:0],,,,,,,
+4952024,R16,3,hb71,Hubert Hurkacz,3,,8,o483,Christopher O'Connell,,,68,1,hb71,92,,,,,Manuel Messina,2024-02-28,[7:6],[7:5],[6:4],,,,,,,
+4952024,R16,4,mc10,Andy Murray,,,67,hh26,Ugo Humbert,5,,18,2,hh26,89,,,,,Adel Nour,2024-02-28,[6:2],,[6:4],,,,,,,
+4952024,R16,5,bk92,Alexander Bublik,7,,23,Tallon Griekspoor,,,,28,1,bk92,108,,,,,Pierre Bacchi,2024-02-28,[7:6],[10:8],[7:6],[7:2],,,,,,
+4952024,R16,6,l0bv,Jiri Lehecka,,,36,ke29,Karen Khachanov,4,,15,1,l0bv,173,,,,,Mohamed El Jennati,2024-02-28,[6:7],[6:8],[7:6],[7:5],[6:4],,,,,
+4952024,R16,7,v812,Botic van de Zandschulp,,,75,k0ah,Sebastian Korda,,,33,2,k0ah,43,,,,,Pablo Rodriguez,2024-02-28,[6:1],,[6:0],,,,,,,
+4952024,R16,8,c0h0,Arthur Cazaux,,Q,862,re44,Andrey Rublev,2,,5,2,re44,78,,,,,Miriam Bley,2024-02-28,[6:4],,[6:4],,,,,,,
+4952024,QF,1,mm58,Daniil Medvedev,1,,4,dh50,Alejandro Davidovich Fokina,8,,24,1,mm58,77,,,,,Adel Nour,2024-02-29,[6:2],,[6:3],,,,,,,
+4952024,QF,2,hb71,Hubert Hurkacz,3,,8,hh26,Ugo Humbert,5,,18,2,hh26,144,,,,,Miriam Bley,2024-02-29,[3:6],,[7:6],[10:8],[6:3],,,,,
+4952024,QF,3,bk92,Alexander Bublik,7,,23,l0bv,Jiri Lehecka,,,36,1,bk92,58,,true,,,Manuel Messina,2024-02-29,[6:4],,[4:1],,,,,,,
+4952024,QF,4,k0ah,Sebastian Korda,,,33,re44,Andrey Rublev,2,,5,2,re44,68,,true,,,Pierre Bacchi,2024-02-29,[6:4],,[6:3],,,,,,,
+4952024,SF,1,mm58,Daniil Medvedev,1,,4,hh26,Ugo Humbert,5,,18,2,hh26,110,,,,,Manuel Messina,2024-03-01,[7:5],,[6:3],,,,,,,
+4952024,SF,2,bk92,Alexander Bublik,7,,23,re44,Andrey Rublev,2,,5,1,bk92,146,,,true,,Miriam Bley,2024-03-01,[6:7],[4:7],[7:6],[7:5],[6:5],,,,,
+4952024,F,,hh26,Ugo Humbert,5,,18,bk92,Alexander Bublik,7,,23,1,hh26,85,,,,,Adel Nour,2024-03-02,[6:4],,[6:3],,,,,,,
+4962024,R32,1,hb71,Hubert Hurkacz,1,,8,,,,,,1,hb71,,true,,,,,,,,,,,,,,,
+4962024,R32,2,bm95,Benjamin Bonzi,,WC,126,s0h2,Alexander Shevchenko,,,56,2,s0h2,85,,,,,Christian Rask,2024-02-05,[7:6],[7:4],[6:4],,,,,,,
+4962024,R32,3,m0fh,Tomas Machac,,,66,mc10,Andy Murray,,,49,1,m0fh,97,,,,,Aurelie Tourte,2024-02-06,[7:5],,[6:4],,,,,,,
+4962024,R32,4,mn13,Maximilian Marterer,,Alt,99,m0ej,Lorenzo Musetti,6,,27,2,m0ej,107,,,,,Manuel Absolu,2024-02-05,[6:4],,[6:2],,,,,,,
+4962024,R32,5,hh26,Ugo Humbert,4,,21,,,,,,1,hh26,,true,,,,,,,,,,,,,,,
+4962024,R32,6,g09o,Hugo Gaston,,Q,86,su55,Denis Shapovalov,,WC,127,1,g09o,114,,,,,Christian Rask,2024-02-06,[7:5],,[1:6],,[6:3],,,,,
+4962024,R32,7,rh24,Emil Ruusuvuori,,,55,v0dz,Luca Van Assche,,,68,1,rh24,92,,,,,Christian Rask,2024-02-07,[7:6],[7:2],[6:4],,,,,,,
+4962024,R32,8,bk24,Gregoire Barrere,,,105,dh50,Alejandro Davidovich Fokina,5,,24,2,dh50,124,,,,,Christian Rask,2024-02-06,[4:6],,[6:4],,[6:4],,,,,
+4962024,R32,9,ag37,Felix Auger-Aliassime,7,,28,hb64,Quentin Halys,,WC,101,1,ag37,78,,,,,Ruth Concas,2024-02-07,[6:2],,[7:5],,,,,,,
+4962024,R32,10,z371,Zhizhen Zhang,,,50,z0a1,Giulio Zeppieri,,LL,155,1,z371,129,,,,,Louis Boucharinc,2024-02-06,[6:7],[7:9],[6:1],,[6:4],,,,,
+4962024,R32,11,bd06,Roberto Bautista Agut,,,102,g628,Richard Gasquet,,,131,1,bd06,111,,,,,Aurelie Tourte,2024-02-05,[6:3],,[7:5],,,,,,,
+4962024,R32,12,,,,,,ke29,Karen Khachanov,3,,18,2,ke29,,true,,,,,,,,,,,,,,,
+4962024,R32,13,l0bv,Jiri Lehecka,8,,32,gb88,David Goffin,,Q,134,1,l0bv,111,,,,,Louis Boucharinc,2024-02-06,[3:6],,[7:5],,[6:2],,,,,
+4962024,R32,14,c0bc,Maxime Cressy,,Q,128,rc91,Arthur Rinderknech,,Alt,94,2,rc91,155,,,,,Luca Laugero,2024-02-06,[6:7],[6:8],[7:5],,[6:2],,,,,
+4962024,R32,15,k0ah,Sebastian Korda,,,34,gf95,Hugo Grenier,,Q,155,1,k0ah,128,,,,,Ruth Concas,2024-02-06,[6:3],,[2:6],,[7:6],[7:3],,,,
+4962024,R32,16,,,,,,d875,Grigor Dimitrov,2,,13,2,d875,,true,,,,,,,,,,,,,,,
+4962024,R16,1,hb71,Hubert Hurkacz,1,,8,s0h2,Alexander Shevchenko,,,56,1,hb71,65,,,,,Ruth Concas,2024-02-08,[6:1],,[6:4],,,,,,,
+4962024,R16,2,m0fh,Tomas Machac,,,66,m0ej,Lorenzo Musetti,6,,27,1,m0fh,83,,,,,Louis Boucharinc,2024-02-07,[6:3],,[6:2],,,,,,,
+4962024,R16,3,hh26,Ugo Humbert,4,,21,g09o,Hugo Gaston,,Q,86,1,hh26,109,,,,,Aurelie Tourte,2024-02-07,[2:6],,[6:1],,[6:3],,,,,
+4962024,R16,4,rh24,Emil Ruusuvuori,,,55,dh50,Alejandro Davidovich Fokina,5,,24,2,dh50,96,,,,,Christian Rask,2024-02-08,[6:3],,[7:5],,,,,,,
+4962024,R16,5,ag37,Felix Auger-Aliassime,7,,28,z371,Zhizhen Zhang,,,50,2,z371,88,,,,,Manuel Absolu,2024-02-08,[6:4],,[6:4],,,,,,,
+4962024,R16,6,bd06,Roberto Bautista Agut,,,201,ke29,Karen Khachanov,3,,18,2,ke29,76,,,,,Manuel Absolu,2024-02-07,[6:2],,[6:2],,,,,,,
+4962024,R16,7,l0bv,Jiri Lehecka,8,,32,rc91,Arthur Rinderknech,,Alt,94,2,rc91,116,,,,,Christian Rask,2024-02-08,[7:5],,[7:6],[7:5],,,,,,
+4962024,R16,8,k0ah,Sebastian Korda,,,34,d875,Grigor Dimitrov,2,,13,2,d875,92,,,,,Aurelie Tourte,2024-02-08,[6:1],,[7:6],[7:5],,,,,,
+4962024,QF,1,hb71,Hubert Hurkacz,1,,8,m0fh,Tomas Machac,,,66,1,hb71,62,,,,,Aurelie Tourte,2024-02-09,[6:3],,[6:4],,,,,,,
+4962024,QF,2,hh26,Ugo Humbert,4,,21,dh50,Alejandro Davidovich Fokina,5,,24,1,hh26,69,,,,,Ruth Concas,2024-02-09,[6:1],,[6:4],,,,,,,
+4962024,QF,3,z371,Zhizhen Zhang,,,50,ke29,Karen Khachanov,3,,18,1,ke29,61,,,,,Manuel Absolu,2024-02-09,[6:4],[6:1],,,,,,,,
+4962024,QF,4,rc91,Arthur Rinderknech,,Alt,94,d875,Grigor Dimitrov,2,,13,2,d875,86,,,,,Aurelie Tourte,2024-02-09,[6:3],,[7:6],[7:3],,,,,,
+4962024,SF,1,hb71,Hubert Hurkacz,1,,8,hh26,Ugo Humbert,4,,21,2,hh26,82,,,,,Ruth Concas,2024-02-10,[6:4],,[6:4],,,,,,,
+4962024,SF,2,ke29,Karen Khachanov,3,,18,d875,Grigor Dimitrov,2,,13,2,d875,177,,,,,Manuel Absolu,2024-02-10,[6:7],[3:7],[6:4],,[7:6],[7:5],,,,
+4962024,F,,hh26,Ugo Humbert,4,,21,d875,Grigor Dimitrov,2,,13,1,hh26,83,,,,,Aurelie Tourte,2024-02-11,[6:4],,[6:3],,,,,,,
+4512024,R32,1,re44,Andrey Rublev,1,,5,,,,,,1,re44,,true,,,,,,,,,,,,,,,
+4512024,R32,2,s0h2,Alexander Shevchenko,,,45,g628,Richard Gasquet,,WC,126,2,g628,89,,,,,Timo Janzen,2024-02-20,[6:4],,[6:4],,,,,,,
+4512024,R32,3,mp20,Alexandre Muller,,Q,75,mc10,Andy Murray,,,50,2,mc10,117,,,,,Marija Cicak,2024-02-20,[6:1],,[7:6],[7:5],,,,,,
+4512024,R32,4,m0ni,Jakub Mensik,,,116,dh50,Alejandro Davidovich Fokina,5,,24,1,m0ni,93,,,,,Alexander Franke,2024-02-20,[7:6],[7:3],[6:4],,,,,,,
+4512024,R32,5,hh26,Ugo Humbert,3,,18,,,,,,1,hh26,,true,,,,,,,,,,,,,,,
+4512024,R32,6,k09f,Pavel Kotov,,,64,su87,Lorenzo Sonego,,,49,1,k09f,107,,,,,Julie Kjendlie,2024-02-19,[6:2],,[7:5],,,,,,,
+4512024,R32,7,mc65,Gael Monfils,,WC,68,v812,Botic van de Zandschulp,,,70,1,mc65,102,,,,,Mohamed Lahyani,2024-02-20,[6:1],,[7:6],[11:9],,,,,,
+4512024,R32,8,z371,Zhizhen Zhang,,,48,m0ej,Lorenzo Musetti,7,,26,2,z371,61,,,,,Marija Cicak,2024-02-19,[6:2],,[6:0],,,,,,,
+4512024,R32,9,mn13,Maximilian Marterer,,LL,99,gf95,Hugo Grenier,,Q,151,2,gf95,113,,,,,Richard Haigh,2024-02-20,[7:6],[7:5],[7:5],,,,,,,
+4512024,R32,10,p09z,Alexei Popyrin,,,46,s0nv,Abdullah Shelbayh,,WC,230,1,p09z,120,,,,,Richard Haigh,2024-02-19,[3:6],,[6:3],,[6:4],,,,,
+4512024,R32,11,f724,Marton Fucsovics,,,80,bd06,Roberto Bautista Agut,,,97,1,f724,82,,,,,Mohamed Lahyani,2024-02-19,[6:1],,[6:3],,,,,,,
+4512024,R32,12,,,,,,bk92,Alexander Bublik,4,,21,2,bk92,,true,,,,,,,,,,,,,,,
+4512024,R32,13,sl28,Jan-Lennard Struff,6,,25,o483,Christopher O'Connell,,,65,2,o483,92,,,,,Julie Kjendlie,2024-02-20,[6:4],,[6:4],,,,,,,
+4512024,R32,14,z0a1,Giulio Zeppieri,,Q,133,rh24,Emil Ruusuvuori,,,43,2,rh24,106,,,,,Morgane Lara,2024-02-20,[7:6],[7:2],[7:5],,,,,,,
+4512024,R32,15,m0ci,Fabian Marozsan,,,60,ki82,Vit Kopriva,,Q,118,1,m0ci,104,,,,,Thea Finke,2024-02-19,[7:5],,[7:6],[8:6],,,,,,
+4512024,R32,16,,,,,,ke29,Karen Khachanov,2,,15,2,ke29,,true,,,,,,,,,,,,,,,
+4512024,R16,1,re44,Andrey Rublev,1,,5,g628,Richard Gasquet,,WC,126,1,re44,56,,,,,Richard Haigh,2024-02-21,[6:3],,[6:4],,,,,,,
+4512024,R16,2,mc10,Andy Murray,,,50,m0ni,Jakub Mensik,,,116,2,m0ni,203,,,,,Mohamed Lahyani,2024-02-21,[7:6],[8:6],[6:7],[3:7],[7:6],[7:4],,,,
+4512024,R16,3,hh26,Ugo Humbert,3,,18,k09f,Pavel Kotov,,,64,1,hh26,85,,,,,Timo Janzen,2024-02-21,[6:4],,[6:1],,,,,,,
+4512024,R16,4,mc65,Gael Monfils,,WC,68,z371,Zhizhen Zhang,,,48,1,mc65,143,,,,,Julie Kjendlie,2024-02-21,[4:6],,[7:5],,[7:6],[7:2],,,,
+4512024,R16,5,gf95,Hugo Grenier,,Q,151,p09z,Alexei Popyrin,,,46,2,p09z,149,,,,,Julie Kjendlie,2024-02-21,[7:6],[7:3],[6:7],[8:10],[6:1],,,,,
+4512024,R16,6,f724,Marton Fucsovics,,,80,bk92,Alexander Bublik,4,,21,2,bk92,127,,,,,Marija Cicak,2024-02-21,[2:6],,[6:3],,[6:4],,,,,
+4512024,R16,7,o483,Christopher O'Connell,,,65,rh24,Emil Ruusuvuori,,,43,2,rh24,106,,,,,Alexander Franke,2024-02-21,[6:3],,[6:3],,,,,,,
+4512024,R16,8,m0ci,Fabian Marozsan,,,60,ke29,Karen Khachanov,2,,15,2,ke29,88,,,,,Morgane Lara,2024-02-21,[6:4],,[7:5],,,,,,,
+4512024,QF,1,re44,Andrey Rublev,1,,5,m0ni,Jakub Mensik,,,116,2,m0ni,96,,,,,Marija Cicak,2024-02-22,[6:4],,[7:6],[8:6],,,,,,
+4512024,QF,2,hh26,Ugo Humbert,3,,18,mc65,Gael Monfils,,WC,68,2,mc65,71,,,,,Mohamed Lahyani,2024-02-22,[6:2],,[6:4],,,,,,,
+4512024,QF,3,p09z,Alexei Popyrin,,,46,bk92,Alexander Bublik,4,,21,1,p09z,77,,,,,Richard Haigh,2024-02-22,[6:4],,[6:4],,,,,,,
+4512024,QF,4,rh24,Emil Ruusuvuori,,,43,ke29,Karen Khachanov,2,,15,2,ke29,13,,true,,,Julie Kjendlie,2024-02-22,[3:0],,,,,,,,,
+4512024,SF,1,m0ni,Jakub Mensik,,,116,mc65,Gael Monfils,,WC,68,1,m0ni,114,,,,,Julie Kjendlie,2024-02-23,[6:4],,[1:6],,[6:3],,,,,
+4512024,SF,2,p09z,Alexei Popyrin,,,46,ke29,Karen Khachanov,2,,15,2,ke29,108,,,,,Marija Cicak,2024-02-23,[7:6],[14:12],[6:2],,,,,,,
+4512024,F,,m0ni,Jakub Mensik,,,116,ke29,Karen Khachanov,2,,15,2,ke29,109,,,,,Mohamed Lahyani,2024-02-24,[7:6],[14:12],[6:4],,,,,,,
+4042024,R128,1,d643,Novak Djokovic,1,,1,,,,,,1,d643,,true,,,,,,,,,,,,,,,
+4042024,R128,2,m0hu,Shintaro Mochizuki,,Q,149,v832,Aleksandar Vukic,,,69,2,v832,114,,,,,Ettore Russo,2024-03-07,[7:6],[7:4],[7:6],[7:6],,,,,,
+4042024,R128,3,k0az,Aleksandar Kovacevic,,WC,92,z371,Zhizhen Zhang,,,50,2,z371,153,,,,,Joshua Brace,2024-03-08,[6:7],[2:7],[6:3],,[7:5],,,,,
+4042024,R128,4,,,,,,n0bg,Luca Nardi,,LL,123,2,n0bg,,true,,,,,,,,,,,,,,,
+4042024,R128,5,pl56,Tommy Paul,17,,17,,,,,,1,pl56,,true,,,,,,,,,,,,,,,
+4042024,R128,6,m0qi,Alex Michelsen,,,80,mu94,Jaume Munar,,,75,1,m0qi,94,,,,,Carlos Bernardes,2024-03-07,[6:2],,[6:3],,,,,,,
+4042024,R128,7,q02l,Ethan Quinn,,Q,284,k0a3,Patrick Kypson,,WC,151,2,k0a3,95,,,,,Joshua Brace,2024-03-07,[6:1],,[7:6],[7:1],,,,,,
+4042024,R128,8,,,,,,hh26,Ugo Humbert,14,,14,2,hh26,,true,,,,,,,,,,,,,,,
+4042024,R128,9,rh16,Casper Ruud,9,,9,,,,,,1,rh16,,true,,,,,,,,,,,,,,,
+4042024,R128,10,mw18,Nicolas Moreno de Alboran,,Q,166,ki63,Lukas Klein,,Q,141,2,ki63,105,,,,,Alessandro Germani,2024-03-08,[7:6],[10:8],[6:4],,,,,,,
+4042024,R128,11,f0f1,Arthur Fils,,,43,bt72,Nuno Borges,,,60,1,f0f1,96,,,,,Fergus Murphy,2024-03-07,[7:6],[7:5],[6:2],,,,,,,
+4042024,R128,12,,,,,,dh50,Alejandro Davidovich Fokina,23,,23,2,dh50,,true,,,,,,,,,,,,,,,
+4042024,R128,13,n771,Cameron Norrie,28,,28,,,,,,1,n771,,true,,,,,,,,,,,,,,,
+4042024,R128,14,su87,Lorenzo Sonego,,,55,ki95,Miomir Kecmanovic,,,47,1,su87,90,,,,,Renaud Lichtenstein,2024-03-07,[7:6],[7:1],[6:4],,,,,,,
+4042024,R128,15,mc65,Gael Monfils,,,54,ph71,Max Purcell,,,71,1,mc65,70,,,,,Raluca Andrei,2024-03-07,[6:1],,[6:2],,,,,,,
+4042024,R128,16,,,,,,hb71,Hubert Hurkacz,8,,8,2,hb71,,true,,,,,,,,,,,,,,,
+4042024,R128,17,mm58,Daniil Medvedev,4,,4,,,,,,1,mm58,,true,,,,,,,,,,,,,,,
+4042024,R128,18,c0e9,Flavio Cobolli,,,62,cf59,Roberto Carballes Baena,,,64,2,cf59,100,,,,,Richard Haigh,2024-03-08,[6:4],,[6:4],,,,,,,
+4042024,R128,19,sx50,Roman Safiullin,,,42,e687,Daniel Evans,,,45,1,sx50,116,,,,,Mohamed Lahyani,2024-03-07,[6:1],,[5:7],,[6:2],,,,,
+4042024,R128,20,,,,,,k0ah,Sebastian Korda,29,,29,2,k0ah,,true,,,,,,,,,,,,,,,
+4042024,R128,21,me82,Adrian Mannarino,21,,21,,,,,,1,me82,,true,,,,,,,,,,,,,,,
+4042024,R128,22,w367,Stan Wawrinka,,,70,m0fh,Tomas Machac,,,63,2,m0fh,125,,,,,Carlos Bernardes,2024-03-07,[7:6],[7:3],[4:6],,[6:2],,,,,
+4042024,R128,23,gf95,Hugo Grenier,,Q,146,mp20,Alexandre Muller,,,88,2,mp20,119,,,,,Fergus Murphy,2024-03-08,[7:6],[7:5],[7:5],,,,,,,
+4042024,R128,24,,,,,,d875,Grigor Dimitrov,13,,13,2,d875,,true,,,,,,,,,,,,,,,
+4042024,R128,25,fb98,Taylor Fritz,12,,12,,,,,,1,fb98,,true,,,,,,,,,,,,,,,
+4042024,R128,26,k09f,Pavel Kotov,,,67,te30,Alejandro Tabilo,,,39,2,te30,127,,,,,Scotty Moore,2024-03-08,[4:6],,[6:3],,[7:5],,,,,
+4042024,R128,27,f510,Fabio Fognini,,WC,108,z419,Bernabe Zapata Miralles,,,144,1,f510,128,,,,,Mohamed Lahyani,2024-03-07,[4:6],,[6:2],,[6:3],,,,,
+4042024,R128,28,,,,,,b0bi,Sebastian Baez,19,,19,2,b0bi,,true,,,,,,,,,,,,,,,
+4042024,R128,29,m0ej,Lorenzo Musetti,26,,26,,,,,,1,m0ej,,true,,,,,,,,,,,,,,,
+4042024,R128,30,v812,Botic van de Zandschulp,,,82,su55,Denis Shapovalov,,PR,131,2,su55,77,,,,,Raluca Andrei,2024-03-08,[6:1],,[6:4],,,,,,,
+4042024,R128,31,r975,Milos Raonic,,PR,224,n987,Sumit Nagal,,LL,101,1,r975,88,,,,,Renaud Lichtenstein,2024-03-07,[6:3],,[6:3],,,,,,,
+4042024,R128,32,,,,,,r0dg,Holger Rune,7,,7,1,r0dg,,true,,,,,,,,,,,,,,,
+4042024,R128,33,re44,Andrey Rublev,5,,5,,,,,,1,re44,,true,,,,,,,,,,,,,,,
+4042024,R128,34,mc10,Andy Murray,,,61,gb88,David Goffin,,Q,112,1,mc10,80,,,,,Fergus Murphy,2024-03-06,[6:3],,[6:2],,,,,,,
+4042024,R128,35,e865,Christopher Eubanks,,,34,n0ae,Brandon Nakashima,,WC,93,2,n0ae,81,,,,,Greg Allensworth,2024-03-06,[6:3],,[7:6],[7:3],,,,,,
+4042024,R128,36,,,,,,l0bv,Jiri Lehecka,32,,32,2,l0bv,,true,,,,,,,,,,,,,,,
+4042024,R128,37,td51,Frances Tiafoe,18,,18,,,,,,1,td51,,true,,,,,,,,,,,,,,,
+4042024,R128,38,l987,Dusan Lajovic,,,56,rh24,Emil Ruusuvuori,,,46,1,l987,115,,,,,Richard Haigh,2024-03-07,[7:5],,[6:2],,,,,,,
+4042024,R128,39,pf39,Lucas Pouille,,Q,273,ae14,Daniel Altmaier,,,53,1,pf39,101,,,,,Scotty Moore,2024-03-07,[6:4],,[6:3],,,,,,,
+4042024,R128,40,,,,,,te51,Stefanos Tsitsipas,11,,11,2,te51,,true,,,,,,,,,,,,,,,
+4042024,R128,41,s0s1,Ben Shelton,16,,16,,,,,,1,s0s1,,true,,,,,,,,,,,,,,,
+4042024,R128,42,m0ni,Jakub Mensik,,WC,81,hc21,Seongchang Hong,,Q,227,1,m0ni,119,,,,,Alessandro Germani,2024-03-07,[6:3],,[6:4],,,,,,,
+4042024,R128,43,s0h2,Alexander Shevchenko,,,51,ke73,Dominik Koepfer,,,49,1,s0h2,129,,,,,Joshua Brace,2024-03-06,[6:3],,[1:6],,[7:6],[7:3],,,,
+4042024,R128,44,,,,,,c0au,Francisco Cerundolo,22,,22,2,c0au,,true,,,,,,,,,,,,,,,
+4042024,R128,45,sl28,Jan-Lennard Struff,25,,25,,,,,,1,sl28,,true,,,,,,,,,,,,,,,
+4042024,R128,46,cg80,Borna Coric,,,35,o513,Sebastian Ofner,,,38,1,cg80,96,,,,,Ettore Russo,2024-03-07,[6:2],,[3:6],,[6:0],,,,,
+4042024,R128,47,kd46,Thanasi Kokkinakis,,,99,gc88,Marcos Giron,,,48,1,kd46,99,,,,,Richard Haigh,2024-03-06,[6:3],,[7:5],,,,,,,
+4042024,R128,48,,,,,,s0ag,Jannik Sinner,3,,3,2,s0ag,,true,,,,,,,,,,,,,,,
+4042024,R128,49,z355,Alexander Zverev,6,,6,,,,,,1,z355,,true,,,,,,,,,,,,,,,
+4042024,R128,50,o483,Christopher O'Connell,,,66,d0co,Jack Draper,,,37,1,o483,82,,,,,Scotty Moore,2024-03-06,[1:6],,[6:3],,[6:2],,,,,
+4042024,R128,51,h997,Yannick Hanfmann,,,57,cg04,Pedro Cachin,,,79,1,h997,139,,,,,Alessandro Germani,2024-03-06,[6:7],[7:9],[6:4],,[6:1],,,,,
+4042024,R128,52,,,,,,gj37,Tallon Griekspoor,27,,27,2,gj37,,true,,,,,,,,,,,,,,,
+4042024,R128,53,bk92,Alexander Bublik,20,,20,,,,,,1,bk92,,true,,,,,,,,,,,,,,,
+4042024,R128,54,s0re,Juncheng Shang,,Q,139,tc61,Jordan Thompson,,,33,1,s0re,98,,,,,Greg Allensworth,2024-03-07,[6:2],,[6:3],,,,,,,
+4042024,R128,55,da81,Taro Daniel,,,76,ge33,Daniel Elahi Galan,,,84,1,da81,106,,,,,Ettore Russo,2024-03-06,[6:4],,[6:1],,,,,,,
+4042024,R128,56,,,,,,dh58,Alex de Minaur,10,,10,2,dh58,,true,,,,,,,,,,,,,,,
+4042024,R128,57,ke29,Karen Khachanov,15,,15,,,,,,1,ke29,,true,,,,,,,,,,,,,,,
+4042024,R128,58,sx91,Thiago Seyboth Wild,,Q,65,w09g,J.J. Wolf,,,94,1,sx91,60,,,,,Richard Haigh,2024-03-07,[6:2],,[6:1],,,,,,,
+4042024,R128,59,m0ci,Fabian Marozsan,,,58,r09x,Jurij Rodionov,,LL,96,1,m0ci,71,,,,,Renaud Lichtenstein,2024-03-07,[6:3],,[6:2],,,,,,,
+4042024,R128,60,,,,,,j551,Nicolas Jarry,24,,24,2,j551,,true,,,,,,,,,,,,,,,
+4042024,R128,61,ag37,Felix Auger-Aliassime,31,,31,,,,,,1,ag37,,true,,,,,,,,,,,,,,,
+4042024,R128,62,lb66,Constant Lestienne,,Q,100,kb09,Denis Kudla,,Q,179,1,lb66,153,,,,,Joshua Brace,2024-03-07,[3:6],,[6:2],,[6:4],,,,,
+4042024,R128,63,v0dz,Luca Van Assche,,,86,a0fc,Matteo Arnaldi,,,40,2,a0fc,126,,,,,Raluca Andrei,2024-03-06,[7:6],[8:6],[7:6],[7:3],,,,,,
+4042024,R128,64,,,,,,a0e2,Carlos Alcaraz,2,,2,2,a0e2,,true,,,,,,,,,,,,,,,
+4042024,R64,1,d643,Novak Djokovic,1,,1,v832,Aleksandar Vukic,,,69,1,d643,130,,,,,Fergus Murphy,2024-03-09,[6:2],,[5:7],,[6:3],,,,,
+4042024,R64,2,z371,Zhizhen Zhang,,,50,n0bg,Luca Nardi,,LL,123,2,n0bg,120,,,,,Renaud Lichtenstein,2024-03-09,[6:3],,[3:6],,[6:3],,,,,
+4042024,R64,3,pl56,Tommy Paul,17,,17,m0qi,Alex Michelsen,,,80,1,pl56,77,,,,,Mohamed Lahyani,2024-03-09,[6:2],,[6:2],,,,,,,
+4042024,R64,4,k0a3,Patrick Kypson,,WC,151,hh26,Ugo Humbert,14,,14,2,hh26,89,,,,,Mohamed Lahyani,2024-03-09,[6:4],,[6:4],,,,,,,
+4042024,R64,5,rh16,Casper Ruud,9,,9,ki63,Lukas Klein,,Q,141,1,rh16,105,,,,,Richard Haigh,2024-03-09,[6:4],,[7:6],[7:4],,,,,,
+4042024,R64,6,f0f1,Arthur Fils,,,43,dh50,Alejandro Davidovich Fokina,23,,23,1,f0f1,77,,,,,Carlos Bernardes,2024-03-09,[6:3],,[6:4],,,,,,,
+4042024,R64,7,n771,Cameron Norrie,28,,28,su87,Lorenzo Sonego,,,55,1,n771,90,,,,,Raluca Andrei,2024-03-09,[6:4],,[6:4],,,,,,,
+4042024,R64,8,mc65,Gael Monfils,,,54,hb71,Hubert Hurkacz,8,,8,1,mc65,120,,,,,Fergus Murphy,2024-03-09,[6:0],,[6:7],[5:7],[6:2],,,,,
+4042024,R64,9,mm58,Daniil Medvedev,4,,4,cf59,Roberto Carballes Baena,,,64,1,mm58,87,,,,,Carlos Bernardes,2024-03-09,[6:2],,[6:3],,,,,,,
+4042024,R64,10,sx50,Roman Safiullin,,,42,k0ah,Sebastian Korda,29,,29,2,k0ah,70,,,,,Joshua Brace,2024-03-09,[6:4],,[6:2],,,,,,,
+4042024,R64,11,me82,Adrian Mannarino,21,,21,m0fh,Tomas Machac,,,63,1,me82,74,,,,,Joshua Brace,2024-03-09,[6:1],,[6:2],,,,,,,
+4042024,R64,12,mp20,Alexandre Muller,,,88,d875,Grigor Dimitrov,13,,13,2,d875,89,,,,,Scotty Moore,2024-03-09,[7:5],,[6:2],,,,,,,
+4042024,R64,13,fb98,Taylor Fritz,12,,12,te30,Alejandro Tabilo,,,39,1,fb98,74,,,,,Richard Haigh,2024-03-09,[7:6],[7:2],[6:2],,,,,,,
+4042024,R64,14,f510,Fabio Fognini,,WC,108,b0bi,Sebastian Baez,19,,19,2,b0bi,99,,,,,Greg Allensworth,2024-03-09,[7:5],,[6:3],,,,,,,
+4042024,R64,15,m0ej,Lorenzo Musetti,26,,26,su55,Denis Shapovalov,,PR,131,1,m0ej,140,,,,,Raluca Andrei,2024-03-09,[6:4],,[2:6],,[7:5],,,,,
+4042024,R64,16,r975,Milos Raonic,,PR,224,r0dg,Holger Rune,7,,7,2,r0dg,,,,,true,Richard Haigh,2024-03-09,,,,,,,,,,
+4042024,R64,17,re44,Andrey Rublev,5,,5,mc10,Andy Murray,,,61,1,re44,108,,,,,Mohamed Lahyani,2024-03-08,[7:6],[7:3],[6:1],,,,,,,
+4042024,R64,18,n0ae,Brandon Nakashima,,WC,93,l0bv,Jiri Lehecka,32,,32,2,l0bv,135,,,,,Scotty Moore,2024-03-08,[3:6],,[6:3],,[6:4],,,,,
+4042024,R64,19,td51,Frances Tiafoe,18,,18,l987,Dusan Lajovic,,,56,1,td51,77,,,,,Richard Haigh,2024-03-08,[6:3],,[6:3],,,,,,,
+4042024,R64,20,pf39,Lucas Pouille,,Q,273,te51,Stefanos Tsitsipas,11,,11,2,te51,68,,,,,Greg Allensworth,2024-03-08,[6:3],,[6:2],,,,,,,
+4042024,R64,21,s0s1,Ben Shelton,16,,16,m0ni,Jakub Mensik,,WC,81,1,s0s1,120,,,,,Renaud Lichtenstein,2024-03-08,[4:6],,[6:3],,[6:4],,,,,
+4042024,R64,22,s0h2,Alexander Shevchenko,,,51,c0au,Francisco Cerundolo,22,,22,2,c0au,45,,true,,,Renaud Lichtenstein,2024-03-08,[6:2],,[3:1],,,,,,,
+4042024,R64,23,sl28,Jan-Lennard Struff,25,,25,cg80,Borna Coric,,,35,1,sl28,178,,,,,Alessandro Germani,2024-03-08,[6:7],[3:7],[6:2],,[7:6],[11:9],,,,
+4042024,R64,24,kd46,Thanasi Kokkinakis,,,99,s0ag,Jannik Sinner,3,,3,2,s0ag,81,,,,,Raluca Andrei,2024-03-08,[6:3],,[6:0],,,,,,,
+4042024,R64,25,z355,Alexander Zverev,6,,6,o483,Christopher O'Connell,,,66,1,z355,116,,,,,Carlos Bernardes,2024-03-08,[6:4],,[6:4],,,,,,,
+4042024,R64,26,h997,Yannick Hanfmann,,,57,gj37,Tallon Griekspoor,27,,27,2,gj37,76,,,,,Joshua Brace,2024-03-08,[6:3],,[6:3],,,,,,,
+4042024,R64,27,bk92,Alexander Bublik,20,,20,s0re,Juncheng Shang,,Q,139,1,bk92,63,,,,,Fergus Murphy,2024-03-08,[6:4],,[6:1],,,,,,,
+4042024,R64,28,da81,Taro Daniel,,,76,dh58,Alex de Minaur,10,,10,2,dh58,58,,,,,Greg Allensworth,2024-03-08,[6:1],,[6:2],,,,,,,
+4042024,R64,29,ke29,Karen Khachanov,15,,15,sx91,Thiago Seyboth Wild,,Q,65,2,sx91,83,,,,,Ettore Russo,2024-03-08,[6:1],,[7:5],,,,,,,
+4042024,R64,30,m0ci,Fabian Marozsan,,,58,j551,Nicolas Jarry,24,,24,1,m0ci,159,,,,,Ettore Russo,2024-03-08,[3:6],,[7:5],,[6:4],,,,,
+4042024,R64,31,ag37,Felix Auger-Aliassime,31,,31,lb66,Constant Lestienne,,Q,100,1,ag37,88,,,,,Simon Cannavan,2024-03-08,[6:4],,[6:1],,,,,,,
+4042024,R64,32,a0fc,Matteo Arnaldi,,,40,a0e2,Carlos Alcaraz,2,,2,2,a0e2,134,,,,,Mohamed Lahyani,2024-03-08,[6:7],[5:7],[6:0],,[6:1],,,,,
+4042024,R32,1,d643,Novak Djokovic,1,,1,n0bg,Luca Nardi,,LL,123,2,n0bg,140,,,,,Greg Allensworth,2024-03-11,[6:4],,[3:6],,[6:3],,,,,
+4042024,R32,2,pl56,Tommy Paul,17,,17,hh26,Ugo Humbert,14,,14,1,pl56,87,,,,,Fergus Murphy,2024-03-11,[6:4],,[6:4],,,,,,,
+4042024,R32,3,rh16,Casper Ruud,9,,9,f0f1,Arthur Fils,,,43,1,rh16,76,,,,,Raluca Andrei,2024-03-11,[6:2],,[6:4],,,,,,,
+4042024,R32,4,n771,Cameron Norrie,28,,28,mc65,Gael Monfils,,,54,2,mc65,192,,,,,Mohamed Lahyani,2024-03-11,[6:7],[5:7],[7:6],[7:5],[6:3],,,,,
+4042024,R32,5,mm58,Daniil Medvedev,4,,4,k0ah,Sebastian Korda,29,,29,1,mm58,151,,,,,Renaud Lichtenstein,2024-03-11,[6:4],,[5:7],,[6:3],,,,,
+4042024,R32,6,me82,Adrian Mannarino,21,,21,d875,Grigor Dimitrov,13,,13,2,d875,80,,,,,Richard Haigh,2024-03-11,[6:3],,[6:3],,,,,,,
+4042024,R32,7,fb98,Taylor Fritz,12,,12,b0bi,Sebastian Baez,19,,19,1,fb98,68,,,,,Mohamed Lahyani,2024-03-11,[6:2],,[6:2],,,,,,,
+4042024,R32,8,m0ej,Lorenzo Musetti,26,,26,r0dg,Holger Rune,7,,7,2,r0dg,96,,,,,Carlos Bernardes,2024-03-11,[6:2],,[7:6],[7:5],,,,,,
+4042024,R32,9,re44,Andrey Rublev,5,,5,l0bv,Jiri Lehecka,32,,32,2,l0bv,73,,,,,Carlos Bernardes,2024-03-10,[6:4],,[6:4],,,,,,,
+4042024,R32,10,td51,Frances Tiafoe,18,,18,te51,Stefanos Tsitsipas,11,,11,2,te51,78,,,,,Renaud Lichtenstein,2024-03-10,[6:3],,[6:3],,,,,,,
+4042024,R32,11,s0s1,Ben Shelton,16,,16,c0au,Francisco Cerundolo,22,,22,1,s0s1,163,,,,,Fergus Murphy,2024-03-10,[7:6],[7:5],[3:6],,[7:6],[7:5],,,,
+4042024,R32,12,sl28,Jan-Lennard Struff,25,,25,s0ag,Jannik Sinner,3,,3,2,s0ag,74,,,,,Richard Haigh,2024-03-10,[6:3],,[6:4],,,,,,,
+4042024,R32,13,z355,Alexander Zverev,6,,6,gj37,Tallon Griekspoor,27,,27,1,z355,103,,,,,Mohamed Lahyani,2024-03-10,[7:6],[9:7],[6:3],,,,,,,
+4042024,R32,14,bk92,Alexander Bublik,20,,20,dh58,Alex de Minaur,10,,10,2,dh58,87,,,,,Carlos Bernardes,2024-03-10,[7:5],,[6:0],,,,,,,
+4042024,R32,15,sx91,Thiago Seyboth Wild,,Q,65,m0ci,Fabian Marozsan,,,58,2,m0ci,67,,,,,Greg Allensworth,2024-03-10,[3:6],,[7:5],,[6:4],,,,,
+4042024,R32,16,ag37,Felix Auger-Aliassime,31,,31,a0e2,Carlos Alcaraz,2,,2,2,a0e2,77,,,,,Raluca Andrei,2024-03-10,[6:2],,[6:3],,,,,,,
+4042024,R16,1,n0bg,Luca Nardi,,LL,123,pl56,Tommy Paul,17,,17,2,pl56,80,,,,,Renaud Lichtenstein,2024-03-13,[6:4],,[6:3],,,,,,,
+4042024,R16,2,rh16,Casper Ruud,9,,9,mc65,Gael Monfils,,,54,1,rh16,147,,,,,Mohamed Lahyani,2024-03-13,[3:6],,[7:6],[7:3],[6:4],,,,,
+4042024,R16,3,mm58,Daniil Medvedev,4,,4,d875,Grigor Dimitrov,13,,13,1,mm58,76,,,,,Carlos Bernardes,2024-03-13,[6:4],,[6:4],,,,,,,
+4042024,R16,4,fb98,Taylor Fritz,12,,12,r0dg,Holger Rune,7,,7,2,r0dg,138,,,,,Fergus Murphy,2024-03-13,[2:6],,[7:6],[7:2],[6:3],,,,,
+4042024,R16,5,l0bv,Jiri Lehecka,32,,32,te51,Stefanos Tsitsipas,11,,11,1,l0bv,77,,,,,Greg Allensworth,2024-03-12,[6:2],,[6:4],,,,,,,
+4042024,R16,6,s0s1,Ben Shelton,16,,16,s0ag,Jannik Sinner,3,,3,2,s0ag,98,,,,,Mohamed Lahyani,2024-03-12,[7:6],[7:4],[6:1],,,,,,,
+4042024,R16,7,z355,Alexander Zverev,6,,6,dh58,Alex de Minaur,10,,10,1,z355,167,,,,,Fergus Murphy,2024-03-12,[5:7],,[6:2],,[6:3],,,,,
+4042024,R16,8,m0ci,Fabian Marozsan,,,58,a0e2,Carlos Alcaraz,2,,2,2,a0e2,75,,,,,Richard Haigh,2024-03-12,[6:3],,[6:3],,,,,,,
+4042024,QF,1,pl56,Tommy Paul,17,,17,rh16,Casper Ruud,9,,9,1,pl56,129,,,,,Carlos Bernardes,2024-03-14,[6:2],,[1:6],,[6:3],,,,,
+4042024,QF,2,mm58,Daniil Medvedev,4,,4,r0dg,Holger Rune,7,,7,1,mm58,119,,,,,Carlos Bernardes,2024-03-14,[7:5],,[6:4],,,,,,,
+4042024,QF,3,l0bv,Jiri Lehecka,32,,32,s0ag,Jannik Sinner,3,,3,2,s0ag,84,,,,,Fergus Murphy,2024-03-14,[6:3],,[6:3],,,,,,,
+4042024,QF,4,z355,Alexander Zverev,6,,6,a0e2,Carlos Alcaraz,2,,2,2,a0e2,89,,,,,Mohamed Lahyani,2024-03-14,[6:3],,[6:1],,,,,,,
+4042024,SF,1,pl56,Tommy Paul,17,,17,mm58,Daniil Medvedev,4,,4,2,mm58,143,,,,,Mohamed Lahyani,2024-03-16,[1:6],,[7:6],[7:3],[6:2],,,,,
+4042024,SF,2,s0ag,Jannik Sinner,3,,3,a0e2,Carlos Alcaraz,2,,2,2,a0e2,125,,,,,Fergus Murphy,2024-03-16,[1:6],,[6:3],,[6:2],,,,,
+4042024,F,,mm58,Daniil Medvedev,4,,4,a0e2,Carlos Alcaraz,2,,2,2,a0e2,102,,,,,Mohamed Lahyani,2024-03-17,[7:6],[7:5],,[6:1],,,,,,
+3012024,R32,1,s0s1,Ben Shelton,1,,16,,,,,,1,s0s1,,true,,,,,,,,,,,,,,,
+3012024,R32,2,m0ci,Fabian Marozsan,,,65,mc65,Gael Monfils,,,75,1,m0ci,155,,,,,Nico Helwerth,2024-01-08,[6:4],,[6:7],[6:8],[7:6],[7:4],,,,
+3012024,R32,3,bd06,Roberto Bautista Agut,,,51,cf59,Roberto Carballes Baena,,,67,2,cf59,104,,,,,Raluca Andrei,2024-01-09,[6:4],,[6:3],,,,,,,
+3012024,R32,4,su55,Denis Shapovalov,,WC,116,o513,Sebastian Ofner,7,,37,2,o513,68,,,,,Nico Helwerth,2024-01-09,[6:4],,[6:2],,,,,,,
+3012024,R32,5,c0au,Francisco Cerundolo,3,,22,,,,,,1,c0au,,true,,,,,,,,,,,,,,,
+3012024,R32,6,mp20,Alexandre Muller,,Q,79,bm95,Benjamin Bonzi,,,110,1,mp20,98,,,,,Christian Rask,2024-01-08,[6:3],,[7:5],,,,,,,
+3012024,R32,7,v832,Aleksandar Vukic,,,63,da81,Taro Daniel,,,74,2,da81,99,,,,,Christian Rask,2024-01-08,[7:5],,[7:5],,,,,,,
+3012024,R32,8,p0ed,Kiranpal Pannu,,WC,716,ph71,Max Purcell,8,,45,2,ph71,87,,,,,Kelly Rask,2024-01-09,[6:4],,[6:4],,,,,,,
+3012024,R32,9,f0f1,Arthur Fils,6,,35,g628,Richard Gasquet,,WC,76,1,f0f1,69,,,,,Aurelie Tourte,2024-01-09,[6:3],,[6:4],,,,,,,
+3012024,R32,10,m0qi,Alex Michelsen,,Q,92,bt72,Nuno Borges,,,66,2,bt72,118,,,,,Raluca Andrei,2024-01-08,[0:6],,[7:6],[8:6],[6:3],,,,,
+3012024,R32,11,ae14,Daniel Altmaier,,,57,gc88,Marcos Giron,,,60,1,ae14,92,,,,,Kelly Rask,2024-01-08,[7:6],[7:5],[6:2],,,,,,,
+3012024,R32,12,,,,,,ag37,Felix Auger-Aliassime,4,,27,2,ag37,,true,,,,,,,,,,,,,,,
+3012024,R32,13,e865,Christopher Eubanks,5,,34,v812,Botic van de Zandschulp,,,59,2,v812,96,,,,,Aurelie Tourte,2024-01-08,[7:6],[7:5],[6:2],,,,,,,
+3012024,R32,14,gh92,Borna Gojo,,,91,te30,Alejandro Tabilo,,Q,263,2,te30,91,,,,,Scotty Moore,2024-01-08,[1:6],,[6:3],,[6:2],,,,,
+3012024,R32,15,w09g,J.J. Wolf,,,54,v0dz,Luca Van Assche,,Q,87,2,v0dz,93,,,,,Raluca Andrei,2024-01-08,[6:4],,[6:2],,,,,,,
+3012024,R32,16,,,,,,n771,Cameron Norrie,2,,19,2,n771,,true,,,,,,,,,,,,,,,
+3012024,R16,1,s0s1,Ben Shelton,1,,16,m0ci,Fabian Marozsan,,,65,1,s0s1,71,,,,,Aurelie Tourte,2024-01-10,[6:3],,[6:4],,,,,,,
+3012024,R16,2,cf59,Roberto Carballes Baena,,,67,o513,Sebastian Ofner,7,,37,1,cf59,101,,,,,Raluca Andrei,2024-01-10,[7:5],,[6:3],,,,,,,
+3012024,R16,3,c0au,Francisco Cerundolo,3,,22,mp20,Alexandre Muller,,Q,79,2,mp20,66,,,,,Raluca Andrei,2024-01-10,[6:1],[6:1],,,,,,,,
+3012024,R16,4,da81,Taro Daniel,,,74,ph71,Max Purcell,8,,45,1,da81,75,,,,,Scotty Moore,2024-01-10,[6:2],,[6:4],,,,,,,
+3012024,R16,5,f0f1,Arthur Fils,6,,35,bt72,Nuno Borges,,,66,1,f0f1,51,,,,,Christian Rask,2024-01-10,[6:2],,[6:0],,,,,,,
+3012024,R16,6,ae14,Daniel Altmaier,,,57,ag37,Felix Auger-Aliassime,4,,27,1,ae14,154,,,,,Kelly Rask,2024-01-10,[7:6],[11:9],[7:5],,,,,,,
+3012024,R16,7,v812,Botic van de Zandschulp,,,59,te30,Alejandro Tabilo,,Q,263,2,te30,82,,,,,Aurelie Tourte,2024-01-10,[7:5],,[6:3],,,,,,,
+3012024,R16,8,v0dz,Luca Van Assche,,Q,87,n771,Cameron Norrie,2,,19,2,n771,148,,,,,Nico Helwerth,2024-01-10,[6:3],,[6:7],[6:8],[6:1],,,,,
+3012024,QF,1,s0s1,Ben Shelton,1,,16,cf59,Roberto Carballes Baena,,,67,1,s0s1,100,,,,,Christian Rask,2024-01-11,[6:4],,[6:3],,,,,,,
+3012024,QF,2,mp20,Alexandre Muller,,Q,79,da81,Taro Daniel,,,74,2,da81,159,,,,,Kelly Rask,2024-01-11,[6:4],,[6:7],[3:7],[6:3],,,,,
+3012024,QF,3,f0f1,Arthur Fils,6,,35,ae14,Daniel Altmaier,,,57,1,f0f1,74,,true,,,Raluca Andrei,2024-01-11,[7:6],[7:2],[1:0],,,,,,,
+3012024,QF,4,te30,Alejandro Tabilo,,Q,263,n771,Cameron Norrie,2,,19,1,te30,,,,,true,Nico Helwerth,2024-01-11,,,,,,,,,,
+3012024,SF,1,s0s1,Ben Shelton,1,,16,da81,Taro Daniel,,,74,2,da81,120,,,,,Aurelie Tourte,2024-01-12,[7:5],,[7:6],[11:9],,,,,,
+3012024,SF,2,f0f1,Arthur Fils,6,,35,te30,Alejandro Tabilo,,Q,263,2,te30,108,,,,,Christian Rask,2024-01-12,[6:2],,[7:5],,,,,,,
+3012024,F,,da81,Taro Daniel,,,74,te30,Alejandro Tabilo,,Q,263,2,te30,96,,,,,Nico Helwerth,2024-01-13,[6:2],,[7:5],,,,,,,
+89982024,R32,1,pl56,Tommy Paul,1,,14,,,,,,1,pl56,,true,,,,,,,,,,,,,,,
+89982024,R32,2,bi81,Alex Bolt,,Q,325,sx91,Thiago Seyboth Wild,,LL,78,1,bi81,72,,,,,Yamila Halle,2024-01-09,[6:3],,[6:2],,,,,,,
+89982024,R32,3,mk66,Mackenzie McDonald,,,42,ki95,Miomir Kecmanovic,,,55,2,ki95,73,,,,,Luca Laugero,2024-01-08,[6:4],,[6:2],,,,,,,
+89982024,R32,4,d0co,Jack Draper,,,62,b0bi,Sebastian Baez,5,,26,1,d0co,78,,,,,Pablo Rodriguez,2024-01-08,[6:1],,[6:3],,,,,,,
+89982024,R32,5,m0ej,Lorenzo Musetti,4,,25,,,,,,1,m0ej,,true,,,,,,,,,,,,,,,
+89982024,R32,6,tc61,Jordan Thompson,,,47,d0cg,Facundo Diaz Acosta,,Q,93,1,tc61,84,,,,,Renaud Lichtenstein,2024-01-09,[6:2],,[6:2],,,,,,,
+89982024,R32,7,h0bh,Rinky Hijikata,,WC,70,e687,Daniel Evans,,,40,2,e687,98,,,,,Adel Nour,2024-01-09,[6:3],,[6:4],,,,,,,
+89982024,R32,8,m0oq,James McCabe,,LL,278,bk92,Alexander Bublik,8,,31,2,bk92,77,,,,,Mohamed Lahyani,2024-01-09,[6:2],,[6:3],,,,,,,
+89982024,R32,9,ea24,Tomas Martin Etcheverry,6,,30,s0h2,Alexander Shevchenko,,,48,2,s0h2,176,,,,,Ana Carvalho,2024-01-08,[7:6],[7:4],[4:6],,[7:5],,,,,
+89982024,R32,10,o483,Christopher O'Connell,,WC,71,rc91,Arthur Rinderknech,,Q,97,1,o483,87,,,,,Nacho Forcadell,2024-01-09,[6:4],,[6:4],,,,,,,
+89982024,R32,11,h997,Yannick Hanfmann,,,49,su87,Lorenzo Sonego,,,46,2,su87,172,,,,,Adel Nour,2024-01-09,[7:5],,[2:6],,[7:6],[11:9],,,,
+89982024,R32,12,,,,,,k0ah,Sebastian Korda,3,,29,2,k0ah,,true,,,,,,,,,,,,,,,
+89982024,R32,13,l0bv,Jiri Lehecka,7,,32,w09e,Adam Walton,,Q,176,1,l0bv,70,,,,,Pablo Rodriguez,2024-01-09,[6:1],,[6:3],,,,,,,
+89982024,R32,14,l987,Dusan Lajovic,,,52,kd46,Thanasi Kokkinakis,,WC,68,1,l987,131,,,,,Mohamed Lahyani,2024-01-08,[3:6],,[6:1],,[6:4],,,,,
+89982024,R32,15,a0fc,Matteo Arnaldi,,,41,z419,Bernabe Zapata Miralles,,LL,77,1,a0fc,101,,,,,Scott Noble,2024-01-09,[6:4],,[6:3],,,,,,,
+89982024,R32,16,,,,,,j551,Nicolas Jarry,2,,18,2,j551,,true,,,,,,,,,,,,,,,
+89982024,R16,1,pl56,Tommy Paul,1,,14,bi81,Alex Bolt,,Q,325,1,pl56,69,,,,,Nacho Forcadell,2024-01-10,[6:3],,[6:2],,,,,,,
+89982024,R16,2,ki95,Miomir Kecmanovic,,,55,d0co,Jack Draper,,,62,2,d0co,219,,,,,Ana Carvalho,2024-01-10,[5:7],,[7:6],[11:9],[7:6],[9:7],,,,
+89982024,R16,3,m0ej,Lorenzo Musetti,4,,25,tc61,Jordan Thompson,,,47,1,m0ej,85,,,,,Mohamed Lahyani,2024-01-10,[6:4],,[6:1],,,,,,,
+89982024,R16,4,e687,Daniel Evans,,,40,bk92,Alexander Bublik,8,,31,2,bk92,122,,,,,Renaud Lichtenstein,2024-01-10,[4:6],,[6:2],,[6:1],,,,,
+89982024,R16,5,s0h2,Alexander Shevchenko,,,48,o483,Christopher O'Connell,,WC,71,2,o483,60,,,,,Luca Laugero,2024-01-10,[6:3],,[6:1],,,,,,,
+89982024,R16,6,su87,Lorenzo Sonego,,,46,k0ah,Sebastian Korda,3,,29,2,k0ah,104,,,,,Renaud Lichtenstein,2024-01-10,[6:4],,[7:6],[12:10],,,,,,
+89982024,R16,7,l0bv,Jiri Lehecka,7,,32,l987,Dusan Lajovic,,,52,1,l0bv,139,,,,,Adel Nour,2024-01-10,[7:5],,[4:6],,[6:3],,,,,
+89982024,R16,8,a0fc,Matteo Arnaldi,,,41,j551,Nicolas Jarry,2,,18,2,j551,207,,,,,Pablo Rodriguez,2024-01-10,[6:7],[5:7],[7:6],[9:7],[6:4],,,,,
+89982024,QF,1,pl56,Tommy Paul,1,,14,d0co,Jack Draper,,,62,2,d0co,140,,,,,Mohamed Lahyani,2024-01-11,[6:1],,[6:4],,,,,,,
+89982024,QF,2,m0ej,Lorenzo Musetti,4,,25,bk92,Alexander Bublik,8,,31,2,bk92,158,,,,,Adel Nour,2024-01-11,[6:3],,[6:7],[4:7],[7:5],,,,,
+89982024,QF,3,o483,Christopher O'Connell,,WC,71,k0ah,Sebastian Korda,3,,29,2,k0ah,89,,,,,Nacho Forcadell,2024-01-11,[6:4],,[6:4],,,,,,,
+89982024,QF,4,l0bv,Jiri Lehecka,7,,32,j551,Nicolas Jarry,2,,18,1,l0bv,100,,,,,Renaud Lichtenstein,2024-01-11,[6:4],,[7:5],,,,,,,
+89982024,SF,1,d0co,Jack Draper,,,62,bk92,Alexander Bublik,8,,31,1,d0co,96,,,,,Renaud Lichtenstein,2024-01-12,[7:6],[7:2],[6:4],,,,,,,
+89982024,SF,2,k0ah,Sebastian Korda,3,,29,l0bv,Jiri Lehecka,7,,32,2,l0bv,72,,,,,Mohamed Lahyani,2024-01-12,[6:2],,[6:1],,,,,,,
+89982024,F,,d0co,Jack Draper,,,62,l0bv,Jiri Lehecka,7,,32,2,l0bv,128,,,,,Nacho Forcadell,2024-01-13,[4:6],,[6:4],,[6:3],,,,,
+5802024,R128,1,d643,Novak Djokovic,1,,1,p0hw,Dino Prizmic,,Q,187,1,d643,241,,,,,,2024-01-14,[6:2],,[6:7],[5:7],[6:3],,[6:4],,,
+5802024,R128,2,p09z,Alexei Popyrin,,,43,pg94,Marc Polmans,,WC,154,1,p09z,148,,,,,,2024-01-15,[6:3],,[7:6],[7:3],[6:2],,,,,
+5802024,R128,3,h997,Yannick Hanfmann,,,52,mc65,Gael Monfils,,,76,2,mc65,139,,,,,,2024-01-15,[6:4],,[6:3],,[7:5],,,,,
+5802024,R128,4,mc10,Andy Murray,,,44,ea24,Tomas Martin Etcheverry,30,,32,2,ea24,143,,,,,,2024-01-15,[6:4],,[6:2],,[6:2],,,,,
+5802024,R128,5,me82,Adrian Mannarino,20,,19,w367,Stan Wawrinka,,,65,1,me82,216,,,,,,2024-01-15,[6:4],,[3:6],,[5:7],,[6:3],,[6:0],
+5802024,R128,6,s0h2,Alexander Shevchenko,,,48,mu94,Jaume Munar,,,82,2,mu94,115,,,,,,2024-01-14,[6:3],,[6:3],,[6:1],,,,,
+5802024,R128,7,o483,Christopher O'Connell,,,68,gd64,Cristian Garin,,,86,1,o483,261,,,,,,2024-01-14,[3:6],,[7:5],,[4:6],,[6:1],,[7:5],
+5802024,R128,8,bd06,Roberto Bautista Agut,,,72,s0s1,Ben Shelton,16,,16,2,s0s1,166,,,,,,2024-01-15,[6:2],,[7:6],[7:2],[7:5],,,,,
+5802024,R128,9,fb98,Taylor Fritz,12,,12,d0cg,Facundo Diaz Acosta,,,90,1,fb98,243,,,,,,2024-01-14,[4:6],,[6:3],,[3:6],,[6:2],,[6:4],
+5802024,R128,10,cf59,Roberto Carballes Baena,,,63,g09o,Hugo Gaston,,LL,97,2,g09o,174,,,,,,2024-01-15,[6:3],,[6:2],,[3:6],,[6:4],,,
+5802024,R128,11,m0ci,Fabian Marozsan,,,67,c977,Marin Cilic,,PR,0,1,m0ci,151,,,,,,2024-01-14,[6:1],,[2:6],,[6:2],,[7:5],,,
+5802024,R128,12,s0ia,Dane Sweeny,,Q,257,c0au,Francisco Cerundolo,22,,21,2,c0au,203,,,,,,2024-01-14,[3:6],,[6:3],,[6:4],,[2:6],,[6:2],
+5802024,R128,13,m0ej,Lorenzo Musetti,25,,28,bm95,Benjamin Bonzi,,,106,1,m0ej,214,,,,,,2024-01-15,[7:6],[7:3],[7:6],[7:4],[4:6],,[6:2],,,
+5802024,R128,14,d994,James Duckworth,,WC,95,v0dz,Luca Van Assche,,,79,2,v0dz,212,,,,,,2024-01-15,[6:7],[2:7],[6:3],,[3:6],,[6:3],,[6:3],
+5802024,R128,15,v832,Aleksandar Vukic,,,64,tc61,Jordan Thompson,,,47,2,tc61,248,,,,,,2024-01-15,[3:6],,[7:6],[7:3],[3:6],,[6:4],,,
+5802024,R128,16,bu13,Zizou Bergs,,LL,129,te51,Stefanos Tsitsipas,7,,7,2,te51,179,,,,,,2024-01-15,[5:7],,[6:1],,[6:1],,[6:3],,,
+5802024,R128,17,s0ag,Jannik Sinner,4,,4,v812,Botic van de Zandschulp,,,59,1,s0ag,154,,,,,,2024-01-14,[6:4],,[7:5],,[6:3],,,,,
+5802024,R128,18,d0c1,Jesper de Jong,,Q,161,cg04,Pedro Cachin,,,74,1,d0c1,153,,,,,,2024-01-14,[4:6],,[6:2],,[6:3],,[6:4],,,
+5802024,R128,19,ge33,Daniel Elahi Galan,,,87,kb95,Jason Kubler,,WC,113,1,ge33,299,,,,,,2024-01-14,[2:6],,[6:3],,[7:6],[7:3],[4:6],,[7:6],[10:8]
+5802024,R128,20,w09g,J.J. Wolf,,,57,b0bi,Sebastian Baez,26,,29,2,b0bi,133,,true,,,,2024-01-14,[3:6],,[6:2],,[6:3],,[3:0],,,
+5802024,R128,21,td51,Frances Tiafoe,17,,17,cg80,Borna Coric,,,40,1,td51,208,,,,,,2024-01-14,[6:3],,[7:6],[9:7],[2:6],,[6:3],,,
+5802024,R128,22,m0fh,Tomas Machac,,,75,m0hu,Shintaro Mochizuki,,LL,136,1,m0fh,150,,,,,,2024-01-14,[7:5],,[6:1],,[7:5],,,,,
+5802024,R128,23,te30,Alejandro Tabilo,,,49,k0az,Aleksandar Kovacevic,,Q,101,2,k0az,202,,,,,,2024-01-15,[6:7],[2:7],[7:6],[9:7],[1:6],,[6:1],,[6:3],
+5802024,R128,24,ae14,Daniel Altmaier,,,50,ke29,Karen Khachanov,15,,15,2,ke29,242,,,,,,2024-01-15,[5:7],,[6:3],,[7:6],[7:5],[7:6],[7:3],,
+5802024,R128,25,dh58,Alex de Minaur,10,,10,r975,Milos Raonic,,PR,319,1,dh58,115,,true,,,,2024-01-15,[6:7],[6:8],[6:3],,[2:0],,,,,
+5802024,R128,26,a0fc,Matteo Arnaldi,,,41,w09e,Adam Walton,,WC,174,1,a0fc,156,,,,,,2024-01-14,[7:6],[7:5],[6:2],,[6:4],,,,,
+5802024,R128,27,k09f,Pavel Kotov,,,65,rc91,Arthur Rinderknech,,,94,1,k09f,282,,,,,,2024-01-14,[7:5],,[6:1],,[6:7],[6:8],[6:7],[5:7],[6:3],
+5802024,R128,28,c0e9,Flavio Cobolli,,Q,100,j551,Nicolas Jarry,18,,18,1,c0e9,241,,,,,,2024-01-15,[6:4],,[3:6],,[6:3],,[2:6],,[7:5],
+5802024,R128,29,k0ah,Sebastian Korda,29,,26,ki82,Vit Kopriva,,Q,132,1,k0ah,185,,,,,,2024-01-15,[6:1],,[6:4],,[2:6],,[4:6],,[6:2],
+5802024,R128,30,hb64,Quentin Halys,,,110,hg86,Lloyd Harris,,Q,167,1,hb64,187,,,,,,2024-01-14,[4:6],,[7:6],[7:5],[7:5],,[7:6],[7:2],,
+5802024,R128,31,e865,Christopher Eubanks,,,35,da81,Taro Daniel,,,58,1,e865,99,,,,,,2024-01-15,[6:4],,[6:2],,[6:3],,,,,
+5802024,R128,32,sx91,Thiago Seyboth Wild,,,77,re44,Andrey Rublev,5,,5,2,re44,222,,,,,,2024-01-14,[7:5],,[6:4],,[3:6],,[4:6],,[7:6],[10:6]
+5802024,R128,33,r0dg,Holger Rune,8,,8,n732,Yoshihito Nishioka,,,61,1,r0dg,205,,,,,,2024-01-16,[6:2],,[4:6],,[7:6],[7:3],[6:4],,,
+5802024,R128,34,db63,Laslo Djere,,,33,c0h0,Arthur Cazaux,,WC,122,2,c0h0,206,,,,,,2024-01-16,[6:2],,[6:7],[3:7],[6:2],,[3:6],,[6:2],
+5802024,R128,35,f0f1,Arthur Fils,,,34,v708,Jiri Vesely,,PR,293,1,f0f1,163,,,,,,2024-01-16,[4:6],,[7:5],,[6:2],,[6:3],,,
+5802024,R128,36,sx50,Roman Safiullin,,,36,gj37,Tallon Griekspoor,28,,31,2,gj37,230,,,,,,2024-01-16,[2:6],,[3:6],,[7:6],[7:3],[6:4],,[7:5],
+5802024,R128,37,hh26,Ugo Humbert,21,,20,gb88,David Goffin,,Q,112,1,hh26,176,,,,,,2024-01-15,[6:2],,[7:5],,[5:7],,[6:3],,,
+5802024,R128,38,z371,Zhizhen Zhang,,,54,ce77,Federico Coria,,,84,1,z371,153,,,,,,2024-01-15,[6:4],,[7:6],[7:3],[7:6],[7:5],,,,
+5802024,R128,39,su55,Denis Shapovalov,,PR,114,m0ni,Jakub Mensik,,Q,142,2,m0ni,139,,,,,,2024-01-15,[6:3],,[7:5],,[7:5],,,,,
+5802024,R128,40,j553,Omar Jasika,,Q,343,hb71,Hubert Hurkacz,9,,9,2,hb71,131,,,,,,2024-01-15,[7:6],[7:4],[6:4],,[6:2],,,,,
+5802024,R128,41,d875,Grigor Dimitrov,13,,13,f724,Marton Fucsovics,,,70,1,d875,207,,,,,,2024-01-16,[4:6],,[6:3],,[7:6],[7:1],[6:2],,,
+5802024,R128,42,o513,Sebastian Ofner,,,37,kd46,Thanasi Kokkinakis,,,80,2,kd46,258,,,,,,2024-01-16,[7:6],[7:1],[2:6],,[6:7],[4:7],[6:1],,[7:6],[10:8]
+5802024,R128,43,mn13,Maximilian Marterer,,,96,bt72,Nuno Borges,,,69,2,bt72,149,,,,,,2024-01-15,[7:5],,[7:6],[7:3],[6:2],,,,,
+5802024,R128,44,lb66,Constant Lestienne,,,99,dh50,Alejandro Davidovich Fokina,23,,24,2,dh50,166,,,,,,2024-01-15,[6:4],,[6:4],,[7:6],[7:5],,,,
+5802024,R128,45,ag37,Felix Auger-Aliassime,27,,30,tb69,Dominic Thiem,,,92,1,ag37,299,,,,,,2024-01-15,[6:3],,[7:5],,[6:7],[5:7],[5:7],,[6:3],
+5802024,R128,46,mp20,Alexandre Muller,,,73,gf95,Hugo Grenier,,Q,178,2,gf95,259,,,,,,2024-01-15,[2:6],,[7:6],[7:3],[4:6],,[6:4],,[7:6],[10:7]
+5802024,R128,47,k0a3,Patrick Kypson,,WC,183,rh24,Emil Ruusuvuori,,,53,2,rh24,181,,,,,,2024-01-15,[4:6],,[6:3],,[6:4],,[7:6],[7:4],,
+5802024,R128,48,a0gc,Terence Atmane,,Q,144,mm58,Daniil Medvedev,3,,3,2,mm58,157,,true,,,,2024-01-15,[5:7],,[6:2],,[6:4],,[1:0],,,
+5802024,R128,49,z355,Alexander Zverev,6,,6,ke73,Dominik Koepfer,,,62,1,z355,192,,,,,,2024-01-16,[4:6],,[6:3],,[7:6],[7:3],[6:3],,,
+5802024,R128,50,kf17,Soonwoo Kwon,,PR,697,ki63,Lukas Klein,,Q,163,2,ki63,190,,,,,,2024-01-16,[7:6],[7:0],[4:6],,[7:6],[7:3],[6:3],,,
+5802024,R128,51,m0oq,James McCabe,,WC,269,m0qi,Alex Michelsen,,,91,2,m0qi,175,,,,,,2024-01-16,[7:6],[7:5],[3:6],,[6:1],,[6:2],,,
+5802024,R128,52,z419,Bernabe Zapata Miralles,,,78,l0bv,Jiri Lehecka,32,,23,2,l0bv,102,,,,,,2024-01-16,[6:3],,[6:2],,[6:3],,,,,
+5802024,R128,53,n771,Cameron Norrie,19,,22,v836,Juan Pablo Varillas,,,81,1,n771,135,,,,,,2024-01-16,[6:4],,[6:4],,[6:2],,,,,
+5802024,R128,54,l987,Dusan Lajovic,,,51,z0a1,Giulio Zeppieri,,Q,133,2,z0a1,146,,,,,,2024-01-16,[6:3],,[3:6],,[6:3],,[7:6],[7:3],,
+5802024,R128,55,ph71,Max Purcell,,,45,va70,Mate Valkusz,,Q,214,1,ph71,172,,,,,,2024-01-16,[3:6],,[7:6],[7:2],[6:4],,[7:5],,,
+5802024,R128,56,r772,Albert Ramos-Vinolas,,,85,rh16,Casper Ruud,11,,11,2,rh16,126,,,,,,2024-01-16,[6:1],,[6:3],,[6:1],,,,,
+5802024,R128,57,pl56,Tommy Paul,14,,14,bk24,Gregoire Barrere,,,83,1,pl56,94,,,,,,2024-01-16,[6:2],,[6:3],,[6:3],,,,,
+5802024,R128,58,gc88,Marcos Giron,,,66,d0co,Jack Draper,,,55,2,d0co,200,,,,,,2024-01-16,[6:4],,[3:6],,[4:6],,[6:0],,[6:2],
+5802024,R128,59,ki95,Miomir Kecmanovic,,,60,wb08,Yosuke Watanuki,,,102,1,ki95,157,,,,,,2024-01-15,[4:6],,[7:5],,[6:3],,[6:4],,,
+5802024,R128,60,h0bh,Rinky Hijikata,,,71,sl28,Jan-Lennard Struff,24,,25,2,sl28,230,,,,,,2024-01-15,[3:6],,[6:3],,[6:2],,[6:7],[2:7],[7:6],[10:8]
+5802024,R128,61,bk92,Alexander Bublik,31,,27,n987,Sumit Nagal,,Q,137,2,n987,157,,,,,,2024-01-16,[6:4],,[6:2],,[7:6],[7:5],,,,
+5802024,R128,62,mk66,Mackenzie McDonald,,,42,s0re,Juncheng Shang,,WC,140,2,s0re,206,,,,,,2024-01-16,[6:3],,[1:6],,[3:6],,[6:4],,[6:2],
+5802024,R128,63,e687,Daniel Evans,,,38,su87,Lorenzo Sonego,,,46,2,su87,223,,,,,,2024-01-16,[4:6],,[7:6],[10:8],[6:2],,[7:6],[7:4],,
+5802024,R128,64,g628,Richard Gasquet,,,131,a0e2,Carlos Alcaraz,2,,2,2,a0e2,142,,,,,,2024-01-16,[7:6],[7:5],[6:1],,[6:2],,,,,
+5802024,R64,1,d643,Novak Djokovic,1,,1,p09z,Alexei Popyrin,,,43,1,d643,191,,,,,,2024-01-17,[6:3],,[4:6],,[7:6],[7:4],[6:3],,,
+5802024,R64,2,mc65,Gael Monfils,,,76,ea24,Tomas Martin Etcheverry,30,,32,2,ea24,133,,,,,,2024-01-17,[6:4],,[6:4],,[6:4],,,,,
+5802024,R64,3,me82,Adrian Mannarino,20,,19,mu94,Jaume Munar,,,82,1,me82,204,,,,,,2024-01-17,[6:3],,[6:3],,[1:6],,[2:6],,[6:3],
+5802024,R64,4,o483,Christopher O'Connell,,,68,s0s1,Ben Shelton,16,,16,2,s0s1,171,,,,,,2024-01-17,[6:4],,[6:1],,[3:6],,[7:6],[7:5],,
+5802024,R64,5,fb98,Taylor Fritz,12,,12,g09o,Hugo Gaston,,LL,97,1,fb98,88,,,,,,2024-01-17,[6:0],,[6:3],,[6:1],,,,,
+5802024,R64,6,m0ci,Fabian Marozsan,,,67,c0au,Francisco Cerundolo,22,,21,1,m0ci,121,,,,,,2024-01-17,[7:6],[7:5],[6:4],,[6:2],,,,,
+5802024,R64,7,m0ej,Lorenzo Musetti,25,,28,v0dz,Luca Van Assche,,,79,2,v0dz,225,,,,,,2024-01-17,[6:3],,[3:6],,[6:7],[5:7],[6:3],,[6:0],
+5802024,R64,8,tc61,Jordan Thompson,,,47,te51,Stefanos Tsitsipas,7,,7,2,te51,216,,,,,,2024-01-17,[4:6],,[7:6],[8:6],[6:2],,[7:6],[7:4],,
+5802024,R64,9,s0ag,Jannik Sinner,4,,4,d0c1,Jesper de Jong,,Q,161,1,s0ag,103,,,,,,2024-01-17,[6:2],,[6:2],,[6:2],,,,,
+5802024,R64,10,ge33,Daniel Elahi Galan,,,87,b0bi,Sebastian Baez,26,,29,2,b0bi,194,,,,,,2024-01-17,[7:5],,[2:6],,[6:2],,[6:4],,,
+5802024,R64,11,td51,Frances Tiafoe,17,,17,m0fh,Tomas Machac,,,75,2,m0fh,155,,,,,,2024-01-17,[6:4],,[6:4],,[7:6],[7:5],,,,
+5802024,R64,12,k0az,Aleksandar Kovacevic,,Q,101,ke29,Karen Khachanov,15,,15,2,ke29,150,,,,,,2024-01-17,[6:4],,[6:3],,[4:6],,[6:3],,,
+5802024,R64,13,dh58,Alex de Minaur,10,,10,a0fc,Matteo Arnaldi,,,41,1,dh58,120,,,,,,2024-01-17,[6:3],,[6:0],,[6:3],,,,,
+5802024,R64,14,k09f,Pavel Kotov,,,65,c0e9,Flavio Cobolli,,Q,100,2,c0e9,195,,,,,,2024-01-17,[7:5],,[6:3],,[5:7],,[6:2],,,
+5802024,R64,15,k0ah,Sebastian Korda,29,,26,hb64,Quentin Halys,,,110,1,k0ah,121,,,,,,2024-01-17,[6:4],,[6:4],,[6:4],,,,,
+5802024,R64,16,e865,Christopher Eubanks,,,35,re44,Andrey Rublev,5,,5,2,re44,99,,,,,,2024-01-17,[6:4],,[6:4],,[6:4],,,,,
+5802024,R64,17,r0dg,Holger Rune,8,,8,c0h0,Arthur Cazaux,,WC,122,2,c0h0,202,,,,,,2024-01-18,[7:6],[7:4],[6:4],,[4:6],,[6:3],,,
+5802024,R64,18,f0f1,Arthur Fils,,,34,gj37,Tallon Griekspoor,28,,31,2,gj37,139,,,,,,2024-01-18,[3:6],,[6:1],,[7:5],,[6:4],,,
+5802024,R64,19,hh26,Ugo Humbert,21,,20,z371,Zhizhen Zhang,,,54,1,hh26,170,,,,,,2024-01-18,[6:2],,[5:7],,[6:1],,[7:6],[7:3],,
+5802024,R64,20,m0ni,Jakub Mensik,,Q,142,hb71,Hubert Hurkacz,9,,9,2,hb71,205,,,,,,2024-01-18,[6:7],[9:11],[6:1],,[5:7],,[6:1],,[6:3],
+5802024,R64,21,d875,Grigor Dimitrov,13,,13,kd46,Thanasi Kokkinakis,,,80,1,d875,208,,,,,,2024-01-18,[6:3],,[6:2],,[4:6],,[6:4],,,
+5802024,R64,22,bt72,Nuno Borges,,,69,dh50,Alejandro Davidovich Fokina,23,,24,1,bt72,138,,,,,,2024-01-18,[7:6],[9:7],[6:3],,[6:3],,,,,
+5802024,R64,23,ag37,Felix Auger-Aliassime,27,,30,gf95,Hugo Grenier,,Q,178,1,ag37,176,,,,,,2024-01-18,[6:1],,[3:6],,[6:1],,[6:2],,,
+5802024,R64,24,rh24,Emil Ruusuvuori,,,53,mm58,Daniil Medvedev,3,,3,2,mm58,263,,,,,,2024-01-18,[3:6],,[6:7],[1:7],[6:4],,[7:6],[7:1],[6:0],
+5802024,R64,25,z355,Alexander Zverev,6,,6,ki63,Lukas Klein,,Q,163,1,z355,271,,,,,,2024-01-18,[7:5],,[3:6],,[4:6],,[7:6],[7:5],[7:6],[10:7]
+5802024,R64,26,m0qi,Alex Michelsen,,,91,l0bv,Jiri Lehecka,32,,23,1,m0qi,170,,,,,,2024-01-18,[4:6],,[6:3],,[6:4],,[6:4],,,
+5802024,R64,27,n771,Cameron Norrie,19,,22,z0a1,Giulio Zeppieri,,Q,133,1,n771,215,,,,,,2024-01-18,[3:6],,[6:7],[4:7],[6:2],,[6:4],,[6:4],
+5802024,R64,28,ph71,Max Purcell,,,45,rh16,Casper Ruud,11,,11,2,rh16,230,,,,,,2024-01-18,[6:3],,[6:7],[5:7],[6:3],,[3:6],,[7:6],[10:7]
+5802024,R64,29,pl56,Tommy Paul,14,,14,d0co,Jack Draper,,,55,1,pl56,178,,,,,,2024-01-18,[6:2],,[3:6],,[6:3],,[7:5],,,
+5802024,R64,30,ki95,Miomir Kecmanovic,,,60,sl28,Jan-Lennard Struff,24,,25,1,ki95,201,,,,,,2024-01-18,[6:4],,[1:6],,[7:6],[7:5],[1:6],,[7:6],[11:9]
+5802024,R64,31,n987,Sumit Nagal,,Q,137,s0re,Juncheng Shang,,WC,140,2,s0re,170,,,,,,2024-01-18,[2:6],,[6:3],,[7:5],,[6:4],,,
+5802024,R64,32,su87,Lorenzo Sonego,,,46,a0e2,Carlos Alcaraz,2,,2,2,a0e2,205,,,,,,2024-01-18,[6:4],,[6:7],[3:7],[6:3],,[7:6],[7:3],,
+5802024,R32,1,d643,Novak Djokovic,1,,1,ea24,Tomas Martin Etcheverry,30,,32,1,d643,148,,,,,,2024-01-19,[6:3],,[6:3],,[7:6],[7:2],,,,
+5802024,R32,2,me82,Adrian Mannarino,20,,19,s0s1,Ben Shelton,16,,16,1,me82,286,,,,,,2024-01-19,[7:6],[7:4],[1:6],,[6:7],[2:7],[6:3],,[6:4],
+5802024,R32,3,fb98,Taylor Fritz,12,,12,m0ci,Fabian Marozsan,,,67,1,fb98,143,,,,,,2024-01-19,[3:6],,[6:4],,[6:2],,[6:2],,,
+5802024,R32,4,v0dz,Luca Van Assche,,,79,te51,Stefanos Tsitsipas,7,,7,2,te51,122,,,,,,2024-01-19,[6:3],,[6:0],,[6:4],,,,,
+5802024,R32,5,s0ag,Jannik Sinner,4,,4,b0bi,Sebastian Baez,26,,29,1,s0ag,112,,,,,,2024-01-19,[6:0],,[6:1],,[6:3],,,,,
+5802024,R32,6,m0fh,Tomas Machac,,,75,ke29,Karen Khachanov,15,,15,2,ke29,204,,,,,,2024-01-19,[6:4],,[7:6],[7:4],[4:6],,[7:6],[7:5],,
+5802024,R32,7,dh58,Alex de Minaur,10,,10,c0e9,Flavio Cobolli,,Q,100,1,dh58,127,,,,,,2024-01-19,[6:3],,[6:3],,[6:1],,,,,
+5802024,R32,8,k0ah,Sebastian Korda,29,,26,re44,Andrey Rublev,5,,5,2,re44,119,,,,,,2024-01-19,[6:2],,[7:6],[8:6],[6:4],,,,,
+5802024,R32,9,c0h0,Arthur Cazaux,,WC,122,gj37,Tallon Griekspoor,28,,31,1,c0h0,106,,,,,,2024-01-20,[6:3],,[6:3],,[6:1],,,,,
+5802024,R32,10,hh26,Ugo Humbert,21,,20,hb71,Hubert Hurkacz,9,,9,2,hb71,167,,,,,,2024-01-20,[3:6],,[6:1],,[7:6],[7:4],[6:3],,,
+5802024,R32,11,d875,Grigor Dimitrov,13,,13,bt72,Nuno Borges,,,69,2,bt72,185,,,,,,2024-01-20,[6:7],[3:7],[6:4],,[6:2],,[7:6],[8:6],,
+5802024,R32,12,ag37,Felix Auger-Aliassime,27,,30,mm58,Daniil Medvedev,3,,3,2,mm58,129,,,,,,2024-01-20,[6:3],,[6:4],,[6:3],,,,,
+5802024,R32,13,z355,Alexander Zverev,6,,6,m0qi,Alex Michelsen,,,91,1,z355,119,,,,,,2024-01-20,[6:2],,[7:6],[7:4],[6:2],,,,,
+5802024,R32,14,n771,Cameron Norrie,19,,22,rh16,Casper Ruud,11,,11,1,n771,183,,,,,,2024-01-20,[6:4],,[6:7],[7:9],[6:4],,[6:3],,,
+5802024,R32,15,pl56,Tommy Paul,14,,14,ki95,Miomir Kecmanovic,,,60,2,ki95,137,,,,,,2024-01-20,[6:4],,[3:6],,[2:6],,[7:6],[9:7],[6:0],
+5802024,R32,16,s0re,Juncheng Shang,,WC,140,a0e2,Carlos Alcaraz,2,,2,2,a0e2,66,,true,,,,2024-01-20,[6:1],,[6:1],,[1:0],,,,,
+5802024,R16,1,d643,Novak Djokovic,1,,1,me82,Adrian Mannarino,20,,19,1,d643,104,,,,,,2024-01-21,[6:0],,[6:0],,[6:3],,,,,
+5802024,R16,2,fb98,Taylor Fritz,12,,12,te51,Stefanos Tsitsipas,7,,7,1,fb98,181,,,,,,2024-01-21,[7:6],[7:3],[5:7],[6:3],,[6:3],,,,
+5802024,R16,3,s0ag,Jannik Sinner,4,,4,ke29,Karen Khachanov,15,,15,1,s0ag,154,,,,,,2024-01-21,[6:4],,[7:5],,[6:3],,,,,
+5802024,R16,4,dh58,Alex de Minaur,10,,10,re44,Andrey Rublev,5,,5,2,re44,254,,,,,,2024-01-21,[6:4],,[6:7],[5:7],[6:7],[4:7],[6:3],,[6:0],
+5802024,R16,5,c0h0,Arthur Cazaux,,WC,122,hb71,Hubert Hurkacz,9,,9,2,hb71,148,,,,,,2024-01-22,[7:6],[8:6],[7:6],[7:3],[6:4],,,,,
+5802024,R16,6,bt72,Nuno Borges,,,69,mm58,Daniil Medvedev,3,,3,2,mm58,187,,,,,,2024-01-22,[6:3],,[7:6],[7:4],[5:7],,[6:1],,,
+5802024,R16,7,z355,Alexander Zverev,6,,6,n771,Cameron Norrie,19,,22,1,z355,245,,,,,,2024-01-22,[7:5],,[3:6],,[6:3],,[4:6],,[7:6],[10:3]
+5802024,R16,8,ki95,Miomir Kecmanovic,,,60,a0e2,Carlos Alcaraz,2,,2,2,a0e2,109,,,,,,2024-01-22,[6:4],,[6:4],,[6:0],,,,,
+5802024,QF,1,d643,Novak Djokovic,1,,1,fb98,Taylor Fritz,12,,12,1,d643,225,,,,,,2024-01-23,[7:6],[7:3],[4:6],,[6:2],,[6:3],,,
+5802024,QF,2,s0ag,Jannik Sinner,4,,4,re44,Andrey Rublev,5,,5,1,s0ag,159,,,,,,2024-01-23,[6:4],,[7:6],[7:5],[6:3],,,,,
+5802024,QF,3,hb71,Hubert Hurkacz,9,,9,mm58,Daniil Medvedev,3,,3,2,mm58,139,,,,,,2024-01-24,[7:6],[7:4],[2:6],,[6:3],,[5:7],,[6:4],
+5802024,QF,4,z355,Alexander Zverev,6,,6,a0e2,Carlos Alcaraz,2,,2,2,a0e2,185,,,,,,2024-01-24,[6:1],,[6:3],,[6:7],[2:7],[6:4],,,
+5802024,SF,1,d643,Novak Djokovic,1,,1,s0ag,Jannik Sinner,4,,4,1,d643,202,,,,,,2024-01-26,[6:1],,[6:2],,[6:7],[6:8],[6:3],,,
+5802024,SF,2,mm58,Daniil Medvedev,3,,3,z355,Alexander Zverev,6,,6,1,mm58,258,,,,,,2024-01-26,[5:7],,[3:6],,[7:6],[7:4],[7:6],[7:5],[6:3],
+5802024,F,,s0ag,Jannik Sinner,4,,4,mm58,Daniil Medvedev,3,,3,1,s0ag,224,,,,,,2024-01-28,[3:6],,[3:6],,[6:4],,[6:4],,[6:3],
+4992024,R32,1,fb98,Taylor Fritz,1,,9,,,,,,1,fb98,,true,,,,,,,,,,,,,,,
+4992024,R32,2,d0f6,Gabriel Diallo,,LL,136,bt72,Nuno Borges,,,46,2,bt72,110,,,,,Scotty Moore,2024-02-12,[6:4],,[7:6],[7:1],,,,,,
+4992024,R32,3,h0bh,Rinky Hijikata,,,84,bi23,Liam Broady,,,121,1,h0bh,125,,,,,Chase Urban,2024-02-13,[6:2],,[1:6],,[6:1],,,,,
+4992024,R32,4,n732,Yoshihito Nishioka,,,77,a0fc,Matteo Arnaldi,6,,43,2,a0fc,142,,,,,Chase Urban,2024-02-12,[4:6],,[6:4],,[6:3],,,,,
+4992024,R32,5,me82,Adrian Mannarino,4,,19,,,,,,1,me82,,true,,,,,,,,,,,,,,,
+4992024,R32,6,gc88,Marcos Giron,,,52,n0am,Emilio Nava,,WC,144,1,gc88,88,,,,,Greg Allensworth,2024-02-13,[6:4],,[7:6],[7:5],,,,,,
+4992024,R32,7,lb66,Constant Lestienne,,,104,v832,Aleksandar Vukic,,,69,1,lb66,86,,,,,Joshua Brace,2024-02-12,[6:4],,[6:4],,,,,,,
+4992024,R32,8,k0a3,Patrick Kypson,,WC,155,ki95,Miomir Kecmanovic,5,,40,1,k0a3,90,,,,,Simon Cannavan,2024-02-12,[6:4],,[7:6],[7:3],,,,,,
+4992024,R32,9,e687,Daniel Evans,7,,44,tc61,Jordan Thompson,,,42,2,tc61,91,,,,,Renaud Lichtenstein,2024-02-13,[7:5],,[6:0],,,,,,,
+4992024,R32,10,k0az,Aleksandar Kovacevic,,WC,102,mw18,Nicolas Moreno de Alboran,,Q,149,2,mw18,92,,,,,Simon Cannavan,2024-02-13,[6:2],,[7:6],[7:3],,,,,,
+4992024,R32,11,m0qi,Alex Michelsen,,,75,kd46,Thanasi Kokkinakis,,Q,79,1,m0qi,71,,,,,Joshua Brace,2024-02-13,[6:1],,[6:2],,,,,,,
+4992024,R32,12,,,,,,pl56,Tommy Paul,3,,14,2,pl56,,true,,,,,,,,,,,,,,,
+4992024,R32,13,ph71,Max Purcell,8,,41,s0k7,Zachary Svajda,,Q,146,2,s0k7,96,,,,,Joshua Brace,2024-02-13,[7:5],,[6:3],,,,,,,
+4992024,R32,14,c0e9,Flavio Cobolli,,LL,72,da81,Taro Daniel,,,63,1,c0e9,143,,,,,Scotty Moore,2024-02-13,[1:6],,[6:2],,[7:6],[7:1],,,,
+4992024,R32,15,a829,Radu Albot,,Q,137,s0re,Juncheng Shang,,,139,1,a829,153,,,,,Adel Borghei,2024-02-13,[4:6],,[6:4],,[6:2],,,,,
+4992024,R32,16,,,,,,td51,Frances Tiafoe,2,,15,2,td51,,true,,,,,,,,,,,,,,,
+4992024,R16,1,fb98,Taylor Fritz,1,,9,bt72,Nuno Borges,,,46,1,fb98,92,,,,,Renaud Lichtenstein,2024-02-14,[7:6],[7:5],[6:4],,,,,,,
+4992024,R16,2,h0bh,Rinky Hijikata,,,84,a0fc,Matteo Arnaldi,6,,43,1,h0bh,151,,,,,Greg Allensworth,2024-02-14,[6:2],,[3:6],,[6:4],,,,,
+4992024,R16,3,me82,Adrian Mannarino,4,,19,gc88,Marcos Giron,,,52,2,gc88,124,,,,,Joshua Brace,2024-02-14,[6:0],,[6:7],[5:7],[6:1],,,,,
+4992024,R16,4,lb66,Constant Lestienne,,,104,k0a3,Patrick Kypson,,WC,155,2,k0a3,87,,,,,Simon Cannavan,2024-02-14,[6:4],,[6:4],,,,,,,
+4992024,R16,5,tc61,Jordan Thompson,,,42,mw18,Nicolas Moreno de Alboran,,Q,149,1,tc61,101,,,,,Joshua Brace,2024-02-15,[6:2],,[6:2],,,,,,,
+4992024,R16,6,m0qi,Alex Michelsen,,,75,pl56,Tommy Paul,3,,14,2,pl56,180,,,,,Greg Allensworth,2024-02-15,[5:7],,[6:4],,[7:6],[7:4],,,,
+4992024,R16,7,s0k7,Zachary Svajda,,Q,146,c0e9,Flavio Cobolli,,LL,72,2,c0e9,134,,,,,Simon Cannavan,2024-02-15,[6:4],,[6:7],[1:7],[6:2],,,,,
+4992024,R16,8,a829,Radu Albot,,Q,137,td51,Frances Tiafoe,2,,15,2,td51,113,,,,,Renaud Lichtenstein,2024-02-15,[7:6],[7:5],[7:6],[7:4],,,,,,
+4992024,QF,1,fb98,Taylor Fritz,1,,9,h0bh,Rinky Hijikata,,,84,1,fb98,74,,,,,Joshua Brace,2024-02-16,[6:3],,[6:3],,,,,,,
+4992024,QF,2,gc88,Marcos Giron,,,52,k0a3,Patrick Kypson,,WC,155,1,gc88,77,,,,,Greg Allensworth,2024-02-16,[6:4],,[6:4],,,,,,,
+4992024,QF,3,tc61,Jordan Thompson,,,42,pl56,Tommy Paul,3,,14,2,pl56,92,,,,,Renaud Lichtenstein,2024-02-16,[6:4],,[6:3],,,,,,,
+4992024,QF,4,c0e9,Flavio Cobolli,,LL,72,td51,Frances Tiafoe,2,,15,2,td51,68,,,,,Simon Cannavan,2024-02-16,[6:4],,[6:2],,,,,,,
+4992024,SF,1,fb98,Taylor Fritz,1,,9,gc88,Marcos Giron,,,52,1,fb98,107,,,,,Renaud Lichtenstein,2024-02-17,[7:6],[10:8],[6:2],,,,,,,
+4992024,SF,2,pl56,Tommy Paul,3,,14,td51,Frances Tiafoe,2,,15,1,pl56,61,,,,,Joshua Brace,2024-02-17,[6:2],,[6:2],,,,,,,
+4992024,F,,fb98,Taylor Fritz,1,,9,pl56,Tommy Paul,3,,14,1,fb98,100,,,,,Greg Allensworth,2024-02-19,[6:2],,[6:3],,,,,,,
+89962024,R32,1,j551,Nicolas Jarry,1,,22,,,,,,1,j551,,true,,,,,,,,,,,,,,,
+89962024,R32,2,mv14,Alex Molcan,,Q,135,ce77,Federico Coria,,,88,2,ce77,95,,,,,Jaume Campistol,2024-02-26,[6:1],,[7:6],[7:1],,,,,,
+89962024,R32,3,t0a1,Thiago Agustin Tirante,,,100,f0fv,Joao Fonseca,,WC,343,1,t0a1,128,,,,,Arnaud Gabas,2024-02-27,[7:5],,[7:6],[7:3],,,,,,
+89962024,R32,4,mw02,Corentin Moutet,,Q,140,cf59,Roberto Carballes Baena,7,,66,1,mw02,178,,,,,Rafael Maia,2024-02-26,[6:3],,[5:7],,[6:2],,,,,
+89962024,R32,5,te30,Alejandro Tabilo,4,,51,,,,,,1,te30,,true,,,,,,,,,,,,,,,
+89962024,R32,6,gd64,Cristian Garin,,,83,bs86,Tomas Barrios Vera,,,111,2,bs86,121,,,,,Jaume Campistol,2024-02-27,[7:6],[7:3],[7:5],,,,,,,
+89962024,R32,7,bf23,Facundo Bagnis,,LL,148,d0fj,Luciano Darderi,,WC,80,2,d0fj,199,,,,,Arnaud Gabas,2024-02-27,[7:6],[7:4],[6:7],[6:8],[7:6],[7:5],,,,
+89962024,R32,8,c0c8,Juan Manuel Cerundolo,,Q,161,h997,Yannick Hanfmann,5,,161,1,c0c8,167,,,,,Rafael Maia,2024-02-27,[3:6],,[6:3],,[7:5],,,,,
+89962024,R32,9,d0cg,Facundo Diaz Acosta,6,,52,cg04,Pedro Cachin,,,78,1,d0cg,188,,,,,Aline Rocha,2024-02-26,[5:7],,[6:3],,[7:6],[7:2],,,,
+89962024,R32,10,p0ct,Francesco Passaro,,WC,224,mo44,Pedro Martinez,,,101,2,mo44,100,,,,,Patricio Estevez,2024-02-26,[6:4],,[6:1],,,,,,,
+89962024,R32,11,sx91,Thiago Seyboth Wild,,,73,b0fv,Roman Andres Burruchaga,,Q,159,1,sx91,102,,,,,Aline Rocha,2024-02-27,[6:4],,[6:4],,,,,,,
+89962024,R32,12,,,,,,f0f1,Arthur Fils,3,,44,2,f0f1,,true,,,,,,,,,,,,,,,
+89962024,R32,13,mu94,Jaume Munar,8,,70,z419,Bernabe Zapata Miralles,,,143,1,mu94,81,,,,,Jaume Campistol,2024-02-27,[6:4],,[6:1],,,,,,,
+89962024,R32,14,r772,Albert Ramos-Vinolas,,,104,da31,Hugo Dellien,,,157,1,r772,93,,,,,Patricio Estevez,2024-02-27,[6:3],,[6:2],,,,,,,
+89962024,R32,15,c0df,Francisco Comesana,,LL,114,v836,Juan Pablo Varillas,,,119,2,v836,117,,,,,Rafael Maia,2024-02-27,[6:2],,[3:6],,[6:1],,,,,
+89962024,R32,16,,,,,,b0bi,Sebastian Baez,2,,21,2,b0bi,,true,,,,,,,,,,,,,,,
+89962024,R16,1,j551,Nicolas Jarry,1,,22,ce77,Federico Coria,,,88,1,j551,102,,,,,Arnaud Gabas,2024-02-28,[7:6],[7:4],[6:2],,,,,,,
+89962024,R16,2,t0a1,Thiago Agustin Tirante,,,100,mw02,Corentin Moutet,,Q,140,2,mw02,164,,,,,Jaume Campistol,2024-02-28,[6:3],,[6:7],[5:7],[6:2],,,,,
+89962024,R16,3,te30,Alejandro Tabilo,4,,51,bs86,Tomas Barrios Vera,,,111,1,te30,94,,,,,Patricio Estevez,2024-02-29,[6:2],,[7:5],,,,,,,
+89962024,R16,4,d0fj,Luciano Darderi,,WC,80,c0c8,Juan Manuel Cerundolo,,Q,161,1,d0fj,138,,,,,Rafael Maia,2024-02-29,[6:3],,[3:6],,[6:3],,,,,
+89962024,R16,5,d0cg,Facundo Diaz Acosta,6,,52,mo44,Pedro Martinez,,,101,2,mo44,188,,,,,Arnaud Gabas,2024-02-28,[7:6],[7:4],[6:7],[5:7],[6:1],,,,,
+89962024,R16,6,sx91,Thiago Seyboth Wild,,,73,f0f1,Arthur Fils,3,,44,2,f0f1,76,,,,,Patricio Estevez,2024-02-28,[6:3],,[6:3],,,,,,,
+89962024,R16,7,mu94,Jaume Munar,8,,70,r772,Albert Ramos-Vinolas,,,104,1,mu94,92,,,,,Jaume Campistol,2024-02-29,[6:3],,[6:1],,,,,,,
+89962024,R16,8,v836,Juan Pablo Varillas,,,119,b0bi,Sebastian Baez,2,,21,2,b0bi,157,,,,,Arnaud Gabas,2024-02-29,[4:6],,[6:4],,[6:2],,,,,
+89962024,QF,1,j551,Nicolas Jarry,1,,22,mw02,Corentin Moutet,,Q,140,2,mw02,131,,,,,Jaume Campistol,2024-03-01,[7:6],[7:5],[7:6],[7:3],,,,,,
+89962024,QF,2,te30,Alejandro Tabilo,4,,51,d0fj,Luciano Darderi,,WC,80,1,te30,77,,,,,Patricio Estevez,2024-03-01,[6:0],,[7:5],,,,,,,
+89962024,QF,3,mo44,Pedro Martinez,,,101,f0f1,Arthur Fils,3,,44,1,mo44,145,,,,,Rafael Maia,2024-03-01,[6:3],,[6:7],[5:7],[6:2],,,,,
+89962024,QF,4,mu94,Jaume Munar,8,,70,b0bi,Sebastian Baez,2,,21,2,b0bi,108,,,,,Arnaud Gabas,2024-03-01,[6:4],,[6:4],,,,,,,
+89962024,SF,1,mw02,Corentin Moutet,,Q,140,te30,Alejandro Tabilo,4,,51,2,te30,152,,,,,Patricio Estevez,2024-03-02,[4:6],,[6:4],,[7:5],,,,,
+89962024,SF,2,mo44,Pedro Martinez,,,101,b0bi,Sebastian Baez,2,,21,2,b0bi,101,,,,,Arnaud Gabas,2024-03-02,[6:4],,[6:2],,,,,,,
+89962024,F,,te30,Alejandro Tabilo,4,,51,b0bi,Sebastian Baez,2,,21,2,b0bi,134,,,,,Jaume Campistol,2024-03-03,[3:6],,[6:0],,[6:4],,,,,
+80712024,R32,1,z355,Alexander Zverev,1,,6,ae14,Daniel Altmaier,,,57,2,ae14,146,,,,,Raluca Andrei,2024-02-27,[6:3],,[3:6],,[6:3],,,,,
+80712024,R32,2,ki95,Miomir Kecmanovic,,,53,sm37,Diego Schwartzman,,WC,117,1,ki95,142,,,,,Jimmy Pinoargote,2024-02-26,[4:6],,[6:3],,[6:1],,,,,
+80712024,R32,3,bt72,Nuno Borges,,,56,n732,Yoshihito Nishioka,,LL,82,2,n732,148,,,,,Adel Borghei,2024-02-26,[3:6],,[6:2],,[6:4],,,,,
+80712024,R32,4,d0co,Jack Draper,,,50,pl56,Tommy Paul,7,,14,1,d0co,86,,,,,Aurelie Tourte,2024-02-26,[6:0],,[6:4],,,,,,,
+80712024,R32,5,dh58,Alex de Minaur,3,,9,da81,Taro Daniel,,,64,1,dh58,79,,,,,Nacho Forcadell,2024-02-26,[6:2],,[6:1],,,,,,,
+80712024,R32,6,e873,Ernesto Escobedo,,WC,493,o513,Sebastian Ofner,,,37,2,o513,183,,,,,Martina Baldi,2024-02-26,[6:7],[7:9],[6:4],,[7:6],[7:4],,,,
+80712024,R32,7,ag37,Felix Auger-Aliassime,,,30,c0e9,Flavio Cobolli,,Q,69,2,c0e9,117,,,,,Raluca Andrei,2024-02-26,[2:6],,[6:3],,[6:2],,,,,
+80712024,R32,8,sx50,Roman Safiullin,,,39,te51,Stefanos Tsitsipas,5,,12,2,te51,80,,,,,Nacho Forcadell,2024-02-27,[6:3],,[6:4],,,,,,,
+80712024,R32,9,rh16,Casper Ruud,6,,11,e865,Christopher Eubanks,,,34,1,rh16,133,,,,,Jimmy Pinoargote,2024-02-27,[6:4],,[6:7],[5:7],[6:3],,,,,
+80712024,R32,10,p0j1,Rodrigo Pacheco Mendez,,,700,l987,Dusan Lajovic,,,55,2,l987,61,,,,,Inaki Navalon,2024-02-27,[6:2],,[6:2],,,,,,,
+80712024,R32,11,e687,Daniel Evans,,,41,s0s1,Ben Shelton,,,17,2,s0s1,164,,,,,Manuel Absolu,2024-02-26,[2:6],,[7:5],,[7:6],[7:5],,,,
+80712024,R32,12,a0fc,Matteo Arnaldi,,,42,fb98,Taylor Fritz,4,,10,1,a0fc,155,,,,,Jimmy Pinoargote,2024-02-26,[6:4],,[4:6],,[6:3],,,,,
+80712024,R32,13,td51,Frances Tiafoe,8,,16,ph71,Max Purcell,,,62,1,td51,121,,,,,Manuel Absolu,2024-02-27,[4:6],,[6:3],,[6:0],,,,,
+80712024,R32,14,a0gc,Terence Atmane,,Q,146,ke73,Dominik Koepfer,,,58,2,ke73,141,,,,,Adel Borghei,2024-02-27,[6:4],,[4:6],,[6:0],,,,,
+80712024,R32,15,k0az,Aleksandar Kovacevic,,Q,93,tc61,Jordan Thompson,,,32,1,k0az,161,,,,,Martina Baldi,2024-02-27,[6:3],,[5:7],,[6:4],,,,,
+80712024,R32,16,mp01,Michael Mmoh,122,Q,,r0dg,Holger Rune,2,,7,2,r0dg,92,,,,,Aurelie Tourte,2024-02-27,[6:2],,[6:3],,,,,,,
+80712024,R16,1,ae14,Daniel Altmaier,,,57,ki95,Miomir Kecmanovic,,,53,2,ki95,93,,,,,Martin Baldi,2024-02-28,[6:4],,[6:4],,,,,,,
+80712024,R16,2,n732,Yoshihito Nishioka,,LL,82,d0co,Jack Draper,,,50,2,d0co,68,,,,,Nacho Forcadell,2024-02-28,[6:3],,[6:0],,,,,,,
+80712024,R16,3,dh58,Alex de Minaur,3,,9,o513,Sebastian Ofner,,,37,1,dh58,88,,,,,Manuel Absolu,2024-02-28,[6:1],,[6:3],,,,,,,
+80712024,R16,4,c0e9,Flavio Cobolli,,Q,69,te51,Stefanos Tsitsipas,5,,12,2,te51,120,,,,,Aurelie Tourte,2024-02-28,[6:3],,[7:6],[8:6],,,,,,
+80712024,R16,5,rh16,Casper Ruud,6,,11,l987,Dusan Lajovic,,,55,1,rh16,86,,,,,Manuel Absolu,2024-02-28,[6:4],,[7:5],,,,,,,
+80712024,R16,6,s0s1,Ben Shelton,,,17,a0fc,Matteo Arnaldi,,,42,1,s0s1,151,,,,,Raluca Andrei,2024-02-28,[7:6],[7:1],[3:6],,[6:3],,,,,
+80712024,R16,7,td51,Frances Tiafoe,8,,16,ke73,Dominik Koepfer,,,58,2,ke73,145,,,,,Jimmy Pinoargote,2024-02-28,[6:4],,[5:7],,[6:1],,,,,
+80712024,R16,8,k0az,Aleksandar Kovacevic,,Q,93,r0dg,Holger Rune,2,,7,2,r0dg,110,,,,,Jimmy Pinoargote,2024-02-28,[7:6],[7:5],[6:2],,,,,,,
+80712024,QF,1,ki95,Miomir Kecmanovic,,,53,d0co,Jack Draper,,,50,2,d0co,81,,,,,Manuel Absolu,2024-02-29,[6:2],,[6:2],,,,,,,
+80712024,QF,2,dh58,Alex de Minaur,3,,9,te51,Stefanos Tsitsipas,5,,12,1,dh58,126,,,,,Jimmy Pinoargote,2024-02-29,[1:6],,[6:3],,[6:3],,,,,
+80712024,QF,3,rh16,Casper Ruud,6,,11,s0s1,Ben Shelton,,,17,1,rh16,154,,,,,Nacho Forcadell,2024-02-29,[6:4],,[7:5],,,,,,,
+80712024,QF,4,ke73,Dominik Koepfer,,,58,r0dg,Holger Rune,2,,7,2,r0dg,119,,,,,Raluca Andrei,2024-02-29,[7:6],[7:2],[7:6],[7:0],,,,,,
+80712024,SF,1,d0co,Jack Draper,,,50,dh58,Alex de Minaur,3,,9,2,dh58,108,,true,,,Raluca Andrei,2024-03-01,[6:3],[2:6],,[4:0],,,,,,
+80712024,SF,2,rh16,Casper Ruud,6,,11,r0dg,Holger Rune,2,,71,1,rh16,143,,,,,Aurelie Tourte,2024-03-01,[3:6],,[6:3],,[6:4],,,,,
+80712024,F,,dh58,Alex de Minaur,3,,9,rh16,Casper Ruud,6,,11,1,dh58,117,,,,,Nacho Forcadell,2024-03-02,[6:4],,[6:4],,,,,,,
+91582024,R32,1,c0au,Francisco Cerundolo,1,,22,,,,,,1,c0au,,true,,,,,,,,,,,,,,,
+91582024,R32,2,ge33,Daniel Elahi Galan,,,78,mu94,Jaume Munar,,,74,2,mu94,101,,,,,Arnaud Gabas,2024-02-05,[6:2],,[6:4],,,,,,,
+91582024,R32,3,bf23,Facundo Bagnis,,Q,207,c0c8,Juan Manuel Cerundolo,,WC,148,1,bf23,89,,,,,Yamila Halle,2024-02-05,[6:4],,[6:2],,,,,,,
+91582024,R32,4,n0bs,Mariano Navone,,WC,118,cf59,Roberto Carballes Baena,8,,65,2,cf59,163,,,,,Rafael Maia,2024-02-06,[3:6],,[6:3],,[6:3],,,,,
+91582024,R32,5,ea24,Tomas Martin Etcheverry,3,,29,,,,,,1,ea24,,true,,,,,,,,,,,,,,,
+91582024,R32,6,z419,Bernabe Zapata Miralles,,,79,gd64,Cristian Garin,,,87,1,z419,122,,true,,,Arnaud Gabas,2024-02-06,[1:6],,[7:6],[7:3],[3:0],,,,,
+91582024,R32,7,r772,Albert Ramos-Vinolas,,,84,cg04,Pedro Cachin,,,73,1,r772,125,,,,,Rafael Maia,2024-02-05,[6:4],,[3:6],,[6:1],,,,,
+91582024,R32,8,ce77,Federico Coria,,,93,ae14,Daniel Altmaier,5,,52,1,ce77,164,,,,,Arnaud Gabas,2024-02-06,[5:7],,[6:3],,[6:4],,,,,
+91582024,R32,9,h997,Yannick Hanfmann,7,,59,v836,Juan Pablo Varillas,,,85,1,h997,170,,,,,Rafael Maia,2024-02-06,[5:7],,[7:6],[7:1],[6:1],,,,,
+91582024,R32,10,b0fv,Roman Andres Burruchaga,,Q,170,sm37,Diego Schwartzman,,,117,1,b0fv,138,,,,,Jimmy Pinoargote,2024-02-06,[6:1],,[4:6],,[6:4],,,,,
+91582024,R32,11,d0fj,Luciano Darderi,,Q,136,bs86,Tomas Barrios Vera,,,108,1,d0fj,116,,,,,Paul Vieira Souza,2024-02-06,[4:6],,[6:1],,[6:2],,,,,
+91582024,R32,12,,,,,,o513,Sebastian Ofner,4,,38,2,o513,,true,,,,,,,,,,,,,,,
+91582024,R32,13,t0a1,Thiago Agustin Tirante,,LL,109,c0df,Francisco Comesana,,WC,120,1,t0a1,118,,,,,Yamila Halle,2024-02-06,[6:1],,[7:6],[7:4],,,,,,
+91582024,R32,14,d0cg,Facundo Diaz Acosta,,,95,gj16,Federico Agustin Gomez,,Q,365,1,d0cg,91,,,,,Paula Vieira Souza,2024-02-05,[6:1],,[6:4],,,,,,,
+91582024,R32,15,da31,Hugo Dellien,,,112,sx91,Thiago Seyboth Wild,,,81,1,da31,146,,,,,Jimmy Pinoargote,2024-02-05,[6:4],,[2:6],,[6:3],,,,,
+91582024,R32,16,,,,,,b0bi,Sebastian Baez,2,,26,2,b0bi,,true,,,,,,,,,,,,,,,
+91582024,R16,1,c0au,Francisco Cerundolo,1,,22,mu94,Jaume Munar,,,74,2,mu94,114,,,,,Rafael Maia,2024-02-07,[7:5],,[6:4],,,,,,,
+91582024,R16,2,bf23,Facundo Bagnis,,Q,207,cf59,Roberto Carballes Baena,8,,65,1,bf23,152,,,,,Jimmy Pinoargote,2024-02-07,[7:6],[7:5],[6:4],,,,,,,
+91582024,R16,3,ea24,Tomas Martin Etcheverry,3,,29,z419,Bernabe Zapata Miralles,,,79,1,ea24,138,,,,,Paula Vieira Souza,2024-02-07,[7:5],,[6:4],,,,,,,
+91582024,R16,4,r772,Albert Ramos-Vinolas,,,84,ce77,Federico Coria,,,93,2,ce77,84,,,,,Arnaud Gabas,2024-02-07,[6:1],,[6:4],,,,,,,
+91582024,R16,5,h997,Yannick Hanfmann,7,,59,b0fv,Roman Andres Burruchaga,,Q,170,1,h997,131,,,,,Yamila Halle,2024-02-08,[3:6],,[6:1],,[6:4],,,,,
+91582024,R16,6,d0fj,Luciano Darderi,,Q,136,o513,Sebastian Ofner,4,,38,1,d0fj,64,,,,,Rafael Maia,2024-02-08,[6:0],,[6:3],,,,,,,
+91582024,R16,7,t0a1,Thiago Agustin Tirante,,LL,109,d0cg,Facundo Diaz Acosta,,,95,2,d0cg,167,,,,,Rafael Maia,2024-02-09,[6:2],,[6:7],[5:7],[6:2],,,,,
+91582024,R16,8,da31,Hugo Dellien,,,112,b0bi,Sebastian Baez,2,,26,2,b0bi,135,,,,,Arnaud Gabas,2024-02-09,[4:6],,[6:3],,[6:4],,,,,
+91582024,QF,1,mu94,Jaume Munar,,,74,bf23,Facundo Bagnis,,Q,207,2,bf23,144,,,,,Yamila Halle,2024-02-09,[7:5],,[6:4],,,,,,,
+91582024,QF,2,ea24,Tomas Martin Etcheverry,3,,29,ce77,Federico Coria,,,93,2,ce77,109,,,,,Jimmy Pinoargote,2024-02-09,[6:3],,[6:4],,,,,,,
+91582024,QF,3,h997,Yannick Hanfmann,7,,59,d0fj,Luciano Darderi,,Q,136,2,d0fj,98,,,,,Arnaud Gabas,2024-02-09,[7:6],[7:2],[6:1],,,,,,,
+91582024,QF,4,d0cg,Facundo Diaz Acosta,,,95,b0bi,Sebastian Baez,2,,26,2,b0bi,65,,,,,Jimmy Pinoargote,2024-02-09,[6:3],,[6:1],,,,,,,
+91582024,SF,1,bf23,Facundo Bagnis,,Q,207,ce77,Federico Coria,,,93,1,bf23,117,,,,,Arnaud Gabas,2024-02-10,[6:3],,[7:5],,,,,,,
+91582024,SF,2,d0fj,Luciano Darderi,,Q,136,b0bi,Sebastian Baez,2,,26,1,d0fj,142,,,,,Jimmy Pinoargote,2024-02-10,[6:1],,[3:6],,[6:3],,,,,
+91582024,F,,bf23,Facundo Bagnis,,Q,207,d0fj,Luciano Darderi,,Q,136,2,d0fj,84,,,,,Jimmy Pinoargote,2024-02-11,[6:1],,[6:4],,,,,,,
+5062024,R32,1,a0e2,Carlos Alcaraz,1,,2,,,,,,1,a0e2,,true,,,,,,,,,,,,,,,
+5062024,R32,2,v836,Juan Pablo Varillas,,,85,u182,Camilo Ugo Carabelli,,Q,134,2,u182,128,,,,,Inaki Navalon,2024-02-13,[7:6],[7:5],[6:4],,,,,,,
+5062024,R32,3,va08,Andrea Vavassori,,Q,152,sx91,Thiago Seyboth Wild,,,83,1,va08,97,,,,,Patricio Estevez,2024-02-13,[6:3],,[6:1],,,,,,,
+5062024,R32,4,c977,Marin Cilic,,WC,1044,db63,Laslo Djere,7,,35,2,db63,118,,,,,Patricio Estevez,2024-02-12,[4:6],,[6:3],,[6:0],,,,,
+5062024,R32,5,j551,Nicolas Jarry,3,,21,,,,,,1,j551,,true,,,,,,,,,,,,,,,
+5062024,R32,6,w367,Stan Wawrinka,,,60,cg04,Pedro Cachin,,,74,1,w367,141,,,,,Arnaud Gabas,2024-02-12,[6:7],[4:7],[6:1],,[6:2],,,,,
+5062024,R32,7,sm37,Diego Schwartzman,,WC,116,ge33,Daniel Elahi Galan,,Q,80,2,ge33,138,,,,,Jimmy Pinoargote,2024-02-13,[2:6],,[6:1],,[6:4],,,,,
+5062024,R32,8,cf59,Roberto Carballes Baena,,,64,ea24,Tomas Martin Etcheverry,6,,27,2,ea24,101,,,,,Rafael Maia,2024-02-12,[6:4],,[6:1],,,,,,,
+5062024,R32,9,f0f1,Arthur Fils,8,,36,l987,Dusan Lajovic,,,58,2,l987,90,,,,,Patricio Estevez,2024-02-13,[6:3],,[6:4],,,,,,,
+5062024,R32,10,h997,Yannick Hanfmann,,,56,te30,Alejandro Tabilo,,,54,2,te30,82,,,,,Yamila Halle,2024-02-13,[6:1],,[6:3],,,,,,,
+5062024,R32,11,d0cg,Facundo Diaz Acosta,,WC,87,ae14,Daniel Altmaier,,,53,1,d0cg,125,,,,,Rafael Maia,2024-02-12,[6:3],,[7:6],[7:1],,,,,,
+5062024,R32,12,,,,,,c0au,Francisco Cerundolo,4,,22,2,c0au,,true,,,,,,,,,,,,,,,
+5062024,R32,13,b0bi,Sebastian Baez,5,,30,z419,Bernabe Zapata Miralles,,,78,1,b0bi,72,,,,,Jimmy Pinoargote,2024-02-13,[6:3],,[6:3],,,,,,,
+5062024,R32,14,d0fj,Luciano Darderi,,SE,76,n0bs,Mariano Navone,,Q,117,1,d0fj,76,,,,,Rafael Maia,2024-02-13,[6:2],,[6:1],,,,,,,
+5062024,R32,15,o513,Sebastian Ofner,,,38,ce77,Federico Coria,,SE,106,2,ce77,178,,,,,Arnaud Gabas,2024-02-13,[7:5],,[4:6],,[7:5],,,,,
+5062024,R32,16,,,,,,n771,Cameron Norrie,2,,20,2,n771,,true,,,,,,,,,,,,,,,
+5062024,R16,1,a0e2,Carlos Alcaraz,1,,2,u182,Camilo Ugo Carabelli,,Q,134,1,a0e2,105,,,,,Jimmy Pinoargote,2024-02-15,[6:2],,[7:5],,,,,,,
+5062024,R16,2,va08,Andrea Vavassori,,Q,152,db63,Laslo Djere,7,,35,1,va08,91,,,,,Yamila Halle,2024-02-15,[6:4],,[7:5],,,,,,,
+5062024,R16,3,j551,Nicolas Jarry,3,,21,w367,Stan Wawrinka,,,60,1,j551,171,,,,,Jimmy Pinoargote,2024-02-14,[6:7],[3:7],[6:2],,[7:6],[7:5],,,,
+5062024,R16,4,ge33,Daniel Elahi Galan,,Q,80,ea24,Tomas Martin Etcheverry,6,,27,2,ea24,83,,,,,Arnaud Gabas,2024-02-14,[6:3],,[6:0],,,,,,,
+5062024,R16,5,l987,Dusan Lajovic,,,58,te30,Alejandro Tabilo,,,54,1,l987,97,,,,,Rafael Maia,2024-02-14,[6:4],,[1:6],,[6:1],,,,,
+5062024,R16,6,d0cg,Facundo Diaz Acosta,,WC,87,c0au,Francisco Cerundolo,4,,22,1,d0cg,98,,,,,Patricio Estevez,2024-02-14,[7:6],[7:3],[6:0],,,,,,,
+5062024,R16,7,b0bi,Sebastian Baez,5,,30,d0fj,Luciano Darderi,,SE,76,1,b0bi,99,,,,,Arnaud Gabas,2024-02-15,[6:4],,[7:5],,,,,,,
+5062024,R16,8,ce77,Federico Coria,,SE,106,n771,Cameron Norrie,2,,20,1,ce77,140,,,,,Rafael Maia,2024-02-15,[6:2],,[4:6],,[6:3],,,,,
+5062024,QF,1,a0e2,Carlos Alcaraz,1,,2,va08,Andrea Vavassori,,Q,152,1,a0e2,100,,,,,Jimmy Pinoargote,2024-02-16,[7:6],[7:1],[6:1],,,,,,,
+5062024,QF,2,j551,Nicolas Jarry,3,,21,ea24,Tomas Martin Etcheverry,6,,27,1,j551,140,,true,,,Arnaud Gabas,2024-02-16,[4:6],,[7:5],,[0:0],,,,,
+5062024,QF,3,l987,Dusan Lajovic,,,58,d0cg,Facundo Diaz Acosta,,WC,87,2,d0cg,83,,,,,Jimmy Pinoargote,2024-02-16,[6:4],,[6:3],,,,,,,
+5062024,QF,4,b0bi,Sebastian Baez,5,,30,ce77,Federico Coria,,SE,106,2,ce77,88,,,,,Patricio Estevez,2024-02-16,[6:1],,[6:4],,,,,,,
+5062024,SF,1,a0e2,Carlos Alcaraz,1,,2,j551,Nicolas Jarry,3,,21,2,j551,115,,,,,Jimmy Pinoargote,2024-02-17,[7:6],[7:2],[6:3],,,,,,,
+5062024,SF,2,d0cg,Facundo Diaz Acosta,,WC,87,ce77,Federico Coria,,SE,106,1,d0cg,84,,,,,Patricio Estevez,2024-02-17,[6:2],,[6:3],,,,,,,
+5062024,F,,j551,Nicolas Jarry,3,,21,d0cg,Facundo Diaz Acosta,,WC,87,2,d0cg,104,,,,,Arnaud Gabas,2024-02-18,[6:3],,[6:4],,,,,,,
+4032024,R128,1,a0e2,Carlos Alcaraz,1,,2,,,,,,1,a0e2,,true,,,,,,,,,,,,,,,
+4032024,R128,2,v832,Aleksandar Vukic,,,65,cf59,Roberto Carballes Baena,,,64,2,cf59,99,,,,,Nikola Srecec,2024-03-21,[7:6],[7:2],[6:3],,,,,,,
+4032024,R128,3,l987,Dusan Lajovic,,,52,mc65,Gael Monfils,,,47,2,mc65,92,,,,,Nacho Forcadell,2024-03-21,[7:6],[7:5],[6:4],,,,,,,
+4032024,R128,4,,,,,,tc61,Jordan Thompson,33,,34,2,tc61,,true,,,,,,,,,,,,,,,
+4032024,R128,5,m0ej,Lorenzo Musetti,23,,24,,,,,,1,m0ej,,true,,,,,,,,,,,,,,,
+4032024,R128,6,sx50,Roman Safiullin,,,39,sm37,Diego Schwartzman,,Q,122,1,sx50,86,,,,,Aurelie Tourte,2024-03-21,[6:2],,[6:4],,,,,,,
+4032024,R128,7,l0il,Martin Landaluce,,WC,360,mu94,Jaume Munar,,,72,1,l0il,149,,,,,Fergus Murphy,2024-03-21,[6:3],,[1:6],,[7:5],,,,,
+4032024,R128,8,,,,,,s0s1,Ben Shelton,16,,17,2,s0s1,,true,,,,,,,,,,,,,,,
+4032024,R128,9,d875,Grigor Dimitrov,11,,12,,,,,,1,d875,,true,,,,,,,,,,,,,,,
+4032024,R128,10,te30,Alejandro Tabilo,,,44,n0ae,Brandon Nakashima,,Q,92,1,te30,132,,,,,Aurelie Tourte,2024-03-21,[6:4],,[3:6],,[6:3],,,,,
+4032024,R128,11,rh24,Emil Ruusuvuori,,,48,h997,Yannick Hanfmann,,,56,2,h997,126,,,,,Joshua Brace,2024-03-21,[6:4],,[4:6],,[6:4],,,,,
+4032024,R128,12,,,,,,me82,Adrian Mannarino,19,,20,2,me82,,true,,,,,,,,,,,,,,,
+4032024,R128,13,k0ah,Sebastian Korda,28,,29,,,,,,1,k0ah,,true,,,,,,,,,,,,,,,
+4032024,R128,14,n0am,Emilio Nava,,Q,132,bd06,Roberto Bautista Agut,,Q,100,1,bd06,113,,,,,Carlos Bernardes,2024-03-21,[6:3],,[7:6],[7:4],,,,,,
+4032024,R128,15,ge33,Daniel Elahi Galan,,,84,s0h2,Alexander Shevchenko,,,58,2,s0h2,176,,,,,Ettore Russo,2024-03-21,[6:7],[4:7],[7:6],[7:4],[7:5],,,,,
+4032024,R128,16,,,,,,hb71,Hubert Hurkacz,8,,9,2,hb71,,true,,,,,,,,,,,,,,,
+4032024,R128,17,z355,Alexander Zverev,4,,5,,,,,,1,z355,,true,,,,,,,,,,,,,,,
+4032024,R128,18,ag37,Felix Auger-Aliassime,,,36,w09e,Adam Walton,,Q,145,1,ag37,120,,,,,Fergus Murphy,2024-03-21,[7:5],,[6:4],,,,,,,
+4032024,R128,19,su87,Lorenzo Sonego,,,53,e687,Daniel Evans,,,43,2,e687,143,,,,,Jimmy Pinoargote,2024-03-21,[1:6],,[6:3],,[6:4],,,,,
+4032024,R128,20,,,,,,e865,Christopher Eubanks,31,,32,2,e865,,true,,,,,,,,,,,,,,,
+4032024,R128,21,c0au,Francisco Cerundolo,20,,21,,,,,,1,c0au,,true,,,,,,,,,,,,,,,
+4032024,R128,22,o513,Sebastian Ofner,,,40,n552,Kei Nishikori,,WC,351,1,o513,79,,,,,Carlos Bernardes,2024-03-21,[6:3],,[6:4],,,,,,,
+4032024,R128,23,db63,Laslo Djere,,,35,w0bh,Coleman Wong,,Q,212,1,db63,141,,,,,Renaud Lichtenstein,2024-03-21,[7:5],,[7:6],[7:3],,,,,,
+4032024,R128,24,,,,,,ke29,Karen Khachanov,15,,16,2,ke29,,true,,,,,,,,,,,,,,,
+4032024,R128,25,dh58,Alex de Minaur,9,,10,,,,,,1,dh58,,true,,,,,,,,,,,,,,,
+4032024,R128,26,mp20,Alexandre Muller,,,85,kf17,Soonwoo Kwon,,PR,863,2,kf17,89,,,,,Alessandro Germani,2024-03-21,[7:6],[7:3],[6:3],,,,,,,
+4032024,R128,27,ae14,Daniel Altmaier,,,54,m0g4,Harold Mayot,,Q,141,1,ae14,109,,,,,Jimmy Pinoargote,2024-03-21,[6:2],,[7:5],,,,,,,
+4032024,R128,28,,,,,,sl28,Jan-Lennard Struff,24,,25,2,sl28,,true,,,,,,,,,,,,,,,
+4032024,R128,29,l0bv,Jiri Lehecka,26,,27,,,,,,1,l0bv,,true,,,,,,,,,,,,,,,
+4032024,R128,30,p09z,Alexei Popyrin,,,45,d0cg,Facundo Diaz Acosta,,,55,1,p09z,76,,,,,Raluca Andrei,2024-03-21,[6:2],,[6:2],,,,,,,
+4032024,R128,31,k0az,Aleksandar Kovacevic,,Q,98,m0ci,Fabian Marozsan,,,57,2,m0ci,66,,,,,Nacho Forcadell,2024-03-21,[6:3],,[6:2],,,,,,,
+4032024,R128,32,,,,,,r0dg,Holger Rune,6,,7,2,r0dg,,true,,,,,,,,,,,,,,,
+4032024,R128,33,rh16,Casper Ruud,7,,8,,,,,,1,rh16,,true,,,,,,,,,,,,,,,
+4032024,R128,34,k09f,Pavel Kotov,,,67,v0dz,Luca Van Assche,,,80,2,v0dz,99,,,,,Chase Urban,2024-03-20,[6:3],,[7:5],,,,,,,
+4032024,R128,35,ki95,Miomir Kecmanovic,,,46,s0re,Juncheng Shang,,WC,124,2,s0re,166,,,,,Nacho Forcadell,2024-03-20,[7:6],[7:5],[4:6],,[7:6],[7:5],,,,
+4032024,R128,36,,,,,,dh50,Alejandro Davidovich Fokina,27,,28,2,dh50,,true,,,,,,,,,,,,,,,
+4032024,R128,37,j551,Nicolas Jarry,22,,23,,,,,,1,j551,,true,,,,,,,,,,,,,,,
+4032024,R128,38,d0co,Jack Draper,,,42,da81,Taro Daniel,,,78,1,d0co,69,,,,,Renaud Lichtenstein,2024-03-20,[6:3],,[6:2],,,,,,,
+4032024,R128,39,sx91,Thiago Seyboth Wild,,Q,76,bt72,Nuno Borges,,,61,1,sx91,102,,,,,Alessandro Germani,2024-03-20,[6:4],,[7:5],,,,,,,
+4032024,R128,40,,,,,,fb98,Taylor Fritz,12,,13,2,fb98,,true,,,,,,,,,,,,,,,
+4032024,R128,41,hh26,Ugo Humbert,14,,15,,,,,,1,hh26,,true,,,,,,,,,,,,,,,
+4032024,R128,42,h0bh,Rinky Hijikata,,,81,v812,Botic van de Zandschulp,,,77,2,v812,113,,,,,Greg Allensworth,2024-03-20,[7:5],,[7:6],[7:3],,,,,,
+4032024,R128,43,gc88,Marcos Giron,,,51,ke73,Dominik Koepfer,,,50,2,ke73,109,,,,,Raluca Andrei,2024-03-20,[4:6],,[6:1],,[6:4],,,,,
+4032024,R128,44,,,,,,b0bi,Sebastian Baez,18,,19,2,b0bi,,true,,,,,,,,,,,,,,,
+4032024,R128,45,n771,Cameron Norrie,30,,31,,,,,,1,n771,,true,,,,,,,,,,,,,,,
+4032024,R128,46,n732,Yoshihito Nishioka,,LL,71,c0e9,Flavio Cobolli,,,63,2,c0e9,112,,,,,Joshua Brace,2024-03-20,[1:6],,[6:1],,[6:4],,,,,
+4032024,R128,47,ph71,Max Purcell,,,68,f724,Marton Fucsovics,,,86,2,f724,61,,,,,Scotty Moore,2024-03-20,[6:2],,[6:1],,,,,,,
+4032024,R128,48,,,,,,mm58,Daniil Medvedev,3,,4,2,mm58,,true,,,,,,,,,,,,,,,
+4032024,R128,49,re44,Andrey Rublev,5,,6,,,,,,1,re44,,true,,,,,,,,,,,,,,,
+4032024,R128,50,m0fh,Tomas Machac,,,60,b0no,Darwin Blanch,,,1034,1,m0fh,80,,,,,Carlos Bernardes,2024-03-20,[6:4],,[6:2],,,,,,,
+4032024,R128,51,mc10,Andy Murray,,,62,bk40,Matteo Berrettini,,PR,142,1,mc10,168,,,,,Aurelie Tourte,2024-03-20,[4:6],,[6:3],,[6:4],,,,,
+4032024,R128,52,,,,,,ea24,Tomas Martin Etcheverry,29,,30,2,ea24,,true,,,,,,,,,,,,,,,
+4032024,R128,53,bk92,Alexander Bublik,17,,18,,,,,,1,bk92,,true,,,,,,,,,,,,,,,
+4032024,R128,54,f0f1,Arthur Fils,,,37,a0fc,Matteo Arnaldi,,,38,2,a0fc,86,,,,,Joshua Brace,2024-03-20,[6:3],,[6:4],,,,,,,
+4032024,R128,55,d0fj,Luciano Darderi,,,75,su55,Denis Shapovalov,,PR,126,2,su55,147,,,,,Fergus Murphy,2024-03-20,[6:3],,[6:7],[3:7],[6:4],,,,,
+4032024,R128,56,,,,,,te51,Stefanos Tsitsipas,10,,11,2,te51,,true,,,,,,,,,,,,,,,
+4032024,R128,57,pl56,Tommy Paul,13,,14,,,,,,1,pl56,,true,,,,,,,,,,,,,,,
+4032024,R128,58,d0dt,Martin Damm,,WC,204,z371,Zhang Zhizhen,,,49,1,d0dt,123,,,,,Fabio Souza,2024-03-20,[7:6],[7:2],[7:6],[7:3],,,,,,
+4032024,R128,59,o483,Christopher O'Connell,,,66,ki82,Vit Kopriva,,Q,116,1,o483,75,,,,,Ettore Russo,2024-03-20,[6:2],,[6:4],,,,,,,
+4032024,R128,60,,,,,,td51,Frances Tiafoe,21,,22,2,td51,,true,,,,,,,,,,,,,,,
+4032024,R128,61,gj37,Tallon Griekspoor,25,,26,,,,,,1,gj37,,true,,,,,,,,,,,,,,,
+4032024,R128,62,m0qi,Alex Michelsen,,,73,ki63,Lukas Klein,,Q,128,1,m0qi,92,,,,,Jimmy Pinoargote,2024-03-20,[7:6],[7:5],[6:2],,,,,,,
+4032024,R128,63,cg04,Pedro Cachin,,,79,va08,Andrea Vavassori,,Q,148,2,va08,69,,,,,Greg Allensworth,2024-03-20,[6:2],,[6:2],,,,,,,
+4032024,R128,64,,,,,,s0ag,Jannik Sinner,2,,3,2,s0ag,,true,,,,,,,,,,,,,,,
+4032024,R64,1,a0e2,Carlos Alcaraz,1,,2,cf59,Roberto Carballes Baena,,,64,1,a0e2,85,,,,,Nacho Forcadell,2024-03-23,[6:2],,[6:1],,,,,,,
+4032024,R64,2,mc65,Gael Monfils,,,47,tc61,Jordan Thompson,33,,34,1,mc65,133,,,,,Joshua Brace,2024-03-23,[6:7],[3:7],[6:1],,[6:2],,,,,
+4032024,R64,3,m0ej,Lorenzo Musetti,23,,24,sx50,Roman Safiullin,,,39,1,m0ej,93,,,,,Renaud Lichtenstein,2024-03-24,[7:5],,[6:1],,,,,,,
+4032024,R64,4,l0il,Martin Landaluce,,WC,360,s0s1,Ben Shelton,16,,17,2,s0s1,75,,,,,Aurelie Tourte,2024-03-24,[6:3],,[6:4],,,,,,,
+4032024,R64,5,d875,Grigor Dimitrov,11,,12,te30,Alejandro Tabilo,,,44,1,d875,146,,,,,Fergus Murphy,2024-03-24,[6:7],[5:7],[7:6],[7:5],[6:2],,,,,
+4032024,R64,6,h997,Yannick Hanfmann,,,56,me82,Adrian Mannarino,19,,20,1,h997,164,,,,,Joshua Brace,2024-03-24,[3:6],,[7:6],[7:1],[6:4],,,,,
+4032024,R64,7,k0ah,Sebastian Korda,28,,29,bd06,Roberto Bautista Agut,,Q,100,1,k0ah,136,,,,,Alessandro Germani,2024-03-23,[6:7],[2:7],[6:3],,[6:4],,,,,
+4032024,R64,8,s0h2,Alexander Shevchenko,,,58,hb71,Hubert Hurkacz,8,,9,2,hb71,119,,,,,Aurelie Tourte,2024-03-23,[6:4],,[6:7],[2:7],[6:3],,,,,
+4032024,R64,9,z355,Alexander Zverev,4,,5,ag37,Felix Auger-Aliassime,,,36,1,z355,76,,,,,Greg Allensworth,2024-03-23,[6:2],,[6:4],,,,,,,
+4032024,R64,10,e687,Daniel Evans,,,43,e865,Christopher Eubanks,31,,32,2,e865,160,,,,,Fergus Murphy,2024-03-23,[7:6],[7:3],[3:6],,[7:6],[9:7],,,,
+4032024,R64,11,c0au,Francisco Cerundolo,20,,21,o513,Sebastian Ofner,,,40,1,c0au,135,,,,,Ana Carvalho,2024-03-23,[7:6],[7:2],[6:7],[2:7],[6:1],,,,,
+4032024,R64,12,db63,Laslo Djere,,,35,ke29,Karen Khachanov,15,,16,2,ke29,87,,,,,Yamila Halle,2024-03-23,[6:2],,[6:4],,,,,,,
+4032024,R64,13,dh58,Alex de Minaur,9,,10,kf17,Soonwoo Kwon,,PR,863,1,dh58,77,,,,,Jimmy Pinoargote,2024-03-24,[6:3],,[6:2],,,,,,,
+4032024,R64,14,ae14,Daniel Altmaier,,,54,sl28,Jan-Lennard Struff,24,,25,2,sl28,80,,,,,Scotty Moore,2024-03-24,[6:3],,[6:3],,,,,,,
+4032024,R64,15,l0bv,Jiri Lehecka,26,,27,p09z,Alexei Popyrin,,,45,2,p09z,72,,,,,Greg Allensworth,2024-03-24,[6:4],,[6:4],,,,,,,
+4032024,R64,16,m0ci,Fabian Marozsan,,,57,r0dg,Holger Rune,6,,7,1,m0ci,59,,,,,Renaud Lichtenstein,2024-03-24,[6:1],,[6:1],,,,,,,
+4032024,R64,17,rh16,Casper Ruud,7,,8,v0dz,Luca Van Assche,,,80,1,rh16,119,,,,,Jimmy Pinoargote,2024-03-23,[7:6],[7:5],[1:6],,[6:1],,,,,
+4032024,R64,18,s0re,Juncheng Shang,,WC,124,dh50,Alejandro Davidovich Fokina,27,,28,2,dh50,104,,,,,Joshua Brace,2024-03-23,[6:3],,[7:5],,,,,,,
+4032024,R64,19,j551,Nicolas Jarry,22,,23,d0co,Jack Draper,,,42,1,j551,215,,,,,Ettore Russo,2024-03-23,[7:6],[7:5],[4:6],,[7:6],[7:2],,,,
+4032024,R64,20,sx91,Thiago Seyboth Wild,,Q,76,fb98,Taylor Fritz,12,,13,1,sx91,71,,,,,Fergus Murphy,2024-03-23,[6:3],,[6:4],,,,,,,
+4032024,R64,21,hh26,Ugo Humbert,14,,15,v812,Botic van de Zandschulp,,,77,1,hh26,86,,,,,Jimmy Pinoargote,2024-03-22,[6:4],,[6:3],,,,,,,
+4032024,R64,22,ke73,Dominik Koepfer,,,50,b0bi,Sebastian Baez,18,,19,1,ke73,67,,,,,Scotty Moore,2024-03-22,[6:3],,[6:2],,,,,,,
+4032024,R64,23,n771,Cameron Norrie,30,,31,c0e9,Flavio Cobolli,,,63,1,n771,154,,,,,Scotty Moore,2024-03-23,[7:5],,[6:7],[4:7],[6:2],,,,,
+4032024,R64,24,f724,Marton Fucsovics,,,86,mm58,Daniil Medvedev,3,,4,2,mm58,79,,,,,Carlos Bernardes,2024-03-23,[6:4],,[6:2],,,,,,,
+4032024,R64,25,re44,Andrey Rublev,5,,6,m0fh,Tomas Machac,,,60,2,m0fh,66,,,,,Fergus Murphy,2024-03-22,[6:4],,[6:4],,,,,,,
+4032024,R64,26,mc10,Andy Murray,,,62,ea24,Tomas Martin Etcheverry,29,,30,1,mc10,137,,,,,Nacho Forcadell,2024-03-23,[7:6],[7:0],[6:3],,,,,,,
+4032024,R64,27,bk92,Alexander Bublik,17,,18,a0fc,Matteo Arnaldi,,,38,2,a0fc,79,,,,,Renaud Lichtenstein,2024-03-23,[6:4],,[6:1],,,,,,,
+4032024,R64,28,su55,Denis Shapovalov,,PR,126,te51,Stefanos Tsitsipas,10,,11,1,su55,103,,,,,Aurelie Tourte,2023-03-23,[6:2],,[6:4],,,,,,,
+4032024,R64,29,pl56,Tommy Paul,13,,14,d0dt,Martin Damm,,WC,204,2,d0dt,68,,true,,,Greg Allensworth,2024-03-23,[4:6],,[2:1],,,,,,,
+4032024,R64,30,o483,Christopher O'Connell,,,66,td51,Frances Tiafoe,21,,22,1,o483,114,,,,,Carlos Bernardes,2024-03-23,[7:5],,[7:6],[7:5],,,,,,
+4032024,R64,31,gj37,Tallon Griekspoor,25,,26,m0qi,Alex Michelsen,,,73,1,gj37,161,,,,,Alessandro Germani,2024-03-23,[7:6],[7:5],[6:7],[7:9],[6:4],,,,,
+4032024,R64,32,va08,Andrea Vavassori,,Q,148,s0ag,Jannik Sinner,2,,3,2,s0ag,80,,,,,Raluca Andrei,2024-03-23,[6:3],,[6:4],,,,,,,
+4032024,R32,1,a0e2,Carlos Alcaraz,1,,2,mc65,Gael Monfils,,,47,1,a0e2,74,,,,,Jimmy Pinoargote,2024-03-25,[6:2],,[6:4],,,,,,,
+4032024,R32,2,m0ej,Lorenzo Musetti,23,,24,s0s1,Ben Shelton,16,,17,1,m0ej,112,,,,,Nacho Forcadell,2024-03-25,[6:4],,[7:6],[7:5],,,,,,
+4032024,R32,3,d875,Grigor Dimitrov,11,,12,h997,Yannick Hanfmann,,,56,1,d875,46,,,,,Aurelie Tourte,2024-03-25,[6:1],,[6:0],,,,,,,
+4032024,R32,4,k0ah,Sebastian Korda,28,,29,hb71,Hubert Hurkacz,8,,9,2,hb71,135,,,,,Renaud Lichtenstein,2024-03-25,[7:6],[7:5],[6:7],[5:7],[6:3],,,,,
+4032024,R32,5,z355,Alexander Zverev,4,,5,e865,Christopher Eubanks,31,,32,1,z355,104,,,,,Carlos Bernardes,2024-03-25,[7:6],[7:4],[6:3],,,,,,,
+4032024,R32,6,c0au,Francisco Cerundolo,20,,21,ke29,Karen Khachanov,15,,16,2,ke29,168,,,,,Raluca Andrei,2024-03-25,[6:1],,[5:7],,[7:6],[7:5],,,,
+4032024,R32,7,dh58,Alex de Minaur,9,,10,sl28,Jan-Lennard Struff,24,,25,1,dh58,109,,,,,Fergus Murphy,2024-03-25,[7:6],[7:3],[6:4],,,,,,,
+4032024,R32,8,p09z,Alexei Popyrin,,,45,m0ci,Fabian Marozsan,,,57,2,m0ci,92,,,,,Alessandro Germani,2024-03-25,[7:5],,[6:3],,,,,,,
+4032024,R32,9,rh16,Casper Ruud,7,,8,dh50,Alejandro Davidovich Fokina,27,,28,1,rh16,96,,,,,Jimmy Pinoargote,2024-03-24,[6:3],,[6:4],,,,,,,
+4032024,R32,10,j551,Nicolas Jarry,22,,23,sx91,Thiago Seyboth Wild,,Q,76,1,j551,179,,,,,Nacho Forcadell,2024-03-24,[6:7],[1:7],[7:5],,[6:3],,,,,
+4032024,R32,11,hh26,Ugo Humbert,14,,15,ke73,Dominik Koepfer,,,50,2,ke73,134,,,,,Carlos Bernardes,2024-03-24,[3:6],,[6:4],,[6:3],,,,,
+4032024,R32,12,n771,Cameron Norrie,30,,31,mm58,Daniil Medvedev,3,,4,2,mm58,81,,,,,Aurelie Tourte,2024-03-24,[7:5],,[6:1],,,,,,,
+4032024,R32,13,m0fh,Tomas Machac,,,60,mc10,Andy Murray,,,62,1,m0fh,208,,,,,Carlos Bernardes,2024-03-24,[5:7],,[7:5],,[7:6],[7:5],,,,
+4032024,R32,14,a0fc,Matteo Arnaldi,,,38,su55,Denis Shapovalov,,PR,126,1,a0fc,99,,,,,Aurelie Tourte,2024-03-24,[6:3],,[7:6],[9:7],,,,,,
+4032024,R32,15,d0dt,Martin Damm,,WC,204,o483,Christopher O'Connell,,,66,2,o483,130,,,,,Fergus Murphy,2024-03-24,[7:6],[7:5],[7:6],[7:5],,,,,,
+4032024,R32,16,gj37,Tallon Griekspoor,25,,26,s0ag,Jannik Sinner,2,,3,2,s0ag,143,,,,,Greg Allensworth,2024-03-24,[5:7],,[7:5],,[6:1],,,,,
+4032024,R16,1,a0e2,Carlos Alcaraz,1,,2,m0ej,Lorenzo Musetti,23,,24,1,a0e2,86,,,,,Greg Allensworth,2024-03-26,[6:3],,[6:3],,,,,,,
+4032024,R16,2,d875,Grigor Dimitrov,11,,12,hb71,Hubert Hurkacz,8,,9,1,d875,162,,,,,Jimmy Pinoargote,2024-03-26,[3:6],,[6:3],,[7:6],[7:3],,,,
+4032024,R16,3,z355,Alexander Zverev,4,,5,ke29,Karen Khachanov,15,,16,1,z355,69,,,,,Renaud Lichtenstein,2024-03-26,[6:1],,[6:4],,,,,,,
+4032024,R16,4,dh58,Alex de Minaur,9,,10,m0ci,Fabian Marozsan,,,57,2,m0ci,103,,,,,Fergus Murphy,2024-03-26,[6:4],,[0:6],,[6:1],,,,,
+4032024,R16,5,rh16,Casper Ruud,7,,8,j551,Nicolas Jarry,22,,23,2,j551,110,,,,,Aurelie Tourte,2024-03-26,[7:6],[7:3],[6:3],,,,,,,
+4032024,R16,6,ke73,Dominik Koepfer,,,50,mm58,Daniil Medvedev,3,,4,2,mm58,89,,,,,Nacho Forcadell,2024-03-26,[7:6],[7:5],[6:0],,,,,,,
+4032024,R16,7,m0fh,Tomas Machac,,,60,a0fc,Matteo Arnaldi,,,38,1,m0fh,80,,,,,Greg Allensworth,2024-03-26,[6:3],,[6:3],,,,,,,
+4032024,R16,8,o483,Christopher O'Connell,,,66,s0ag,Jannik Sinner,2,,3,2,s0ag,111,,,,,Fergus Murphy,2024-03-26,[6:4],,[6:3],,,,,,,
+4032024,QF,1,a0e2,Carlos Alcaraz,1,,2,d875,Grigor Dimitrov,11,,12,2,d875,92,,,,,Jimmy Pinoargote,2024-03-28,[6:2],,[6:4],,,,,,,
+4032024,QF,2,z355,Alexander Zverev,4,,5,m0ci,Fabian Marozsan,,,57,1,z355,97,,,,,Greg Allensworth,2024-03-28,[6:3],,[7:5],,,,,,,
+4032024,QF,3,j551,Nicolas Jarry,22,,23,mm58,Daniil Medvedev,3,,4,2,mm58,101,,,,,Nacho Forcadell,2024-03-27,[6:2],,[7:6],[9:7],,,,,,
+4032024,QF,4,m0fh,Tomas Machac,,,60,s0ag,Jannik Sinner,2,,3,2,s0ag,91,,,,,Renaud Lichtenstein,2024-03-27,[6:4],,[6:2],,,,,,,
+4032024,SF,1,d875,Grigor Dimitrov,11,,12,z355,Alexander Zverev,4,,5,1,d875,157,,,,,Fergus Murphy,2024-03-29,[6:4],,[6:7],[4:7],[6:4],,,,,
+4032024,SF,2,mm58,Daniil Medvedev,3,,4,s0ag,Jannik Sinner,2,,3,2,s0ag,69,,,,,Nacho Forcadell,2024-03-29,[6:1],,[6:2],,,,,,,
+4032024,F,,d875,Grigor Dimitrov,11,,12,s0ag,Jannik Sinner,2,,3,,,,,,,,,2024-03-31,,,,,,,,,,
+4072024,R32,1,s0ag,Jannik Sinner,1,,4,v812,Botic van de Zandschulp,,,66,1,s0ag,86,,,,,Christian Rask,2024-02-14,[6:3],,[6:3]
+4072024,R32,2,su55,Denis Shapovalov,,Q,127,mc65,Gael Monfils,,WC,70,2,mc65,97,,,,,Luca Laugero,2024-02-14,[7:6],[7:4],[7:6],[7:5]
+4072024,R32,3,r975,Milos Raonic,,PR,309,d0c1,Jesper de Jong,,WC,141,1,r975,102,,,,,Christian Rask,2024-02-12,[7:6],[7:5],[6:4]
+4072024,R32,4,cg80,Borna Coric,,,31,bk92,Alexander Bublik,8,,23,2,bk92,111,,,,,Adel Nour,2024-02-13,[6:3],,[6:4]
+4072024,R32,5,hb71,Hubert Hurkacz,4,,8,l0bv,Jiri Lehecka,,,32,1,hb71,138,,,,,Christian Rask,2024-02-13,[6:3],,[6:7],[9:11],[7:6],[11:9]
+4072024,R32,6,gj37,Tallon Griekspoor,,,29,m0ej,Lorenzo Musetti,,,26,1,gj37,173,,,,,Adel Nour,2024-02-12,[3:6],,[7:6],[9:7],[7:6],[7:3]
+4072024,R32,7,dh50,Alejandro Davidovich Fokina,,,24,sl28,Jan-Lennard Struff,,,25,2,sl28,145,,,,,Luca Laugero,2024-02-13,[4:6],,[7:6],[7:5],[7:6],[7:4]
+4072024,R32,8,rh24,Emil Ruusuvuori,,,55,hh26,Ugo Humbert,7,,21,1,rh24,140,,,,,Manuel Messina,2024-02-14,[7:6],[7:5],[4:6],,[6:3]
+4072024,R32,9,d875,Grigor Dimitrov,6,,13,su87,Lorenzo Sonego,,,48,1,d875,93,,,,,Louis Boucharinc,2024-02-14,[7:6],[7:4],[6:3]
+4072024,R32,10,m0ci,Fabian Marozsan,,,61,f724,Marton Fucsovics,,,86,2,f724,91,,,,,Manuel Messina,2024-02-13,[7:6],[7:5],[6:1]
+4072024,R32,11,z371,Zhizhen Zhang,,,47,s0h2,Alexander Shevchenko,,,57,2,s0h2,115,,,,,Christoph Damaske,2024-02-13,[4:6],,[6:4],,[6:3]
+4072024,R32,12,sx50,Roman Safiullin,,,39,r0dg,Holger Rune,3,,7,2,r0dg,113,,,,,Adel Nour,2024-02-14,[6:4],,[2:6],,[6:1]
+4072024,R32,13,dh58,Alex de Minaur,5,,11,k0ah,Sebastian Korda,,,33,1,dh58,82,,,,,Louis Boucharinc,2024-02-13,[6:4],,[6:3]
+4072024,R32,14,p0hw,Dino Prizmic,,WC,171,gb88,David Goffin,,Q,133,2,gb88,175,,,,,Christoph Damaske,2024-02-12,[6:4],,[6:7],[12:14],[6:1]
+4072024,R32,15,c0bc,Maxime Cressy,,Q,170,ag37,Felix Auger-Aliassime,,,28,2,ag37,140,,,,,Manuel Messina,2024-02-12,[7:6],[7:3],[7:6],[10:8]
+4072024,R32,16,bu13,Zizou Bergs,,Q,132,re44,Andrey Rublev,2,,5,2,re44,82,,,,,Marijana Veljovic,2024-02-13,[7:5],,[6:3]
+4072024,R16,1,s0ag,Jannik Sinner,1,,4,mc65,Gael Monfils,,WC,70,1,s0ag,112,,,,,Marijana Veljovic,2024-02-15,[6:3],,[3:6],,[6:3]
+4072024,R16,2,r975,Milos Raonic,,PR,309,bk92,Alexander Bublik,8,,23,1,r975,72,,,,,Marijana Veljovic,2024-02-14,[6:4],,[6:4]
+4072024,R16,3,hb71,Hubert Hurkacz,4,,8,gj37,Tallon Griekspoor,,,29,2,gj37,154,,,,,Luca Laugero,2024-02-15,[6:7],[5:7],[7:6],[7:5],[7:6],[7:4]
+4072024,R16,4,sl28,Jan-Lennard Struff,,,25,rh24,Emil Ruusuvuori,,,55,2,rh24,65,,,,,Adel Nour,2024-02-15,[6:3],,[6:3]
+4072024,R16,5,d875,Grigor Dimitrov,6,,13,f724,Marton Fucsovics,,,86,1,d875,88,,,,,Christian Rask,2024-02-15,[6:3],,[7:5]
+4072024,R16,6,s0h2,Alexander Shevchenko,,,57,r0dg,Holger Rune,3,,7,1,s0h2,96,,,,,Manuel Messina,2024-02-15,[6:4],,[1:6],,[6:3]
+4072024,R16,7,dh58,Alex de Minaur,5,,11,gb88,David Goffin,,Q,133,1,dh58,82,,,,,Luca Laugero,2024-02-14,[6:3],,[6:1]
+4072024,R16,8,ag37,Felix Auger-Aliassime,,,28,re44,Andrey Rublev,2,,5,2,re44,153,,,,,Adel Nour,2024-02-14,[3:6],,[7:6],[8:6],[7:5]
+4072024,QF,1,s0ag,Jannik Sinner,1,,4,r975,Milos Raonic,,PR,309,1,s0ag,65,,true,,,Adel Nour,2024-02-16,[7:6],[7:4],[1:1]
+4072024,QF,2,gj37,Tallon Griekspoor,,,29,rh24,Emil Ruusuvuori,,,55,1,gj37,103,,,,,Manuel Messina,2024-02-16,[7:5],,[7:6],[7:4]
+4072024,QF,3,d875,Grigor Dimitrov,6,,13,s0h2,Alexander Shevchenko,,,57,1,d875,120,,,,,Marijana Veljovic,2024-02-16,[7:6],[7:2],[3:6],,[6:4]
+4072024,QF,4,dh58,Alex de Minaur,5,,11,re44,Andrey Rublev,2,,5,1,dh58,151,,,,,Christian Rask,2024-02-16,[7:6],[7:5],[4:6],,[6:3]
+4072024,SF,1,s0ag,Jannik Sinner,1,,4,gj37,Tallon Griekspoor,,,29,1,s0ag,81,,,,,Christian Rask,2024-02-17,[6:2],,[6:4]
+4072024,SF,2,d875,Grigor Dimitrov,6,,13,dh58,Alex de Minaur,5,,11,2,dh58,83,,,,,Manuel Messina,2024-02-17,[6:4],,[6:3]
+4072024,F,,s0ag,Jannik Sinner,1,,4,dh58,Alex de Minaur,5,,11,1,s0ag,125,,,,,Marijana Veljovic,2024-02-18,[7:5],,[6:4]
+3392024,R32,1,r0dg,Holger Rune,1,,8,ph71,Max Purcell,,,45,1,r0dg,100,,,,,Arnaud Gabas,2024-01-01,[4:6],,[6:4],,[6:2]
+3392024,R32,2,v0dz,Luca Van Assche,,,90,s0h2,Alexander Shevchenko,,,48,2,s0h2,75,,,,,Nacho Forcadell,2023-12-31,[6:3],,[6:2]
+3392024,R32,3,w09g,J.J. Wolf,,,53,d994,James Duckworth,,,116,2,d994,63,,,,,Arnaud Gabas,2024-01-02,[6:3],,[6:4]
+3392024,R32,4,h997,Yannick Hanfmann,,,51,k0ah,Sebastian Korda,5,,24,1,h997,96,,,,,Simon Cannavan,2024-01-02,[7:5],,[6:4]
+3392024,R32,5,s0s1,Ben Shelton,3,,17,sx50,Roman Safiullin,,,39,2,sx50,157,,,,,Timo Janzen,2024-01-01,[6:3],,[6:7],[5:7],[6:3]
+3392024,R32,6,p09z,Alexei Popyrin,,,40,o485,Christopher O'Connell,,,68,1,p09z,185,,,,,Simon Cannavan,2023-12-31,[6:4],,[6:7],[5:7],[7:6],[7:4]
+3392024,R32,7,a0fc,Matteo Arnaldi,,,44,f724,Marton Fucsovics,,,59,1,a0fc,187,,,,,Alexandre Robein,2024-01-02,[6:7],[5:7],[6:4],,[7:6],[9:7]
+3392024,R32,8,ki63,Lukas Klein,,Q,170,b0bi,Sebastian Baez,6,,28,1,ki63,134,,,,,Timo Janzen,2024-01-02,[4:6],,[6:3],,[6:4]
+3392024,R32,9,kc56,Aslan Karatsev,8,,35,kb95,Jason Kubler,,WC,102,2,kb95,143,,true,,,Arnaud Gabas,2024-01-02,[6:4],,[6:7],[4:7],[0:0]
+3392024,R32,10,tb69,Dominic Thiem,,Q,98,n409,Rafael Nadal,,WC,672,2,n409,89,,,,,Timo Janzen,2024-01-02,[7:5],,[6:1]
+3392024,R32,11,tc61,Jordan Thompson,,,100,v832,Aleksandar Vukic,,,62,1,tc61,96,,,,,Marko Savic,2024-01-02,[6:3],,[6:2]
+3392024,R32,12,m0qi,Alex Michelsen,,Q,97,hh26,Ugo Humbert,4,,20,2,hh26,95,,,,,Simon Cannavan,2024-01-03,[6:4],,[6:4]
+3392024,R32,13,ea24,Tomas Martin Etcheverry,7,,30,m0fh,Tomas Machac,,Q,78,2,m0fh,189,,,,,Nacho Forcadell,2024-01-02,[6:7],[5:7],[7:5],,[7:6],[7:1]
+3392024,R32,14,kd46,Thanasi Kokkinakis,,,65,h0bh,Rinky Hijikata,,WC,71,2,h0bh,97,,,,,Simon Cannavan,2024-01-02,[7:6],[10:8],[6:2]
+3392024,R32,15,tc01,Li Tu,,Q,225,ae14,Daniel Altmaier,,,56,2,ae14,121,,,,,Luca Laugero,2024-01-02,[7:6],[7:5],[7:6],[7:4]
+3392024,R32,16,mc10,Andy Murray,,,42,d875,Grigor Dimitrov,2,,14,2,d875,147,,,,,Nacho Forcadell,2024-01-01,[4:6],,[7:5],,[6:2]
+3392024,R16,1,r0dg,Holger Rune,1,,8,s0h2,Alexander Shevchenko,,,48,1,r0dg,147,,,,,Timo Janzen,2024-01-03,[6:4],,[5:7],,[6:2]
+3392024,R16,2,d994,James Duckworth,,,116,h997,Yannick Hanfmann,,,51,1,d994,145,,,,,Nacho Forcadell,2024-01-03,[4:6],,[6:1],,[7:6],[7:2]
+3392024,R16,3,sx50,Roman Safiullin,,,39,p09z,Alexei Popyrin,,,40,1,sx50,174,,,,,Arnaud Gabas,2024-01-03,[6:7],[9:11],[6:4],,[7:6],[7:3]
+3392024,R16,4,a0fc,Matteo Arnaldi,,,44,ki63,Lukas Klein,,Q,170,1,a0fc,124,,,,,Marko Savic,2024-01-03,[6:4],,[3:6],,[7:5]
+3392024,R16,5,kb95,Jason Kubler,,WC,102,n409,Rafael Nadal,,WC,672,2,n409,104,,,,,Arnaud Gabas,2024-01-04,[6:1],,[6:2]
+3392024,R16,6,tc61,Jordan Thompson,,,100,hh26,Ugo Humbert,4,,20,1,tc61,,,,,true
+3392024,R16,7,m0fh,Tomas Machac,,Q,78,h0bh,Rinky Hijikata,,WC,71,2,h0bh,148,,,,,Luca Laugero,2024-01-04,[5:7],,[6:2],,[7:6],[7:4]
+3392024,R16,8,ae14,Daniel Altmaier,,,56,d875,Grigor Dimitrov,2,,14,2,d875,67,,,,,Simon Cannavan,2024-01-04,[6:1],,[6:2]
+3392024,QF,1,r0dg,Holger Rune,1,,8,d994,James Duckworth,,,116,1,r0dg,105,,,,,Arnaud Gabas,2024-01-05,[6:2],,[7:6],[8:6]
+3392024,QF,2,sx50,Roman Safiullin,,,39,a0fc,Matteo Arnaldi,,,44,1,sx50,120,,,,,Nacho Forcadell,2024-01-05,[7:6],[7:4],[6:2]
+3392024,QF,3,n409,Rafael Nadal,,WC,672,tc61,Jordan Thompson,,,100,2,tc61,206,,,,,Timo Janzen,2024-01-05,[5:7],,[7:6],[8:6],[6:3]
+3392024,QF,4,h0bh,Rinky Hijikata,,WC,71,d875,Grigor Dimitrov,2,,14,2,d875,78,,,,,Timo Janzen,2024-01-05,[6:1],,[6:4]
+3392024,SF,1,r0dg,Holger Rune,1,,8,sx50,Roman Safiullin,,,39,1,r0dg,97,,,,,Simon Cannavan,2024-01-06,[6:4],,[7:6],[7:0]
+3392024,SF,2,tc61,Jordan Thompson,,,100,d875,Grigor Dimitrov,2,,14,2,d875,109,,,,,Arnaud Gabas,2024-01-06,[6:3],,[7:5]
+3392024,F,,r0dg,Holger Rune,1,,8,d875,Grigor Dimitrov,2,,14,2,d875,136,,,,,Timo Janzen,2024-01-07,[7:6],[7:5],[6:4]
+3362024,R32,1,re44,Andrey Rublev,1,,5,,,,,,1,re44,,true
+3362024,R32,2,bi23,Liam Broady,,Q,108,cg04,Pedro Cachin,,,70,1,bi23,69,,,,,Ruth Concas,2024-01-02,[6:4],,[6:0]
+3362024,R32,3,hh06,Marc-Andrea Huesler,,Q,194,ss25,Vitaliy Sachko,,Q,169,1,hh06,86,,,,,Lalit Singh,2024-01-02,[6:4],,[6:4]
+3362024,R32,4,gh92,Borna Gojo,,,72,f0f1,Arthur Fils,8,,36,2,f0f1,108,,,,,Ruth Concas,2024-01-02,[6:3],,[4:6],,[6:1]
+3362024,R32,5,td51,Frances Tiafoe,3,,16,,,,,,1,td51,,true
+3362024,R32,6,ki95,Miomir Kecmanovic,,,54,da81,Taro Daniel,,Q,75,1,ki95,70,,,,,Ben Anderson,2024-01-02,[6:3],,[6:2]
+3362024,R32,7,m0hu,Shintaro Mochizuki,,WC,137,v812,Botic van de Zandschulp,,,50,2,v812,97,,,,,Carlos Bernardes,2024-01-01,[7:5],,[6:1]
+3362024,R32,8,s0re,Juncheng Shang,,WC,183,db63,Laslo Djere,7,,33,1,s0re,171,,,,,Manuel Messina,2024-01-01,[6:7],[5:7],[6:3],,[7:6],[10:8]
+3362024,R32,9,sl28,Jan-Lennard Struff,5,,25,c977,Marin Cilic,,PR,674,1,sl28,186,,,,,Carlos Bernardes,2024-01-02,[3:6],,[7:6],[7:4],[7:6],[9:7]
+3362024,R32,10,o513,Sebastian Ofner,,,43,mk66,Mackenzie McDonald,,,41,1,o513,61,,,,,Xin-Liang "Leo" Wang,2024-01-02,[6:1],,[6:2]
+3362024,R32,11,m0ci,Fabian Marozsan,,,64,bd06,Roberto Bautista Agut,,,57,2,bd06,68,,,,,Manuel Messina,2024-01-02,[6:2],,[6:3]
+3362024,R32,12,,,,,,c0au,Francisco Cerundolo,4,,21,2,c0au,,true
+3362024,R32,13,m0ej,Lorenzo Musetti,6,,27,w0bh,Chak Lam Coleman Wong,,WC,253,1,m0ej,106,,,,,Ali Katebi,2024-01-02,[6:4],,[7:5]
+3362024,R32,14,k09f,Pavel Kotov,,,67,bt72,Nuno Borges,,,66,1,k09f,88,,,,,Lalit Singh,2024-01-01,[6:2],,[6:4]
+3362024,R32,15,rh24,Emil Ruusuvuori,,,69,bm95,Benjamin Bonzi,,,73,1,rh24,157,,,,,Ruth Concas,2024-01-01,[6:7],[5:7],[6:2],,[6:1]
+3362024,R32,16,,,,,,ke29,Karen Khachanov,2,,15,2,ke29,,true
+3362024,R16,1,re44,Andrey Rublev,1,,5,bi23,Liam Broady,,Q,108,1,re44,110,,,,,Manuel Messina,2024-01-04,[6:4],,[7:6],[10:8]
+3362024,R16,2,hh06,Marc-Andrea Huesler,,Q,194,f0f1,Arthur Fils,8,,36,2,f0f1,120,,,,,Ben Anderson,2024-01-04,[7:5],,[7:5]
+3362024,R16,3,td51,Frances Tiafoe,3,,16,ki95,Miomir Kecmanovic,,,54,1,td51,92,,,,,Ali Katebi,2024-01-03,[6:3],,[7:6],[7:4]
+3362024,R16,4,v812,Botic van de Zandschulp,,,50,s0re,Juncheng Shang,,WC,183,2,s0re,212,,,,,Ruth Concas,2024-01-03,[6:7],[5:7],[7:6],[7:2],[7:6],[7:2]
+3362024,R16,5,sl28,Jan-Lennard Struff,5,,25,o513,Sebastian Ofner,,,43,2,o513,167,,,,,Ruth Concas,2024-01-04,[6:7],[4:7],[7:6],[7:2]
+3362024,R16,6,bd06,Roberto Bautista Agut,,,57,c0au,Francisco Cerundolo,4,,21,1,bd06,99,,,,,Carlos Bernardes,2024-01-04,[7:5],,[6:3]
+3362024,R16,7,m0ej,Lorenzo Musetti,6,,27,k09f,Pavel Kotov,,,67,2,k09f,101,,,,,Carlos Bernardes,2024-01-03,[6:4],,[6:3]
+3362024,R16,8,rh24,Emil Ruusuvuori,,,69,ke29,Karen Khachanov,2,,15,1,rh24,145,,,,,Manuel Messina,2024-01-03,[7:6],[7:2],[2:6],,[6:2]
+3362024,QF,1,re44,Andrey Rublev,1,,5,f0f1,Arthur Fils,8,,36,1,re44,112,,,,,Ruth Concas,2024-01-05,[6:4],,[1:6],,[6:2]
+3362024,QF,2,td51,Frances Tiafoe,3,,16,s0re,Juncheng Shang,,WC,183,2,s0re,89,,,,,Carlos Bernardes,2024-01-05,[6:4],,[6:4]
+3362024,QF,3,o513,Sebastian Ofner,,,43,bd06,Roberto Bautista Agut,,,57,1,o513,84,,,,,Manuel Messina,2024-01-05,[6:4],,[6:4]
+3362024,QF,4,k09f,Pavel Kotov,,,67,rh24,Emil Ruusuvuori,,,69,2,rh24,108,,,,,Ali Katebi,2024-01-05,[6:3],,[7:6],[7:4]
+3362024,SF,1,re44,Andrey Rublev,1,,5,s0re,Juncheng Shang,,WC,183,1,re44,129,,,,,Manuel Messina,2024-01-06,[4:6],,[6:2],,[6:3]
+3362024,SF,2,o513,Sebastian Ofner,,,43,rh24,Emil Ruusuvuori,,,69,2,rh24,132,,,,,Ruth Concas,2024-01-06,[4:6],,[7:5],,[6:3]
+3362024,F,,re44,Andrey Rublev,1,,5,rh24,Emil Ruusuvuori,,,69,1,re44,77,,,,,Carlos Bernardes,2024-01-07,[6:4],,[6:4]
+4242024,R32,1,td51,Frances Tiafoe,1,,14,,,,,,1,td51,,true
+4242024,R32,2,sl08,Tennys Sandgren,,Q,281,m0qi,Alex Michelsen,,,75,2,m0qi,116,,,,,Scotty Moore,2024-02-06,[6:3],,[3:6],,[6:1]
+4242024,R32,3,mw18,Nicolas Moreno de Alboran,,Q,154,gc88,Marcos Giron,,,52,2,gc88,63,,,,,Joshua Brace,2024-02-06,[6:1],,[6:4]
+4242024,R32,4,kc12,Mitchell Krueger,,WC,244,ph71,Max Purcell,6,,32,2,ph71,139,,,,,Adel Borghei,2024-02-05,[6:2],,[4:6],,[7:6],[7:3]
+4242024,R32,5,me82,Adrian Mannarino,4,,17,,,,,,1,me82,,true
+4242024,R32,6,a0gc,Terence Atmane,,LL,144,n732,Yoshihito Nishioka,,,83,2,n732,146,,,,,Scotty Moore,2024-02-06,[7:6],[7:5],[4:6],,[6:3]
+4242024,R32,7,d994,James Duckworth,,,106,s0k7,Zachary Svajda,,,145,1,d994,75,,,,,Adel Borghei,2024-02-06,[7:6],[7:3],[6:1]
+4242024,R32,8,j386,Steve Johnson,,Q,246,e865,Christopher Eubanks,5,,32,2,e865,72,,,,,Greg Allensworth,2024-02-06,[6:1],,[6:4]
+4242024,R32,9,tc61,Jordan Thompson,7,,44,n0be,Adam Neff,,WC,829,1,tc61,78,,,,,Joshua Brace,2024-02-06,[6:3],,[6:1]
+4242024,R32,10,kb09,Denis Kudla,,LL,174,a829,Radu Albot,,,137,1,kb09,104,,,,,Adel Borghei,2024-02-07,[6:3],,[7:6],[7:3]
+4242024,R32,11,n0am,Emilio Nava,,Q,149,mp01,Michael Mmoh,,,115,2,mp01,90,,,,,Roger Pennington,2024-02-06,[7:5],,[6:2]
+4242024,R32,12,,,,,,s0s1,Ben Shelton,3,,16,2,s0s1,,true
+4242024,R32,13,ke73,Dominik Koepfer,8,,60,k0az,Aleksandar Kovacevic,,,100,1,ke73,88,,,,,Roger Pennington,2024-02-06,[6:4],[7:6],[7:5]
+4242024,R32,14,q02l,Ethan Quinn,,WC,288,h0bh,Rinky Hijikata,,,88,2,h0bh,98,,,,,Roger Pennington,2024-02-07,[6:4],,[6:4]
+4242024,R32,15,da81,Taro Daniel,,,62,lb66,Constant Lestienne,,,104,1,da81,132,,true,,,Greg Allensworth,2024-02-05,[4:6],,[6:4],,[5:0]
+4242024,R32,16,,,,,,pl56,Tommy Paul,2,,15,2,pl56,,true
+4242024,R16,1,td51,Frances Tiafoe,1,,14,m0qi,Alex Michelsen,,,75,1,td51,78,,,,,Joshua Brace,2024-02-08,[6:4],,[6:3]
+4242024,R16,2,gc88,Marcos Giron,,,52,ph71,Max Purcell,6,,32,1,gc88,86,,,,,Scotty Moore,2024-02-07,[6:4],,[6:3]
+4242024,R16,3,me82,Adrian Mannarino,4,,17,n732,Yoshihito Nishioka,,,83,1,me82,,,,,true
+4242024,R16,4,d994,James Duckworth,,,106,e865,Christopher Eubanks,5,,32,1,d994,77,,,,,Renaud Lichtenstein,2024-02-07,[7:6],[7:3],[6:4]
+4242024,R16,5,tc61,Jordan Thompson,7,,44,kb09,Denis Kudla,,LL,174,1,tc61,67,,,,,Renaud Lichtenstein,2024-02-08,[6:1],,[6:1]
+4242024,R16,6,mp01,Michael Mmoh,,,115,s0s1,Ben Shelton,3,,16,2,s0s1,63,,,,,Greg Allensworth,2024-02-07,[6:3],,[6:3]
+4242024,R16,7,ke73,Dominik Koepfer,8,,60,h0bh,Rinky Hijikata,,,88,1,ke73,95,,,,,Scotty Moore,2024-02-08,[6:3],,[7:6],[7:5]
+4242024,R16,8,da81,Taro Daniel,,,62,pl56,Tommy Paul,2,,15,2,pl56,91,,,,,Joshua Brace,2024-02-07,[6:3],,[6:2]
+4242024,QF,1,td51,Frances Tiafoe,1,,14,gc88,Marcos Giron,,,52,2,gc88,63,,,,,Renaud Lichtenstein,2024-02-09,[6:1],,[6:4]
+4242024,QF,2,me82,Adrian Mannarino,4,,17,d994,James Duckworth,,,106,1,me82,52,,true,,,Greg Allensworth,2024-02-09,[6:2],,[3:1]
+4242024,QF,3,tc61,Jordan Thompson,7,,44,s0s1,Ben Shelton,3,,16,2,s0s1,150,,,,,Joshua Brace,2024-02-09,[6:7],[2:7],[6:4],,[6:4]
+4242024,QF,4,ke73,Dominik Koepfer,8,,60,pl56,Tommy Paul,2,,15,2,pl56,88,,,,,Renaud Lichtenstein,2024-02-09,[7:5],,[6:3]
+4242024,SF,1,gc88,Marcos Giron,,,52,me82,Adrian Mannarino,4,,17,1,gc88,74,,,,,Joshua Brace,2024-02-10,[6:1],,[6:3]
+4242024,SF,2,s0s1,Ben Shelton,3,,16,pl56,Tommy Paul,2,,15,2,pl56,79,,,,,Greg Allensworth,2024-02-10,[6:2],,[6:4]
+4242024,F,,gc88,Marcos Giron,,,52,pl56,Tommy Paul,2,,15,2,pl56,152,,,,,Renaud Lichtenstein,2024-02-11,[7:6],[7:3],[5:7],,[6:3]

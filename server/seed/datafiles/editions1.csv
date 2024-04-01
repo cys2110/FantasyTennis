@@ -1,0 +1,65 @@
+_id,tournament,year,sponsor_name,start_date,end_date,category,type_of_draw,currency,prize_money,tfc,venue,city,country,environment,surface,hard_type,supervisors,winner,finalist,final_score,winner_pm,winner_pts,finalist_pm,finalist_pts,sf_pm,sf_pts,qf_pm,qf_pts,r4_pm,r4_pts,r3_pm,r3_pts,r2_pm,r2_pts,r1_pm,r1_pts,seed1,seed1_rank,seed2,seed2_rank,seed3,seed3_rank,seed4,seed4_rank,seed5,seed5_rank,seed6,seed6_rank,seed7,seed7_rank,seed8,seed8_rank,seed9,seed9_rank,seed10,seed10_rank,seed11,seed11_rank,seed12,seed12_rank,seed13,seed13_rank,seed14,seed14_rank,seed15,seed15_rank,seed16,seed16_rank,seed17,seed17_rank,seed18,seed18_rank,seed19,seed19_rank,seed20,seed20_rank,seed21,seed21_rank,seed22,seed22_rank,seed23,seed23_rank,seed24,seed24_rank,seed25,seed25_rank,seed26,seed26_rank,seed27,seed27_rank,seed28,seed28_rank,seed29,seed29_rank,seed30,seed30_rank,seed31,seed31_rank,seed32,seed32_rank,lda_player,lda_rank,lls,alts
+3012024,201,2024,ASB Classic,2024-01-08,2024-01-13,ATP 250,32,USD,661585,739945,ASB Tennis Centre,Auckland,NZL,outdoor,hard,greenset,[Gerry Armstrong],te30,da81,62 75,100640,250,58705,165,34510,100,19995,50,,,,,11610,25,7095,0,s0s1,17,n771,18,c0au,21,ag37,29,e865,34,f0f1,36,o513,43,ph71,45,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,da81,75
+89982024,8998,2024,,2024-01-08,2024-01-13,ATP 250,32,USD,661585,739945,Memorial Drive Tennis Centre,Adelaide,AUS,outdoor,hard,greenset,[Hans-Juergen Ochs],l0bv,d0co,46 64 63,100665,250,58720,165,34510,100,19995,50,,,,,11610,25,7095,0,pl56,13,j551,19,k0ah,24,m0ej,27,b0bi,28,ea24,30,l0bv,31,bk92,32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,d0co,61,[z419:sx91:m0oq]
+4992024,499,2024,,2024-02-12,2024-02-18,ATP 250,32,USD,661585,742350,Delray Beach Tennis Center,Delray Beach,USA,outdoor,hard,plexipave,[Hans-Juergen Ochs:Nacho Forcadell],fb98,pl56,62 63,100635,250,58700,165,34510,100,19995,50,,,,,11610,25,7095,0,fb98,9,td51,14,pl56,15,me82,17,ki95,40,a0fc,41,e687,42,ph71,43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb66,99,[c0e9:d0f6]
+89962024,8996,2024,Movistar Chile Open,2024-02-26,2024-03-03,ATP 250,32,USD,661585,742350,Estadio San Carlos de Apoquindo,Santiago,CHI,outdoor,clay,,[Jorge Mandl],b0bi,te30,36 60 64,100640,250,58705,165,34510,100,19995,50,,,,,11610,25,7095,0,j551,19,b0bi,30,f0f1,36,te30,52,h997,56,d0cg,59,cf59,66,mu94,73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,da31,111,[c0df:bf23]
+8072024,807,2024,Abierto Mexicano Telcel,2024-02-26,2024-03-02,ATP 500,32,USD,2206080,2377565,Arena GNP Seguros,Acapulco,MEX,outdoor,hard,solflex,[Ali Nili],dh58,rh16,64 64,412555,500,221975,330,118300,200,60440,100,,,,,32265,50,17210,0,z355,6,r0dg,7,dh58,9,fb98,10,te51,11,rh16,12,pl56,14,td51,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,da81,62,[n732]
+91582024,9158,2024,,2024-02-05,2024-05-11,ATP 250,32,USD,562345,640705,Estadio Mario Alberto Kempes,Cordoba,ARG,outdoor,clay,,[Carlos Sanches],d0fj,bf23,61 64,85535,250,49900,165,29335,100,16995,50,,,,,9870,25,6030,0,c0au,22,b0bi,25,ea24,28,o513,40,ae14,52,te30,54,h997,58,cf59,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sm37,111,[t0a1]
+4042024,404,2024,BNP Paribas Open,2024-03-06,2024-03-17,ATP Masters 1000,128,USD,9495555,12418990,Indian Wells Tennis Garden,Indian Wells,USA,outdoor,hard,plexipave,[Carlos Sanches],a0e2,mm58,76(5) 61,1100000,1000,585000,650,325000,400,185000,200,101000,100,59100,50,42000,30,30050,10,d643,1,a0e2,2,s0ag,3,mm58,4,re44,5,z355,6,r0dg,7,hb71,8,rh16,9,dh58,10,te51,11,fb98,12,d875,13,hh26,14,ke29,15,s0s1,16,pl56,17,td51,18,b0bi,19,bk92,20,me82,21,c0au,22,dh50,23,j551,24,sl28,25,m0ej,26,gj37,27,n771,28,k0ah,29,ea24,30,ag37,31,l0bv,32,z419,79,[n897:r09x:n0bg]
+5802024,580,2024,,2024-01-14,2024-01-28,Grand Slam,128,AUD,38923200,86500000,Melbourne Park,Melbourne,AUS,outdoor,hard,greenset,,s0ag,mm58,36 36 64 64 63,3150000,2000,1725000,1300,990000,800,600000,400,375000,200,255000,100,180000,50,120000,10,d643,1,a0e2,2,mm58,3,s0ag,4,re44,5,z355,6,te51,7,r0dg,8,hb71,9,dh58,10,rh16,11,fb98,12,d875,13,pl56,14,ke29,15,s0s1,16,td51,17,j551,18,n771,22,me82,19,hh26,20,c0au,21,dh50,24,sl28,25,m0ej,28,b0bi,29,ag37,30,gj37,31,k0ah,26,ea24,32,bk92,27,l0bv,23,,,[bu13:g09o:m0hu]
+4032024,403,2024,Miami Open Presented by Itau,2024-03-20,2024-03-31,ATP Masters 1000,128,USD,8995555,10404205,Hard Rock Stadium,Miami,USA,outdoor,hard,laykold,[Gerry Armstrong:Cedric Mourier:Hans-Juergen Ochs:Zsolt Beda],,,,1100000,1000,585000,650,325000,400,185000,200,101000,100,59100,50,34500,30,23250,10,a0e2,2,s0ag,3,mm58,4,z355,5,re44,6,r0dg,7,rh16,8,hb71,9,dh58,10,te51,11,d875,12,fb98,13,pl56,14,hh26,15,ke29,16,s0s1,17,bk92,18,b0bi,19,me82,20,c0au,21,td51,22,j551,23,m0ej,24,sl28,25,gj37,26,l0bv,27,dh50,28,k0ah,29,ea24,30,n771,31,e865,32,cg80,33,kf17,80,[n732]
+5062024,506,2024,IEB+ Argentina Open,2024-02-12,2024-02-18,ATP 250,32,USD,642615,728185,Buenos Aires Lawn Tennis Club,Buenos Aires,ARG,outdoor,clay,,[Carlos Sanches:Jorge Mandl],d0cg,j551,63 64,97745,250,57015,165,33520,100,19425,50,,,,,11280,25,6890,0,a0e2,2,n771,19,j551,20,c0au,22,b0bi,26,ea24,29,db63,35,f0f1,36
+4242024,424,2024,,2024-02-05,2024-02-11,ATP 250,32,USD,756020,841590,Styslinger/Altec Tennis Complex,Dallas,USA,indoor,hard,laykold,[Hans-Juergen Ochs],Tommy Paul,Marcos Giron,76(3) 57 63,114970,250,67070,165,39435,100,22850,50,13270,25,8110,0,Frances Tiafoe,14,Tommy Paul,15,Ben Shelton,16,Adrian Mannarino,17,Christopher Eubanks,32,Max Purcell,43,Jordan Thompson,44,Dominik Koepfer,60,Zachary Svajda,141,[Terence Atmane:Denis Kudla],
+4072024,407,2024,ABN AMRO Open,2024-02-12,2024-02-18,ATP 500,32,EUR,2134985,2290720,Rotterdam Ahoy,Rotterdam,NED,indoor,hard,proflex,[Zsolt Beda:Roland Herfel],s0ag,dh58,75 64,399215,500,214795,330,114490,200,58495,100,31225,50,16655,0,s0ag,4,re44,5,r0dg,7,hb71,8,dh58,11,d875,13,hh26,21,bk92,23,m0ci,67,,
+3392024,339,2024,Brisbane International Presented by Evie,2023-12-31,2024-01-07,ATP 250,32,USD,661585,739945,Queensland Tennis Centre,Brisbane,Australia,outdoor,hard,greenset,[Hans-Juergen Ochs],d875,r0dg,76(5) 64,95340,250,55665,165,32800,100,18700,50,11000,25,6640,0,r0dg,8,d875,14,s0s1,17,hh26,20,k0ah,24,b0bi,28,ea24,30,kc56,35,o483,68
+3363035,336,3035,Bank of China Hong Kong Tennis Open,2024-01-01,2024-01-07,ATP 250,32,USD,661585,739945,Victoria Park Tennis Stadium,Hong Kong,China,outdoor,hard,greenset,[Roland Herfel],re44,rh24,64 64,100640,250,58705,165,34510,100,19995,50,11610,25,7095,0,re44,5,ke29,15,td51,16,c0au,21,sl28,25,m0ej,27,db63,33,f0f1,36,bm95,73
+3752024,375,2024,,2024-01-28,2024-02-04,ATP 250,32,EUR,579320,651865,Sud de France Arena,Montpellier,FRA,indoor,hard,greenset,[Cedric Mourier],bk92,cg80,57 62 63,88125,250,51400,165,30220,100,17510,50,,,,,10165,25,6215,0,r0dg,8,bk92,27,ag37,30,cg80,40,mc10,44,s0h2,48,mp20,73,mc65,76,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pd31,117
+74802024,7480,2024,Mifel Tennis Open by Telcel Oppo,2024-02-19,2024-02-24,ATP 250,32,USD,915245,1005620,Cabo Sports Complex,Los Cabos,MEX,outdoor,hard,solflex,[Jaime Chavez],tc61,rh16,63 76(4),139190,250,81195,165,47740,100,26665,50,,,,,16065,25,9815,0,z355,6,te51,10,dh58,11,rh16,12,sx50,29,ki95,40,ph71,41,tc61,42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb66,99
+69322024,6932,2024,,2024-02-19,2024-02-25,ATP 500,32,USD,2100230,2271715,Jockey Club Brasileiro,Rio de Janeiro,BRA,outdoor,clay,,[Carlos Sanches:Jorge Mandl],b0bi,n0bs,62 61,392775,500,211330,330,112625,200,57540,100,,,,,30715,50,16380,0,a0e2,2,n771,20,j551,21,c0au,22,b0bi,30,db63,35,f0f1,36,o513,38
+4952024,495,2024,Dubai Duty Free Tennis Championships,2024-02-26,2024-03-02,ATP 500,32,USD,2941785,3113270,Aviation Club Tennis Centre,Dubai,UAE,outdoor,hard,decoturf,[Roland Herfel:Ahmed Abdel-Azim],hh26,bk92,64 63,550140,500,296000,330,157755,200,80600,100,,,,,43025,50,22945,0,mm58,4,re44,5,hb71,8,ke29,17,hh26,18,me82,20,bk92,21,dh50,24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,o483,64,[v0dz]
+4962024,496,2024,Open 13 Provence,2024-02-05,2024-02-11,ATP 250,32,EUR,724015,801335,Palais des Sports de Marseille,Marseille,FRA,indoor,hard,acrylic on wood,[Cedric Mourier],hh26,d875,64 63,110115,250,64240,165,37765,100,21885,50,,,,,12705,25,7765,0,hb71,8,d875,13,ke29,18,hh26,21,dh50,23,m0ej,26,ag37,30,l0bv,31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,[z0a1],[mn13:rc91]
+4512024,451,2024,Qatar ExxonMobil Open,2024-02-19,2024-02-24,ATP 250,32,USD,1395875,1493465,Khalifa International Tennis and Squash Complex,Doha,QAT,outdoor,hard,plexicushion,[Roland Herfel],ke29,m0ni,76(12) 64,212300,250,123840,165,72810,100,42190,50,,,,,24500,25,14970,0,re44,5,ke29,17,hh26,18,bk92,23,dh50,24,sl28,25,m0ej,26,gj37,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,f724,70,[mn13]
+7172024,717,2024,,2024-04-01,2024-04-07,ATP 250,32,USD,,,,Houston,USA
+3602024,360,2024,,2024-04-01,2024-04-07,ATP 250,32,EUR,,,,Marrakech,MAR
+72902024,7290,2024,,2024-04-01,2024-04-07,ATP 250,32,EUR,,,,Estoril,POR
+4102024,410,2024,,2024-04-07,2024-04-14,ATP Masters 1000,64,EUR,,,,Monte-Carlo,MON
+4252024,425,2024,,2024-04-15,2024-04-21,ATP 500,64,EUR,,,,Barcelona,ESP
+3082024,308,2024,,2024-04-15,2024-04-21,ATP 250,32,EUR,,,,Munich,GER
+44622024,4462,2024,,2024-04-15,2024-04-21,ATP 250,32,,,,,Bucharest,ROU
+15362024,1536,2024,,2024-04-24,2024-05-05,ATP Masters 1000,128,EUR,,,,Madrid,ESP
+4162024,416,2024,,2024-05-08,2024-05-19,ATP Masters 1000,128,EUR,,,,Rome,ITA
+3222024,322,2024,,2024-05-19,2024-05-25,ATP 250,32,EUR,,,,Geneva,SUI
+76942024,7694,2024,,2024-05-19,2024-05-25,ATP 250,32,EUR,,,,Lyon,FRA
+5202024,520,2024,,2024-05-26,2024-06-09,Grand Slam,128,EUR,,,,Paris,FRA
+3212024,321,2024,,2024-06-10,2024-06-16,ATP 250,32,EUR,,,,Stuttgart,GER
+4402024,440,2024,,2024-06-10,2024-06-16,ATP 250,32,EUR,,,,'s-Hertogenbosch,NED
+3112024,311,2024,,2024-06-17,2024-06-23,ATP 500,32,EUR,,,,London,GBR
+5002024,500,2024,,2024-06-17,2024-06-23,ATP 500,32,EUR,,,,Halle,GER
+89942024,8998,2024,,2024-06-23,2024-06-29,ATP 250,32,EUR,,,,Mallorca,ESP
+7412024,741,2024,,2024-06-24,2024-06-29,ATP 250,32,EUR,,,,Eastbourne,GBR
+5402024,540,2024,,2024-07-01,2024-07-14,Grand Slam,128,GBP,,,,London,GBR
+4142024,414,2024,,2024-07-15,2024-07-21,ATP 500,32,EUR,,,,Hamburg,GER
+3152024,315,2024,,2024-07-15,2024-07-21,ATP 250,32,USD,,,,Newport,USA
+3142024,314,2024,,2024-07-15,2024-07-21,ATP 250,32,EUR,,,,Gstaad,SUI
+3162024,316,2024,,2024-07-15,2024-07-21,ATP 250,32,EUR,,,,Bastad,SWE
+3192024,319,2024,,2024-07-21,2024-07-27,ATP 250,32,EUR,,,,Kitzbuhel,AUT
+4392024,439,2024,,2024-07-21,2024-07-27,ATP 250,32,EUR,,,,Umag,CRO
+61162024,6116,2024,,2024-07-22,2024-07-28,ATP 250,32,USD,,,,Atlanta,USA
+4182024,418,2024,,2024-07-29,2024-08-04,ATP 500,64,USD,,,,Washington D.C.,USA
+4212024,421,2024,,2024-08-06,2024-08-12,ATP Masters 1000,64,USD,,,,Montreal,CAN
+4222024,422,2024,,2024-08-12,2024-08-19,ATP Masters 1000,64,USD,,,,Cincinnati,USA
+62422024,6242,2024,,2024-08-18,2024-08-24,ATP 250,64,USD,,,,Winston-Salem,USA
+5602024,560,2024,,2024-08-26,2024-09-08,Grand Slam,128,USD,,,,New York,USA
+75812024,7581,2024,,2024-09-18,2024-09-24,ATP 250,32,USD,,,,Chengdu,CHN
+91642024,9164,2024,,2024-09-18,2024-09-24,ATP 250,32,USD,,,,Zhuhai,CHN
+3292024,329,2024,,2024-09-25,2024-10-01,ATP 500,32,USD,,,,Tokyo,JPN
+7472024,747,2024,,2024-09-26,2024-10-02,ATP 500,32,USD,,,,Beijing,CHN
+50142024,5014,2024,,2024-10-02,2024-10-13,ATP Masters 1000,128,USD,,,,Shanghai,CHN
+94102024,9410,2024,,2024-10-14,2024-10-20,ATP 250,32,USD,,,,Almaty,KAZ
+4292024,429,2024,,2024-10-14,2024-10-20,ATP 250,32,EUR,,,,Stockholm,SWE
+74852024,7485,2024,,2024-10-14,2024-10-20,ATP 250,32,EUR,,,,Antwerp,BEL
+3372024,337,2024,,2024-10-21,2024-10-27,ATP 500,32,EUR,,,,Vienna,AUT
+3282024,328,2024,,2024-10-21,2024-10-27,ATP 500,32,EUR,,,,Basel,SUI
+3522024,352,2024,,2024-10-28,2024-11-03,ATP Masters 1000,64,EUR,,,,Paris,FRA
+3412024,341,2024,,2024-11-03,2024-11-09,ATP 250,32,EUR,,,,Metz,FRA
+28072024,2807,2024,,2024-11-03,2024-11-09,ATP 250,32,EUR,,,,Gijon,ESP

@@ -15,5 +15,8 @@ export default {
     },
     getEditionByTournament(tournament) {
         return apiClient.get('/tournaments/' + tournament)
+    },
+    getEditionsByYear(year) {
+        return apiClient.get('/year/' + year)
     }
 }

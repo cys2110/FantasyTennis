@@ -1,4 +1,22 @@
 _id,first_name,last_name,active,turned_pro,retired,country,country_yr,prev_country,prev_country_yr,dob,right_handed,backhand,cm,ft,coaches,preferred_surface,age_started,career_high,date,pm_USD,titles,win,loss,gladiator,headshot,ao_round,ao_years,rg_round,rg_years,w_round,w_years,uso_round,uso_years,finals_round,finals_years,olympics_round,olympics_years,wct_round,wct_years,gs_cup_round,gs_cup_years,davis_round,davis_years,hopman_round,hopman_years
+s0nv,Abdullah,Shelbayh,true,,,JOR,,,,2003-11-16,false,2,180,5'11",,[clay],5,181,2024-01-29,438367,0,3,10,true,true
+z0a1,Giulio,Zeppieri,true,2019,,ITA,,,,2001-12-07,false,2,183,6'0",[Massimo Sartori:Nicola Ceragioli:Tommaso Castagnola],[hard],5,110,2024-01-29,778892,0,5,12,true,true,2nd round,[2024],2nd round,[2023]
+hb64,Quentin,Halys,true,2012,,FRA,,,,1996-10-26,true,2,191,6'3",[Nicolas Devilder],[hard],5,61,2023-01-16,2795045,0,26,55,true,true,2nd round,[2016],2nd round,[2016],3rd round,[2023],1st round,[2021:2022:2023]
+k0a3,Patrick,Kypson,true,2019,,USA,,,,1999-10-28,true,2,188,6'2",[Alejandro Gonzalez],,,140,2024-03-18,435436,0,3,5,false,true,1st round,[2024],1st round,[2023],,,1st round,[2017]
+m0oq,James,McCabe,true,,,AUS,,,,2003-07-05,true,2,188,6'2",[Patrick McCabe],,,258,2023-09-18,238496,0,0,2,true,true,1st round,[2024]
+pg94,Marc,Polmans,true,2015,,AUS,,,,1997-05-02,true,2,188,6'2",[Greg Polmans],[hard],4,116,2020-10-12,1651038,0,6,16,true,true,2nd round,[2020],2nd round,[2020],2nd round,[2021],1st round,[2020]
+s0ia,Dane,Sweeny,true,,,AUS,,,,2001-02-12,true,2,170,5'7",[Clay Sweeny],[hard],2,194,2024-02-12,420274,0,2,4,true,true,1st round,[2024]
+j553,Omar,Jasika,true,,,AUS,,,,1997-05-18,false,2,183,6'0",[Admir Jasika-Mitch],,9,207,2024-03-04,422611,0,1,4,true,true,2nd round,[2016]
+va70,Mate,Valkusz,true,,,HUN,,,,1998-08-13,true,2,183,6'0",[Zoltan Kuharsky],[clay],5,204,2023-06-12,268275,0,1,6,false,true,1st round,[2024]
+wb08,Yosuke,Watanuki,true,2016,,JPN,,,,1998-04-12,true,2,180,5'11",[Keisuke Watanuki],,,72,2023-10-30,1010727,0,15,21,true,true,2nd round,[2023],,,2nd round,[2023],1st round,[2023]
+t0a1,Thiago Agustin,Tirante,true,2016,,ARG,,,,2001-04-10,true,2,185,6'1",[Javier Nalbandian:Miguel Pastura],[hard],,97,2024-03-04,570689,0,4,5,true,true,,,2nd round,[2023]
+b0fv,Roman Andres,Burruchaga,true,,,ARG,,,,2002-01-23,true,,183,6'0",[Mariano Hood],[clay],6,157,2024-02-19,190634,0,1,2,true,true
+gj16,Federico Agustin,Gomez,true,,,ARG,,,,1996-11-26,true,2,191,6'3",,[clay],5,342,2024-02-19,73911,0,0,1,false,false
+u182,Camilo,Ugo Carabelli,true,2016,,ARG,,,,1999-06-17,true,2,185,6'1",[Leonardo Olguin:Marcos Massonneau],[hard],6,96,2022-08-15,556066,0,3,4,true,true,,,2nd round,[2022]
+tc01,Li,Tu,true,,,AUS,,,,1996-05-27,true,1,183,6'0",,,,186,2024-03-18,358982,0,1,6,true,true,1st round,[2021]
+ki63,Lukas,Klein,true,,,SVK,,,,1998-03-22,true,,193,9'4",[Karol Kucera],,,128,2024-03-18,647542,0,6,12,false,true,2nd round,[2024],,,1st round,[2022]
+bu13,Zizou,Bergs,true,2018,,BEL,,,,1999-06-03,true,2,185,6'1",[Ruben Bemelmans],,4,112,2023-02-06,804280,0,8,21,true,true,1st round,[2023:2024],,,1st round,[2022]
+d0c1,Jesper,de Jong,true,,,NED,,,,2000-05-31,true,2,180,5'11",[Jeroen Benard],[hard:clay],5,135,2023-09-11,594251,0,1,5,true,true,2nd round,[2024]
 kc12,Mitchell,Krueger,true,2012,,USA,,,,1994-01-12,true,2,188,6'2",[Craig Kardon],[hard],3,135,2022-07-18,1248251,0,8,19,true,true,1st round,[2019],,,,,2nd round,[2020]
 n0be,Adam,Neff,true,,,USA,,,,2001-05-30,true,2,183,6'0",[Grant Chen],[hard],6,827,2023-11-27,20395,0,0,1,false,true
 mp01,Michael,Mmoh,true,2016,,USA,,,,1998-01-10,true,2,188,6'2",[Andres Alarcon],[hard],3,81,2023-09-11,2164376,0,27,39,true,true,3rd round,[2023],1st round,[2020:2022:2023],2nd round,[2023],3rd round,[2023]
@@ -62,6 +80,20 @@ bg23,Nikoloz,Basilashvili,true,2008,,GEO,,,,1992-02-23,true,2,185,6'1",,[hard],5
 bh11,Edward,Beards,false,1965,1968,GBR,,,,,,,,,,,,,,0,0,0,1,false,false,,,,,,,,,,,,,,,,,,,,
 bi23,Liam,Broady,true,2014,,GBR,,,,1994-01-04,false,2,183,6'0",[David Sammel],[grass],4,93,2023-09-25,1909712,0,21,32,true,false,1st round,[2022],1st round,[2020],3rd round,[2022:2023],,,,,,,,,,,,,,
 bi81,Alex,Bolt,true,2011,,AUS,,,,1993-01-05,false,2,183,6'0",[Rohan Williams],[grass:hard],7,125,2019-03-04,1585533,0,15,29,true,true,3rd round,[2019],,,2nd round,[2021],,,,,,,,,,,,,,
+p0j1,Rodrigo,Pacheco Mendez,true,2022,,MEX,,,,2005-04-25,false,2,188,6'2",[Alain Lemaitre],[hard],5,677,2023-09-11,92470,0,1,5,false,false,
+h09p,Brandon,Holt,true,2020,,USA,,,,1998-04-06,true,2,185,6'1",,[hard],5,180,2023-05-22,502470,0,2,6,false,true,2nd round,[2023],,,,,2nd round,[2022]
+da31,Hugo,Dellien,true,2009,,BOL,,,,1993-06-16,true,2,180,5'11",[Antonio Pastorino],[clay],5,64,2022-08-01,2182839,0,39,62,true,true,1st round,[2020:2021:2023],2nd round,[2019:2022],1st round,[2019:2022:2023],2nd round,[2019],,,1st round,[2021]
+mw75,Felipe,Meligeni Alves,true,2016,,BRA,,,,1998-02-19,true,2,185,6'1",[Francisco Yunis],[clay],5,129,2023-06-19,908484,0,5,8,false,true,,,,,,,2nd round,[2023]
+c0df,Francisco,Comesana,true,,,ARG,,,,2000-10-06,true,2,178,5'10",[Sebastian Gutierrez],[clay],7,114,2024-02-26,287272,0,0,3,true,true
+f0fv,Joao,Fonseca,true,,,BRA,,,,2006-08-21,true,2,185,6'1",[Guilherme Teixeira],[hard],5,341,2024-03-18,112529,0,2,3,false,true
+n0bs,Mariano,Navone,true,,,ARG,,,,2001-02-27,true,2,178,5'10",[Andres Dellatorre],,,59,2024-03-04,455529,0,4,3,true,true
+h0du,Gustavo,Heide,true,,,BRA,,,,2002-02-28,true,2,188,6'2",[Haroldo Zwetsch Jr:Gesner Menegucci],,,225,2024-03-18,138311,0,1,2,false,false
+l0cx,Pablo,Llamas Ruiz,true,,,ESP,,,,2002-10-13,true,2,188,6'2",[Agustin Boje],[clay],4,131,2023-10-16,230312,0,2,2,true,true
+e768,Antoine,Escoffier,true,,,FRA,,,,1992-02-29,true,2,185,6'1",,,,135,2023-10-16,429148,0,0,1,false,true,
+c0h0,Arthur,Cazaux,true,2020,,FRA,,,,2002-08-23,true,2,183,6'0",[Stephane Huet],[hard:clay],2,74,2024-03-18,833798,0,6,8,true,true,4th round,[2024],1st round,[2021:2023],,,1st round,[2023]
+s0gd,Dalibor,Svrcina,true,,,CZE,,,,2002-10-02,true,2,178,5'10",[Marek Jaloviec],[grass],6,154,2023-10-02,470311,0,2,4,true,true,2nd round,[2023]
+bv16,Ugo,Blanchet,true,,,FRA,,,,1999-01-05,true,2,175,5'9",[Olivier Coyras],,,191,2023-11-06,166922,0,0,1,true,true
+bk24,Gregoire,Barrere,true,2012,,FRA,,,,1994-02-16,true,2,183,6'0",[Nicolas Copin],[hard],5,49,2023-07-03,2706279,0,35,58,true,true,2nd round,[2020],2nd round,[2019:2022],2nd round,[2019:2023],2nd round,[2019:2020]
 bk19,Mathias,Bourgue,true,,,FRA,,,,1994-01-18,true,2,188,6'2",[Marc Gicquel],[clay],5,140,2017-04-24,848678,0,1,5,false,true,,,2nd round,[2016],,,,,,,,,,,,,,,,
 bk40,Matteo,Berrettini,true,2015,,ITA,,,,1996-04-12,true,2,196,6'5",[Francisco Roig:Umberto Rianna:Vincenzo Santopadre],[hard],4,6,2022-01-31,11564965,7,156,86,true,true,Semifinals,[2022],Quarterfinals,[2021],Final,[2021],Semifinals,[2019],Round robin,[2019:2021],,,,,,,Semifinals,[2022],,
 bk92,Alexander,Bublik,true,2016,,KAZ,2017,RUS,,1997-06-17,true,2,196,6'5",[Artem Suprunov],[hard],2,18,2024-03-18,6495032,4,141,131,true,true,2nd round,[2017:2021:2022],2nd round,[2019:2020:2022],4th round,[2023],3rd round,[2019],,,1st round,[2021],,,,,,,,

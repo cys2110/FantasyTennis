@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const DATABASE_URL = require('../config')
+const {DATABASE_URL} = require('../config')
 
 mongoose
     .connect(DATABASE_URL)
