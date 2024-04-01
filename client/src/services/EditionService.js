@@ -18,5 +18,8 @@ export default {
     },
     getEditionsByYear(year) {
         return apiClient.get('/year/' + year)
+    },
+    getUpcomingEditions() {
+        return apiClient.get('/upcoming')
     }
 }

@@ -43,6 +43,7 @@ app.get('/players/name/:name', playerController.getPlayerByName)
 app.get('/editions/id/:id', editionController.getEditionById)
 app.get('/editions/tournaments/:tournament', editionController.getEditionsByTournament)
 app.get('/editions/year/:year', editionController.getEditionsByYear)
+app.get('/editions/upcoming', editionController.getUpcomingEditions)
 
 app.get('/match-scores/editions/:edition', matchScoreController.getMatchByEdition)
 app.get('/match-scores/player/id/:id', matchScoreController.getMatchesByPlayerId)

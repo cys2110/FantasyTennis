@@ -45,8 +45,23 @@ const getEditionsByYear = async(req, res) => {
     }
 }
 
+const getUpcomingEditions = async(req, res) => {
+    try {
+        const editions = await Edition.find({}).populate('tourney')
+        const upcoming = editions.filter(edition => edition.end_date > Date.now())
+        if (upcoming) {
+            res.json(upcoming)
+        } else {
+            return res.status(404).send('Edition does not exist')
+        }
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
 module.exports = {
     getEditionById,
     getEditionsByTournament,
-    getEditionsByYear
+    getEditionsByYear,
+    getUpcomingEditions
 }
