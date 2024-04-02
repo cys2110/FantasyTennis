@@ -7,7 +7,7 @@ const universalSearch = async(req, res) => {
         const tournaments = await Tournament.find({ name: {$regex: regex} })
         const players = await Player.find({ full_name: {$regex: regex} })
         if ( tournaments || players ) {
-            res.json({tournaments,players})
+            res.json({tournaments, players})
         }
     } catch (error) {
         return res.status(500).send(error.message)

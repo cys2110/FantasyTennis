@@ -53,7 +53,7 @@ app.get('/users', userController.getAllUsers)
 app.get('/users/username/:username', userController.getUserByUsername)
 app.post('/users', userController.createUser)
 
-app.get('/search', tournamentController.universalSearch)
+app.get('/search/:search', tournamentController.universalSearch)
 
 // app.get('/auth/google', passport.authenticate(
 //     'google',

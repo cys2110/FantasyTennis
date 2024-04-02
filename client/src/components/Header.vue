@@ -5,8 +5,10 @@ import { faHouse, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-soli
 import { faCalendar } from '@fortawesome/pro-regular-svg-icons'
 import { faPersonToPortal, faPeopleArrows } from '@fortawesome/pro-duotone-svg-icons'
 import { onMounted, ref, computed } from 'vue'
+import Search from './Search.vue'
 
 const loggedIn = ref(false)
+const searchClick = ref(false)
 
 const logOut = () => {
     localStorage.removeItem('user')
@@ -18,6 +20,10 @@ onMounted(() => {
     loggedIn.value = !!user.value
 })
 
+const toggleSearch = () => {
+    searchClick.value = !searchClick.value
+}
+
 </script>
 
 <template>
@@ -27,9 +33,13 @@ onMounted(() => {
     <div class="nav">
         <RouterLink :to="{name: 'home'}" ><FontAwesomeIcon class="navIcon" :icon="faHouse" /></RouterLink>
         <RouterLink :to="{ name: 'results archive'}" ><FontAwesomeIcon class="navIcon" :icon="faCalendar" /></RouterLink>
+        <!--when h2h is added-->
         <!-- <RouterLink to="/h2h" ><FontAwesomeIcon class="navIcon" :icon="faPeopleArrows" /></RouterLink> -->
         <RouterLink v-if="!loggedIn" :to="{ name: 'login'}" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink>
         <FontAwesomeIcon v-if="loggedIn" :icon="faPersonToPortal" @click="logOut()" />
-        <FontAwesomeIcon :icon="faMagnifyingGlass" />
+        <FontAwesomeIcon :icon="faMagnifyingGlass" @click="toggleSearch()" />
+    </div>
+    <div class="search-container" v-if="searchClick">
+        <Search @close-search="toggleSearch()" />
     </div>
 </template>
