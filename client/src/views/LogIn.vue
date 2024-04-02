@@ -2,10 +2,11 @@
 import UserService from '@/services/UserService';
 import { ref } from 'vue';
 import { RouterLink } from 'vue-router';
+import { useUserStore } from '@/stores/user';
 
 const noUser = ref(false)
 const incorrectPw = ref(false)
-const loggedIn = ref(false)
+const store = useUserStore()
 
 const initialForm = ref({
     username: '',
@@ -25,8 +26,8 @@ const submitForm = () => {
             } else {
                 noUser.value = false
                 if (response.data[0].password === loginForm.value.password ) {
-                    loggedIn.value = true
                     localStorage.setItem('user', response.data[0].username)
+                    store.setLoggedIn(true)
                     loginForm.value = initialForm
                 } else {
                     incorrectPw.value = true
@@ -48,7 +49,7 @@ const submitForm = () => {
         </form>
         <div v-if="noUser">User does not exist.</div>
         <div v-if="incorrectPw">Incorrect password</div>
-        <div v-if="loggedIn">Congratulations! You've logged in.</div>
+        <div v-if="store.loggedIn">Congratulations! You've logged in.</div>
         <RouterLink :to="{ name: 'signup' }" >Don't have an account? Sign up here.</RouterLink>
     </div>
 </template>

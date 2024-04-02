@@ -10,6 +10,8 @@ import Draw from '../views/Edition/Draw.vue'
 import ResultsArchive from '@/views/ResultsArchive.vue'
 import LogIn from '@/views/LogIn.vue'
 import SignUp from '@/views/SignUp.vue'
+import UserLayout from '@/views/User/UserLayout.vue'
+import Settings from '@/views/User/Settings.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,12 +32,25 @@ const router = createRouter({
       component: SignUp
     },
     {
+      path: '/user/:username',
+      name: 'UserLayout',
+      component: UserLayout,
+      props: true,
+      children: [
+        {
+          path: 'settings',
+          name: 'UserSettings',
+          component: Settings
+        }
+      ]
+    },
+    {
       path: '/results-archive',
       name: 'results archive',
       component: ResultsArchive
     },
     {
-      path: '/players/:id',
+      path: '/players/:username',
       component: PlayerLayout,
       props: true,
       children: [

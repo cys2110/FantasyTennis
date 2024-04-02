@@ -15,5 +15,11 @@ export default {
     },
     createUser(user) {
         return apiClient.post('', user)
+    },
+    editUser(id, user) {
+        return apiClient.patch('/' + id, user)
+    },
+    deleteUser(user) {
+        return apiClient.delete('/' + user)
     }
 }

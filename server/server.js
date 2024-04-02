@@ -52,6 +52,8 @@ app.get('/match-scores/player/id/:id', matchScoreController.getMatchesByPlayerId
 app.get('/users', userController.getAllUsers)
 app.get('/users/username/:username', userController.getUserByUsername)
 app.post('/users', userController.createUser)
+app.patch('/users/:id', userController.editUser)
+app.delete('/users/:id', userController.deleteUser)
 
 app.get('/search/:search', tournamentController.universalSearch)
 
