@@ -8,6 +8,8 @@ import EditionOverview from '../views/Edition/EditionOverview.vue'
 import Results from '../views/Edition/Results.vue'
 import Draw from '../views/Edition/Draw.vue'
 import ResultsArchive from '@/views/ResultsArchive.vue'
+import LogIn from '@/views/LogIn.vue'
+import SignUp from '@/views/SignUp.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,6 +20,16 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/login',
+      name: 'login',
+      component: LogIn
+    },
+    {
+      path: '/signup',
+      name: 'signup',
+      component: SignUp
+    },
+    {
       path: '/results-archive',
       name: 'results archive',
       component: ResultsArchive
@@ -25,6 +37,7 @@ const router = createRouter({
     {
       path: '/players/:id',
       component: PlayerLayout,
+      props: true,
       children: [
         {
           path: '',
@@ -39,27 +52,28 @@ const router = createRouter({
       props: true,
       component: Tournament
     },
-    // {
-    //   path: '/tournaments/:id/:year',
-    //   component: EditionLayout,
-    //   children: [
-    //     {
-    //       path: '',
-    //       name: 'EditionOverview',
-    //       component: EditionOverview
-    //     },
-    //     {
-    //       path: '/results',
-    //       name: 'Results',
-    //       component: Results
-    //     },
-    //     {
-    //       path: 'draw',
-    //       name: 'Draw',
-    //       component: Draw
-    //     }
-    //   ]
-    // }
+    {
+      path: '/tournaments/:id/:year',
+      component: EditionLayout,
+      props: true,
+      children: [
+        {
+          path: '',
+          name: 'EditionOverview',
+          component: EditionOverview
+        },
+        {
+          path: 'results',
+          name: 'Results',
+          component: Results
+        },
+        {
+          path: 'draw',
+          name: 'Draw',
+          component: Draw
+        }
+      ]
+    }
   ]
 })
 

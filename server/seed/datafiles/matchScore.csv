@@ -1,63 +1,156 @@
 edition,round,no,p1,p1name,p1seed,p1status,p1rank,p2,p2name,p2seed,p2status,p2rank,winner,winnerid,duration,bye,ret,def,wo,ump,date,set1,tb1,set2,tb2,set3,tb3,set4,tb4,set5,tb5
-966720241,R32,1,d643,Novak Djokovic,1,,5,lb66,Constant Lestienne,,,65,1,d643,75,,,,,,,[6:3],,[6:2]
-966720241,R32,2,tc61,Jordan Thompson,,WC,64,hb64,Quentin Halys,,,64,2,hb64,77,,,,,,,[6:3],,[6:4]
-966720241,R32,3,y268,Mikael Ymer,,,69,sx50,Roman Safiullin,,Q,88,2,sx50,94,,,,,,,[6:4],,6[2]
-966720241,R32,4,h0bh,Rinky Hijikata,,Q,164,su55,Denis Shapovalov,7,,18,2,su55,121,,,,,,,[2:6],,[6:4],,[6:3]
-966720241,R32,5,mm58,Daniil Medvedev,3,,7,su87,Lorenzo Sonego,,,45,1,mm58,103,,true,,,,,[7:6],[8:6],[2:1]
-966720241,R32,6,ki95,Miomir Kecmanovic,,,29,o483,Christopher O'Connell,,WC,78,1,ki95,[6:4],,[6:4]
-966720241,R32,7,kf17,Soonwoo Kwon,,Q,83,d0co,Jack Draper,,,42,2,d0co,68,,,,,,,[6:2],,[6:1]
-966720241,R32,8,cg04,Pedro Cachin,,,57,ke29,Karen Khachanov,8,,20,2,ke29,86,,,,,,,[6:2],,[6:4]
-966720241,R32,9,s0ag,Jannik Sinner,6,,15,e831,Kyle Edmund,,PR,582,1,s0ag,65,,,,,,,[6:3],,[6:2]
-966720241,R32,10,kd46,Thanasi Kokkinakis,,WC,93,c0bc,Maxime Cressy,,,34,1,kd46,132,,,,,,,[7:6],[7:4],[7:6],[9:7]
-966720241,R32,11,mc10,Andy Murray,,,49,k0ah,Sebastian Korda,,,33,2,k0ah,116,,,,,,,[7:6],[7:5],[6:3]
-966720241,R32,12,bd06,Roberto Bautista Agut,,,21,re44,Andrey Rublev,4,,8,1,bd06,110,,,,,,,[4:6],,[6:3],,[6:4]
-966720241,R32,13,r0dg,Holger Rune,,,11,n732,Yoshihito Nishioka,,,36,2,n732,125,,,,,,,[2:6],,[6:4],,[6:4]
-966720241,R32,14,mk66,Mackenzie McDonald,,,63,ge33,Daniel Elahi Galan,,,67,1,mk66,41,,true,,,,,[6:3],,[0:0]
-966720241,R32,15,gc88,Marcos Giron,,,61,g628,Richard Gasquet,,,68,1,gc88,177,,,,,,,[7:6],[7:5],[6:7],[6:8],[7:5]
-966720241,R32,16,p09z,Alexei Popyrin,,Q,120,ag37,Felix Auger-Aliassime,2,,6,1,p09z,115,,,,,,,[6:4],,[7:6],[7:5]
-966720241,R16,1,d643,Novak Djokovic,1,,5,hb64,Quentin Halys,,,64,1,d643,116,,,,,,,[7:6],[7:3],[7:6],[7:5]
-966720241,R16,2,sx50,Roman Safiullin,,Q,88,su55,Denis Shapovalov,7,,18,2,su55,82,,,,,,,[6:4],,[6:3]
-966720241,R16,3,mm58,Daniil Medvedev,3,,7,ki95,Miomir Kecmanovic,,,29,1,mm58,68,,,,,,,[6:0],,[6:3]
-966720241,R16,4,d0co,Jack Draper,,,42,ke29,Karen Khachanov,8,,20,2,ke29,92,,,,,,,[6:4],,[6:2]
-966720241,R16,5,s0ag,Jannik Sinner,6,,15,kd46,Thanasi Kokkinakis,,WC,93,1,s0ag,123,,,,,,,[6:3],,[6:2]
-966720241,R16,6,k0ah,Sebastian Korda,,,33,bd06,Roberto Bautista Agut,,,21,1,k0ah,73,,,,,,,[7:6],[7:3],[6:3]
-966720241,R16,7,n732,Yoshihito Nishioka,,,36,mk66,Mackenzie McDonald,,,63,1,n732,96,,,,,,,[6:4],,[6:3]
-966720241,R16,8,gc88,Marcos Giron,,,61,p09z,Alexei Popyrin,,Q,120,2,p09z,112,,,,,,,[4:6],,[6:4],,[6:3]
-966720241,QF,1,d643,Novak Djokovic,1,,5,su55,Denis Shapovalov,7,,18,1,su55,115,,,,,,,[6:3],,[6:4]
-966720241,QF,2,mm58,Daniil Medvedev,3,,7,ke29,Karen Khachanov,8,,20,1,mm58,78,,,,,,,[6:3],,[6:3]
-966720241,QF,3,s0ag,Jannik Sinner,6,,15,k0ah,Sebastian Korda,,,33,2,k0ah,86,,,,,,,[7:5],,[6:1]
-966720241,QF,4,n732,Yoshihito Nishioka,,,36,p09z,Alexei Popyrin,,Q,120,1,n732,166,,,,,,,[7:6],[7:4],[6:7],[8:10],[6:2]
-966720241,SF,1,d643,Novak Djokovic,1,,5,mm58,Daniil Medvedev,3,,7,1,d643,90,,,,,,,[6:3],,[6:4]
-966720241,SF,2,n732,Yoshihito Nishioka,,,36,k0ah,Sebastian Korda,,,33,2,k0ah,74,,true,,,,,[7:6],[7:5],[1:0]
-966720241,F,,d643,Novak Djokovic,1,,5,k0ah,Sebastian Korda,,,33,1,k0ah,189,,,,,,,[6:7],[8:10],[7:6],[7:3],[6:4]
-8912024,R32,1,c977,Marin Cilic,1,,17,,,,,,1,c977,,true
-8912024,R32,2,cf59,Roberto Carballes Baena,,,74,z419,Bernabe Zapata Miralles,,,72,1,cf59,100,,,,,,,[6:1],,[7:5]
-8912024,R32,3,cf01,Marco Cecchinato,,,101,bg23,Nikoloz Basilashvili,,,91,1,cf01,56,,,,,,,[6:2],,[6:2]
-8912024,R32,4,gj37,Tallon Griekspoor,,,95,mu94,Jaume Munar,7,,58,1,gj37,94,,,,,,,[6:4],,[7:5]
-8912024,R32,5,b0bi,Sebastian Baez,4,,43,,,,,,1,b0bi,,true
-8912024,R32,6,mo44,Pedro Martinez,,,62,rb56,Ramkumar Ramanathan,,Q,435,1,mo44,149,,,,,,,[3:6],,[7:5],,[6:3]
-8912024,R32,7,a829,Radu Albot,,,103,v942,Tim van Rijthoven,,,111,2,v942,86,,,,,,,[6:4],,[6:4]
-8912024,R32,8,a596,Pablo Andujar,,,121,kc56,Aslan Karatsev,8,,59,2,kc56,63,,,,,,,[6:1],,[6:3]
-8912024,R32,9,kb05,Filip Krajinovic,6,,54,n897,Sumit Nagal,,WC,503,1,kb05,145,,,,,,,[6:4],,[4:6],,[6:4
-8912024,R32,10,d0ji,Manas Manoj Dhamne,,WC,0,mp01,Michael Mmoh,,,113,2,mp01,88,,,,,,,[6:2],,[6:4]
-8912024,R32,11,t0ap,Chun-Hsin Tseng,,,115,bm95,Benjamin Bonzi,,,60,2,bm95,62,,,,,,,[6:0],,[6:3]
-8912024,R32,12,,,,,,rh24,Emil Ruusuvuori,3,,40,2,rh24,,true
-8912024,R32,13,mv14,Alex Molcan,5,,50,db63,Laslo Djere,,,70,2,db63,65,,,,,,,[6:2],,[6:4]
-8912024,R32,14,y218,Elias Ymer,,Q,159,mn13,Maximilian Marterer,,Q,159,2,mn13,112,,,,,,,[6:2],,[3:6],,[6:3]
-8912024,R32,15,c0e9,Flavio Cobolli,,Q,171,mp13,Mukund Sasikumar,,WC,340,1,c0e9,98,,,,,,,[6:4],,[7:5]
-8912024,R32,16,,,,,,v812,Botic van de Zandschulp,2,,35,2,v812,,true
-8912024,R16,1,c977,Marin Cilic,1,,17,cf59,Roberto Carballes Baena,,,74,1,c977,122,,,,,,,[6:3],,[3:6],,[6:1]
-8912024,R16,2,cf01,Marco Cecchinato,,,101,gj37,Tallon Griekspoor,,,95,2,gj37,136,,,,,,,[6:4],,[6:4]
-8912024,R16,3,b0bi,Sebastian Baez,4,,43,mo44,Pedro Martinez,,,62,2,mo44,132,,,,,,,[3:6],,[6:1],,[6:3]
-8912024,R16,4,v942,Tim van Rijthoven,,,111,kc56,Aslan Karatsev,8,,59,2,kc56,129,,,,,,,[7:6],[9:7],[7:6],[10:8]
-8912024,R16,5,kb05,Filip Krajinovic,6,,54,mp01,Michael Mmoh,,,113,1,kb05,131,,,,,,,[2:6],,[6:3],,[6:4]
-8912024,R16,6,bm95,Benjamin Bonzi,,,60,rh24,Emil Ruusuvuori,3,,40,1,bm95,81,,,,,,,[6:1],,[7:6],[7:4]
-8912024,R16,7,db63,Laslo Djere,,,70,mn13,Maximilian Marterer,,Q,159,2,mn13,91,,,,,,,[7:6],[7:5],[6:2]
-8912024,R16,8,c0e9,Flavio Cobolli,,Q,171,v812,Botic van de Zandschulp,2,,35,2,v812,94,,,,,,,[7:5],,[6:4]
-8912024,QF,1,c977,Marin Cilic,1,,17,gj37,Tallon Griekspoor,,,95,2,gj37,,,,,true
-8912024,QF,2,mo44,Pedro Martinez,,,62,kc56,Aslan Karatsev,8,,59,2,kc56,73,,,,,,,[6:1],,[6:2]
-8912024,QF,3,kb05,Filip Krajinovic,6,,54,bm95,Benjamin Bonzi,,,60,2,bm95,126,,,,,,,[7:6],[7:5],[6:4]
-8912024,QF,4,mn13,Maximilian Marterer,,Q,159,v812,Botic van de Zandschulp,2,,35,2,v812,67,,,,,,,[6:4],,[6:2]
-8912024,SF,1,gj37,Tallon Griekspoor,,,95,kc56,Aslan Karatsev,8,,59,1,gj37,82,,,,,,,[7:6],[7:4],[6:1]
-8912024,SF,2,bm95,Benjamin Bonzi,,,60,v812,Botic van de Zandschulp,2,,35,1,bm95,149,,,,,,,[7:6],[7:5],[6:7],[5:7],[6:1]
-8912024,F,,gj37,Tallon Griekspoor,,,95,bm95,Benjamin Bonzi,,,60,1,gj37,137,,,,,,,[4:6],,[7:5],,[6:3]
+966720231,R32,1,d643,Novak Djokovic,1,,5,lb66,Constant Lestienne,,,65,1,d643,75,,,,,,,[6:3],,[6:2]
+966720231,R32,2,tc61,Jordan Thompson,,WC,64,hb64,Quentin Halys,,,64,2,hb64,77,,,,,,,[6:3],,[6:4]
+966720231,R32,3,y268,Mikael Ymer,,,69,sx50,Roman Safiullin,,Q,88,2,sx50,94,,,,,,,[6:4],,6[2]
+966720231,R32,4,h0bh,Rinky Hijikata,,Q,164,su55,Denis Shapovalov,7,,18,2,su55,121,,,,,,,[2:6],,[6:4],,[6:3]
+966720231,R32,5,mm58,Daniil Medvedev,3,,7,su87,Lorenzo Sonego,,,45,1,mm58,103,,true,,,,,[7:6],[8:6],[2:1]
+966720231,R32,6,ki95,Miomir Kecmanovic,,,29,o483,Christopher O'Connell,,WC,78,1,ki95,[6:4],,[6:4]
+966720231,R32,7,kf17,Soonwoo Kwon,,Q,83,d0co,Jack Draper,,,42,2,d0co,68,,,,,,,[6:2],,[6:1]
+966720231,R32,8,cg04,Pedro Cachin,,,57,ke29,Karen Khachanov,8,,20,2,ke29,86,,,,,,,[6:2],,[6:4]
+966720231,R32,9,s0ag,Jannik Sinner,6,,15,e831,Kyle Edmund,,PR,582,1,s0ag,65,,,,,,,[6:3],,[6:2]
+966720231,R32,10,kd46,Thanasi Kokkinakis,,WC,93,c0bc,Maxime Cressy,,,34,1,kd46,132,,,,,,,[7:6],[7:4],[7:6],[9:7]
+966720231,R32,11,mc10,Andy Murray,,,49,k0ah,Sebastian Korda,,,33,2,k0ah,116,,,,,,,[7:6],[7:5],[6:3]
+966720231,R32,12,bd06,Roberto Bautista Agut,,,21,re44,Andrey Rublev,4,,8,1,bd06,110,,,,,,,[4:6],,[6:3],,[6:4]
+966720231,R32,13,r0dg,Holger Rune,,,11,n732,Yoshihito Nishioka,,,36,2,n732,125,,,,,,,[2:6],,[6:4],,[6:4]
+966720231,R32,14,mk66,Mackenzie McDonald,,,63,ge33,Daniel Elahi Galan,,,67,1,mk66,41,,true,,,,,[6:3],,[0:0]
+966720231,R32,15,gc88,Marcos Giron,,,61,g628,Richard Gasquet,,,68,1,gc88,177,,,,,,,[7:6],[7:5],[6:7],[6:8],[7:5]
+966720231,R32,16,p09z,Alexei Popyrin,,Q,120,ag37,Felix Auger-Aliassime,2,,6,1,p09z,115,,,,,,,[6:4],,[7:6],[7:5]
+966720231,R16,1,d643,Novak Djokovic,1,,5,hb64,Quentin Halys,,,64,1,d643,116,,,,,,,[7:6],[7:3],[7:6],[7:5]
+966720231,R16,2,sx50,Roman Safiullin,,Q,88,su55,Denis Shapovalov,7,,18,2,su55,82,,,,,,,[6:4],,[6:3]
+966720231,R16,3,mm58,Daniil Medvedev,3,,7,ki95,Miomir Kecmanovic,,,29,1,mm58,68,,,,,,,[6:0],,[6:3]
+966720231,R16,4,d0co,Jack Draper,,,42,ke29,Karen Khachanov,8,,20,2,ke29,92,,,,,,,[6:4],,[6:2]
+966720231,R16,5,s0ag,Jannik Sinner,6,,15,kd46,Thanasi Kokkinakis,,WC,93,1,s0ag,123,,,,,,,[6:3],,[6:2]
+966720231,R16,6,k0ah,Sebastian Korda,,,33,bd06,Roberto Bautista Agut,,,21,1,k0ah,73,,,,,,,[7:6],[7:3],[6:3]
+966720231,R16,7,n732,Yoshihito Nishioka,,,36,mk66,Mackenzie McDonald,,,63,1,n732,96,,,,,,,[6:4],,[6:3]
+966720231,R16,8,gc88,Marcos Giron,,,61,p09z,Alexei Popyrin,,Q,120,2,p09z,112,,,,,,,[4:6],,[6:4],,[6:3]
+966720231,QF,1,d643,Novak Djokovic,1,,5,su55,Denis Shapovalov,7,,18,1,su55,115,,,,,,,[6:3],,[6:4]
+966720231,QF,2,mm58,Daniil Medvedev,3,,7,ke29,Karen Khachanov,8,,20,1,mm58,78,,,,,,,[6:3],,[6:3]
+966720231,QF,3,s0ag,Jannik Sinner,6,,15,k0ah,Sebastian Korda,,,33,2,k0ah,86,,,,,,,[7:5],,[6:1]
+966720231,QF,4,n732,Yoshihito Nishioka,,,36,p09z,Alexei Popyrin,,Q,120,1,n732,166,,,,,,,[7:6],[7:4],[6:7],[8:10],[6:2]
+966720231,SF,1,d643,Novak Djokovic,1,,5,mm58,Daniil Medvedev,3,,7,1,d643,90,,,,,,,[6:3],,[6:4]
+966720231,SF,2,n732,Yoshihito Nishioka,,,36,k0ah,Sebastian Korda,,,33,2,k0ah,74,,true,,,,,[7:6],[7:5],[1:0]
+966720231,F,,d643,Novak Djokovic,1,,5,k0ah,Sebastian Korda,,,33,1,k0ah,189,,,,,,,[6:7],[8:10],[7:6],[7:3],[6:4]
+8912023,R32,1,c977,Marin Cilic,1,,17,,,,,,1,c977,,true
+8912023,R32,2,cf59,Roberto Carballes Baena,,,74,z419,Bernabe Zapata Miralles,,,72,1,cf59,100,,,,,,,[6:1],,[7:5]
+8912023,R32,3,cf01,Marco Cecchinato,,,101,bg23,Nikoloz Basilashvili,,,91,1,cf01,56,,,,,,,[6:2],,[6:2]
+8912023,R32,4,gj37,Tallon Griekspoor,,,95,mu94,Jaume Munar,7,,58,1,gj37,94,,,,,,,[6:4],,[7:5]
+8912023,R32,5,b0bi,Sebastian Baez,4,,43,,,,,,1,b0bi,,true
+8912023,R32,6,mo44,Pedro Martinez,,,62,rb56,Ramkumar Ramanathan,,Q,435,1,mo44,149,,,,,,,[3:6],,[7:5],,[6:3]
+8912023,R32,7,a829,Radu Albot,,,103,v942,Tim van Rijthoven,,,111,2,v942,86,,,,,,,[6:4],,[6:4]
+8912023,R32,8,a596,Pablo Andujar,,,121,kc56,Aslan Karatsev,8,,59,2,kc56,63,,,,,,,[6:1],,[6:3]
+8912023,R32,9,kb05,Filip Krajinovic,6,,54,n897,Sumit Nagal,,WC,503,1,kb05,145,,,,,,,[6:4],,[4:6],,[6:4
+8912023,R32,10,d0ji,Manas Manoj Dhamne,,WC,0,mp01,Michael Mmoh,,,113,2,mp01,88,,,,,,,[6:2],,[6:4]
+8912023,R32,11,t0ap,Chun-Hsin Tseng,,,115,bm95,Benjamin Bonzi,,,60,2,bm95,62,,,,,,,[6:0],,[6:3]
+8912023,R32,12,,,,,,rh24,Emil Ruusuvuori,3,,40,2,rh24,,true
+8912023,R32,13,mv14,Alex Molcan,5,,50,db63,Laslo Djere,,,70,2,db63,65,,,,,,,[6:2],,[6:4]
+8912023,R32,14,y218,Elias Ymer,,Q,159,mn13,Maximilian Marterer,,Q,159,2,mn13,112,,,,,,,[6:2],,[3:6],,[6:3]
+8912023,R32,15,c0e9,Flavio Cobolli,,Q,171,mp13,Mukund Sasikumar,,WC,340,1,c0e9,98,,,,,,,[6:4],,[7:5]
+8912023,R32,16,,,,,,v812,Botic van de Zandschulp,2,,35,2,v812,,true
+8912023,R16,1,c977,Marin Cilic,1,,17,cf59,Roberto Carballes Baena,,,74,1,c977,122,,,,,,,[6:3],,[3:6],,[6:1]
+8912023,R16,2,cf01,Marco Cecchinato,,,101,gj37,Tallon Griekspoor,,,95,2,gj37,136,,,,,,,[6:4],,[6:4]
+8912023,R16,3,b0bi,Sebastian Baez,4,,43,mo44,Pedro Martinez,,,62,2,mo44,132,,,,,,,[3:6],,[6:1],,[6:3]
+8912023,R16,4,v942,Tim van Rijthoven,,,111,kc56,Aslan Karatsev,8,,59,2,kc56,129,,,,,,,[7:6],[9:7],[7:6],[10:8]
+8912023,R16,5,kb05,Filip Krajinovic,6,,54,mp01,Michael Mmoh,,,113,1,kb05,131,,,,,,,[2:6],,[6:3],,[6:4]
+8912023,R16,6,bm95,Benjamin Bonzi,,,60,rh24,Emil Ruusuvuori,3,,40,1,bm95,81,,,,,,,[6:1],,[7:6],[7:4]
+8912023,R16,7,db63,Laslo Djere,,,70,mn13,Maximilian Marterer,,Q,159,2,mn13,91,,,,,,,[7:6],[7:5],[6:2]
+8912023,R16,8,c0e9,Flavio Cobolli,,Q,171,v812,Botic van de Zandschulp,2,,35,2,v812,94,,,,,,,[7:5],,[6:4]
+8912023,QF,1,c977,Marin Cilic,1,,17,gj37,Tallon Griekspoor,,,95,2,gj37,,,,,true
+8912023,QF,2,mo44,Pedro Martinez,,,62,kc56,Aslan Karatsev,8,,59,2,kc56,73,,,,,,,[6:1],,[6:2]
+8912023,QF,3,kb05,Filip Krajinovic,6,,54,bm95,Benjamin Bonzi,,,60,2,bm95,126,,,,,,,[7:6],[7:5],[6:4]
+8912023,QF,4,mn13,Maximilian Marterer,,Q,159,v812,Botic van de Zandschulp,2,,35,2,v812,67,,,,,,,[6:4],,[6:2]
+8912023,SF,1,gj37,Tallon Griekspoor,,,95,kc56,Aslan Karatsev,8,,59,1,gj37,82,,,,,,,[7:6],[7:4],[6:1]
+8912023,SF,2,bm95,Benjamin Bonzi,,,60,v812,Botic van de Zandschulp,2,,35,1,bm95,149,,,,,,,[7:6],[7:5],[6:7],[5:7],[6:1]
+8912023,F,,gj37,Tallon Griekspoor,,,95,bm95,Benjamin Bonzi,,,60,1,gj37,137,,,,,,,[4:6],,[7:5],,[6:3]
+3012023,R32,1,rh16,Casper Ruud,1,,3,,,,,,1,rh16,,true
+3012023,R32,2,mu94,Jaume Munar,,,62,db63,Laslo Djere,,,70,2,db63,145,,,,,,,[3:6],,[6:1],,[7:6],[7:4]
+3012023,R32,3,lb66,Constant Lestienne,,,65,cg04,Pedro Cachin,,,59,1,lb66,71,,,,,,,[6:3],,[6:1]
+3012023,R32,4,bk24,Gregoire Barrere,,Q,88,i186,John Isner,6,,42,1,bk24,139,,,,,,,[6:7],[3:7],[7:6],[7:5],[6:3]
+3012023,R32,5,sh90,Joao Sousa,,LL,82,,,,,,1,sh90,,true
+3012023,R32,6,g628,Richard Gasquet,,,67,p0ed,Kiranpal Pannu,,WC,575,1,g628,80,,,,,,,[6:3],,[6:1]
+3012023,R32,7,hh26,Ugo Humbert,,WC,108,e865,Christopher Eubanks,,Q,123,2,e865,120,,,,,,,[7:6],[7:4],[7:6],[7:3]
+3012023,R32,8,gb88,David Goffin,,,53,bk92,Alexander Bublik,5,,36,1,,73,,,,,,,[6:3],,[6:4]
+3012023,R32,9,b0bi,Sebastian Baez,7,,41,s0s1,Ben Shelton,,WC,92,2,s0s1,83,,,,,,,[7:6],[7:1],[6:1]
+3012023,R32,10,mv14,Alex Molcan,,,54,hb64,Quentin Halys,,,64,2,hb64,53,,,,,,,[6:3],,[6:4]
+3012023,R32,11,b0cd,Jenson Brooksby,,,48,f510,Fabio Fognini,,,57,1,b0cd,134,,,,,,,[6:7],[2:7],[6:1],,[6:3]
+3012023,R32,12,,,,,,sm37,Diego Schwartzman,3,,25,2,sm37,,true
+3012023,R32,13,me82,Adrian Mannarino,8,,43,w09g,J.J. Wolf,,,66,2,w09g,110,,,,,,,[6:4],,[7:6],[7:4]
+3012023,R32,14,gc88,Marcos Giron,,,60,ce77,Federico Coria,,LL,76,1,gc88,158,,,,,,,[6:7],[5:7],[6:4],,[7:5]
+3012023,R32,15,l0bv,Jiri Lehecka,,Q,78,mj08,Thiago Monteiro,,,69,1,l0bv,89,,,,,,,[6:3],,[7:5]
+3012023,R32,16,,,,,,n771,Cameron Norrie,2,,12,2,n771,,true
+3012023,R16,1,rh16,Casper Ruud,1,,3,db63,Laslo Djere,,,70,2,db63,127,,,,,,,[3:6],,[6:3],,[7:6],[7:3]
+3012023,R16,2,lb66,Constant Lestienne,,,65,bk24,Gregoire Barrere,,Q,88,1,lb66,123,,,,,,,[1:6],,[7:6],[7:4],[7:5]
+3012023,R16,3,sh90,Joao Sousa,,LL,82,g628,Richard Gasquet,,,67,2,g628,97,,,,,,,[7:6],[7:2],[6:2]
+3012023,R16,4,e865,Christopher Eubanks,,Q,123,gb88,David Goffin,,,53,2,gb88,80,,,,,,,[6:2],,[6:4]
+3012023,R16,5,s0s1,Ben Shelton,,WC,92,hb64,Quentin Halys,,,64,2,hb64,68,,,,,,,[6:3],,[6:2]
+3012023,R16,6,b0cd,Jenson Brooksby,,,48,sm37,Diego Schwartzman,3,,25,1,b0cd,48,,true,,,,,[6:1],,[0:0]
+3012023,R16,7,w09g,J.J. Wolf,,,66,gc88,Marcos Giron,,,60,2,gc88,94,,,,,,,[6:4],,[6:4]
+3012023,R16,8,l0bv,Jiri Lehecka,,Q,78,n771,Cameron Norrie,2,,12,2,n771,165,,,,,,,[6:4],,[6:7],[4:7],[6:3]
+3012023,QF,1,db63,Laslo Djere,,,70,lb66,Constant Lestienne,,,65,2,lb66,167,,,,,,,[2:6],,[7:6],[7:2],[7:5]
+3012023,QF,2,g628,Richard Gasquet,,,67,gb88,David Goffin,,,53,1,g628,95,,,,,,,[1:6],,[6:1],,[6:1]
+3012023,QF,3,hb64,Quentin Halys,,,64,b0cd,Jenson Brooksby,,,48,2,b0cd,115,,,,,,,[7:6],[7:3],[7:6],[7:2]
+3012023,QF,4,gc88,Marcos Giron,,,60,n771,Cameron Norrie,2,,12,2,n771,124,,,,,,,[6:1],,[6:7],[5:7],[6:2]
+3012023,SF,1,lb66,Constant Lestienne,,,65,g628,Richard Gasquet,,,67,2,g628,,,,,true
+3012023,SF,2,b0cd,Jenson Brooksby,,,48,n771,Cameron Norrie,2,,12,2,n771,99,,,,,,,[6:3],,[6:4]
+3012023,F,,g628,Richard Gasquet,,,67,n771,Cameron Norrie,2,,12,1,g628,147,,,,,,,[4:6],,[6:4],,[6:4]
+966720232,R32,1,re44,Andrey Rublev,1,,6,,,,,,1,re44,,true
+966720232,R32,2,kd46,Thanasi Kokkinakis,,WC,110,p09z,Alexei Popyrin,,WC,113,1,kd46,165,,,,,,,[6:0],,[6:7],[5:7],[7:5]
+966720232,R32,3,kb95,Jason Kubler,,WC,86,ea24,Tomas Martin Etcheverry,,Q,80,1,kb95,130,,,,,,,[7:6],[7:2],[7:5]
+966720232,R32,4,e831,Kyle Edmund,,PR,583,ki95,Miomir Kecmanovic,6,,28,2,ki95,84,,,,,,,[6:4],,[7:5]
+966720232,R32,5,bd06,Roberto Bautista Agut,4,,26,,,,,,1,bd06,,true
+966720232,R32,6,bm95,Benjamin Bonzi,,,50,h756,Robin Haase,,LL,257,2,h756,130,,,,,,,[3:6],,[7:6],[10:8],[7:6],[7:3]
+966720232,R32,7,r772,Albert Ramos-Vinolas,,,38,mh30,John Millman,,Q,148,2,mh30,167,,,,,,,[4:6],,[6:3],,[7:6],[8:6]
+966720232,R32,8,n0ae,Brandon Nakashima,,,,dh50,Alejandro Davidovich Fokina,7,,32,2,dh50,95,,,,,,,[6:2],,[7:6],[7:3]
+966720232,R32,9,pl56,Tommy Paul,8,,35,o483,Christopher O'Connell,,LL,79,1,pl56,89,,,,,,,[6:4],,[7:5]
+966720232,R32,10,su87,Lorenzo Sonego,,,44,d0co,Jack Draper,,,40,2,d0co,83,,,,,,,[6:4],,[6:2]
+966720232,R32,11,rc91,Arthur Rinderknech,,,45,hh06,Marc-Andrea Huesler,,,55,2,hh06,150,,,,,,,[4:6],,[7:6],[7:5],[6:4]
+966720232,R32,12,,,,,,ke29,Karen Khachanov,3,,20,2,ke29,,true
+966720232,R32,13,e687,Daniel Evans,5,,27,mk66,Mackenzie McDonald,,,63,2,mk66,108,,,,,,,[7:5],,[7:5]
+966720232,R32,14,rh24,Emil Ruusuvuori,,,46,y268,Mikael Ymer,,Q,77,2,y268,144,,,,,,,[6:4],,[4:6],,[6:3]
+966720232,R32,15,kf17,Soonwoo Kwon,,LL,84,m0fh,Tomas Machac,,Q,115,1,kf17,101,,,,,,,[6:4],,[6:4]
+966720232,R32,16,,,,,,cd85,Pablo Carreno Busta,2,,15,2,cd85,,true
+966720232,R16,1,re44,Andrey Rublev,1,,6,kd46,Thanasi Kokkinakis,,WC,110,2,kd46,117,,,,,,,[6:0],,[6:7],[5:7],[7:5]
+966720232,R16,2,kb95,Jason Kubler,,WC,86,ki95,Miomir Kecmanovic,6,,28,2,ki95,154,,,,,,,[5:7],,[7:6],[7:1],[6:4]
+966720232,R16,3,bd06,Roberto Bautista Agut,4,,26,h756,Robin Haase,,LL,257,1,bd06,118,,,,,,,[6:3],,[3:6],,[6:3]
+966720232,R16,4,mh30,John Millman,,Q,148,dh50,Alejandro Davidovich Fokina,7,,32,2,dh50,75,,,,,,,[6:3],,[6:3]
+966720232,R16,5,pl56,Tommy Paul,8,,35,d0co,Jack Draper,,,40,2,d0co,91,,,,,,,[6:4],,[6:4]
+966720232,R16,6,hh06,Marc-Andrea Huesler,,,55,ke29,Karen Khachanov,3,,20,2,ke29,80,,,,,,,[6:4],,[6:4]
+966720232,R16,7,mk66,Mackenzie McDonald,,,63,y268,Mikael Ymer,,Q,77,2,y268,180,,,,,,,[3:6],,[7:6],[7:2],[6:3]
+966720232,R16,8,kf17,Soonwoo Kwon,,LL,84,cd85,Pablo Carreno Busta,2,,15,1,kf17,140,,,,,,,[3:6],,[6:4],,[6:4]
+966720232,QF,1,kd46,Thanasi Kokkinakis,,WC,110,ki95,Miomir Kecmanovic,6,,28,1,kd46,130,,,,,,,[6:3],,[6:7],[4:7],[6:1]
+966720232,QF,2,bd06,Roberto Bautista Agut,4,,26,dh50,Alejandro Davidovich Fokina,7,,32,1,bd06,83,,,,,,,[6:3],,[6:2]
+966720232,QF,3,d0co,Jack Draper,,,40,ke29,Karen Khachanov,3,,20,1,d0co,105,,,,,,,[6:4],,[7:6],[7:3]
+966720232,QF,4,y268,Mikael Ymer,,Q,77,kf17,Soonwoo Kwon,,LL,84,2,kf17,61,,,,,,,[6:1],,[6:2]
+966720232,SF,1,kd46,Thanasi Kokkinakis,,WC,110,bd06,Roberto Bautista Agut,4,,26,2,bd06,155,,,,,,,[7:6],[7:4],[3:6],,[6:3]
+966720232,SF,2,d0co,Jack Draper,,,40,kf17,Soonwoo Kwon,,LL,84,2,kf17,165,,,,,,,[7:6],[8:6],[6:7],[2:7],[6:3]
+966720232,F,,bd06,Roberto Bautista Agut,4,,26,kf17,Soonwoo Kwon,,LL,84,2,kf17,163,,,,,,,[6:4],,[3:6],,[7:6],[7:4]
+89982024,R32,1,pl56,Tommy Paul,1,,14,,,,,,1,pl56,,true,,,,,,,,,,,,,,,
+89982024,R32,2,bi81,Alex Bolt,,Q,325,sx91,Thiago Seyboth Wild,,LL,78,1,bi81,72,,,,,Yamila Halle,2024-01-09,[6:3],,[6:2],,,,,,,
+89982024,R32,3,mk66,Mackenzie McDonald,,,42,ki95,Miomir Kecmanovic,,,55,2,ki95,73,,,,,Luca Laugero,2024-01-08,[6:4],,[6:2],,,,,,,
+89982024,R32,4,d0co,Jack Draper,,,62,b0bi,Sebastian Baez,5,,26,1,d0co,78,,,,,Pablo Rodriguez,2024-01-08,[6:1],,[6:3],,,,,,,
+89982024,R32,5,m0ej,Lorenzo Musetti,4,,25,,,,,,1,m0ej,,true,,,,,,,,,,,,,,,
+89982024,R32,6,tc61,Jordan Thompson,,,47,d0cg,Facundo Diaz Acosta,,Q,93,1,tc61,84,,,,,Renaud Lichtenstein,2024-01-09,[6:2],,[6:2],,,,,,,
+89982024,R32,7,h0bh,Rinky Hijikata,,WC,70,e687,Daniel Evans,,,40,2,e687,98,,,,,Adel Nour,2024-01-09,[6:3],,[6:4],,,,,,,
+89982024,R32,8,m0oq,James McCabe,,LL,278,bk92,Alexander Bublik,8,,31,2,bk92,77,,,,,Mohamed Lahyani,2024-01-09,[6:2],,[6:3],,,,,,,
+89982024,R32,9,ea24,Tomas Martin Etcheverry,6,,30,s0h2,Alexander Shevchenko,,,48,2,s0h2,176,,,,,Ana Carvalho,2024-01-08,[7:6],[7:4],[4:6],,[7:5],,,,,
+89982024,R32,10,o483,Christopher O'Connell,,WC,71,rc91,Arthur Rinderknech,,Q,97,1,o483,87,,,,,Nacho Forcadell,2024-01-09,[6:4],,[6:4],,,,,,,
+89982024,R32,11,h997,Yannick Hanfmann,,,49,su87,Lorenzo Sonego,,,46,2,su87,172,,,,,Adel Nour,2024-01-09,[7:5],,[2:6],,[7:6],[11:9],,,,
+89982024,R32,12,,,,,,k0ah,Sebastian Korda,3,,29,2,k0ah,,true,,,,,,,,,,,,,,,
+89982024,R32,13,l0bv,Jiri Lehecka,7,,32,w09e,Adam Walton,,Q,176,1,l0bv,70,,,,,Pablo Rodriguez,2024-01-09,[6:1],,[6:3],,,,,,,
+89982024,R32,14,l987,Dusan Lajovic,,,52,kd46,Thanasi Kokkinakis,,WC,68,1,l987,131,,,,,Mohamed Lahyani,2024-01-08,[3:6],,[6:1],,[6:4],,,,,
+89982024,R32,15,a0fc,Matteo Arnaldi,,,41,z419,Bernabe Zapata Miralles,,LL,77,1,a0fc,101,,,,,Scott Noble,2024-01-09,[6:4],,[6:3],,,,,,,
+89982024,R32,16,,,,,,j551,Nicolas Jarry,2,,18,2,j551,,true,,,,,,,,,,,,,,,
+89982024,R16,1,pl56,Tommy Paul,1,,14,bi81,Alex Bolt,,Q,325,1,pl56,69,,,,,Nacho Forcadell,2024-01-10,[6:3],,[6:2],,,,,,,
+89982024,R16,2,ki95,Miomir Kecmanovic,,,55,d0co,Jack Draper,,,62,2,d0co,219,,,,,Ana Carvalho,2024-01-10,[5:7],,[7:6],[11:9],[7:6],[9:7],,,,
+89982024,R16,3,m0ej,Lorenzo Musetti,4,,25,tc61,Jordan Thompson,,,47,1,m0ej,85,,,,,Mohamed Lahyani,2024-01-10,[6:4],,[6:1],,,,,,,
+89982024,R16,4,e687,Daniel Evans,,,40,bk92,Alexander Bublik,8,,31,2,bk92,122,,,,,Renaud Lichtenstein,2024-01-10,[4:6],,[6:2],,[6:1],,,,,
+89982024,R16,5,s0h2,Alexander Shevchenko,,,48,o483,Christopher O'Connell,,WC,71,2,o483,60,,,,,Luca Laugero,2024-01-10,[6:3],,[6:1],,,,,,,
+89982024,R16,6,su87,Lorenzo Sonego,,,46,k0ah,Sebastian Korda,3,,29,2,k0ah,104,,,,,Renaud Lichtenstein,2024-01-10,[6:4],,[7:6],[12:10],,,,,,
+89982024,R16,7,l0bv,Jiri Lehecka,7,,32,l987,Dusan Lajovic,,,52,1,l0bv,139,,,,,Adel Nour,2024-01-10,[7:5],,[4:6],,[6:3],,,,,
+89982024,R16,8,a0fc,Matteo Arnaldi,,,41,j551,Nicolas Jarry,2,,18,2,j551,207,,,,,Pablo Rodriguez,2024-01-10,[6:7],[5:7],[7:6],[9:7],[6:4],,,,,
+89982024,QF,1,pl56,Tommy Paul,1,,14,d0co,Jack Draper,,,62,2,d0co,140,,,,,Mohamed Lahyani,2024-01-11,[6:1],,[6:4],,,,,,,
+89982024,QF,2,m0ej,Lorenzo Musetti,4,,25,bk92,Alexander Bublik,8,,31,2,bk92,158,,,,,Adel Nour,2024-01-11,[6:3],,[6:7],[4:7],[7:5],,,,,
+89982024,QF,3,o483,Christopher O'Connell,,WC,71,k0ah,Sebastian Korda,3,,29,2,k0ah,89,,,,,Nacho Forcadell,2024-01-11,[6:4],,[6:4],,,,,,,
+89982024,QF,4,l0bv,Jiri Lehecka,7,,32,j551,Nicolas Jarry,2,,18,1,l0bv,100,,,,,Renaud Lichtenstein,2024-01-11,[6:4],,[7:5],,,,,,,
+89982024,SF,1,d0co,Jack Draper,,,62,bk92,Alexander Bublik,8,,31,1,d0co,96,,,,,Renaud Lichtenstein,2024-01-12,[7:6],[7:2],[6:4],,,,,,,
+89982024,SF,2,k0ah,Sebastian Korda,3,,29,l0bv,Jiri Lehecka,7,,32,2,l0bv,72,,,,,Mohamed Lahyani,2024-01-12,[6:2],,[6:1],,,,,,,
+89982024,F,,d0co,Jack Draper,,,62,l0bv,Jiri Lehecka,7,,32,2,l0bv,128,,,,,Nacho Forcadell,2024-01-13,[4:6],,[6:4],,[6:3],,,,,

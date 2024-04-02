@@ -3,6 +3,12 @@ import EditionService from '@/services/EditionService';
 import { onMounted, ref } from 'vue';
 import HomeCard from '../components/HomeCard.vue'
 
+const props = defineProps({
+  user: {
+    type: Object
+  }
+})
+
 const upcoming = ref()
 
 onMounted(() => {

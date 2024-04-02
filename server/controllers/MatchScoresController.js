@@ -3,9 +3,12 @@ const { MatchScore } = require('../models')
 const getMatchByEdition = async(req, res) => {
     try {
         const { edition } = req.params
-        const matches = await MatchScore.find({ edition: edition })
-        if (matches) {
-            res.json(matches)
+        const matches = await MatchScore.find({ edition: edition }).populate({path: 'player_1', select: ['full_name', 'headshot', 'country']}).populate({path: 'player_2', select: ['full_name', 'headshot', 'country']})
+        const sorted = matches.toSorted((a, b) => {
+            return a.match_no - b.match_no
+        })
+        if (sorted) {
+            res.json(sorted)
         } else {
             return res.status(404).send('Match does not exist')
         }

@@ -4,6 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faHouse, faCircleUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faCalendar } from '@fortawesome/pro-regular-svg-icons'
 import { faPersonToPortal, faPeopleArrows } from '@fortawesome/pro-duotone-svg-icons'
+import { onMounted, ref, computed } from 'vue'
+
+const loggedIn = ref(false)
+
+const logOut = () => {
+    localStorage.removeItem('user')
+    loggedIn.value = false
+}
+
+const user = computed(() => localStorage.getItem('user'))
+onMounted(() => {
+    loggedIn.value = !!user.value
+})
+
 </script>
 
 <template>
@@ -14,8 +28,8 @@ import { faPersonToPortal, faPeopleArrows } from '@fortawesome/pro-duotone-svg-i
         <RouterLink :to="{name: 'home'}" ><FontAwesomeIcon class="navIcon" :icon="faHouse" /></RouterLink>
         <RouterLink :to="{ name: 'results archive'}" ><FontAwesomeIcon class="navIcon" :icon="faCalendar" /></RouterLink>
         <!-- <RouterLink to="/h2h" ><FontAwesomeIcon class="navIcon" :icon="faPeopleArrows" /></RouterLink> -->
-        <!-- <RouterLink to="/login" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink> -->
-        <FontAwesomeIcon :icon="faPersonToPortal" />
+        <RouterLink v-if="!loggedIn" :to="{ name: 'login'}" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink>
+        <FontAwesomeIcon v-if="loggedIn" :icon="faPersonToPortal" @click="logOut()" />
         <FontAwesomeIcon :icon="faMagnifyingGlass" />
     </div>
 </template>

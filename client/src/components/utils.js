@@ -25,3 +25,23 @@ function getMonthName(monthIndex) {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     return months[monthIndex]
 }
+
+export function headshot(player) {
+    return new URL(`https://www.atptour.com/-/media/alias/player-headshot/${player}`)
+}
+
+export function gladiator(player) {
+    return new URL(`https://www.atptour.com/-/media/alias/player-gladiator-headshot/${player}`)
+}
+
+export function currency (currency) {
+    if (currency === 'USD') {
+        return '$'
+    } else if ( currency === 'GBP') {
+        return '£'
+    } else if ( currency === 'AUD' ) {
+        return 'A$'
+    } else if ( currency === 'EUR' ) {
+        return '€'
+    }
+}

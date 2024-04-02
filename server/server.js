@@ -10,6 +10,7 @@ const tournamentController = require('./controllers/TournamentsController')
 const playerController = require('./controllers/PlayersController')
 const editionController = require('./controllers/EditionsController')
 const matchScoreController = require('./controllers/MatchScoresController')
+const userController = require('./controllers/UsersController')
 
 const app = express()
 const session = require('express-session')
@@ -47,6 +48,12 @@ app.get('/editions/upcoming', editionController.getUpcomingEditions)
 
 app.get('/match-scores/editions/:edition', matchScoreController.getMatchByEdition)
 app.get('/match-scores/player/id/:id', matchScoreController.getMatchesByPlayerId)
+
+app.get('/users', userController.getAllUsers)
+app.get('/users/username/:username', userController.getUserByUsername)
+app.post('/users', userController.createUser)
+
+app.get('/search', tournamentController.universalSearch)
 
 // app.get('/auth/google', passport.authenticate(
 //     'google',

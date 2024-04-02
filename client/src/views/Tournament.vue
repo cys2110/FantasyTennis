@@ -37,7 +37,6 @@ onMounted(() => {
     EditionService.getEditionByTournament(props.id)
         .then((response) => {
             editions.value = response.data
-            console.log(editions.value)
         })
         .catch((error) => {
             console.log(error)
