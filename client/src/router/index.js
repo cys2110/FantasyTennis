@@ -50,8 +50,9 @@ const router = createRouter({
       component: ResultsArchive
     },
     {
-      path: '/players/:username',
+      path: '/players/:id',
       component: PlayerLayout,
+      name: 'PlayerLayout',
       props: true,
       children: [
         {

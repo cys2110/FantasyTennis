@@ -16,6 +16,7 @@ const setSearch = (year) => {
 
 const displayDropdown = () => {
     dropdownVisible.value = !dropdownVisible.value
+    search.value = ''
 }
 
 const filteredYears = computed(() => {
@@ -48,30 +49,45 @@ watch(search, () => {
 </script>
 
 <template>
-    <h2>Results Archive</h2>
-    <div class="dropdown">
-        <div class="dropdown-search">
-            <button><span class="dropdown-input-container"><input class="dropdown-input" type="text" v-model="search" @input="filterYears" /></span><span class="dropdown-icon-container" ><FontAwesomeIcon class="dropdown-icon" :icon="faChevronDown" @click="displayDropdown" /></span></button>
+    <div class="view-container">
+        <div class="heading">
+            <h1>Results Archive</h1>
+            <div class="dropdown">
+                <div class="dropdown-search">
+                    <button>
+                        <span class="dropdown-input-container"><input class="dropdown-input" type="text" v-model="search" @input="filterYears" /></span>
+                        <span class="dropdown-icon-container" ><FontAwesomeIcon class="dropdown-icon" :icon="faChevronDown" @click="displayDropdown" /></span>
+                    </button>
+                </div>
+                <div class="dropdown-search-content" id="dropdown-menu" v-show="dropdownVisible" >
+                    <li class="dropdown-search-item" v-for="year in filteredYears" @click="setSearch(year)" :key="year" >{{ year }}</li>
+                </div>
+            </div>
         </div>
-        <div class="dropdown-search-content" id="dropdown-menu" v-show="dropdownVisible" >
-            <li class="dropdown-search-item" v-for="year in filteredYears" @click="setSearch(year)" >{{ year }}</li>
+        <div class="results-wrapper" v-if="results">
+            <CalendarCard v-for="result in results" :key="result._id" :tournament="result" />
         </div>
-    </div>
-    <div class="results-wrapper" v-if="results">
-        <CalendarCard v-for="result in results" :key="result._id" :tournament="result" />
     </div>
 </template>
 
 <style scoped>
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 button {
     max-width: fit-content;
-    border-radius: 10px;
-    border: 1px solid #121FFF;
+    border-radius: 15px;
+    border: 1px solid var(--vt-c-box-border);
     background-color: transparent;
+    height: 2rem;
 }
 
 .dropdown {
     max-width: fit-content;
+    position: relative
 }
 
 .dropdown-input {
@@ -80,11 +96,13 @@ button {
     background-color: transparent;
     width: 75px;
     color: var(--color-text);
+    padding: 5px
 }
 
 .dropdown-icon {
     color: var(--color-text);
     cursor: pointer;
+    padding-right: 5px
 }
 
 .dropdown-search-item {
@@ -99,6 +117,11 @@ button {
     border: 1px solid #121FFF;
     border-radius: 10px;
     margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
 }
 
 .dropdown-search-content::-webkit-scrollbar {

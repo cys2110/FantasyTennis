@@ -1,7 +1,6 @@
 <script setup>
-import { computed } from 'vue';
-import { RouterLink } from 'vue-router';
-import { formattedDates } from './utils.js'
+import { RouterLink, useRouter } from 'vue-router';
+import { formattedDates, flagSrc, categorySrc } from './utils.js'
 
 const props = defineProps({
     tournament: {
@@ -10,29 +9,77 @@ const props = defineProps({
     }
 })
 
-const flagSrc = computed(() => {
-    return new URL(`../assets/flags/${props.tournament.location.country}.svg`, import.meta.url).href
-})
+const router = useRouter
 
-const categorySrc = computed(() => {
-    return new URL(`../assets/${props.tournament.category}.svg`, import.meta.url).href
-})
+const navigate = (slug) => {
+    router.push({name: slug, params: { id: props.tournament.tourney._id, year: props.tournament.year}})
+}
 </script>
 
 <template>
-    <div class="tournament-calendar-card">
-        <div class="tournament-details">
-            <div class="category" v-if="tournament.category">
-                <img :src="categorySrc" />
-            </div>
-            <div class="card-heading"><span v-if="tournament.sponsor_name">{{ tournament.sponsor_name }} | </span><span><RouterLink :to="{name: 'Tournament', params: { id: tournament.tourney._id}}" >{{ tournament.tourney.name }}</RouterLink> </span></div>
-            <div class="card-subheading">{{ tournament.location.city }} <img :src="flagSrc" /> | {{ formattedDates(tournament.start_date, tournament.end_date) }}</div>
+    <div class="card">
+        <div class="card-component" v-if="tournament.category" >
+            <img :src="categorySrc(tournament.category)" :alt="tournament.category" class="filter" />
         </div>
-        <div class="card-details">
-            <div class="surface" v-if="tournament.surface">{{ tournament.surface.environment }} {{ tournament.surface.type }}<span v-if="tournament.surface.hard_type"> ({{ tournament.surface.hard_type }})</span></div>
-            <!-- <div class="overview"><RouterLink :to="{ name: 'EditionOverview', params: { id: tournament.tourney._id, year: tournament.year}}" >Overview</RouterLink></div>
-            <div class="results"><RouterLink :to="`/tournaments/${tournament.tourney._id}/${tournament.year}/results`" >Results</RouterLink></div>
-            <div class="draw"><RouterLink :to="`/tournaments/${tournament.tourney._id}/${tournament.year}/draw`" >Draw</RouterLink></div> -->
+        <div class="card-component">
+            <div class="card-heading">
+                <span v-if="tournament.sponsor_name">{{ tournament.sponsor_name }} | </span>
+                <span><RouterLink :to="{name: 'Tournament', params: { id: tournament.tourney._id}}" class="hover-link" >{{ tournament.tourney.name }}</RouterLink></span>
+            </div>
+            <div class="card-subheading">
+                {{ tournament.location.city }} <img class="mini-flag" :src="flagSrc(tournament.location.country)" :alt="tournament.location.country" /> | {{ formattedDates(tournament.start_date, tournament.end_date) }}
+            </div>
+        </div>
+        <div class="right-side card-component">
+            <div class="surface" v-if="tournament.surface" >
+                <div class="card-component-row">{{ tournament.surface.environment }} {{ tournament.surface.type }}</div>
+                <div class="card-component-row" v-if="tournament.surface.hard_type">({{ tournament.surface.hard_type }})</div>
+            </div>
+            <div class="buttons">
+                <div class="button" @click="navigate('EditionOverview')" >Overview</div>
+                <div class="button" @click="navigate('Results')" >Results</div>
+                <div class="button" @click="navigate('Draw')" >Draw</div>
+            </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+.card-component-row {
+    text-transform: capitalize;
+}
+
+.right-side {
+    margin-left: auto;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.surface {
+    text-align: center;
+}
+
+.buttons {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid var(--vt-c-box-border);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateX(-1px) translateY(-1px);
+    box-shadow: 1.5px 1.5px 0px 0px var(--color-border);
+}
+</style>

@@ -33,9 +33,46 @@ const toggleSearch = () => {
         <!-- <RouterLink to="/h2h" ><FontAwesomeIcon class="navIcon" :icon="faPeopleArrows" /></RouterLink> -->
         <RouterLink v-if="!store.loggedIn" :to="{ name: 'login'}" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink>
         <FontAwesomeIcon v-if="store.loggedIn" :icon="faPersonToPortal" @click="logOut()" />
-        <FontAwesomeIcon :icon="faMagnifyingGlass" @click="toggleSearch()" />
+        <FontAwesomeIcon class="navIcon" :icon="faMagnifyingGlass" @click="toggleSearch()" />
     </div>
     <div class="search-container" v-if="searchClick">
         <Search @close-search="toggleSearch()" />
     </div>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+h1 {
+    font-family: 'Fugaz One'
+}
+
+.nav {
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navIcon {
+    cursor: pointer;
+    color: var(--color-text);
+    font-size: large;
+}
+
+.search-container {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 26, 219, 0.5);
+    backdrop-filter: blur(.125rem);
+    top: 0;
+    left: 0
+}
+</style>

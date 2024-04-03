@@ -31,8 +31,6 @@ const flagSrc = (country) => {
     return new URL(`../assets/flags/${country}.svg`, import.meta.url).href
 }
 
-console.log(player1Index)
-console.log(player2Index)
 </script>
 
 <template>

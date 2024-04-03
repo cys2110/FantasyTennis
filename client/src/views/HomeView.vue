@@ -23,8 +23,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1>Upcoming Tournaments</h1>
-  <div class="results-wrapper" v-if="upcoming">
-    <HomeCard v-for="tournament in upcoming" :key="tournament._id" :tournament="tournament" />
+  <div class="view-container">
+    <h1>Upcoming Tournaments</h1>
+    <div class="results-wrapper" v-if="upcoming">
+      <HomeCard v-for="tournament in upcoming" :key="tournament._id" :tournament="tournament" />
+    </div>
   </div>
 </template>

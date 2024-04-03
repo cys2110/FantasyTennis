@@ -1,8 +1,8 @@
 <script setup>
 import PlayerService from '@/services/PlayerService';
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref, watch, watchEffect } from 'vue';
 import { gladiator, headshot } from '@/components/utils';
-import { RouterView } from 'vue-router';
+import { RouterView, useRouter } from 'vue-router';
 
 const props = defineProps({
     id: {
@@ -11,6 +11,7 @@ const props = defineProps({
 })
 
 const player = ref(null)
+const router = useRouter()
 
 const flagSrc = (country) => {
     return new URL(`../../assets/flags/${country}.svg`, import.meta.url).href
@@ -24,6 +25,10 @@ onMounted(() => {
         .catch((error) => {
             console.log(error)
         })
+})
+
+watch(() => router.currentRoute.value.params.id, () => {
+        window.location.reload()
 })
 
 const lastName = computed(() => {

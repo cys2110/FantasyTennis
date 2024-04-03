@@ -45,3 +45,19 @@ export function currency (currency) {
         return '€'
     }
 }
+
+export function tiebreak (matchScore, tiebreakScore) {
+    if (matchScore === 6) {
+        return tiebreakScore
+    } else {
+        return null
+    }
+}
+
+export function flagSrc (country) {
+    return new URL(`../assets/flags/${country}.svg`, import.meta.url).href
+}
+
+export function categorySrc(country) {
+    return new URL(`../assets/${country}.svg`, import.meta.url).href
+}

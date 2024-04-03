@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faCheck } from '@fortawesome/pro-duotone-svg-icons';
 import { computed, ref } from 'vue';
-import { headshot } from './utils';
+import { headshot, tiebreak,flagSrc } from './utils';
 
 const props = defineProps({
     match: {
@@ -13,18 +13,6 @@ const props = defineProps({
 
 const winner = ref(null)
 const loser = ref(null)
-
-const tiebreak = (matchScore, tiebreakScore) => {
-    if (matchScore === 6) {
-        return tiebreakScore
-    } else {
-        return null
-    }
-}
-
-const flagSrc = (country) => {
-    return new URL(`../assets/flags/${country}.svg`, import.meta.url).href
-}
 
 if (props.match.winner === 1) {
     winner.value = props.match.player_1
