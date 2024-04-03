@@ -9,7 +9,7 @@ const props = defineProps({
     }
 })
 
-const router = useRouter
+const router = useRouter()
 
 const navigate = (slug) => {
     router.push({name: slug, params: { id: props.tournament.tourney._id, year: props.tournament.year}})

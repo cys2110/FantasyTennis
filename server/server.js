@@ -48,6 +48,7 @@ app.get('/editions/upcoming', editionController.getUpcomingEditions)
 
 app.get('/match-scores/editions/:edition', matchScoreController.getMatchByEdition)
 app.get('/match-scores/player/id/:id', matchScoreController.getMatchesByPlayerId)
+app.patch('/match-scores/:id', matchScoreController.updateMatch)
 
 app.get('/users', userController.getAllUsers)
 app.get('/users/username/:username', userController.getUserByUsername)

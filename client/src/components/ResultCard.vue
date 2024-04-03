@@ -1,7 +1,7 @@
 <script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faCheck } from '@fortawesome/pro-duotone-svg-icons';
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 import { headshot, tiebreak,flagSrc } from './utils';
 
 const props = defineProps({
@@ -11,37 +11,41 @@ const props = defineProps({
     }
 })
 
-const winner = ref(null)
-const loser = ref(null)
-
-if (props.match.winner === 1) {
-    winner.value = props.match.player_1
-    loser.value = props.match.player_2
-} else {
-    winner.value = props.match.player_2
-    loser.value = props.match.player_1
-}
-
 const hour = Math.floor(props.match.duration_mins / 60)
 const minutes = props.match.duration_mins % 60
 const formattedMinutes = minutes < 10 ? '0' + minutes : minutes
 
 const duration = computed(() => `${hour}:${formattedMinutes}`)
+const winner = computed(() => {
+    if (props.match.winner === 1) {
+        return props.match.player_1
+    } else {
+        return props.match.player_2
+    }
+})
+const loser = computed(() => {
+    if (props.match.winner === 1) {
+        return props.match.player_2
+    } else {
+        return props.match.player_1
+    }
+})
 </script>
 
 <template>
     <div class="result-wrapper">
         <div class="duration" v-if="match.duration_mins">{{ duration }}</div>
         <div class="players">
-            <div class="player">
+            <div class="player" v-if="winner">
+
                 <div class="headshot"><img :src="headshot(winner._id)" /></div>
                 <div class="country"><img :src="flagSrc(winner.country)" /></div>
                 <div class="player-name">{{ winner.full_name }}</div>
             </div>
-            <div class="player">
-                <div class="headshot"><img v-if="!match.bye" :src="headshot(loser._id)" /></div>
-                <div class="country"><img v-if="!match.bye" :src="flagSrc(loser.country)" /></div>
-                <div class="player-name" v-if="!match.bye">{{ loser.full_name }}</div><div class="player-name" v-else>Bye</div>
+            <div class="player" v-if="loser">
+                <div class="headshot"><img :src="headshot(loser._id)" /></div>
+                <div class="country"><img :src="flagSrc(loser.country)" /></div>
+                <div class="player-name">{{ loser.full_name }}</div>
             </div>
         </div>
         <div class="winner">

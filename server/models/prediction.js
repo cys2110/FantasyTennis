@@ -19,7 +19,7 @@ const Prediction = new Schema({
             tiebreak5: [{type: Number, required: false}]
         }
     ],
-    score: {type: Number, required: false}
+    points: {type: Number, required: true, default: 0}
 })
 
 module.exports = Prediction

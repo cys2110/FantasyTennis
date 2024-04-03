@@ -50,7 +50,8 @@ for (let i = 0; i < props.matches.length; i++) {
 </script>
 
 <template>
-    <div class="final">
+    <div class="wrapper"></div>
+    <!-- <div class="final">
         <div>Final</div>
         <ResultCard :match="final" />
     </div>
@@ -65,17 +66,17 @@ for (let i = 0; i < props.matches.length; i++) {
     <div class="r16">
         <div>Round of 16</div>
         <ResultCard v-for="match in r16Matches" :key="match._id" :match="match" />
-    </div>
+    </div> -->
     <div class="r32">
         <div>Round of 32</div>
         <ResultCard v-for="match in r32Matches" :key="match._id" :match="match" />
     </div>
-    <div class="r64" v-if="edition.type_of_draw === 64 || edition.type_of_draw === 128">
+    <!-- <div class="r64" v-if="edition.type_of_draw === 64 || edition.type_of_draw === 128">
         <div>Round of 64</div>
         <ResultCard v-for="match in r64Matches" :key="match._id" :match="match" />
     </div>
     <div class="r128" v-if="edition.type_of_draw === 128">
         <div>Round of 128</div>
         <ResultCard v-for="match in r128Matches" :key="match._id" :match="match" />
-    </div>
+    </div> -->
 </template>

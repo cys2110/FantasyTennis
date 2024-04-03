@@ -15,5 +15,8 @@ export default {
     },
     getMatchesByPlayer(id) {
         return apiClient.get('/player/id/' + id)
+    },
+    editMatch(id, match) {
+        return apiClient.patch('/' + id, match)
     }
 }
