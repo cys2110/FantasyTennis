@@ -12,6 +12,9 @@ import LogIn from '@/views/LogIn.vue'
 import SignUp from '@/views/SignUp.vue'
 import UserLayout from '@/views/User/UserLayout.vue'
 import Settings from '@/views/User/Settings.vue'
+import Profile from '@/views/User/Profile.vue'
+import Prediction from '@/views/User/Prediction.vue'
+import MakePrediction from '@/views/User/MakePrediction.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,9 +41,25 @@ const router = createRouter({
       props: true,
       children: [
         {
+          path: '',
+          name: 'Profile',
+          component: Profile
+        },
+        {
           path: 'settings',
           name: 'UserSettings',
           component: Settings
+        },
+        {
+          path: 'predictions/:id',
+          name: 'Prediction',
+          props: true,
+          component: Prediction
+        },{
+          path: 'make-predictions/:edition',
+          name: 'Make Prediction',
+          props: true,
+          component: MakePrediction
         }
       ]
     },
@@ -71,6 +90,7 @@ const router = createRouter({
     {
       path: '/tournaments/:id/:year',
       component: EditionLayout,
+      name: 'EditionLayout',
       props: true,
       children: [
         {

@@ -60,6 +60,7 @@ const closeSearch = () => {
 
 .search-icon {
     font-size: x-large;
+    cursor: pointer;
 }
 
 input {

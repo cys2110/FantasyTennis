@@ -36,9 +36,9 @@ const navigate = (slug) => {
                 <div class="card-component-row" v-if="tournament.surface.hard_type">({{ tournament.surface.hard_type }})</div>
             </div>
             <div class="buttons">
-                <div class="button" @click="navigate('EditionOverview')" >Overview</div>
-                <div class="button" @click="navigate('Results')" >Results</div>
-                <div class="button" @click="navigate('Draw')" >Draw</div>
+                <div class="card-button" @click="navigate('EditionOverview')" >Overview</div>
+                <div class="card-button" @click="navigate('Results')" >Results</div>
+                <div class="card-button" @click="navigate('Draw')" >Draw</div>
             </div>
         </div>
     </div>
@@ -65,21 +65,5 @@ const navigate = (slug) => {
     margin-left: 20px;
     display: flex;
     flex-direction: row;
-}
-
-.button {
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid var(--vt-c-box-border);
-    padding: 10px;
-    border-radius: 20px;
-    width: 100px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.button:hover {
-    transform: translateX(-1px) translateY(-1px);
-    box-shadow: 1.5px 1.5px 0px 0px var(--color-border);
 }
 </style>

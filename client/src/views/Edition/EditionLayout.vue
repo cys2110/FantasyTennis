@@ -1,8 +1,8 @@
 <script setup>
 import EditionService from '@/services/EditionService';
 import { onMounted, ref, computed } from 'vue';
-import { RouterView, RouterLink } from 'vue-router';
-import { formattedDates } from '@/components/utils';
+import { RouterView, RouterLink, useRoute } from 'vue-router';
+import { formattedDates, categorySrc, flagSrc } from '@/components/utils';
 import MatchScore from '@/services/MatchScore';
 
 const props = defineProps({
@@ -17,10 +17,12 @@ const props = defineProps({
 const editionId = props.id.toString() + props.year.toString()
 const edition = ref(null)
 const matches = ref(null)
+const route = useRoute()
+const currentTab = ref(route.name)
 
-const categorySrc = computed(() => {
-    return new URL(`../../assets/${edition.value.category}.svg`, import.meta.url).href
-})
+const setCurrentTab = (tabName) => {
+    currentTab.value = tabName
+}
 
 onMounted(() => {
     EditionService.getEditionById(editionId)
@@ -41,16 +43,37 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="tabs">
-        <div class="tab"><RouterLink :to="{ name: 'EditionOverview'}" >Overview</RouterLink></div>
-        <div class="tab"><RouterLink :to="{ name: 'Draw'}" >Draw</RouterLink></div>
-        <div class="tab"><RouterLink :to="{ name: 'Results' }" >Results</RouterLink></div>
-    </div>
-    <div class="edition-wrapper" v-if="edition">
-        <h1><span v-if="edition.sponsor_name" >{{ edition.sponsor_name }} | </span><span>{{ edition.tourney.name }}</span></h1>
-        <div class="dates">{{ formattedDates(edition.start_date, edition.end_date) }}</div>
-        <div class="category"><img :src="categorySrc" /></div>
+    <div class="view-container" v-if="edition">
+        <div class="heading-wrapper">
+            <div class="category"><img class="filter" :src="categorySrc(edition.category)" /></div>
+            <div class="heading">
+                <h1><RouterLink class="hover-link" :to="{ name: 'Tournament', params: {id: edition.tourney._id}}">{{ edition.tourney.name }}</RouterLink></h1>
+                <div class="sub-heading" v-if="edition.sponsor_name">{{ edition.sponsor_name }}</div>
+                <div class="sub-heading">{{ formattedDates(edition.start_date, edition.end_date) }}</div>
+            </div>
+            <div class="flag-container"><img class="flag" :src="flagSrc(edition.location.country)" /></div>
+        </div>
 
+        <div class="tabs">
+            <div :class="{'tab': true, 'active-tab': currentTab === 'EditionOverview'}"><RouterLink class="tab-link" :to="{ name: 'EditionOverview'}" @click="setCurrentTab('EditionOverview')" >Overview</RouterLink></div>
+            <div :class="{'tab': true, 'active-tab': currentTab === 'Draw'}"><RouterLink class="tab-link" :to="{ name: 'Draw'}" @click="setCurrentTab('Draw')" >Draw</RouterLink></div>
+            <div :class="{'tab': true, 'active-tab': currentTab === 'Results'}"><RouterLink class="tab-link" :to="{ name: 'Results' }" @click="setCurrentTab('Results')" >Results</RouterLink></div>
+        </div>
         <RouterView v-if="edition && matches ":edition="edition" :matches="matches" />
     </div>
 </template>
+
+<style scoped>
+.flag-container {
+    margin-left: auto;
+}
+
+.flag {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.category {
+    margin-right: 20px;
+}
+</style>

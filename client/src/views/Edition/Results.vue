@@ -46,37 +46,64 @@ for (let i = 0; i < props.matches.length; i++) {
             r128Matches.value.push(props.matches[i])
     }
 }
-
 </script>
 
 <template>
-    <div class="wrapper"></div>
-    <!-- <div class="final">
-        <div>Final</div>
-        <ResultCard :match="final" />
+    <div class="view-container">
+        <div class="round-container">
+            <h1>Final</h1>
+            <div class="card-container">
+                <ResultCard :match="final" />
+            </div>
+        </div>
+        <div class="round-container">
+            <h1>Semifinals</h1>
+            <div class="card-container">
+                <ResultCard v-for="match in sfMatches" :key="match._id" :match="match" />
+            </div>
+        </div>
+        <div class="round-container">
+            <h1>Quarterfinals</h1>
+            <div class="card-container">
+                <ResultCard v-for="match in qfMatches" :key="match._id" :match="match" />
+            </div>
+        </div>
+        <div class="round-container">
+            <h1>Round of 16</h1>
+            <div class="card-container">
+                <ResultCard v-for="match in r16Matches" :key="match._id" :match="match" />
+            </div>
+        </div>
+        <div class="round-container">
+            <h1>Round of 32</h1>
+            <div class="card-container">
+                <ResultCard v-for="match in r32Matches" :key="match._id" :match="match" />
+            </div>
+        </div>
+        <div class="round-container" v-if="edition.type_of_draw === 64 || edition.type_of_draw === 128">
+            <h1>Round of 64</h1>
+            <div class="card-container">
+                <ResultCard v-for="match in r64Matches" :key="match._id" :match="match" />
+            </div>
+        </div>
+        <div class="round-container" v-if="edition.type_of_draw === 128">
+            <h1>Round of 128</h1>
+            <div class="card-container">
+                <ResultCard v-for="match in r128Matches" :key="match._id" :match="match" />
+            </div>
+        </div>
     </div>
-    <div class="sf">
-        <div>Semifinals</div>
-        <ResultCard v-for="match in sfMatches" :key="match._id" :match="match" />
-    </div>
-    <div class="qf">
-        <div>Quarterfinals</div>
-        <ResultCard v-for="match in qfMatches" :key="match._id" :match="match" />
-    </div>
-    <div class="r16">
-        <div>Round of 16</div>
-        <ResultCard v-for="match in r16Matches" :key="match._id" :match="match" />
-    </div> -->
-    <div class="r32">
-        <div>Round of 32</div>
-        <ResultCard v-for="match in r32Matches" :key="match._id" :match="match" />
-    </div>
-    <!-- <div class="r64" v-if="edition.type_of_draw === 64 || edition.type_of_draw === 128">
-        <div>Round of 64</div>
-        <ResultCard v-for="match in r64Matches" :key="match._id" :match="match" />
-    </div>
-    <div class="r128" v-if="edition.type_of_draw === 128">
-        <div>Round of 128</div>
-        <ResultCard v-for="match in r128Matches" :key="match._id" :match="match" />
-    </div> -->
 </template>
+
+<style scoped>
+.view-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+</style>

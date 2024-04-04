@@ -1,6 +1,6 @@
 <script setup>
 import DrawCard from '@/components/DrawCard.vue';
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
 const props = defineProps({
     matches: {
@@ -20,6 +20,12 @@ const r16Matches = ref([])
 const r32Matches = ref([])
 const r64Matches = ref([])
 const r128Matches = ref([])
+
+const selectedRound = ref(2)
+
+const selectRound = (round) => {
+  selectedRound.value = round
+}
 
 
 for (let i = 0; i < props.matches.length; i++) {
@@ -49,27 +55,64 @@ for (let i = 0; i < props.matches.length; i++) {
 </script>
 
 <template>
-    <div class="draw-wrapper">
-        <div class="r128-wrapper" v-if="edition.type_of_draw === 128">
-            <DrawCard v-for="match in r128Matches" :key="match._id" :match="match" />
+    <div v-if="selectedRound">
+        <div class="navigator">
+            <button v-if="edition.type_of_draw === 128" @click="selectRound(128)" :class="{'active-button': selectedRound === 128}">R128</button>
+            <button v-if="edition.type_of_draw === 64 || edition.type_of_draw === 128" @click="selectRound(64)" :class="{'active-button': selectedRound === 64}">R64</button>
+            <button @click="selectRound(32)" :class="{'active-button': selectedRound === 32}">R32</button>
+            <button @click="selectRound(16)" :class="{'active-button': selectedRound === 16}">R16</button>
+            <button @click="selectRound(8)" :class="{'active-button': selectedRound === 8}">QF</button>
+            <button @click="selectRound(4)" :class="{'active-button': selectedRound === 4}">SF</button>
+            <button @click="selectRound(2)" :class="{'active-button': selectedRound === 2}">F</button>
         </div>
-        <div class="r64-wrapper" v-if="edition.type_of_draw === 64">
-            <DrawCard v-for="match in r64Matches" :key="match._id" :match="match" />
-        </div>
-        <div class="r32-wrapper">
-            <DrawCard v-for="match in r32Matches" :key="match._id" :match="match" />
-        </div>
-        <div class="r16-wrapper">
-            <DrawCard v-for="match in r16Matches" :key="match._id" :match="match" />
-        </div>
-        <div class="qf-wrapper">
-            <DrawCard v-for="match in qfMatches" :key="match._id" :match="match" />
-        </div>
-        <div class="sf-wrapper">
-            <DrawCard v-for="match in sfMatches" :key="match._id" :match="match" />
-        </div>
-        <div class="f-wrapper">
-            <DrawCard :match="final" />
+        <div class="draw-wrapper">
+            <div class="round-wrapper" v-if="edition.type_of_draw === 128" v-show="selectedRound >= 128">
+                <DrawCard v-for="match in r128Matches" :key="match._id" :match="match" />
+            </div>
+            <div class="round-wrapper" v-if="edition.type_of_draw === 64 || edition.type_of_draw === 128" v-show="selectedRound >= 64">
+                <DrawCard v-for="match in r64Matches" :key="match._id" :match="match"/>
+            </div>
+            <div class="round-wrapper" v-show="selectedRound >= 32">
+                <DrawCard v-for="match in r32Matches" :key="match._id" :match="match" />
+            </div>
+            <div class="round-wrapper" v-show="selectedRound >= 16">
+                <DrawCard v-for="match in r16Matches" :key="match._id" :match="match" />
+            </div>
+            <div class="round-wrapper" v-show="selectedRound >= 8">
+                <DrawCard v-for="match in qfMatches" :key="match._id" :match="match" />
+            </div>
+            <div class="round-wrapper" v-show="selectedRound >= 4">
+                <DrawCard v-for="match in sfMatches" :key="match._id" :match="match" />
+            </div>
+            <div class="round-wrapper" v-show="selectedRound >= 2">
+                <DrawCard :match="final" />
+            </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+.navigator {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    cursor: pointer;
+    border: 2px solid var(--color-border);
+    background-color: var(--color-background-mute);
+    color: var(--color-text)
+}
+
+.active-button {
+    border: 2px solid var(--vt-c-box-border);
+    color: var(--color-heading)
+}
+</style>

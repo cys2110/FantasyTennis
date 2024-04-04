@@ -11,6 +11,7 @@ const playerController = require('./controllers/PlayersController')
 const editionController = require('./controllers/EditionsController')
 const matchScoreController = require('./controllers/MatchScoresController')
 const userController = require('./controllers/UsersController')
+const predictionController = require('./controllers/PredictionsController')
 
 const app = express()
 const session = require('express-session')
@@ -57,6 +58,10 @@ app.patch('/users/:id', userController.editUser)
 app.delete('/users/:id', userController.deleteUser)
 
 app.get('/search/:search', tournamentController.universalSearch)
+
+app.get('/predictions/id/:id', predictionController.getPredictionById)
+app.get('/predictions/user/:user', predictionController.getPredictionsByUser)
+app.get('/predictions/search', predictionController.getPredictionByUserAndEdition)
 
 // app.get('/auth/google', passport.authenticate(
 //     'google',

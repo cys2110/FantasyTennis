@@ -1,6 +1,6 @@
 <script setup>
 import PlayerService from '@/services/PlayerService';
-import { computed, onMounted, ref, watch, watchEffect } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 import { gladiator, headshot } from '@/components/utils';
 import { RouterView, useRouter } from 'vue-router';
 

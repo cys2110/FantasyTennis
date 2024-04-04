@@ -21,6 +21,12 @@ export function formattedDates(start, end) {
     }
 }
 
+export function regularDate(date) {
+    const options = { year: 'numeric', month: 'long', day:'numeric'}
+    const newDate = new Date(date)
+    return newDate.toLocaleDateString('en-gb', options)
+}
+
 function getMonthName(monthIndex) {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     return months[monthIndex]
@@ -34,16 +40,8 @@ export function gladiator(player) {
     return new URL(`https://www.atptour.com/-/media/alias/player-gladiator-headshot/${player}`)
 }
 
-export function currency (currency) {
-    if (currency === 'USD') {
-        return '$'
-    } else if ( currency === 'GBP') {
-        return '£'
-    } else if ( currency === 'AUD' ) {
-        return 'A$'
-    } else if ( currency === 'EUR' ) {
-        return '€'
-    }
+export function formatCurrency (currency, number) {
+    return number.toLocaleString('en-GB', {style: 'currency', currency: currency})
 }
 
 export function tiebreak (matchScore, tiebreakScore) {
@@ -60,4 +58,8 @@ export function flagSrc (country) {
 
 export function categorySrc(country) {
     return new URL(`../assets/${country}.svg`, import.meta.url).href
+}
+
+export function capitalise(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1)
 }

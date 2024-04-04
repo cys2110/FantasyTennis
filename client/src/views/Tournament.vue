@@ -46,10 +46,28 @@ onMounted(() => {
 
 <template>
     <div class="tournament-wrapper" v-if="tournament">
-        <h1>{{ tournament.name }}</h1> <a v-if="tournament.website" :href="tournament.website" target="_blank"><FontAwesomeIcon :icon="faArrowUpRightFromSquare" /></a>
-        <h5>{{ years }}</h5>
+        <div class="component">
+            <h1>{{ tournament.name }}</h1> <a v-if="tournament.website" :href="tournament.website" target="_blank"><FontAwesomeIcon :icon="faArrowUpRightFromSquare" /></a>
+        </div>
+        <h2>{{ years }}</h2>
         <div class="edition-card" v-if="editions">
             <EditionCard v-for="edition in editions" :edition="edition" />
         </div>
     </div>
 </template>
+
+<style scoped>
+.component {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin-right: 0.5rem;
+}
+
+.edition-card {
+    display: flex;;
+    flex-direction: row;
+}
+</style>

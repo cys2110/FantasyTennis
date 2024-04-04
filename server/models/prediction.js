@@ -5,7 +5,7 @@ const Prediction = new Schema({
     edition: {type: Number, ref: 'Edition'},
     predictions: [
         {
-            match: {type: Schema.Types.ObjectId, ref: 'MatchScore'},
+            match: {type: Schema.Types.ObjectId, ref: 'Match Score'},
             winner: {type: String, required: false},
             set1: [{type: Number, required: false}],
             tiebreak1: [{type: Number, required: false}],
@@ -20,6 +20,6 @@ const Prediction = new Schema({
         }
     ],
     points: {type: Number, required: true, default: 0}
-})
+}, {timestamps: true})
 
 module.exports = Prediction

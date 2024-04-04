@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
-import { headshot } from './utils';
+import { headshot, flagSrc } from './utils';
+import { RouterLink } from 'vue-router';
 
 const props = defineProps({
     edition: {
@@ -8,10 +9,6 @@ const props = defineProps({
         required: true
     }
 })
-
-const flagSrc = (country) => {
-    return new URL(`../assets/flags/${country}.svg`, import.meta.url).href
-}
 
 const formatScore = (score) => {
   const parts = score.split(' ');
@@ -32,27 +29,50 @@ const score = computed(() => formatScore(props.edition.final_score))
 </script>
 
 <template>
-    <h1>{{ edition.year }}</h1>
-    <div class="details-wrapper">
-        <div class="player-wrapper">
-            <div class="headshot">
-                <img :src="headshot(edition.winner._id)" />
-            </div>
-            <div class="flag">
-                <img :src="flagSrc(edition.winner.country)" />
-            </div>
-            <div class="name">{{ edition.winner.full_name }}</div>
+    <div class="view-container">
+        <h3><RouterLink :to="{name: 'EditionOverview', params: {id: edition.tourney._id, year: edition.year}}" class="hover-link">{{ edition.year }}</RouterLink></h3>
+        <div class="card-component">
+            <div class="component-detail"><img v-if="edition.winner.headshot" :src="headshot(edition.winner._id)" class="headshot" /></div>
+            <div class="component-detail"><img :src="flagSrc(edition.winner.country)" class="mini-flag" /></div>
+            <div class="component-detail"><RouterLink :to="{name: 'PlayerOverview', params: {id: edition.winner._id}}" class="hover-link">{{ edition.winner.full_name }}</RouterLink></div>
         </div>
-        <div>d.</div>
-        <div class="player-wrapper">
-            <div class="headshot">
-                <img :src="headshot(edition.finalist._id)" />
-            </div>
-            <div class="flag">
-                <img :src="flagSrc(edition.finalist.country)" />
-            </div>
-            <div class="name">{{ edition.finalist.full_name }}</div>
+        <div class="centred">d.</div>
+        <div class="card-component">
+            <div class="component-detail"><img v-if="edition.finalist.headshot" :src="headshot(edition.finalist._id)" class="headshot" /></div>
+            <div class="component-detail"><img :src="flagSrc(edition.finalist.country)" class="mini-flag" /></div>
+            <div class="component-detail"><RouterLink :to="{name: 'PlayerOverview', params: {id: edition.finalist._id}}" class="hover-link">{{ edition.finalist.full_name }}</RouterLink></div>
         </div>
-        <div class="score-wrapper" v-html="score"></div>
+        <div class="centred" v-html="score"></div>
     </div>
 </template>
+
+<style scoped>
+.view-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--color-border);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card-component {
+    display: flex;
+    flex-direction: row;
+    padding: 0.25rem;
+    align-items: center;
+}
+
+.centred {
+    text-align: center;
+}
+
+.component-detail {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+</style>
