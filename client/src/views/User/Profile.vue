@@ -54,20 +54,44 @@ onMounted(() => {
     <div class="view-container" v-if="predictions">
         <div class="banner">
             <div class="banner-component">
-                <div>{{ user.points }}</div>
+                <div class="bold">{{ user.points }}</div>
                 <div>LIFETIME POINTS</div>
             </div>
             <div class="banner-component">
-                <div>{{ calculateYTD() }}</div>
+                <div class="bold">{{ calculateYTD() }}</div>
                 <div>YTD POINTS</div>
             </div>
             <div class="banner-component">
-                <div>{{ currentPoints() }}</div>
+                <div class="bold">{{ currentPoints() }}</div>
                 <div>CURRENT POINTS</div>
             </div>
         </div>
+        <div class="bold">Predictions</div>
         <div class="card-container">
             <ProfileCard v-for="prediction in predictions" :prediction="prediction" />
         </div>
     </div>
 </template>
+
+<style scoped>
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--vt-c-box-border);
+    padding: 2rem;
+    justify-content: space-evenly;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.banner-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold {
+    font-weight: bold;
+    font-size: xx-large;
+}
+</style>

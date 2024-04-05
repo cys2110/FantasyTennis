@@ -60,6 +60,31 @@ const supervisors = computed(() => {
         </div>
         <div class="cards-container">
             <div class="card-container">
+                <div class="edition-card" v-if="edition.seeds.length > 0">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Seed</th>
+                                <th colspan="3">Player</th>
+                                <th>Rank</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="player in edition.seeds" :key="player._id">
+                                <td class="centred">{{ player.seed }}</td>
+                                <td><img class="headshot" v-if="player.player.headshot" :src="headshot(player.player._id)" @click="navigate(player.player._id)" /></td>
+                                <td><img class="mini-flag" :src="flagSrc(player.player.country)" /></td>
+                                <td>
+                                    <span v-if="withdrawnSeed(player.player)" class="strikethrough"><RouterLink class="hover-link" :to="{name: 'PlayerLayout', params: {id: player.player._id}}">{{ player.player.full_name }}</RouterLink></span>
+                                    <span v-else><RouterLink class="hover-link" :to="{name: 'PlayerLayout', params: {id: player.player._id}}">{{ player.player.full_name }}</RouterLink></span>
+                                </td>
+                                <td v-html="withdrawnRank(player)" class="centred" ></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card-container">
                 <div class="edition-card" v-if="edition.awards">
                     <table>
                         <thead>
@@ -164,35 +189,6 @@ const supervisors = computed(() => {
                                 <td>{{ capitalise(wd.reason) }}</td>
                             </tr>
                         </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="card-container">
-                <div class="edition-card" v-if="edition.seeds.length > 0">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Seed</th>
-                                <th colspan="3">Player</th>
-                                <th>Rank</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr v-for="player in edition.seeds" :key="player._id">
-                                <td class="centred">{{ player.seed }}</td>
-                                <td><img class="headshot" v-if="player.player.headshot" :src="headshot(player.player._id)" @click="navigate(player.player._id)" /></td>
-                                <td><img class="mini-flag" :src="flagSrc(player.player.country)" /></td>
-                                <td>
-                                    <span v-if="withdrawnSeed(player.player)" class="strikethrough"><RouterLink class="hover-link" :to="{name: 'PlayerLayout', params: {id: player.player._id}}">{{ player.player.full_name }}</RouterLink></span>
-                                    <span v-else><RouterLink class="hover-link" :to="{name: 'PlayerLayout', params: {id: player.player._id}}">{{ player.player.full_name }}</RouterLink></span>
-                                </td>
-                                <td v-html="withdrawnRank(player)" class="centred" ></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="edition-card" v-if="edition.entry_info.rets.length > 0 || edition.entry_info.wos.length > 0">
-                    <table>
                         <thead v-if="edition.entry_info.rets.length>0">
                             <tr>
                                 <th colspan="4">Retirements</th>

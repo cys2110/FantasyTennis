@@ -42,7 +42,7 @@ const navigate = (player) => {
 </script>
 
 <template>
-    <div class="result-card">
+    <div class="result-card" v-if="match.winner">
         <div class="card-component">
             <div v-if="match.date">Date: {{ regularDate(match.date) }}</div>
             <div class="right-side" v-if="match.duration_mins">Duration: {{ duration }}</div>

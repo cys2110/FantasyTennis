@@ -22,7 +22,7 @@ const navigatePrediction = () => {
 <template>
     <div class="card">
         <div class="card-component"><img :src="categorySrc(prediction.edition.category)" :alt="prediction.edition.category" class="filter" /></div>
-        <div class="card-component">
+        <div class="card-column">
             <div class="card-heading">
                 <span v-if="prediction.edition.sponsor_name">{{ prediction.edition.sponsor_name }} | </span>
                 <span><RouterLink :to="{name: 'Tournament', params: {id: prediction.edition.tourney._id}}">{{ prediction.edition.tourney.name }}</RouterLink></span>
@@ -30,9 +30,19 @@ const navigatePrediction = () => {
             <div class="card-subheading">{{ prediction.edition.location.city }} <img class="mini-flag" :src="flagSrc(prediction.edition.location.country)" :alt="prediction.edition.location.country" /> | {{ formattedDates(prediction.edition.start_date, prediction.edition.end_date) }}</div>
         </div>
         <div class="buttons">
+            <div class="card-button" @click="navigateEdition('EditionOverview')">Overview</div>
             <div class="card-button" @click="navigateEdition('Results')" >Results</div>
             <div class="card-button" @click="navigateEdition('Draw')" >Draw</div>
             <div class="card-button" @click="navigatePrediction" >Prediction</div>
         </div>
     </div>
 </template>
+
+<style scoped>
+.buttons {
+    margin-left: auto;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+</style>

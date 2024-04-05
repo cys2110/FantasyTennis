@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, useRouter } from 'vue-router';
 import { formattedDates, flagSrc, categorySrc } from './utils.js'
+import { ref } from 'vue'
 
 const props = defineProps({
     tournament: {
@@ -8,6 +9,15 @@ const props = defineProps({
         required: true
     }
 })
+
+const showButtons = ref(true)
+
+const currentDate = new Date ()
+if (new Date(props.tournament.start_date) <= currentDate) {
+    showButtons.value = true
+} else {
+    showButtons.value = false
+}
 
 const router = useRouter()
 
@@ -35,7 +45,7 @@ const navigate = (slug) => {
                 <div class="card-component-row">{{ tournament.surface.environment }} {{ tournament.surface.type }}</div>
                 <div class="card-component-row" v-if="tournament.surface.hard_type">({{ tournament.surface.hard_type }})</div>
             </div>
-            <div class="buttons">
+            <div class="buttons" v-if="showButtons">
                 <div class="card-button" @click="navigate('EditionOverview')" >Overview</div>
                 <div class="card-button" @click="navigate('Results')" >Results</div>
                 <div class="card-button" @click="navigate('Draw')" >Draw</div>
@@ -59,6 +69,7 @@ const navigate = (slug) => {
 
 .surface {
     text-align: center;
+    padding-right: 1rem;
 }
 
 .buttons {

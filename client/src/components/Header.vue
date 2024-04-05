@@ -35,7 +35,7 @@ const user = localStorage.getItem('user')
         <!-- <RouterLink to="/h2h" ><FontAwesomeIcon class="navIcon" :icon="faPeopleArrows" /></RouterLink> -->
         <RouterLink v-if="!store.loggedIn" :to="{ name: 'login'}" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink>
         <RouterLink v-if="store.loggedIn" :to="{ name: 'Profile', params: {username: user}}" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink>
-        <FontAwesomeIcon v-if="store.loggedIn" :icon="faPersonToPortal" @click="logOut()" />
+        <FontAwesomeIcon v-if="store.loggedIn" :icon="faPersonToPortal" class="navIcon" @click="logOut()" />
         <FontAwesomeIcon class="navIcon" :icon="faMagnifyingGlass" @click="toggleSearch()" />
     </div>
     <div class="search-container" v-if="searchClick">
