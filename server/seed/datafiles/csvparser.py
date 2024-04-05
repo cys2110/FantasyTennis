@@ -333,7 +333,7 @@ def matchScore_csv_to_json(csv_path, json_path):
     with open(json_path, mode='w') as output_file:
         json.dump(values_list, output_file, indent=2)
 
-matchScore_csv_to_json('./matchScore.csv', './matchScore.json')
+# matchScore_csv_to_json('./matchScore.csv', './matchScore.json')
 
 def player_csv_to_json(csv_path, json_path):
     with open(csv_path, mode='r', encoding='utf-8-sig') as csv_file:
@@ -422,4 +422,4 @@ def player_csv_to_json(csv_path, json_path):
     with open(json_path, mode='w') as output_file:
         json.dump(values_list, output_file, indent=2)
 
-# player_csv_to_json('./players.csv', './players.json')
+player_csv_to_json('./players.csv', './players.json')

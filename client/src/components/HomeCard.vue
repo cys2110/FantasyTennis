@@ -26,16 +26,16 @@ onMounted(() => {
             if (response.data.length > 0 && store.loggedIn) {
                 PredictionService.getPredictionsByUserandId(localStorage.user, props.tournament._id)
                 .then((response) => {
+                    const startDate = new Date(props.tournament.start_date)
+                    const currentDate = new Date()
                     if (response.data.length > 0) {
-                        const startDate = new Date(props.tournament.start_date)
-                        const currentDate = new Date()
                         if (startDate > currentDate) {
                             editPrediction.value = true
                         } else {
                             viewPrediction.value = true
                         }
                         prediction.value = response.data[0]._id
-                    } else {
+                    } else if (startDate > currentDate) {
                         createPrediction.value = true
                     }
                 })

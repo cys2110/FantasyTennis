@@ -34,7 +34,7 @@ const getMatchesByPlayerId = async(req, res) => {
 const updateMatch = async(req, res) => {
     try {
         const { id } = req.params
-        const updatedMatch = await MatchScore.findByIdAndUpdate(id, req.params, {new: true})
+        const updatedMatch = await MatchScore.findByIdAndUpdate(id, req.body, {new: true})
 
         let finalScore = []
         let setCount = 0

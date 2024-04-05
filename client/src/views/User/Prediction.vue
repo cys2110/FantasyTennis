@@ -170,6 +170,7 @@ const handlePredictedWinner = (round, index, newValue) => {
     if (index % 2 === 0 ) {
         if (matchArray === final) {
             final.value.player_1 = newValue._id
+            finalPlayers.value.player_1 = newValue
         } else {
             matchArray.value[matchIndex].player_1 = newValue._id
             playerArray.value[matchIndex] = {
@@ -184,6 +185,7 @@ const handlePredictedWinner = (round, index, newValue) => {
     } else {
         if (matchArray === final) {
             final.value.player_2 = newValue._id
+            finalPlayers.value.player_2 = newValue
         } else {
             matchArray.value[matchIndex].player_2 = newValue._id
             playerArray.value[matchIndex] = {
@@ -264,6 +266,7 @@ const deletePrediction = () => {
         <div>
             <button v-if="!editMode" @click="editMode = true" >Edit</button>
             <button v-if="editMode" @click="submitPrediction" >Save</button>
+            <button v-if="editMode" @click="editMode = false" >Cancel</button>
             <button @click="deletePrediction" >Delete</button>
         </div>
         <div class="draw-wrapper">

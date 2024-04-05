@@ -50,7 +50,7 @@ const supervisors = computed(() => {
             <div class="details-column">
                 <div class="detail" v-if="edition.location.venue"><span>Venue</span><span>{{ edition.location.venue }}</span></div>
                 <div class="detail"><span>City</span><span>{{ edition.location.city }}</span></div>
-                <div class="detail"><span>Surface</span><span>{{ environment }} {{ edition.surface.type }}<span v-if="edition.surface.hard_type"> ({{ edition.surface.hard_type }})</span></span></div>
+                <div class="detail" v-if="edition.surface"><span>Surface</span><span>{{ environment }} {{ edition.surface.type }}<span v-if="edition.surface.hard_type"> ({{ edition.surface.hard_type }})</span></span></div>
             </div>
             <div class="details-column">
                 <div class="detail" v-if="edition.prize_money"><span>Prize money</span><span>{{ formatCurrency(edition.currency, edition.prize_money) }}</span></div>

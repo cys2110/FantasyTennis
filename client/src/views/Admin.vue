@@ -104,24 +104,24 @@ const saveMatch = (matchId, match) => {
     <div v-if="edition">
         <h1>{{ edition.tourney.name }} | {{ edition.year }}</h1>
     </div>
-    <div class="form-table" v-if="matches.length > 0">
+    <div class="form-table" v-if="matches.length > 0 && edition">
         <table>
             <thead>
                 <tr>
                     <th>R</th>
                     <th>No</th>
-                    <th>P1 id</th>
-                    <th>P1 name</th>
-                    <th>P1 rank</th>
-                    <th>P1 seed</th>
-                    <th>P1 status</th>
-                    <th>P2 id</th>
-                    <th>P2 name</th>
-                    <th>P2 rank</th>
-                    <th>P2 seed</th>
-                    <th>P2 status</th>
+                    <th>1id</th>
+                    <th>1</th>
+                    <th>1r</th>
+                    <th>1se</th>
+                    <th>1st</th>
+                    <th>2id</th>
+                    <th>2</th>
+                    <th>2r</th>
+                    <th>2se</th>
+                    <th>2st</th>
                     <th>W</th>
-                    <th>W id</th>
+                    <th>Wid</th>
                     <th>Mins</th>
                     <th>S1</th>
                     <th>T1</th>
@@ -143,44 +143,40 @@ const saveMatch = (matchId, match) => {
                 <tr v-for="(match) in r128Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
+                    <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_seed" /></td>
                     <td>
-                        <input type="text" v-if="match.player_1" v-model="match.player_1._id" />
-                        <input v-else type="text" v-model="match.player_1" />
-                    </td>
-                    <td><input type="text" v-model="match.player_1_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_seed" /></td>
-                    <td>
-                        <select v-model="match.player_1_status">
+                        <select class="number" v-model="match.player_1_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
+                    <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
                     <td>
-                        <input v-if="match.player_2" type="text" v-model="match.player_2._id" />
-                        <input v-else type="text" v-model="match.player_2" />
-                    </td>
-                    <td><input type="text" v-model="match.player_2_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_seed" /></td>
-                    <td>
-                        <select v-model="match.player_2_status">
+                        <select class="number" v-model="match.player_2_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td><input type="number" v-model="match.winner" /></td>
-                    <td><input type="text" v-model="match.winner_id" /></td>
+                    <td><input  class="number" type="number" v-model="match.winner" /></td>
+                    <td><input type="text" class="number" v-model="match.winner_id" /></td>
                     <td><input class="number" type="number" v-model="match.duration_mins" /></td>
-                    <td><input type="text" v-model="match.score.set1" /></td>
+                    <td><input class="number" type="text" v-model="match.score.set1" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak1" /></td>
                     <td><input class="number" type="text" v-model="match.score.set2" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
@@ -190,8 +186,8 @@ const saveMatch = (matchId, match) => {
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
-                    <td><input class="number" type="text" v-model="match.umpire" /></td>
-                    <td><input class="number" type="date" v-model="match.date" /></td>
+                    <td><input class="name" type="text" v-model="match.umpire" /></td>
+                    <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
                         <input id="bye" type="checkbox" v-model="match.bye" />
                         <label for="bye">Bye</label>
@@ -207,44 +203,40 @@ const saveMatch = (matchId, match) => {
                 <tr v-for="(match) in r64Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
+                    <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_seed" /></td>
                     <td>
-                        <input type="text" v-if="match.player_1" v-model="match.player_1._id" />
-                        <input v-else type="text" v-model="match.player_1" />
-                    </td>
-                    <td><input type="text" v-model="match.player_1_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_seed" /></td>
-                    <td>
-                        <select v-model="match.player_1_status">
+                        <select class="number" v-model="match.player_1_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
+                    <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
                     <td>
-                        <input v-if="match.player_2" type="text" v-model="match.player_2._id" />
-                        <input v-else type="text" v-model="match.player_2" />
-                    </td>
-                    <td><input type="text" v-model="match.player_2_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_seed" /></td>
-                    <td>
-                        <select v-model="match.player_2_status">
+                        <select class="number" v-model="match.player_2_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td><input type="number" v-model="match.winner" /></td>
-                    <td><input type="text" v-model="match.winner_id" /></td>
+                    <td><input  class="number" type="number" v-model="match.winner" /></td>
+                    <td><input type="text" class="number" v-model="match.winner_id" /></td>
                     <td><input class="number" type="number" v-model="match.duration_mins" /></td>
-                    <td><input type="text" v-model="match.score.set1" /></td>
+                    <td><input class="number" type="text" v-model="match.score.set1" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak1" /></td>
                     <td><input class="number" type="text" v-model="match.score.set2" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
@@ -254,8 +246,8 @@ const saveMatch = (matchId, match) => {
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
-                    <td><input class="number" type="text" v-model="match.umpire" /></td>
-                    <td><input class="number" type="date" v-model="match.date" /></td>
+                    <td><input class="name" type="text" v-model="match.umpire" /></td>
+                    <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
                         <input id="bye" type="checkbox" v-model="match.bye" />
                         <label for="bye">Bye</label>
@@ -271,44 +263,40 @@ const saveMatch = (matchId, match) => {
                 <tr v-for="(match) in r32Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
+                    <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_seed" /></td>
                     <td>
-                        <input type="text" v-if="match.player_1" v-model="match.player_1._id" />
-                        <input v-else type="text" v-model="match.player_1" />
-                    </td>
-                    <td><input type="text" v-model="match.player_1_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_seed" /></td>
-                    <td>
-                        <select v-model="match.player_1_status">
+                        <select class="number" v-model="match.player_1_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
+                    <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
                     <td>
-                        <input v-if="match.player_2" type="text" v-model="match.player_2._id" />
-                        <input v-else type="text" v-model="match.player_2" />
-                    </td>
-                    <td><input type="text" v-model="match.player_2_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_seed" /></td>
-                    <td>
-                        <select v-model="match.player_2_status">
+                        <select class="number" v-model="match.player_2_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td><input type="number" v-model="match.winner" /></td>
-                    <td><input type="text" v-model="match.winner_id" /></td>
+                    <td><input  class="number" type="number" v-model="match.winner" /></td>
+                    <td><input type="text" class="number" v-model="match.winner_id" /></td>
                     <td><input class="number" type="number" v-model="match.duration_mins" /></td>
-                    <td><input type="text" v-model="match.score.set1" /></td>
+                    <td><input class="number" type="text" v-model="match.score.set1" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak1" /></td>
                     <td><input class="number" type="text" v-model="match.score.set2" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
@@ -318,8 +306,8 @@ const saveMatch = (matchId, match) => {
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
-                    <td><input class="number" type="text" v-model="match.umpire" /></td>
-                    <td><input class="number" type="date" v-model="match.date" /></td>
+                    <td><input class="name" type="text" v-model="match.umpire" /></td>
+                    <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
                         <input id="bye" type="checkbox" v-model="match.bye" />
                         <label for="bye">Bye</label>
@@ -335,44 +323,40 @@ const saveMatch = (matchId, match) => {
                 <tr v-for="(match) in r16Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
+                    <td v-if="match.player_1  && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
+                    <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_seed" /></td>
                     <td>
-                        <input type="text" v-if="match.player_1" v-model="match.player_1._id" />
-                        <input v-else type="text" v-model="match.player_1" />
-                    </td>
-                    <td><input type="text" v-model="match.player_1_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_seed" /></td>
-                    <td>
-                        <select v-model="match.player_1_status">
+                        <select class="number" v-model="match.player_1_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
+                    <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
                     <td>
-                        <input v-if="match.player_2" type="text" v-model="match.player_2._id" />
-                        <input v-else type="text" v-model="match.player_2" />
-                    </td>
-                    <td><input type="text" v-model="match.player_2_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_seed" /></td>
-                    <td>
-                        <select v-model="match.player_2_status">
+                        <select class="number" v-model="match.player_2_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td><input type="number" v-model="match.winner" /></td>
-                    <td><input type="text" v-model="match.winner_id" /></td>
+                    <td><input  class="number" type="number" v-model="match.winner" /></td>
+                    <td><input type="text" class="number" v-model="match.winner_id" /></td>
                     <td><input class="number" type="number" v-model="match.duration_mins" /></td>
-                    <td><input type="text" v-model="match.score.set1" /></td>
+                    <td><input class="number" type="text" v-model="match.score.set1" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak1" /></td>
                     <td><input class="number" type="text" v-model="match.score.set2" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
@@ -382,8 +366,8 @@ const saveMatch = (matchId, match) => {
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
-                    <td><input class="number" type="text" v-model="match.umpire" /></td>
-                    <td><input class="number" type="date" v-model="match.date" /></td>
+                    <td><input class="name" type="text" v-model="match.umpire" /></td>
+                    <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
                         <input id="bye" type="checkbox" v-model="match.bye" />
                         <label for="bye">Bye</label>
@@ -399,44 +383,40 @@ const saveMatch = (matchId, match) => {
                 <tr v-for="(match) in qfMatches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
+                    <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_seed" /></td>
                     <td>
-                        <input type="text" v-if="match.player_1" v-model="match.player_1._id" />
-                        <input v-else type="text" v-model="match.player_1" />
-                    </td>
-                    <td><input type="text" v-model="match.player_1_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_seed" /></td>
-                    <td>
-                        <select v-model="match.player_1_status">
+                        <select class="number" v-model="match.player_1_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
+                    <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
                     <td>
-                        <input v-if="match.player_2" type="text" v-model="match.player_2._id" />
-                        <input v-else type="text" v-model="match.player_2" />
-                    </td>
-                    <td><input type="text" v-model="match.player_2_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_seed" /></td>
-                    <td>
-                        <select v-model="match.player_2_status">
+                        <select class="number" v-model="match.player_2_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td><input type="number" v-model="match.winner" /></td>
-                    <td><input type="text" v-model="match.winner_id" /></td>
+                    <td><input  class="number" type="number" v-model="match.winner" /></td>
+                    <td><input type="text" class="number" v-model="match.winner_id" /></td>
                     <td><input class="number" type="number" v-model="match.duration_mins" /></td>
-                    <td><input type="text" v-model="match.score.set1" /></td>
+                    <td><input class="number" type="text" v-model="match.score.set1" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak1" /></td>
                     <td><input class="number" type="text" v-model="match.score.set2" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
@@ -446,8 +426,8 @@ const saveMatch = (matchId, match) => {
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
-                    <td><input class="number" type="text" v-model="match.umpire" /></td>
-                    <td><input class="number" type="date" v-model="match.date" /></td>
+                    <td><input class="name" type="text" v-model="match.umpire" /></td>
+                    <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
                         <input id="bye" type="checkbox" v-model="match.bye" />
                         <label for="bye">Bye</label>
@@ -463,44 +443,40 @@ const saveMatch = (matchId, match) => {
                 <tr v-for="(match) in sfMatches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
+                    <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_1_seed" /></td>
                     <td>
-                        <input type="text" v-if="match.player_1" v-model="match.player_1._id" />
-                        <input v-else type="text" v-model="match.player_1" />
-                    </td>
-                    <td><input type="text" v-model="match.player_1_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_1_seed" /></td>
-                    <td>
-                        <select v-model="match.player_1_status">
+                        <select class="number" v-model="match.player_1_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
+                    <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
+                    <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
                     <td>
-                        <input v-if="match.player_2" type="text" v-model="match.player_2._id" />
-                        <input v-else type="text" v-model="match.player_2" />
-                    </td>
-                    <td><input type="text" v-model="match.player_2_full_name" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_rank" /></td>
-                    <td><input class="number" type="number" v-model="match.player_2_seed" /></td>
-                    <td>
-                        <select v-model="match.player_2_status">
+                        <select class="number" v-model="match.player_2_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td><input type="number" v-model="match.winner" /></td>
-                    <td><input type="text" v-model="match.winner_id" /></td>
+                    <td><input  class="number" type="number" v-model="match.winner" /></td>
+                    <td><input type="text" class="number" v-model="match.winner_id" /></td>
                     <td><input class="number" type="number" v-model="match.duration_mins" /></td>
-                    <td><input type="text" v-model="match.score.set1" /></td>
+                    <td><input class="number" type="text" v-model="match.score.set1" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak1" /></td>
                     <td><input class="number" type="text" v-model="match.score.set2" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
@@ -510,8 +486,8 @@ const saveMatch = (matchId, match) => {
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
-                    <td><input class="number" type="text" v-model="match.umpire" /></td>
-                    <td><input class="number" type="date" v-model="match.date" /></td>
+                    <td><input class="name" type="text" v-model="match.umpire" /></td>
+                    <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
                         <input id="bye" type="checkbox" v-model="match.bye" />
                         <label for="bye">Bye</label>
@@ -527,44 +503,40 @@ const saveMatch = (matchId, match) => {
                 <tr v-if="final">
                     <td>{{ final.round }}</td>
                     <td>{{ final.match_no }}</td>
+                    <td v-if="final.player_1"><input class="number" :placeholder="final.player_1._id" readonly ></td>
+                    <td v-else><input class="number" type="text" v-model="final.player_1" /></td>
+                    <td><input type="text" class="name" v-model="final.player_1_full_name" /></td>
+                    <td><input type="number" class="number" v-model="final.player_1_rank" /></td>
+                    <td><input type="number" class="number" v-model="final.player_1_seed" /></td>
                     <td>
-                        <input type="text" v-if="final.player_1" v-model="final.player_1._id" />
-                        <input v-else type="text" v-model="final.player_1" />
-                    </td>
-                    <td><input type="text" v-model="final.player_1_full_name" /></td>
-                    <td><input class="number" type="number" v-model="final.player_1_rank" /></td>
-                    <td><input class="number" type="number" v-model="final.player_1_seed" /></td>
-                    <td>
-                        <select v-model="final.player_1_status">
+                        <select class="number" v-model="final.player_1_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
+                    <td v-if="final.player_2"><input class="number" :placeholder="final.player_2._id" ></td>
+                    <td v-else><input class="number" type="text" v-model="final.player_2" /></td>
+                    <td><input class="name" type="text" v-model="final.player_2_full_name" /></td>
+                    <td><input type="number" class="number" v-model="final.player_2_rank" /></td>
+                    <td><input type="number" class="number" v-model="final.player_2_seed" /></td>
                     <td>
-                        <input v-if="final.player_2" type="text" v-model="final.player_2._id" />
-                        <input v-else type="text" v-model="final.player_2" />
-                    </td>
-                    <td><input type="text" v-model="final.player_2_full_name" /></td>
-                    <td><input class="number" type="number" v-model="final.player_2_rank" /></td>
-                    <td><input class="number" type="number" v-model="final.player_2_seed" /></td>
-                    <td>
-                        <select v-model="final.player_2_status">
+                        <select class="number" v-model="final.player_2_status">
                             <option value="Alt">Alt</option>
                             <option value="LL">LL</option>
+                            <option value="PR">PR</option>
                             <option value="Q">Q</option>
                             <option value="SE">SE</option>
-                            <option value="PR">PR</option>
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td><input type="number" v-model="final.winner" /></td>
-                    <td><input type="text" v-model="final.winner_id" /></td>
+                    <td><input  class="number" type="number" v-model="final.winner" /></td>
+                    <td><input type="text" class="number" v-model="final.winner_id" /></td>
                     <td><input class="number" type="number" v-model="final.duration_mins" /></td>
-                    <td><input type="text" v-model="final.score.set1" /></td>
+                    <td><input class="number" type="text" v-model="final.score.set1" /></td>
                     <td><input class="number" type="text" v-model="final.score.tiebreak1" /></td>
                     <td><input class="number" type="text" v-model="final.score.set2" /></td>
                     <td><input class="number" type="text" v-model="final.score.tiebreak2" /></td>
@@ -574,8 +546,8 @@ const saveMatch = (matchId, match) => {
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.tiebreak4" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.set5" /></td>
                     <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.tiebreak5" /></td>
-                    <td><input class="number" type="text" v-model="final.umpire" /></td>
-                    <td><input class="number" type="date" v-model="final.date" /></td>
+                    <td><input class="name" type="text" v-model="final.umpire" /></td>
+                    <td><input type="date" class="date" v-model="final.date" /></td>
                     <td>
                         <input id="bye" type="checkbox" v-model="final.bye" />
                         <label for="bye">Bye</label>
@@ -596,5 +568,19 @@ const saveMatch = (matchId, match) => {
 <style scoped>
 .form-table {
     overflow-x: auto;
+    width: 100vw
+}
+
+.number {
+    width: 2.75rem;
+    text-align: center;
+}
+
+.date {
+    width: 7rem
+}
+
+.name {
+    width: 7rem
 }
 </style>

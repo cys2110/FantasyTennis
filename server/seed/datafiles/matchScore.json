@@ -1,568 +1,371 @@
 [
   {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 1,
-    "player_1": "d643",
-    "player_1_full_name": "Novak Djokovic",
-    "player_1_seed": 1,
-    "player_1_rank": 1,
-    "winner": 1,
-    "winner_id": "d643",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 2,
-    "player_1": "sx50",
-    "player_1_full_name": "Roman Safiullin",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 3,
-    "player_1": "f0f1",
-    "player_1_full_name": "Arthur Fils",
-    "player_2": "me82",
-    "player_2_full_name": "Adrian Mannarino",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 4,
-    "player_1": "m0ej",
-    "player_1_full_name": "Lorenzo Musetti",
-    "player_2": "fb98",
-    "player_2_full_name": "Taylor Fritz",
-    "player_2_seed": 13,
-    "player_2_rank": 13,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 5,
-    "player_1": "dh58",
-    "player_1_full_name": "Alex de Minaur",
-    "player_1_seed": 11,
-    "player_1_rank": 11,
-    "player_2": "w367",
-    "player_2_full_name": "Stan Wawrinka",
-    "player_2_status": "WC",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 6,
-    "player_1": "ke73",
-    "player_1_full_name": "Dominik Koepfer",
-    "player_2": "gj37",
-    "player_2_full_name": "Tallon Griekspoor",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 7,
-    "player_1": "p09z",
-    "player_1_full_name": "Alexei Popyrin",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 8,
-    "player_2": "re44",
-    "player_2_full_name": "Andrey Rublev",
-    "player_2_seed": 6,
-    "player_2_rank": 6,
-    "winner": 2,
-    "winner_id": "re44",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 9,
-    "player_1": "a0e2",
-    "player_1_full_name": "Carlos Alcaraz",
-    "player_1_seed": 3,
-    "player_1_rank": 3,
-    "winner": 1,
-    "winner_id": "a0e2",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 10,
-    "player_1": "ag37",
-    "player_1_full_name": "Felix Auger-Aliassime",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 11,
-    "player_1": "z371",
-    "player_1_full_name": "Zhizhen Zhang",
-    "player_2": "gc88",
-    "player_2_full_name": "Marcos Giron",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 12,
-    "player_2": "hh26",
-    "player_2_full_name": "Ugo Humbert",
-    "player_2_seed": 14,
-    "player_2_rank": 14,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 13,
-    "player_1": "hb71",
-    "player_1_full_name": "Hubert Hurkacz",
-    "player_1_seed": 10,
-    "player_1_rank": 10,
-    "player_2": "d0co",
-    "player_2_full_name": "Jack Draper",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 14,
-    "player_1": "l0bv",
-    "player_1_full_name": "Jiri Lehecka",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 15,
-    "player_1": "te30",
-    "player_1_full_name": "Alejandro Tabilo",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 16,
-    "player_2": "rh16",
-    "player_2_full_name": "Casper Ruud",
-    "player_2_seed": 8,
-    "player_2_rank": 8,
-    "winner": 2,
-    "winner_id": "rh16",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 17,
-    "player_1": "z355",
-    "player_1_full_name": "Alexander Zverev",
-    "player_1_seed": 5,
-    "player_1_rank": 5,
-    "winner": 1,
-    "winner_id": "z355",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 18,
-    "player_1": "e687",
-    "player_1_full_name": "Daniel Evans",
-    "player_2": "o513",
-    "player_2_full_name": "Sebastian Ofner",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 19,
-    "player_1": "j551",
-    "player_1_full_name": "Nicolas Jarry",
-    "player_2": "ea24",
-    "player_2_full_name": "Tomas Martin Etcheverry",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 20,
-    "player_1": "db63",
-    "player_1_full_name": "Laslo Djere",
-    "player_2": "te51",
-    "player_2_full_name": "Stefanos Tsitsipas",
-    "player_2_seed": 12,
-    "player_2_rank": 12,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 21,
-    "player_1": "ke29",
-    "player_1_full_name": "Karen Khachanov",
-    "player_1_seed": 15,
-    "player_1_rank": 17,
-    "player_2": "n771",
-    "player_2_full_name": "Cameron Norrie",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 22,
-    "player_1": "c0au",
-    "player_1_full_name": "Francisco Cerundolo",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 23,
-    "player_1": "mc65",
-    "player_1_full_name": "Gael Monfils",
-    "player_1_status": "WC",
-    "player_2": "tc61",
-    "player_2_full_name": "Jordan Thompson",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 24,
-    "player_2": "mm58",
-    "player_2_full_name": "Daniil Medvedev",
-    "player_2_seed": 4,
-    "player_2_rank": 4,
-    "winner": 2,
-    "winner_id": "mm58",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 25,
-    "player_1": "r0dg",
-    "player_1_full_name": "Holger Rune",
-    "player_1_seed": 7,
-    "player_1_rank": 7,
-    "winner": 1,
-    "winner_id": "r0dg",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 26,
-    "player_1": "a0fc",
-    "player_1_full_name": "Matteo Arnaldi",
-    "player_2": "rh24",
-    "player_2_full_name": "Emil Ruusuvuori",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 27,
-    "player_1": "ki95",
-    "player_1_full_name": "Miomir Kecmanovic",
-    "player_2": "bk40",
-    "player_2_full_name": "Matteo Berrettini",
-    "player_2_status": "WC",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 28,
-    "player_1": "va25",
-    "player_1_full_name": "Valentin Vacherot",
-    "player_1_status": "WC",
-    "player_2": "d875",
-    "player_2_full_name": "Grigor Dimitrov",
-    "player_2_seed": 9,
-    "player_2_rank": 9,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 29,
-    "player_1": "bk92",
-    "player_1_full_name": "Alexander Bublik",
-    "player_1_seed": 16,
-    "player_1_rank": 18,
-    "player_2": "cg80",
-    "player_2_full_name": "Borna Coric",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 30,
-    "player_1": "sl28",
-    "player_1_full_name": "Jan-Lennard Struff",
-    "player_2": "b0bi",
-    "player_2_full_name": "Sebastian Baez",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 31,
-    "player_1": "k0ah",
-    "player_1_full_name": "Sebastian Korda",
-    "player_2": "dh50",
-    "player_2_full_name": "Alejandro Davidovich Fokina",
-    "score": {}
-  },
-  {
-    "edition": 4102024,
-    "round": "R64",
-    "match_no": 32,
-    "player_2": "s0ag",
-    "player_2_full_name": "Jannik Sinner",
-    "player_2_seed": 2,
-    "player_2_rank": 2,
-    "winner": 2,
-    "winner_id": "s0ag",
-    "bye": true,
-    "score": {}
-  },
-  {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 1,
-    "player_1": "d643",
-    "player_1_full_name": "Novak Djokovic",
-    "player_1_seed": 1,
-    "player_1_rank": 1,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 2,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 3,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 4,
-    "player_2": "re44",
-    "player_2_full_name": "Andrey Rublev",
-    "player_2_seed": 6,
-    "player_2_rank": 6,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 5,
-    "player_1": "a0e2",
-    "player_1_full_name": "Carlos Alcaraz",
-    "player_1_seed": 3,
-    "player_1_rank": 3,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 6,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 7,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 8,
-    "player_2": "rh16",
-    "player_2_full_name": "Casper Ruud",
-    "player_2_seed": 8,
-    "player_2_rank": 8,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 9,
-    "player_1": "z355",
-    "player_1_full_name": "Alexander Zverev",
-    "player_1_seed": 5,
-    "player_1_rank": 5,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 10,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 11,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 12,
-    "player_2": "mm58",
-    "player_2_full_name": "Daniil Medvedev",
-    "player_2_seed": 4,
-    "player_2_rank": 4,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 13,
-    "player_1": "r0dg",
-    "player_1_full_name": "Holger Rune",
-    "player_1_seed": 7,
-    "player_1_rank": 7,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 14,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 15,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R32",
     "match_no": 16,
-    "player_2": "s0ag",
-    "player_2_full_name": "Jannik Sinner",
-    "player_2_seed": 2,
-    "player_2_rank": 2,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 1,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 2,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 3,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 4,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 5,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 6,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 7,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "R16",
     "match_no": 8,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "QF",
     "match_no": 1,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "QF",
     "match_no": 2,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "QF",
     "match_no": 3,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "QF",
     "match_no": 4,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "SF",
     "match_no": 1,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
     "round": "SF",
     "match_no": 2,
     "score": {}
   },
   {
-    "edition": 4102024,
+    "edition": 7172024,
+    "round": "F",
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 1,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 2,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 3,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 4,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 5,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 6,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 7,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 8,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 9,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 10,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 11,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 12,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 13,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 14,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 15,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R32",
+    "match_no": 16,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 1,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 2,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 3,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 4,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 5,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 6,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 7,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "R16",
+    "match_no": 8,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "QF",
+    "match_no": 1,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "QF",
+    "match_no": 2,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "QF",
+    "match_no": 3,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "QF",
+    "match_no": 4,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "SF",
+    "match_no": 1,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
+    "round": "SF",
+    "match_no": 2,
+    "score": {}
+  },
+  {
+    "edition": 72902024,
     "round": "F",
     "score": {}
   }

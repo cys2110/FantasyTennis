@@ -49,8 +49,11 @@ const getUpcomingEditions = async(req, res) => {
     try {
         const editions = await Edition.find({}).populate('tourney')
         const upcoming = editions.filter(edition => edition.end_date > Date.now())
-        if (upcoming) {
-            res.json(upcoming)
+        const sorted = upcoming.toSorted((a, b) => {
+            return a.start_date - b.start_date
+        })
+        if (sorted) {
+            res.json(sorted)
         } else {
             return res.status(404).send('Edition does not exist')
         }
