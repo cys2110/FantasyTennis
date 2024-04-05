@@ -1,1566 +1,1589 @@
 [
-      {
-        "_id": 3142024,
-        "tourney": 314,
-        "year": 2024,
-        "start_date": "2024-07-15T00:00:00.000000Z",
-        "end_date": "2024-07-21T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Gstaad",
-          "country": "SUI"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
+  {
+    "_id": 966720231,
+    "tourney": 9667,
+    "year": 2023,
+    "sponsor_name": "Adelaide International 1",
+    "start_date": "2023-01-01T00:00:00.000000Z",
+    "end_date": "2023-01-08T00:00:00.000000Z",
+    "category": "ATP 250",
+    "type_of_draw": 32,
+    "currency": "USD",
+    "prize_money": 642735,
+    "tfc": 713495,
+    "location": {
+      "venue": "Memorial Drive Tennis Centre",
+      "city": "Adelaide",
+      "country": "AUS"
+    },
+    "surface": {
+      "environment": "outdoor",
+      "type": "hard",
+      "hard_type": "greenset"
+    },
+    "supervisors": [
+      "Roland Herfel"
+    ],
+    "winner": "d643",
+    "finalist": "k0ah",
+    "final_score": "67(8) 76(3) 64",
+    "awards": {
+      "winner": {
+        "prize_money": 94560,
+        "points": 250
       },
-      {
-        "_id": 3162024,
-        "tourney": 316,
-        "year": 2024,
-        "start_date": "2024-07-15T00:00:00.000000Z",
-        "end_date": "2024-07-21T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Bastad",
-          "country": "SWE"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
+      "finalist": {
+        "prize_money": 55035,
+        "points": 150
       },
-      {
-        "_id": 3192024,
-        "tourney": 319,
-        "year": 2024,
-        "start_date": "2024-07-21T00:00:00.000000Z",
-        "end_date": "2024-07-27T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Kitzbuhel",
-          "country": "AUT"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
+      "semifinalist": {
+        "prize_money": 32150,
+        "points": 90
       },
-      {
-        "_id": 4392024,
-        "tourney": 439,
-        "year": 2024,
-        "start_date": "2024-07-21T00:00:00.000000Z",
-        "end_date": "2024-07-27T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Umag",
-          "country": "CRO"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
+      "quarterfinalist": {
+        "prize_money": 18175,
+        "points": 45
       },
-      {
-        "_id": 61162024,
-        "tourney": 6116,
-        "year": 2024,
-        "start_date": "2024-07-22T00:00:00.000000Z",
-        "end_date": "2024-07-28T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "USD",
-        "location": {
-          "city": "Atlanta",
-          "country": "USA"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
+      "round4": {},
+      "round3": {},
+      "round2": {
+        "prize_money": 10655,
+        "points": 20
       },
-      {
-        "_id": 4182024,
-        "tourney": 418,
-        "year": 2024,
-        "start_date": "2024-07-29T00:00:00.000000Z",
-        "end_date": "2024-08-04T00:00:00.000000Z",
-        "category": "ATP 500",
-        "type_of_draw": 64,
-        "currency": "USD",
-        "location": {
-          "city": "Washington D.C.",
-          "country": "USA"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 4212024,
-        "tourney": 421,
-        "year": 2024,
-        "start_date": "2024-08-06T00:00:00.000000Z",
-        "end_date": "2024-08-12T00:00:00.000000Z",
-        "category": "ATP Masters 1000",
-        "type_of_draw": 64,
-        "currency": "USD",
-        "location": {
-          "city": "Montreal",
-          "country": "CAN"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 4222024,
-        "tourney": 422,
-        "year": 2024,
-        "start_date": "2024-08-12T00:00:00.000000Z",
-        "end_date": "2024-08-19T00:00:00.000000Z",
-        "category": "ATP Masters 1000",
-        "type_of_draw": 64,
-        "currency": "USD",
-        "location": {
-          "city": "Cincinnati",
-          "country": "USA"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 62422024,
-        "tourney": 6242,
-        "year": 2024,
-        "start_date": "2024-08-18T00:00:00.000000Z",
-        "end_date": "2024-08-24T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 64,
-        "currency": "USD",
-        "location": {
-          "city": "Winston-Salem",
-          "country": "USA"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 5602024,
-        "tourney": 560,
-        "year": 2024,
-        "start_date": "2024-08-26T00:00:00.000000Z",
-        "end_date": "2024-09-08T00:00:00.000000Z",
-        "category": "Grand Slam",
-        "type_of_draw": 128,
-        "currency": "USD",
-        "location": {
-          "city": "New York",
-          "country": "USA"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 75812024,
-        "tourney": 7581,
-        "year": 2024,
-        "start_date": "2024-09-18T00:00:00.000000Z",
-        "end_date": "2024-09-24T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "USD",
-        "location": {
-          "city": "Chengdu",
-          "country": "CHN"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 91642024,
-        "tourney": 9164,
-        "year": 2024,
-        "start_date": "2024-09-18T00:00:00.000000Z",
-        "end_date": "2024-09-24T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "USD",
-        "location": {
-          "city": "Zhuhai",
-          "country": "CHN"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 3292024,
-        "tourney": 329,
-        "year": 2024,
-        "start_date": "2024-09-25T00:00:00.000000Z",
-        "end_date": "2024-10-01T00:00:00.000000Z",
-        "category": "ATP 500",
-        "type_of_draw": 32,
-        "currency": "USD",
-        "location": {
-          "city": "Tokyo",
-          "country": "JPN"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 7472024,
-        "tourney": 747,
-        "year": 2024,
-        "start_date": "2024-09-26T00:00:00.000000Z",
-        "end_date": "2024-10-02T00:00:00.000000Z",
-        "category": "ATP 500",
-        "type_of_draw": 32,
-        "currency": "USD",
-        "location": {
-          "city": "Beijing",
-          "country": "CHN"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 50142024,
-        "tourney": 5014,
-        "year": 2024,
-        "start_date": "2024-10-02T00:00:00.000000Z",
-        "end_date": "2024-10-13T00:00:00.000000Z",
-        "category": "ATP Masters 1000",
-        "type_of_draw": 128,
-        "currency": "USD",
-        "location": {
-          "city": "Shanghai",
-          "country": "CHN"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 94102024,
-        "tourney": 9410,
-        "year": 2024,
-        "start_date": "2024-10-14T00:00:00.000000Z",
-        "end_date": "2024-10-20T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "USD",
-        "location": {
-          "city": "Almaty",
-          "country": "KAZ"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 4292024,
-        "tourney": 429,
-        "year": 2024,
-        "start_date": "2024-10-14T00:00:00.000000Z",
-        "end_date": "2024-10-20T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Stockholm",
-          "country": "SWE"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 74852024,
-        "tourney": 7485,
-        "year": 2024,
-        "start_date": "2024-10-14T00:00:00.000000Z",
-        "end_date": "2024-10-20T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Antwerp",
-          "country": "BEL"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 3372024,
-        "tourney": 337,
-        "year": 2024,
-        "start_date": "2024-10-21T00:00:00.000000Z",
-        "end_date": "2024-10-27T00:00:00.000000Z",
-        "category": "ATP 500",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Vienna",
-          "country": "AUT"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 3282024,
-        "tourney": 328,
-        "year": 2024,
-        "start_date": "2024-10-21T00:00:00.000000Z",
-        "end_date": "2024-10-27T00:00:00.000000Z",
-        "category": "ATP 500",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Basel",
-          "country": "SUI"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 3522024,
-        "tourney": 352,
-        "year": 2024,
-        "start_date": "2024-10-28T00:00:00.000000Z",
-        "end_date": "2024-11-03T00:00:00.000000Z",
-        "category": "ATP Masters 1000",
-        "type_of_draw": 64,
-        "currency": "EUR",
-        "location": {
-          "city": "Paris",
-          "country": "FRA"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 3412024,
-        "tourney": 341,
-        "year": 2024,
-        "start_date": "2024-11-03T00:00:00.000000Z",
-        "end_date": "2024-11-09T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Metz",
-          "country": "FRA"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
-      },
-      {
-        "_id": 28072024,
-        "tourney": 2807,
-        "year": 2024,
-        "start_date": "2024-11-03T00:00:00.000000Z",
-        "end_date": "2024-11-09T00:00:00.000000Z",
-        "category": "ATP 250",
-        "type_of_draw": 32,
-        "currency": "EUR",
-        "location": {
-          "city": "Gijon",
-          "country": "ESP"
-        },
-        "surface": {},
-        "awards": {
-          "winner": {},
-          "finalist": {},
-          "semifinalist": {},
-          "quarterfinalist": {},
-          "round2": {},
-          "round1": {}
-        },
-        "seeds": [
-          {
-            "seed": 1,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 2,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 3,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 4,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 5,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 6,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 7,
-            "player": null,
-            "rank": null
-          },
-          {
-            "seed": 8,
-            "player": null,
-            "rank": null
-          }
-        ],
-        "entry_info": {
-          "lda": {}
-        }
+      "round1": {
+        "prize_money": 6340,
+        "points": 0
       }
+    },
+    "seeds": [
+      {
+        "seed": 1,
+        "player": "d643",
+        "rank": 5
+      },
+      {
+        "seed": 2,
+        "player": "ag37",
+        "rank": 6
+      },
+      {
+        "seed": 3,
+        "player": "mm58",
+        "rank": 7
+      },
+      {
+        "seed": 4,
+        "player": "re44",
+        "rank": 8
+      },
+      {
+        "seed": 5,
+        "player": "r0dg",
+        "rank": 11
+      },
+      {
+        "seed": 6,
+        "player": "s0ag",
+        "rank": 15
+      },
+      {
+        "seed": 7,
+        "player": "su55",
+        "rank": 18
+      },
+      {
+        "seed": 8,
+        "player": "ke29",
+        "rank": 20
+      },
+      {
+        "seed": 9,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 10,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 11,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 12,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 13,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 14,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 15,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 16,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 17,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 18,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 19,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 20,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 21,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 22,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 23,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 24,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 25,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 26,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 27,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 28,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 29,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 30,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 31,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 32,
+        "player": "",
+        "rank": null
+      }
+    ],
+    "entry_info": {
+      "lda": {
+        "player": "y268",
+        "rank": 69
+      }
+    }
+  },
+  {
+    "_id": 8912023,
+    "tourney": 891,
+    "year": 2023,
+    "sponsor_name": "Tata Open Maharashtra",
+    "start_date": "2023-01-02T00:00:00.000000Z",
+    "end_date": "2023-01-07T00:00:00.000000Z",
+    "category": "ATP 250",
+    "type_of_draw": 32,
+    "currency": "USD",
+    "prize_money": 642735,
+    "tfc": 713495,
+    "location": {
+      "venue": "Mhalunge Balewadi Tennis Complex",
+      "city": "Pune",
+      "country": "IND"
+    },
+    "surface": {
+      "environment": "outdoor",
+      "type": "hard",
+      "hard_type": "plexipave"
+    },
+    "supervisors": [
+      "Andrey Kornilov"
+    ],
+    "winner": "gj37",
+    "finalist": "bm95",
+    "final_score": "46 75 63",
+    "awards": {
+      "winner": {
+        "prize_money": 97760,
+        "points": 250
+      },
+      "finalist": {
+        "prize_money": 57025,
+        "points": 150
+      },
+      "semifinalist": {
+        "prize_money": 33525,
+        "points": 90
+      },
+      "quarterfinalist": {
+        "prize_money": 19425,
+        "points": 45
+      },
+      "round4": {},
+      "round3": {},
+      "round2": {
+        "prize_money": 11280,
+        "points": 20
+      },
+      "round1": {
+        "prize_money": 6895,
+        "points": 0
+      }
+    },
+    "seeds": [
+      {
+        "seed": 1,
+        "player": "c977",
+        "rank": 17
+      },
+      {
+        "seed": 2,
+        "player": "v812",
+        "rank": 35
+      },
+      {
+        "seed": 3,
+        "player": "rh24",
+        "rank": 40
+      },
+      {
+        "seed": 4,
+        "player": "b0bi",
+        "rank": 43
+      },
+      {
+        "seed": 5,
+        "player": "mv14",
+        "rank": 50
+      },
+      {
+        "seed": 6,
+        "player": "kb05",
+        "rank": 54
+      },
+      {
+        "seed": 7,
+        "player": "mu94",
+        "rank": 58
+      },
+      {
+        "seed": 8,
+        "player": "kc56",
+        "rank": 59
+      },
+      {
+        "seed": 9,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 10,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 11,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 12,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 13,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 14,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 15,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 16,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 17,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 18,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 19,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 20,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 21,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 22,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 23,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 24,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 25,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 26,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 27,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 28,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 29,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 30,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 31,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 32,
+        "player": "",
+        "rank": null
+      }
+    ],
+    "entry_info": {
+      "lda": {
+        "player": "a596",
+        "rank": 122
+      }
+    }
+  },
+  {
+    "_id": 3012023,
+    "tourney": 301,
+    "year": 2023,
+    "sponsor_name": "ASB Classic",
+    "start_date": "2023-01-09T00:00:00.000000Z",
+    "end_date": "2023-01-14T00:00:00.000000Z",
+    "category": "ATP 250",
+    "type_of_draw": 32,
+    "currency": "USD",
+    "prize_money": 642735,
+    "tfc": 713495,
+    "location": {
+      "venue": "ASB Tennis Centre",
+      "city": "Auckland",
+      "country": "NZL"
+    },
+    "surface": {
+      "environment": "outdoor",
+      "type": "hard",
+      "hard_type": "greenset"
+    },
+    "supervisors": [
+      "Gerry Armstrong"
+    ],
+    "winner": "g628",
+    "finalist": "n771",
+    "final_score": "46 64 64",
+    "awards": {
+      "winner": {
+        "prize_money": 97760,
+        "points": 250
+      },
+      "finalist": {
+        "prize_money": 57025,
+        "points": 150
+      },
+      "semifinalist": {
+        "prize_money": 33525,
+        "points": 90
+      },
+      "quarterfinalist": {
+        "prize_money": 19425,
+        "points": 45
+      },
+      "round4": {},
+      "round3": {},
+      "round2": {
+        "prize_money": 11280,
+        "points": 20
+      },
+      "round1": {
+        "prize_money": 6895,
+        "points": 0
+      }
+    },
+    "seeds": [
+      {
+        "seed": 1,
+        "player": "rh16",
+        "rank": 3
+      },
+      {
+        "seed": 2,
+        "player": "n771",
+        "rank": 14
+      },
+      {
+        "seed": 3,
+        "player": "sm37",
+        "rank": 25
+      },
+      {
+        "seed": 4,
+        "player": "c0au",
+        "rank": 30
+      },
+      {
+        "seed": 5,
+        "player": "bk92",
+        "rank": 37
+      },
+      {
+        "seed": 6,
+        "player": "i186",
+        "rank": 41
+      },
+      {
+        "seed": 7,
+        "player": "b0bi",
+        "rank": 43
+      },
+      {
+        "seed": 8,
+        "player": "me82",
+        "rank": 46
+      },
+      {
+        "seed": 9,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 10,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 11,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 12,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 13,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 14,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 15,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 16,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 17,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 18,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 19,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 20,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 21,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 22,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 23,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 24,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 25,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 26,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 27,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 28,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 29,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 30,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 31,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 32,
+        "player": "",
+        "rank": null
+      }
+    ],
+    "entry_info": {
+      "lda": {
+        "player": "db63",
+        "rank": 70
+      },
+      "lls": [
+        "ce77",
+        "sh90"
+      ]
+    }
+  },
+  {
+    "_id": 966720232,
+    "tourney": 9667,
+    "year": 2023,
+    "sponsor_name": "Adelaide International 2",
+    "start_date": "2023-01-09T00:00:00.000000Z",
+    "end_date": "2023-01-14T00:00:00.000000Z",
+    "category": "ATP 250",
+    "type_of_draw": 32,
+    "currency": "USD",
+    "prize_money": 642735,
+    "tfc": 713495,
+    "location": {
+      "venue": "Memorial Drive Tennis Centre",
+      "city": "Adelaide",
+      "country": "AUS"
+    },
+    "surface": {
+      "environment": "outdoor",
+      "type": "hard",
+      "hard_type": "greenset"
+    },
+    "supervisors": [
+      "Roland Herfel"
+    ],
+    "winner": "kf17",
+    "finalist": "bd06",
+    "final_score": "64 36 76(4)",
+    "awards": {
+      "winner": {
+        "prize_money": 97760,
+        "points": 250
+      },
+      "finalist": {
+        "prize_money": 57025,
+        "points": 150
+      },
+      "semifinalist": {
+        "prize_money": 33525,
+        "points": 90
+      },
+      "quarterfinalist": {
+        "prize_money": 19425,
+        "points": 45
+      },
+      "round4": {},
+      "round3": {},
+      "round2": {
+        "prize_money": 11280,
+        "points": 20
+      },
+      "round1": {
+        "prize_money": 6895,
+        "points": 0
+      }
+    },
+    "seeds": [
+      {
+        "seed": 1,
+        "player": "re44",
+        "rank": 8
+      },
+      {
+        "seed": 2,
+        "player": "cd85",
+        "rank": 13
+      },
+      {
+        "seed": 3,
+        "player": "ke29",
+        "rank": 20
+      },
+      {
+        "seed": 4,
+        "player": "bd06",
+        "rank": 21
+      },
+      {
+        "seed": 5,
+        "player": "e687",
+        "rank": 27
+      },
+      {
+        "seed": 6,
+        "player": "ki95",
+        "rank": 29
+      },
+      {
+        "seed": 7,
+        "player": "dh50",
+        "rank": 31
+      },
+      {
+        "seed": 8,
+        "player": "pl56",
+        "rank": 32
+      },
+      {
+        "seed": 9,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 10,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 11,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 12,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 13,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 14,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 15,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 16,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 17,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 18,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 19,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 20,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 21,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 22,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 23,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 24,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 25,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 26,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 27,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 28,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 29,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 30,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 31,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 32,
+        "player": "",
+        "rank": null
+      }
+    ],
+    "entry_info": {
+      "lda": {
+        "player": "mk66",
+        "rank": 63
+      },
+      "lls": [
+        "h756",
+        "o483",
+        "kf17"
+      ]
+    }
+  },
+  {
+    "_id": 5802023,
+    "tourney": 580,
+    "year": 2023,
+    "start_date": "2023-01-16T00:00:00.000000Z",
+    "end_date": "2023-01-29T00:00:00.000000Z",
+    "category": "Grand Slam",
+    "type_of_draw": 128,
+    "currency": "AUD",
+    "tfc": 34848000,
+    "location": {
+      "venue": "Melbourne Park",
+      "city": "Melbourne",
+      "country": "AUS"
+    },
+    "surface": {
+      "environment": "outdoor",
+      "type": "hard",
+      "hard_type": "greenset"
+    },
+    "winner": "d643",
+    "finalist": "te51",
+    "final_score": "63 76(4) 76(5)",
+    "awards": {
+      "winner": {
+        "prize_money": 2975000,
+        "points": 2000
+      },
+      "finalist": {
+        "prize_money": 1625000,
+        "points": 1200
+      },
+      "semifinalist": {
+        "prize_money": 925000,
+        "points": 720
+      },
+      "quarterfinalist": {
+        "prize_money": 555250,
+        "points": 360
+      },
+      "round4": {
+        "prize_money": 338250,
+        "points": 180
+      },
+      "round3": {
+        "prize_money": 227925,
+        "points": 90
+      },
+      "round2": {
+        "prize_money": 158850,
+        "points": 45
+      },
+      "round1": {
+        "prize_money": 106250,
+        "points": 10
+      }
+    },
+    "seeds": [
+      {
+        "seed": 1,
+        "player": "n409",
+        "rank": 2
+      },
+      {
+        "seed": 2,
+        "player": "rh16",
+        "rank": 3
+      },
+      {
+        "seed": 3,
+        "player": "te51",
+        "rank": 4
+      },
+      {
+        "seed": 4,
+        "player": "d643",
+        "rank": 5
+      },
+      {
+        "seed": 5,
+        "player": "re44",
+        "rank": 6
+      },
+      {
+        "seed": 6,
+        "player": "ag37",
+        "rank": 7
+      },
+      {
+        "seed": 7,
+        "player": "mm38",
+        "rank": 8
+      },
+      {
+        "seed": 8,
+        "player": "fb98",
+        "rank": 9
+      },
+      {
+        "seed": 9,
+        "player": "r0dg",
+        "rank": 10
+      },
+      {
+        "seed": 10,
+        "player": "hb71",
+        "rank": 11
+      },
+      {
+        "seed": 11,
+        "player": "n771",
+        "rank": 12
+      },
+      {
+        "seed": 12,
+        "player": "z355",
+        "rank": 13
+      },
+      {
+        "seed": 13,
+        "player": "bk40",
+        "rank": 14
+      },
+      {
+        "seed": 14,
+        "player": "cd85",
+        "rank": 15
+      },
+      {
+        "seed": 15,
+        "player": "s0ag",
+        "rank": 16
+      },
+      {
+        "seed": 16,
+        "player": "td51",
+        "rank": 17
+      },
+      {
+        "seed": 17,
+        "player": "m0ej",
+        "rank": 19
+      },
+      {
+        "seed": 18,
+        "player": "ke29",
+        "rank": 20
+      },
+      {
+        "seed": 19,
+        "player": "ke17",
+        "rank": 21
+      },
+      {
+        "seed": 20,
+        "player": "su55",
+        "rank": 22
+      },
+      {
+        "seed": 21,
+        "player": "cg80",
+        "rank": 23
+      },
+      {
+        "seed": 22,
+        "player": "dh58",
+        "rank": 24
+      },
+      {
+        "seed": 23,
+        "player": "sm37",
+        "rank": 26
+      },
+      {
+        "seed": 24,
+        "player": "bd06",
+        "rank": 25
+      },
+      {
+        "seed": 25,
+        "player": "e687",
+        "rank": 30
+      },
+      {
+        "seed": 26,
+        "player": "ki95",
+        "rank": 27
+      },
+      {
+        "seed": 27,
+        "player": "d875",
+        "rank": 28
+      },
+      {
+        "seed": 28,
+        "player": "c0au",
+        "rank": 29
+      },
+      {
+        "seed": 29,
+        "player": "k0ah",
+        "rank": 31
+      },
+      {
+        "seed": 30,
+        "player": "dh50",
+        "rank": 32
+      },
+      {
+        "seed": 31,
+        "player": "n732",
+        "rank": 33
+      },
+      {
+        "seed": 32,
+        "player": "v812",
+        "rank": 34
+      }
+    ],
+    "entry_info": {
+      "lda": {},
+      "lls": [
+        "k09f",
+        "kb09",
+        "mp01",
+        "v836"
+      ]
+    }
+  },
+  {
+    "_id": 96672024,
+    "tourney": 9667,
+    "year": 2024,
+    "start_date": "2024-01-08T00:00:00.000000Z",
+    "end_date": "2024-01-13T00:00:00.000000Z",
+    "category": "ATP 250",
+    "type_of_draw": 32,
+    "currency": "USD",
+    "prize_money": 661585,
+    "tfc": 739945,
+    "location": {
+      "venue": "Memorial Drive Tennis Centre",
+      "city": "Adelaide",
+      "country": "AUS"
+    },
+    "surface": {
+      "environment": "outdoor",
+      "type": "hard",
+      "hard_type": "greenset"
+    },
+    "supervisors": [
+      "Hans-Juergen Ochs"
+    ],
+    "winner": "l0bv",
+    "finalist": "d0co",
+    "final_score": "46 64 63",
+    "awards": {
+      "winner": {
+        "prize_money": 100665,
+        "points": 250
+      },
+      "finalist": {
+        "prize_money": 58720,
+        "points": 165
+      },
+      "semifinalist": {
+        "prize_money": 34510,
+        "points": 100
+      },
+      "quarterfinalist": {
+        "prize_money": 19995,
+        "points": 50
+      },
+      "round4": {},
+      "round3": {},
+      "round2": {
+        "prize_money": 11610,
+        "points": 25
+      },
+      "round1": {
+        "prize_money": 7095,
+        "points": 0
+      }
+    },
+    "seeds": [
+      {
+        "seed": 1,
+        "player": "pl56",
+        "rank": 13
+      },
+      {
+        "seed": 2,
+        "player": "j551",
+        "rank": 19
+      },
+      {
+        "seed": 3,
+        "player": "k0ah",
+        "rank": 24
+      },
+      {
+        "seed": 4,
+        "player": "m0ej",
+        "rank": 27
+      },
+      {
+        "seed": 5,
+        "player": "b0bi",
+        "rank": 28
+      },
+      {
+        "seed": 6,
+        "player": "ea24",
+        "rank": 30
+      },
+      {
+        "seed": 7,
+        "player": "l0bv",
+        "rank": 31
+      },
+      {
+        "seed": 8,
+        "player": "bk92",
+        "rank": 32
+      },
+      {
+        "seed": 9,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 10,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 11,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 12,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 13,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 14,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 15,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 16,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 17,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 18,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 19,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 20,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 21,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 22,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 23,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 24,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 25,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 26,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 27,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 28,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 29,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 30,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 31,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 32,
+        "player": "",
+        "rank": null
+      }
+    ],
+    "entry_info": {
+      "lda": {
+        "player": "d0co",
+        "rank": 61
+      },
+      "lls": [
+        "z419",
+        "sx91",
+        "m0oq"
+      ]
+    }
+  },
+  {
+    "_id": 3602024,
+    "tourney": 360,
+    "year": 2024,
+    "start_date": "2024-04-01T00:00:00.000000Z",
+    "end_date": "2024-04-07T00:00:00.000000Z",
+    "category": "ATP 250",
+    "type_of_draw": 32,
+    "currency": "EUR",
+    "prize_money": 579320,
+    "tfc": 651865,
+    "location": {
+      "venue": "Royal Tennis Club of Marrakech",
+      "city": "Marrakech",
+      "country": "MAR"
+    },
+    "surface": {
+      "environment": "outdoor",
+      "type": "clay"
+    },
+    "supervisors": [
+      "Roland Herfel"
+    ],
+    "awards": {
+      "winner": {
+        "prize_money": 88125,
+        "points": 250
+      },
+      "finalist": {
+        "prize_money": 51400,
+        "points": 165
+      },
+      "semifinalist": {
+        "prize_money": 30220,
+        "points": 100
+      },
+      "quarterfinalist": {
+        "prize_money": 17510,
+        "points": 50
+      },
+      "round4": {},
+      "round3": {},
+      "round2": {
+        "prize_money": 10165,
+        "points": 25
+      },
+      "round1": {
+        "prize_money": 6215,
+        "points": 0
+      }
+    },
+    "seeds": [
+      {
+        "seed": 1,
+        "player": "db63",
+        "rank": 35
+      },
+      {
+        "seed": 2,
+        "player": "o513",
+        "rank": 40
+      },
+      {
+        "seed": 3,
+        "player": "e687",
+        "rank": 43
+      },
+      {
+        "seed": 4,
+        "player": "su87",
+        "rank": 53
+      },
+      {
+        "seed": 5,
+        "player": "d0cg",
+        "rank": 55
+      },
+      {
+        "seed": 6,
+        "player": "s0h2",
+        "rank": 58
+      },
+      {
+        "seed": 7,
+        "player": "n0bs",
+        "rank": 59
+      },
+      {
+        "seed": 8,
+        "player": "c0e9",
+        "rank": 63
+      },
+      {
+        "seed": 9,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 10,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 11,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 12,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 13,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 14,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 15,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 16,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 17,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 18,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 19,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 20,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 21,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 22,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 23,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 24,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 25,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 26,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 27,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 28,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 29,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 30,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 31,
+        "player": "",
+        "rank": null
+      },
+      {
+        "seed": 32,
+        "player": "",
+        "rank": null
+      }
+    ],
+    "entry_info": {
+      "lda": {
+        "player": "mw02",
+        "rank": 105
+      }
+    }
+  }
 ]

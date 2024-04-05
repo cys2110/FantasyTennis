@@ -20,6 +20,8 @@ const toggleSearch = () => {
     searchClick.value = !searchClick.value
 }
 
+const user = localStorage.getItem('user')
+
 </script>
 
 <template>
@@ -32,6 +34,7 @@ const toggleSearch = () => {
         <!--when h2h is added-->
         <!-- <RouterLink to="/h2h" ><FontAwesomeIcon class="navIcon" :icon="faPeopleArrows" /></RouterLink> -->
         <RouterLink v-if="!store.loggedIn" :to="{ name: 'login'}" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink>
+        <RouterLink v-if="store.loggedIn" :to="{ name: 'Profile', params: {username: user}}" ><FontAwesomeIcon class="navIcon" :icon="faCircleUser" /></RouterLink>
         <FontAwesomeIcon v-if="store.loggedIn" :icon="faPersonToPortal" @click="logOut()" />
         <FontAwesomeIcon class="navIcon" :icon="faMagnifyingGlass" @click="toggleSearch()" />
     </div>

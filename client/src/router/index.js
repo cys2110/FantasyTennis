@@ -14,7 +14,6 @@ import UserLayout from '@/views/User/UserLayout.vue'
 import Settings from '@/views/User/Settings.vue'
 import Profile from '@/views/User/Profile.vue'
 import Prediction from '@/views/User/Prediction.vue'
-import MakePrediction from '@/views/User/MakePrediction.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -55,11 +54,6 @@ const router = createRouter({
           name: 'Prediction',
           props: true,
           component: Prediction
-        },{
-          path: 'make-predictions/:edition',
-          name: 'Make Prediction',
-          props: true,
-          component: MakePrediction
         }
       ]
     },

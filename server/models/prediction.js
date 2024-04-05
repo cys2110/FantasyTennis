@@ -6,6 +6,8 @@ const Prediction = new Schema({
     predictions: [
         {
             match: {type: Schema.Types.ObjectId, ref: 'Match Score'},
+            player_1: {type: String, ref: 'Player'},
+            player_2: {type: String, ref: 'Player'},
             winner: {type: String, required: false},
             set1: [{type: Number, required: false}],
             tiebreak1: [{type: Number, required: false}],

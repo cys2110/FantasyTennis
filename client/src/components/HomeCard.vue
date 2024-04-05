@@ -1,5 +1,10 @@
 <script setup>
+import { onMounted, ref } from 'vue';
 import { formattedDates, flagSrc, categorySrc } from './utils';
+import MatchScore from '@/services/MatchScore';
+import { useUserStore } from '@/stores/user';
+import PredictionService from '@/services/PredictionService';
+import { useRouter } from 'vue-router';
 
 const props = defineProps({
     tournament: {
@@ -8,10 +13,49 @@ const props = defineProps({
     }
 })
 
+const router = useRouter()
+const store = useUserStore()
+const createPrediction = ref(false)
+const editPrediction = ref(false)
+
+onMounted(() => {
+    MatchScore.getMatchesByEdition(props.tournament._id)
+        .then((response) => {
+            if (response.data.length > 0 && store.loggedIn) {
+                PredictionService.getPredictionsByUserandId(localStorage.user, props.tournament._id)
+                .then((response) => {
+                    if (response.data.length > 0) {
+                        editPrediction.value = true
+                    } else {
+                        createPrediction.value = true
+                    }
+                })
+                .catch((error) => {
+                    console.log(error)
+                })
+            } else {
+                return
+            }
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+})
+
+const createPredictionFunction = () => {
+    PredictionService.createPrediction(localStorage.user, props.tournament._id)
+        .then(() => {
+            router.push({name: 'Make Prediction', params: {username: localStorage.user, edition: props.tournament._id}})
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+}
 
 </script>
 
 <template>
+    <div class="card-button" @click="createPredictionFunction" v-if="createPrediction">Make a prediction</div>
     <RouterLink class="card-link" :to="{ name: 'Tournament', params: { id: tournament.tourney._id }}" >
         <div class="card">
             <div class="card-component" v-if="tournament.category">

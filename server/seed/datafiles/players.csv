@@ -1,5 +1,1 @@
 _id,first_name,last_name,active,turned_pro,retired,country,country_yr,prev_country,prev_country_yr,dob,right_handed,backhand,cm,ft,coaches,preferred_surface,age_started,career_high,date,pm_USD,titles,win,loss,gladiator,headshot,ao_round,ao_years,rg_round,rg_years,w_round,w_years,uso_round,uso_years,finals_round,finals_years,olympics_round,olympics_years,wct_round,wct_years,gs_cup_round,gs_cup_years,davis_round,davis_years,hopman_round,hopman_years
-d0ji,Manas,Dhamne,true,2023,,IND,,,,2007-12-29,true,2,188,6'2",[Riccardo Piatti],[hard],5,1330,2024-01-29,9487,0,0,1,false,true,
-mp13,Mukund,Sasikumar,true,,,IND,,,,1997-01-14,true,2,185,6'1",[Martin Spottel],[hard],5,229,2019-10-07,218927,0,0,3,false,true
-y218,Elias,Ymer,true,2014,,SWE,,,,1996-04-10,true,2,185,6'1",[Rafael Ymer:Frederico Goncalves],[clay],4,105,2018-06-11,1875105,0,42,76,true,true,1st round,[2015:2018:2021],2nd round,[2018],1st round,[2015:2022],1st round,[2015]
-b0cd,Jenson,Brooksby,true,2021,,USA,,,,2000-10-26,true,2,193,6'4",,[hard],4,33,2022-06-13,2035768,0,45,33,true,true,3rd round,[2023],1st round,[2021:2022],3rd round,[2022],4th round,[2021]

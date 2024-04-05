@@ -18,5 +18,11 @@ export default {
     },
     getPredictionsByUserandId(user, edition) {
         return apiClient.get('/search?user=' + user + '&edition=' + edition)
+    },
+    createPrediction(user, edition) {
+        return apiClient.post('/create/' + user + '/' + edition)
+    },
+    editPrediction(id, prediction) {
+        return apiClient.patch('/' + id, prediction)
     }
 }

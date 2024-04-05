@@ -27,7 +27,6 @@ const selectRound = (round) => {
   selectedRound.value = round
 }
 
-
 for (let i = 0; i < props.matches.length; i++) {
     switch (props.matches[i].round) {
         case 'F':

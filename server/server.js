@@ -62,6 +62,9 @@ app.get('/search/:search', tournamentController.universalSearch)
 app.get('/predictions/id/:id', predictionController.getPredictionById)
 app.get('/predictions/user/:user', predictionController.getPredictionsByUser)
 app.get('/predictions/search', predictionController.getPredictionByUserAndEdition)
+app.post('/predictions/create/:user/:edition', predictionController.createPrediction)
+app.patch('/predictions/:id', predictionController.editPrediction)
+app.delete('/predictions/:id', predictionController.deletePrediction)
 
 // app.get('/auth/google', passport.authenticate(
 //     'google',
