@@ -27,7 +27,7 @@ import Header from './components/Header.vue';
 }
 .app-body {
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
   margin-top: 10rem;
 }
 </style>

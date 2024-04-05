@@ -21,7 +21,7 @@ const r32Matches = ref([])
 const r64Matches = ref([])
 const r128Matches = ref([])
 
-const selectedRound = ref(2)
+const selectedRound = ref(props.edition.type_of_draw)
 
 const selectRound = (round) => {
   selectedRound.value = round

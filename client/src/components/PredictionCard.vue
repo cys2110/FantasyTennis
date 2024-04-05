@@ -161,7 +161,7 @@ const calculateScore = (field, predictionField) => {
                 <div v-else class="component-row"><FontAwesomeIcon v-if="match.player_1 && match.winner === match.player_1._id" :icon="faCheck" :class="{'correct': correctWinner, 'incorrect': correctWinner === false}" /></div>
                 <div v-if="editMode && match.player_2 && match.player_2._id" class="component-row" @click="setPredictedWinner(match.player_2._id, match.player_2.full_name)" ><FontAwesomeIcon :icon="faCheck" /></div>
                 <div v-else-if="editMode && players.player_2._id" class="component-row" @click="setPredictedWinner(players.player_2._id, players.player_2.full_name)" ><FontAwesomeIcon :icon="faCheck" /></div>
-                <div v-else class="component-row"><FontAwesomeIcon v-if="match.player_2 && match.winner === match.player_2._id" :icon="faCheck" /></div>
+                <div v-else class="component-row"><FontAwesomeIcon v-if="match.player_2 && match.winner === match.player_2._id" :icon="faCheck" :class="{'correct': correctWinner, 'incorrect': correctWinner === false}" /></div>
             </div>
             <div v-if="editMode" class="predictScore">
                 <table>
@@ -201,15 +201,15 @@ const calculateScore = (field, predictionField) => {
                     <div class="component-row" :class="{'correct': correctSet2 === true, 'incorrect': correctSet2 === false}">{{ match.set2[player1Index] }}<sup v-if="match.tiebreak2 && match.set2[player1Index] === 6">{{ match.tiebreak2[player2Index] }}</sup></div>
                     <div class="component-row" :class="{'correct': correctSet2 === true, 'incorrect': correctSet2 === false}">{{ match.set2[player2Index] }}<sup v-if="match.tiebreak2 && match.set2[player2Index] === 6">{{ match.tiebreak2[player2Index] }}</sup></div>
                 </div>
-                <div class="component-column" v-if="match.set3.length > 0">
+                <div class="component-column" v-if="match.set3 && match.set3.length > 0">
                     <div class="component-row" :class="{'correct': correctSet3, 'incorrect': correctSet3 === false}">{{ match.set3[player1Index] }}<sup v-if="match.tiebreak3 && match.set3[player1Index] === 6">{{ match.tiebreak3[player1Index] }}</sup></div>
-                    <div class="component-row" :class="{'correct': correctSet3, 'incorrect': correctSet3 === false}">{{ match.set3[player2Index] }}<sup v-if="match.tiebreak3 && match.score.set3[player2Index] === 6">{{ match.tiebreak3[player2Index] }}</sup></div>
+                    <div class="component-row" :class="{'correct': correctSet3, 'incorrect': correctSet3 === false}">{{ match.set3[player2Index] }}<sup v-if="match.tiebreak3 && match.set3[player2Index] === 6">{{ match.tiebreak3[player2Index] }}</sup></div>
                 </div>
-                <div class="component-column" v-if="match.set4.length > 0">
+                <div class="component-column" v-if="match.set4 && match.set4.length > 0">
                     <div class="component-row" :class="{'correct': correctSet4, 'incorrect': correctSet4 === false}">{{ match.set4[player1Index] }}<sup v-if="match.tiebreak4 && match.set4[player1Index] === 6">{{ match.tiebreak4[player1Index] }}</sup></div>
                     <div class="component-row" :class="{'correct': correctSet4, 'incorrect': correctSet4 === false}">{{ match.set4[player2Index] }}<sup v-if="match.tiebreak4 && match.set4[player2Index] === 6">{{ match.tiebreak4[player2Index] }}</sup></div>
                 </div>
-                <div class="component-column" v-if="match.set5.length > 0">
+                <div class="component-column" v-if="match.set5 && match.set5.length > 0">
                     <div class="component-row" :class="{'correct': correctSet5, 'incorrect': correctSet5 === false}">{{ match.set5[player1Index] }}<sup v-if="match.tiebreak5 && match.set5[player1Index] === 6">{{ match.tiebreak5[player1Index] }}</sup></div>
                     <div class="component-row" :class="{'correct': correctSet5, 'incorrect': correctSet5 === false}">{{ match.set5[player2Index] }}<sup v-if="match.tiebreak5 && match.set5[player2Index] === 6">{{ match.tiebreak5[player2Index] }}</sup></div>
                 </div>

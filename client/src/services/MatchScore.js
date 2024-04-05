@@ -18,5 +18,5 @@ export default {
     },
     editMatch(id, match) {
         return apiClient.patch('/' + id, match)
-    }
+    },
 }

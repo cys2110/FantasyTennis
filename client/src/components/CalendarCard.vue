@@ -18,10 +18,10 @@ const navigate = (slug) => {
 
 <template>
     <div class="card">
-        <div class="card-component" v-if="tournament.category" >
+        <div class="card-column" v-if="tournament.category" >
             <img :src="categorySrc(tournament.category)" :alt="tournament.category" class="filter" />
         </div>
-        <div class="card-component">
+        <div class="card-column">
             <div class="card-heading">
                 <span v-if="tournament.sponsor_name">{{ tournament.sponsor_name }} | </span>
                 <span><RouterLink :to="{name: 'Tournament', params: { id: tournament.tourney._id}}" class="hover-link" >{{ tournament.tourney.name }}</RouterLink></span>
@@ -30,7 +30,7 @@ const navigate = (slug) => {
                 {{ tournament.location.city }} <img class="mini-flag" :src="flagSrc(tournament.location.country)" :alt="tournament.location.country" /> | {{ formattedDates(tournament.start_date, tournament.end_date) }}
             </div>
         </div>
-        <div class="right-side card-component">
+        <div class="right-side card-column">
             <div class="surface" v-if="tournament.surface" >
                 <div class="card-component-row">{{ tournament.surface.environment }} {{ tournament.surface.type }}</div>
                 <div class="card-component-row" v-if="tournament.surface.hard_type">({{ tournament.surface.hard_type }})</div>

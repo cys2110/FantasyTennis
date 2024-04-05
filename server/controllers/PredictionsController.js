@@ -98,7 +98,7 @@ const createPrediction = async(req, res) => {
         })
         await newPrediction.save()
 
-        console.log('inserted')
+        return res.status(201).json({newPrediction})
     } catch (error) {
         res.status(500).send(error.message)
     }

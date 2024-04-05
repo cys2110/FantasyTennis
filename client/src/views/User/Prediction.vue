@@ -2,7 +2,7 @@
 import PredictionCard from '@/components/PredictionCard.vue';
 import { categorySrc, flagSrc, formattedDates } from '@/components/utils';
 import PredictionService from '@/services/PredictionService';
-import { onMounted, reactive, ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const props = defineProps({
@@ -198,12 +198,6 @@ const handlePredictedWinner = (round, index, newValue) => {
     }
 }
 
-const updateMatchArray = (index, newValue) => {
-    console.log('working')
-    console.log(newValue)
-    r32Matches.value[index] = newValue
-}
-
 const submitPrediction = () => {
     editMode.value = false
     let updatedArray = []
@@ -223,6 +217,17 @@ const submitPrediction = () => {
     PredictionService.editPrediction(props.id, updatedPrediction)
         .then(() => {
             console.log('success')
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+}
+
+const deletePrediction = () => {
+    PredictionService.deletePrediction(props.id)
+        .then((response) => {
+            console.log(response)
+            router.push({name: 'home'})
         })
         .catch((error) => {
             console.log(error)
@@ -259,6 +264,7 @@ const submitPrediction = () => {
         <div>
             <button v-if="!editMode" @click="editMode = true" >Edit</button>
             <button v-if="editMode" @click="submitPrediction" >Save</button>
+            <button @click="deletePrediction" >Delete</button>
         </div>
         <div class="draw-wrapper">
             <div class="round-wrapper" v-if="prediction.edition.type_of_draw === 128" v-show="selectedRound >= 128">

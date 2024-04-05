@@ -24,5 +24,8 @@ export default {
     },
     editPrediction(id, prediction) {
         return apiClient.patch('/' + id, prediction)
+    },
+    deletePrediction(id) {
+        return apiClient.delete('/' + id)
     }
 }

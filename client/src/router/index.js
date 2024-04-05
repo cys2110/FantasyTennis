@@ -14,6 +14,7 @@ import UserLayout from '@/views/User/UserLayout.vue'
 import Settings from '@/views/User/Settings.vue'
 import Profile from '@/views/User/Profile.vue'
 import Prediction from '@/views/User/Prediction.vue'
+import Admin from '@/views/Admin.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +23,12 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/admin/:username',
+      name: 'admin',
+      props: true,
+      component: Admin
     },
     {
       path: '/login',
