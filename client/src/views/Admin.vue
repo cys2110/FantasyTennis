@@ -48,10 +48,11 @@ onMounted(() => {
     }
 })
 
-const submitMatch = () => {
+const submitMatchEdition = () => {
     MatchScore.getMatchesByEdition(selectedMatchEdition.value)
         .then((response) => {
             matches.value = response.data
+            console.log(matches.value)
             for (let i = 0; i < matches.value.length; i++) {
                 switch (matches.value[i].round) {
                     case 'F':
@@ -202,8 +203,11 @@ const submitEdition = () => {
         <EditionAdmin :create="true" />
     </div>
 
-
-    <div class="form-table" v-if="matches.length > 0 && edition">
+    <div v-if="matches.length > 0">
+        <div>{{ final.edition.tourney.name }}</div>
+        <div>{{ final.edition.year }}</div>
+    </div>
+    <div class="form-table" v-if="matches.length > 0">
         <table>
             <thead>
                 <tr>
@@ -228,10 +232,10 @@ const submitEdition = () => {
                     <th>T2</th>
                     <th>S3</th>
                     <th>T3</th>
-                    <th v-if="edition.category === 'Grand Slam'">S4</th>
-                    <th v-if="edition.category === 'Grand Slam'">T4</th>
-                    <th v-if="edition.category === 'Grand Slam'">S5</th>
-                    <th v-if="edition.category === 'Grand Slam'">T5</th>
+                    <!-- <th v-if="final.edition.category === 'Grand Slam'">S4</th>
+                    <th v-if="final.edition.category === 'Grand Slam'">T4</th>
+                    <th v-if="final.edition.category === 'Grand Slam'">S5</th>
+                    <th v-if="final.edition.category === 'Grand Slam'">T5</th> -->
                     <th>Ump</th>
                     <th>Date</th>
                     <th>Incompletes</th>
@@ -239,7 +243,7 @@ const submitEdition = () => {
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(match) in r128Matches">
+                <tr v-for="match in r128Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
                     <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
@@ -281,10 +285,10 @@ const submitEdition = () => {
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
                     <td><input class="number" type="text" v-model="match.score.set3" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak3" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
                     <td><input class="name" type="text" v-model="match.umpire" /></td>
                     <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
@@ -299,7 +303,7 @@ const submitEdition = () => {
                     </td>
                     <td><button type="button" @click="saveMatch(match._id, match)">Save</button></td>
                 </tr>
-                <tr v-for="(match) in r64Matches">
+                <tr v-for="match in r64Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
                     <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
@@ -341,10 +345,10 @@ const submitEdition = () => {
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
                     <td><input class="number" type="text" v-model="match.score.set3" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak3" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
                     <td><input class="name" type="text" v-model="match.umpire" /></td>
                     <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
@@ -359,7 +363,7 @@ const submitEdition = () => {
                     </td>
                     <td><button type="button" @click="saveMatch(match._id, match)">Save</button></td>
                 </tr>
-                <tr v-for="(match) in r32Matches">
+                <tr v-for="match in r32Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
                     <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
@@ -401,10 +405,10 @@ const submitEdition = () => {
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
                     <td><input class="number" type="text" v-model="match.score.set3" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak3" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
                     <td><input class="name" type="text" v-model="match.umpire" /></td>
                     <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
@@ -419,7 +423,7 @@ const submitEdition = () => {
                     </td>
                     <td><button type="button" @click="saveMatch(match._id, match)">Save</button></td>
                 </tr>
-                <tr v-for="(match) in r16Matches">
+                <tr v-for="match in r16Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
                     <td v-if="match.player_1  && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
@@ -461,10 +465,10 @@ const submitEdition = () => {
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
                     <td><input class="number" type="text" v-model="match.score.set3" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak3" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
                     <td><input class="name" type="text" v-model="match.umpire" /></td>
                     <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
@@ -479,7 +483,7 @@ const submitEdition = () => {
                     </td>
                     <td><button type="button" @click="saveMatch(match._id, match)">Save</button></td>
                 </tr>
-                <tr v-for="(match) in qfMatches">
+                <tr v-for="match in qfMatches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
                     <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
@@ -521,10 +525,10 @@ const submitEdition = () => {
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
                     <td><input class="number" type="text" v-model="match.score.set3" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak3" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
                     <td><input class="name" type="text" v-model="match.umpire" /></td>
                     <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
@@ -539,7 +543,7 @@ const submitEdition = () => {
                     </td>
                     <td><button type="button" @click="saveMatch(match._id, match)">Save</button></td>
                 </tr>
-                <tr v-for="(match) in sfMatches">
+                <tr v-for="match in sfMatches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
                     <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
@@ -581,10 +585,10 @@ const submitEdition = () => {
                     <td><input class="number" type="text" v-model="match.score.tiebreak2" /></td>
                     <td><input class="number" type="text" v-model="match.score.set3" /></td>
                     <td><input class="number" type="text" v-model="match.score.tiebreak3" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.set5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="match.score.tiebreak5" /></td>
                     <td><input class="name" type="text" v-model="match.umpire" /></td>
                     <td><input type="date" class="date" v-model="match.date" /></td>
                     <td>
@@ -641,10 +645,10 @@ const submitEdition = () => {
                     <td><input class="number" type="text" v-model="final.score.tiebreak2" /></td>
                     <td><input class="number" type="text" v-model="final.score.set3" /></td>
                     <td><input class="number" type="text" v-model="final.score.tiebreak3" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.set4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.tiebreak4" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.set5" /></td>
-                    <td v-if="edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.tiebreak5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.set4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.tiebreak4" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.set5" /></td>
+                    <td v-if="final.edition.category === 'Grand Slam'"><input class="number" type="text" v-model="final.score.tiebreak5" /></td>
                     <td><input class="name" type="text" v-model="final.umpire" /></td>
                     <td><input type="date" class="date" v-model="final.date" /></td>
                     <td>

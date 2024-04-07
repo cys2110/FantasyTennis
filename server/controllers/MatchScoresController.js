@@ -3,7 +3,20 @@ const { MatchScore, Point, Prediction, User, Edition } = require('../models')
 const getMatchByEdition = async(req, res) => {
     try {
         const { edition } = req.params
-        const matches = await MatchScore.find({ edition: edition }).populate({path: 'player_1', select: ['full_name', 'headshot', 'country', 'first_name', 'last_name']}).populate({path: 'player_2', select: ['full_name', 'headshot', 'country', 'first_name', 'last_name']})
+        const matches = await MatchScore.find({ edition: edition }).populate({
+            path: 'player_1',
+            select: ['full_name', 'headshot', 'country', 'first_name', 'last_name']
+        }).populate({
+            path: 'player_2',
+            select: ['full_name', 'headshot', 'country', 'first_name', 'last_name']
+        }).populate({
+            path: 'edition',
+            select: ['category', 'type_of_draw', 'tourney'],
+            populate: {
+                path: 'tourney',
+                model: 'Tournament'
+            }
+        })
         const sorted = matches.toSorted((a, b) => {
             return a.match_no - b.match_no
         })

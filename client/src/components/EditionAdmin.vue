@@ -289,7 +289,7 @@ const editEdition = () => {
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(_, index in noOfSeeds)">
+                <tr v-for="(_, index) in noOfSeeds">
                     <td>{{ index + 1 }}</td>
                     <td><InputNoLabel type="text" label="Player" v-model="edition.seeds[index].player" /></td>
                     <td><InputNoLabel type="number" label="Rank" v-model="edition.seeds[index].rank" /></td>
