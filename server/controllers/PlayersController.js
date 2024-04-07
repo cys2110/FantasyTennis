@@ -29,7 +29,44 @@ const getPlayerByName = async(req, res) => {
     }
 }
 
+const filterEmptyObjects = (obj) => {
+    for (const key in obj) {
+        if (typeof obj[key] === 'object' && Object.keys(obj[key]).length === 0) {
+            delete obj[key]
+        }
+    }
+    return obj
+}
+
+const createPlayer = async(req, res) => {
+    try {
+        const player = req.body
+        const filteredPlayer = filterEmptyObjects(player)
+        const newPlayer = new Player( filteredPlayer )
+        await newPlayer.save()
+        return res.status(201).json(newPlayer)
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
+const editPlayer = async(req,res) => {
+    try {
+        const { id } = req.params
+        const editedPlayer = await Player.findByIdAndUpdate(id, req.body, {new: true} )
+        if (editedPlayer) {
+            return res.status(200).json(editedUser)
+        } else {
+            throw new Error('Player not found')
+        }
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
 module.exports = {
     getPlayerById,
-    getPlayerByName
+    getPlayerByName,
+    createPlayer,
+    editPlayer
 }

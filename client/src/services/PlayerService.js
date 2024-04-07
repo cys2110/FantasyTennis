@@ -15,5 +15,11 @@ export default {
     },
     getPlayerByName(name) {
         return apiClient.get('/name/' + name)
+    },
+    createPlayer(player) {
+        return apiClient.post('', player)
+    },
+    editPlayer(id, player) {
+        return apiClient.patch('/' + id, player)
     }
 }

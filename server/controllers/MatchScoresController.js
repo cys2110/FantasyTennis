@@ -31,6 +31,17 @@ const getMatchesByPlayerId = async(req, res) => {
     }
 }
 
+const createMatch = async(req, res) => {
+    try {
+        const match = req.body
+        const newMatch = new MatchScore( match )
+        await newMatch.save()
+        return res.status(201).json(newMatch)
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
 const updateMatch = async(req, res) => {
     try {
         const { id } = req.params
@@ -108,5 +119,6 @@ const updateMatch = async(req, res) => {
 module.exports = {
     getMatchByEdition,
     getMatchesByPlayerId,
+    createMatch,
     updateMatch
 }

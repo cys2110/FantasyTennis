@@ -18,7 +18,6 @@ const calculateYTD = () => {
     const filteredPredictions = predictions.value.filter(prediction => {return prediction.edition.year === currentYear})
     let runningTally = 0
     filteredPredictions.forEach((prediction) => runningTally += prediction.points)
-    console.log(filteredPredictions)
     if (runningTally) {
         return runningTally
     } else {

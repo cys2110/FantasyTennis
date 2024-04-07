@@ -22,6 +22,8 @@ const props = defineProps({
     }
 })
 
+console.log(props.match)
+
 const emits = defineEmits(['update:editedPrediction', 'update:predictedWinner'])
 
 const editedPrediction = ref(props.match)

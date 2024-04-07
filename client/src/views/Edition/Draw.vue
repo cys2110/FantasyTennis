@@ -91,13 +91,6 @@ for (let i = 0; i < props.matches.length; i++) {
 </template>
 
 <style scoped>
-.navigator {
-    margin: 2rem auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 button {
     border-radius: 50%;
     height: 3rem;

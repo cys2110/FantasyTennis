@@ -28,7 +28,34 @@ const getTournamentById = async(req, res) => {
     }
 }
 
+const createTournament = async(req, res) => {
+    try {
+        const tourney = req.body
+        const newTournament = new Tournament(tourney)
+        await newTournament.save()
+        return res.status(201).json(newTournament)
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
+const editTournament = async(req, res) => {
+    try {
+        const { id } = req.params
+        const editedTournament = await Tournament.findByIdAndUpdate(id, req.body, {new: true})
+        if (editedTournament) {
+            return res.status(200).json(editedTournament)
+        } else {
+            throw new Error('Tournament not found')
+        }
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
 module.exports = {
     getTournamentById,
-    universalSearch
+    universalSearch,
+    createTournament,
+    editTournament
 }

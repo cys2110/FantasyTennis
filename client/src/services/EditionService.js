@@ -21,5 +21,11 @@ export default {
     },
     getUpcomingEditions() {
         return apiClient.get('/upcoming')
+    },
+    createEdition(edition) {
+        return apiClient.post('', edition)
+    },
+    editEdition(id, edition) {
+        return apiClient.patch('/' + id, edition)
     }
 }

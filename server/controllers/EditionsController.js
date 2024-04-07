@@ -62,9 +62,46 @@ const getUpcomingEditions = async(req, res) => {
     }
 }
 
+const filterEmptyObjects = (obj) => {
+    for (const key in obj) {
+        if (typeof obj[key] === 'object' && Object.keys(obj[key]).length === 0) {
+            delete obj[key]
+        }
+    }
+    return obj
+}
+
+const createEdition = async(req, res) => {
+    try {
+        const edition = req.body
+        const filteredEdition = filterEmptyObjects(edition)
+        const newEdition = new Edition( filteredEdition )
+        await newEdition.save()
+        return res.status(201).json(newEdition)
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
+const editEdition = async(req,res) => {
+    try {
+        const { id } = req.params
+        const editedEdition = await Edition.findByIdAndUpdate(id, req.body, {new: true} )
+        if (editedEdition) {
+            return res.status(200).json(editedEdition)
+        } else {
+            throw new Error('Edition not found')
+        }
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
 module.exports = {
     getEditionById,
     getEditionsByTournament,
     getEditionsByYear,
-    getUpcomingEditions
+    getUpcomingEditions,
+    createEdition,
+    editEdition
 }

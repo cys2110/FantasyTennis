@@ -43,9 +43,10 @@ const editUser = async(req,res) => {
         const { id } = req.params
         const editedUser = await User.findByIdAndUpdate(id, req.body, {new: true} )
         if (editedUser) {
-            return res.status(200).json(editUser)
+            return res.status(200).json(editedUser)
+        } else {
+            throw new Error('User not found')
         }
-        throw new Error('User not found')
     } catch (error) {
         return res.status(500).send(error.message)
     }

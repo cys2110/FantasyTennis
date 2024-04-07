@@ -16,6 +16,9 @@ export default {
     getMatchesByPlayer(id) {
         return apiClient.get('/player/id/' + id)
     },
+    createMatch(match) {
+        return apiClient.post('', match)
+    },
     editMatch(id, match) {
         return apiClient.patch('/' + id, match)
     },

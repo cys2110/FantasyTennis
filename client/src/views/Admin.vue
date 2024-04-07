@@ -1,7 +1,14 @@
 <script setup>
+import InputNoLabel from '@/components/BaseForm/InputNoLabel.vue';
+import EditionAdmin from '@/components/EditionAdmin.vue';
+import PlayerAdmin from '@/components/PlayerAdmin.vue';
+import TourneyAdmin from '@/components/TourneyAdmin.vue';
 import EditionService from '@/services/EditionService';
 import MatchScore from '@/services/MatchScore';
-import { watch, ref } from 'vue';
+import PlayerService from '@/services/PlayerService';
+import TournamentService from '@/services/TournamentService';
+import { ref, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 
 const props = defineProps({
     username: {
@@ -9,9 +16,23 @@ const props = defineProps({
     }
 })
 
+const router = useRouter()
+
 const selectedEdition = ref(null)
 const edition = ref(null)
+const createEdition = ref(false)
+
+const selectedMatchEdition = ref(null)
 const matches = ref([])
+
+const selectedTourney = ref(null)
+const tourney = ref(null)
+const createTourney = ref(false)
+
+const selectedPlayer = ref(null)
+const player = ref(null)
+const createPlayer = ref(false)
+
 const final =ref()
 const sfMatches = ref([])
 const qfMatches = ref([])
@@ -20,22 +41,15 @@ const r32Matches = ref([])
 const r64Matches = ref([])
 const r128Matches = ref([])
 
-watch(props, (newProps) => {
-    if (newProps.username !== 'cys2110') {
+onMounted(() => {
+    const user = localStorage.getItem('user')
+    if (user !== 'cys2110') {
         router.push({name: 'home'})
     }
-}, {immediate: true})
+})
 
-const submitSearch = () => {
-    event.preventDefault()
-    EditionService.getEditionById(selectedEdition.value)
-        .then((response) => {
-            edition.value = response.data
-        })
-        .catch((error) => {
-            console.log(error)
-        })
-    MatchScore.getMatchesByEdition(selectedEdition.value)
+const submitMatch = () => {
+    MatchScore.getMatchesByEdition(selectedMatchEdition.value)
         .then((response) => {
             matches.value = response.data
             for (let i = 0; i < matches.value.length; i++) {
@@ -95,15 +109,100 @@ const saveMatch = (matchId, match) => {
             console.log(error)
         })
 }
+
+const toggleCreateTourney = () => {
+    createPlayer.value = false
+    createEdition.value = false
+    createTourney.value = true
+}
+
+const toggleCreatePlayer = () => {
+    createPlayer.value = true
+    createEdition.value = false
+    createTourney.value = false
+}
+
+const toggleCreateEdition = () => {
+    createPlayer.value = false
+    createEdition.value = true
+    createTourney.value = false
+}
+
+const submitTourney = () => {
+    TournamentService.getTournamentById(selectedTourney.value)
+        .then((response) => {
+            tourney.value = response.data
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+}
+
+const submitPlayer = () => {
+    PlayerService.getPlayerById(selectedPlayer.value)
+        .then((response) => {
+            player.value = response.data
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+}
+
+const submitEdition = () => {
+    EditionService.getEditionById(selectedEdition.value)
+        .then((response) => {
+            edition.value = response.data
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+}
 </script>
 
 <template>
-    <form @submit.prevent="submitSearch">
-        <input type="number" placeholder="edition" v-model="selectedEdition" />
-    </form>
+    <div class="searches">
+        <form @submit.prevent="submitEdition">
+            <InputNoLabel v-model="selectedEdition" label="Edition ID" type="number" />
+        </form>
+        <form @submit.prevent="submitTourney">
+            <InputNoLabel v-model="selectedTourney" label="Tournament ID" type="number" />
+        </form>
+        <form @submit.prevent="submitPlayer">
+            <InputNoLabel v-model="selectedPlayer" label="Player ID" type="text" />
+        </form>
+        <form @submit.prevent="submitMatchEdition">
+            <InputNoLabel v-model="selectedMatchEdition" label="Matches by edition" type="number" />
+        </form>
+        <button type="button" @click="toggleCreateTourney">Add Tournament</button>
+        <button type="button" @click="toggleCreatePlayer">Add Player</button>
+        <button type="button" @click="toggleCreateEdition">Add Edition</button>
+    </div>
+
+    <div v-if="tourney">
+        <h1>{{ tourney.name }}</h1>
+        <TourneyAdmin :tourney="tourney" :edit="true" />
+    </div>
+    <div v-if="createTourney">
+        <TourneyAdmin :create="true" />
+    </div>
+
+    <div v-if="player">
+        <h1>{{ player.full_name }}</h1>
+        <PlayerAdmin :player-prop="player" :edit="true" />
+    </div>
+    <div v-if="createPlayer">
+        <PlayerAdmin :create="true" />
+    </div>
+    
     <div v-if="edition">
         <h1>{{ edition.tourney.name }} | {{ edition.year }}</h1>
+        <EditionAdmin :edition-prop="edition" :edit="true" />
     </div>
+    <div v-if="createEdition">
+        <EditionAdmin :create="true" />
+    </div>
+
+
     <div class="form-table" v-if="matches.length > 0 && edition">
         <table>
             <thead>
@@ -566,6 +665,11 @@ const saveMatch = (matchId, match) => {
 </template>
 
 <style scoped>
+.searches {
+    display: flex;
+    flex-direction: row;
+}
+
 .form-table {
     overflow-x: auto;
     width: 100vw

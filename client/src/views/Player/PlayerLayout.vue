@@ -1,7 +1,7 @@
 <script setup>
 import PlayerService from '@/services/PlayerService';
 import { computed, onMounted, ref, watch } from 'vue';
-import { gladiator, headshot } from '@/components/utils';
+import { gladiator, headshot, flagSrc, formatCurrency } from '@/components/utils';
 import { RouterView, useRouter } from 'vue-router';
 
 const props = defineProps({
@@ -12,10 +12,6 @@ const props = defineProps({
 
 const player = ref(null)
 const router = useRouter()
-
-const flagSrc = (country) => {
-    return new URL(`../../assets/flags/${country}.svg`, import.meta.url).href
-}
 
 onMounted(() => {
     PlayerService.getPlayerById(props.id)
@@ -34,6 +30,15 @@ watch(() => router.currentRoute.value.params.id, () => {
 const lastName = computed(() => {
     return player.value.last_name.toUpperCase()
 })
+
+const careerHigh = computed(() => {
+    const options = {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+    }
+    return new Date(player.value.rank.date).toLocaleDateString('en-gb', options)
+})
 </script>
 
 <template>
@@ -41,16 +46,114 @@ const lastName = computed(() => {
         <div class="tab"><RouterLink :to="{ name: 'PlayerOverview'}">Overview</RouterLink></div>
     </div> -->
     <div class="player-wrapper" v-if="player">
-        <h1>{{ player.first_name }} {{ lastName }}</h1>
-        <div class="active" v-if="player.status.active" >Active</div>
-        <div class="dates">{{ player.status.turned_pro }} - <span v-if="player.status.retired">{{ player.status.retired }}</span><span v-else>present</span></div>
-        <div class="flag"><img :src="flagSrc(player.country)" /></div>
-        <div class="picture"><img v-if="player.gladiator" :src="gladiator(player._id)" /><img v-else-if="player.headshot" :src="headshot(player._id)" /></div>
-        <div class="rank">{{ player.rank.career_high }} {{ player.rank.date }}</div>
-        <div class="pm">${{ player.pm_USD }}</div>
-        <div class="titles">{{ player.titles }}</div>
-        <div class="wl">{{ player.win }}-{{ player.loss }}</div>
+        <div class="heading-container">
+            <div class="details details-container">
+                <div class="heading">
+                    <h1>{{ player.first_name }} {{ lastName }}</h1>
+                    <div><img class="flag" :src="flagSrc(player.country)" /></div>
+                    
+                </div>
+                <div class="sub-heading">
+                    <div class="badge" v-if="player.status.active" >Active</div>
+                </div>
+                <div class="stats-container">
+                    <div class="stat">
+                        <div class="bold">{{ player.rank.career_high }}</div>
+                        <div>{{ careerHigh }}</div>
+                        <div>CAREER HIGH</div>
+                    </div>
+                    <div class="stat">
+                        <div class="bold">{{ player.win }}-{{ player.loss }}</div>
+                        <div>WIN-LOSS</div>
+                    </div>
+                    <div class="stat">
+                        <div class="bold">{{ player.titles }}</div>
+                        <div>TITLES</div>
+                    </div>
+                    <div class="stat">
+                        <div class="bold">{{ formatCurrency('USD', player.pm_USD) }}</div>
+                        <div>PRIZE MONEY</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gladiator">
+                <img v-if="player.gladiator" class="picture" :src="gladiator(player._id)" /><img v-else-if="player.headshot" class="picture" :src="headshot(player._id)" />
+            </div>
+        </div>
 
         <RouterView :player="player" />
     </div>
 </template>
+
+<style scoped>
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.badge {
+    background-color: var(--vt-c-box-border);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 2rem;
+    width: 5rem;
+    margin-top: 1rem;
+}
+
+.flag {
+    border-radius: 20%;
+    margin-left: 2rem;
+    width: 3rem;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    background-color: var(--vt-c-box-border);
+    justify-content: space-evenly;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    border-radius: 50%;
+    max-height: 20rem;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: x-large;
+}
+</style>
