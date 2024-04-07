@@ -64,7 +64,12 @@ const getUpcomingEditions = async(req, res) => {
 
 const filterEmptyObjects = (obj) => {
     for (const key in obj) {
-        if (typeof obj[key] === 'object' && Object.keys(obj[key]).length === 0) {
+        if (typeof obj[key] === 'object') {
+            filterEmptyObjects(obj[key])
+            if (Object.keys(obj[key].length === 0)) {
+                delete obj[key]
+            }
+        } else if (obj[key] === '') {
             delete obj[key]
         }
     }

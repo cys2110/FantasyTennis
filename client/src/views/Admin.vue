@@ -232,10 +232,10 @@ const submitEdition = () => {
                     <th>T2</th>
                     <th>S3</th>
                     <th>T3</th>
-                    <!-- <th v-if="final.edition.category === 'Grand Slam'">S4</th>
+                    <th v-if="final.edition.category === 'Grand Slam'">S4</th>
                     <th v-if="final.edition.category === 'Grand Slam'">T4</th>
                     <th v-if="final.edition.category === 'Grand Slam'">S5</th>
-                    <th v-if="final.edition.category === 'Grand Slam'">T5</th> -->
+                    <th v-if="final.edition.category === 'Grand Slam'">T5</th>
                     <th>Ump</th>
                     <th>Date</th>
                     <th>Incompletes</th>
