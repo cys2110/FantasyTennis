@@ -62,9 +62,18 @@ const edition = ref(props.editionProp || {
         },
         lls: [],
         alts: [],
-        wds: Array(noOfWds.value).fill(null).map(() => ({})),
-        rets: Array(noOfRets.value).fill(null).map(() => ({})),
-        wos: Array(noOfWos.value).fill(null).map(() => ({}))
+        wds: Array(noOfWds.value).fill(null).map(() => ({
+            player: '',
+            reason: ''
+        })),
+        rets: Array(noOfRets.value).fill(null).map(() => ({
+            player: '',
+            reason: ''
+        })),
+        wos: Array(noOfWos.value).fill(null).map(() => ({
+            player: '',
+            reason: ''
+        }))
     }
 })
 
@@ -111,11 +120,11 @@ const final = {
 
 const noOfSeeds = ref(props.editionProp.seeds.length > 0 ? props.editionProp.seeds.length : edition.value.type_of_draw / 4)
 const noOfSupervisors = ref(props.editionProp.supervisors.length > 0 ? props.editionProp.supervisors.length : 1)
-const noOfLLs = ref(props.editionProp.lls.length > 0 ? props.editionProp.lls.length : 1)
-const noOfAlts = ref(props.editionProp.alts.length > 0 ? props.editionProp.alts.length : 1)
-const noOfWds = ref(props.editionProp.wds.length > 0 ? props.editionProp.wds.length : 1)
-const noOfRets = ref(props.editionProp.rets.length > 0 ? props.editionProp.rets.length : 1)
-const noOfWos = ref(props.editionProp.wos.length > 0 ? props.editionProp.wos.length : 1)
+const noOfLLs = ref(props.editionProp.entry_info.lls.length > 0 ? props.editionProp.lls.length : 1)
+const noOfAlts = ref(props.editionProp.entry_info.alts.length > 0 ? props.editionProp.alts.length : 1)
+const noOfWds = ref(props.editionProp.entry_info.wds.length > 0 ? props.editionProp.wds.length : 1)
+const noOfRets = ref(props.editionProp.entry_info.rets.length > 0 ? props.editionProp.rets.length : 1)
+const noOfWos = ref(props.editionProp.entry_info.wos.length > 0 ? props.editionProp.wos.length : 1)
 
 const handleSubmit = () => {
     if (props.edit === true) {
@@ -257,12 +266,12 @@ const editEdition = () => {
                     <td><InputNoLabel type="number" label="PM" v-model="edition.awards.quarterfinalist.prize_money" /></td>
                     <td><InputNoLabel type="number" label="Pts" v-model="edition.awards.quarterfinalist.points" /></td>
                 </tr>
-                <tr>
+                <tr v-if="edition.awards.round4">
                     <td>4th round</td>
                     <td><InputNoLabel type="number" label="PM" v-model="edition.awards.round4.prize_money" /></td>
                     <td><InputNoLabel type="number" label="Pts" v-model="edition.awards.round4.points" /></td>
                 </tr>
-                <tr>
+                <tr v-if="edition.awards.round3">
                     <td>3rd round</td>
                     <td><InputNoLabel type="number" label="PM" v-model="edition.awards.round3.prize_money" /></td>
                     <td><InputNoLabel type="number" label="Pts" v-model="edition.awards.round3.points" /></td>

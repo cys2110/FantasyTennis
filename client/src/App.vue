@@ -1,16 +1,22 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import Header from './components/Header.vue';
-
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="header">
-    <Header />
+  <div class="viewport">
+    <div class="header">
+      <Header />
+    </div>
+    <div class="app-body">
+      <RouterView />
+    </div>
+    <div class="footer">
+      <Footer />
+    </div>
   </div>
-  <div class="app-body">
-    <RouterView />
-  </div>
+  
 </template>
 
 <style scoped>
@@ -29,5 +35,18 @@ import Header from './components/Header.vue';
   margin: 0 auto;
   width: 75%;
   margin-top: 10rem;
+  flex: 1;
+}
+
+.viewport {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh
+}
+
+.footer {
+  margin: auto;
+  flex-shrink: 0;
+  width: 100%;
 }
 </style>
