@@ -26,6 +26,7 @@ const r64Matches = ref([])
 const r128Matches = ref([])
 const selectedRound = ref(null)
 const editMode = ref(false)
+const showEdit = ref(false)
 const finalPlayers =ref({
     player_1: {
         _id: '',
@@ -91,6 +92,8 @@ onMounted(() => {
     PredictionService.getPredictionsById(props.id)
         .then((response) => {
             prediction.value = response.data
+            const currentDate = new Date()
+            prediction.value.edition.start_date >= currentDate ? showEdit.value = true : showEdit.value = false
             selectedRound.value = prediction.value.edition.type_of_draw
             for (let i=0; i < prediction.value.predictions.length; i++) {
                 switch (prediction.value.predictions[i].match.round) {
@@ -264,10 +267,10 @@ const deletePrediction = () => {
             <button @click="selectRound(2)" :class="{'active-button': selectedRound === 2}">F</button>
         </div>
         <div>
-            <button v-if="!editMode" @click="editMode = true" >Edit</button>
-            <button v-if="editMode" @click="submitPrediction" >Save</button>
-            <button v-if="editMode" @click="editMode = false" >Cancel</button>
-            <button @click="deletePrediction" >Delete</button>
+            <button v-if="!editMode && showEdit" @click="editMode = true" >Edit</button>
+            <button v-if="editMode && showEdit" @click="submitPrediction" >Save</button>
+            <button v-if="editMode && showEdit" @click="editMode = false" >Cancel</button>
+            <button v-if="showEdit" @click="deletePrediction" >Delete</button>
         </div>
         <div class="draw-wrapper">
             <div class="round-wrapper" v-if="prediction.edition.type_of_draw === 128" v-show="selectedRound >= 128">
@@ -298,6 +301,11 @@ const deletePrediction = () => {
 <style scoped>
 .category {
     margin-right: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
 }
 
 button {

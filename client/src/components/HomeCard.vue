@@ -29,13 +29,12 @@ onMounted(() => {
                 PredictionService.getPredictionsByUserandId(localStorage.user, props.tournament._id)
                 .then((response) => {
                     if (response.data.length > 0) {
-                        if (startDate > currentDate) {
+                        viewPrediction.value = true
+                        if (startDate >= currentDate) {
                             editPrediction.value = true
-                        } else {
-                            viewPrediction.value = true
                         }
                         prediction.value = response.data[0]._id
-                    } else if (startDate > currentDate) {
+                    } else if (startDate >= currentDate) {
                         createPrediction.value = true
                     }
                 })
@@ -118,6 +117,7 @@ const navigate = (slug) => {
     display: flex;
     flex-direction: row;
     margin-right: 1rem;
+    align-items: center;
 }
 
 .headings, .category {

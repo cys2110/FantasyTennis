@@ -246,7 +246,7 @@ const submitEdition = () => {
                 <tr v-for="match in r128Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
-                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
                     <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
@@ -261,7 +261,7 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
@@ -306,7 +306,7 @@ const submitEdition = () => {
                 <tr v-for="match in r64Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
-                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
                     <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
@@ -321,7 +321,7 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
@@ -366,7 +366,7 @@ const submitEdition = () => {
                 <tr v-for="match in r32Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
-                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
                     <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
@@ -381,7 +381,7 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
@@ -426,7 +426,7 @@ const submitEdition = () => {
                 <tr v-for="match in r16Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
-                    <td v-if="match.player_1  && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-if="match.player_1  && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
                     <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
@@ -441,7 +441,7 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
@@ -486,7 +486,7 @@ const submitEdition = () => {
                 <tr v-for="match in qfMatches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
-                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
                     <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
@@ -501,7 +501,7 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
@@ -546,7 +546,7 @@ const submitEdition = () => {
                 <tr v-for="match in sfMatches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
-                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id" readonly ></td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
                     <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
@@ -561,7 +561,7 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id" ></td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
@@ -606,7 +606,7 @@ const submitEdition = () => {
                 <tr v-if="final">
                     <td>{{ final.round }}</td>
                     <td>{{ final.match_no }}</td>
-                    <td v-if="final.player_1"><input class="number" :placeholder="final.player_1._id" readonly ></td>
+                    <td v-if="final.player_1 && typeof final.player_1 === 'object'"><input class="number" :placeholder="final.player_1._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="final.player_1" /></td>
                     <td><input type="text" class="name" v-model="final.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="final.player_1_rank" /></td>
@@ -621,7 +621,7 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="final.player_2"><input class="number" :placeholder="final.player_2._id" ></td>
+                    <td v-if="final.player_2 && typeof final.player_2 === 'object'"><input class="number" :placeholder="final.player_2._id"  ></td>
                     <td v-else><input class="number" type="text" v-model="final.player_2" /></td>
                     <td><input class="name" type="text" v-model="final.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="final.player_2_rank" /></td>
@@ -672,6 +672,7 @@ const submitEdition = () => {
 .searches {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .form-table {

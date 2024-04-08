@@ -3,7 +3,6 @@ import TournamentService from '@/services/TournamentService';
 import { computed, onMounted, ref } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/pro-duotone-svg-icons';
-import { RouterLink } from 'vue-router';
 import EditionService from '@/services/EditionService';
 import EditionCard from '@/components/EditionCard.vue';
 

@@ -22,8 +22,6 @@ const props = defineProps({
     }
 })
 
-console.log(props.match)
-
 const emits = defineEmits(['update:editedPrediction', 'update:predictedWinner'])
 
 const editedPrediction = ref(props.match)
@@ -46,18 +44,26 @@ const navigate = (player) => {
 }
 
 const player1Index = computed(() => {
-    if (props.match.match.winner === 1) {
-        return 0
+    if (props.match.player_1) {
+        if (props.match.winner === props.match.player_1._id) {
+            return 0
+        } else {
+            return 1
+        }
     } else {
-        return 1
+        return 0
     }
 })
 
 const player2Index = computed(() => {
-    if (props.match.match.winner === 2) {
-        return 0
+    if (props.match.player_2) {
+        if (props.match.winner === props.match.player_2._id) {
+            return 0
+        } else {
+            return 1
+        }
     } else {
-        return 1
+        return 0
     }
 })
 

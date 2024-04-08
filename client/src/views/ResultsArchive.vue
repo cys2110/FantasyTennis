@@ -122,6 +122,7 @@ button {
     z-index: 999;
     position: absolute;
     width: 100%;
+    background: var(--color-background);
 }
 
 .dropdown-search-content::-webkit-scrollbar {

@@ -72,7 +72,7 @@ const supervisors = computed(() => {
                         <tbody>
                             <tr v-for="player in edition.seeds" :key="player._id">
                                 <td class="centred">{{ player.seed }}</td>
-                                <td><img class="headshot" v-if="player.player.headshot" :src="headshot(player.player._id)" @click="navigate(player.player._id)" /></td>
+                                <td><img class="headshot" v-if="player.player && player.player.headshot" :src="headshot(player.player._id)" @click="navigate(player.player._id)" /></td>
                                 <td><img class="mini-flag" :src="flagSrc(player.player.country)" /></td>
                                 <td>
                                     <span v-if="withdrawnSeed(player.player)" class="strikethrough"><RouterLink class="hover-link" :to="{name: 'PlayerLayout', params: {id: player.player._id}}">{{ player.player.full_name }}</RouterLink></span>
