@@ -36,6 +36,59 @@ const loser = computed(() => {
     }
 })
 
+const winnerStatus = computed(() => {
+    if (props.match.winner === 1) {
+        if (props.match.player_1_seed && props.match.player_1_status) {
+            return `(${props.match.player_1_seed} ${props.match.player_1_status})`
+        } else if (props.match.player_1_seed) {
+            return `(${props.match.player_1_seed})`
+        } else if (props.match.player_1_status) {
+            return `(${props.match.player_1_status})`
+        } else {
+            return
+        }
+    } else {
+        if (props.match.player_2_seed && props.match.player_2_status) {
+            return `(${props.match.player_2_seed} ${props.match.player_2_status})`
+        } else if (props.match.player_2_seed) {
+            return `(${props.match.player_2_seed})`
+        } else if (props.match.player_2_status) {
+            return `(${props.match.player_2_status})`
+        } else {
+            return
+        }
+    }
+})
+
+const loserStatus = computed(() => {
+    if (props.match.bye) {
+        return
+    } else {
+        if (props.match.winner === 1) {
+            console.log(props.match.player_2_seed)
+            if (props.match.player_2_seed && props.match.player_2_status) {
+                return `(${props.match.player_2_seed} ${props.match.player_2_status})`
+            } else if (props.match.player_2_seed) {
+                return `(${props.match.player_2_seed})`
+            } else if (props.match.player_2_status) {
+                return `(${props.match.player_2_status})`
+            } else {
+                return
+            }
+        } else {
+            if (props.match.player_1._seed && props.match.player_1_status) {
+                return `(${props.match.player_1_seed} ${props.match.player_1_status})`
+            } else if (props.match.player_1_seed) {
+                return `(${props.match.player_1_seed})`
+            } else if (props.match.player_1_status) {
+                return `(${props.match.player_1_status})`
+            } else {
+                return
+            }
+        }
+    }
+})
+
 const navigate = (player) => {
     router.push({name: 'PlayerLayout', params: {id: player}})
 }
@@ -57,9 +110,9 @@ const navigate = (player) => {
                 <div class="component-row"><img :src="flagSrc(loser.country)" class="mini-flag" /></div>
             </div>
             <div class="component-column">
-                <div class="component-row"><RouterLink :to="{name: 'PlayerLayout', params: {id: winner._id}}" class="hover-link">{{ winner.full_name }}</RouterLink></div>
+                <div class="component-row"><RouterLink :to="{name: 'PlayerLayout', params: {id: winner._id}}" class="hover-link">{{ winner.full_name }}</RouterLink> <span v-if="match.player_1_seed || match.player_1.status || match.player_2_seed || match.player_2_status" class="small" ><small>{{ winnerStatus }}</small></span></div>
                 <div v-if="match.bye" class="component-row">Bye</div>
-                <div v-else class="component-row"><RouterLink :to="{name: 'PlayerLayout', params: {id: loser._id}}" class="hover-link">{{ loser.full_name }}</RouterLink></div>
+                <div v-else class="component-row"><RouterLink :to="{name: 'PlayerLayout', params: {id: loser._id}}" class="hover-link">{{ loser.full_name }}</RouterLink> <span v-if="match.player_1_seed || match.player_1_status || match.player_2_seed || match.player_2_status" class="small" ><small>{{ loserStatus }}</small></span></div>
             </div>
             <div class="component-column">
                 <div class="component-row"><FontAwesomeIcon :icon="faCheck" /></div>
