@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faSquarePlus } from '@fortawesome/pro-duotone-svg-icons'
 import { countriesArray } from '@/data/ioc_countries';
 import MatchScore from '@/services/MatchScore';
+import SearchPlayer from './SearchPlayer.vue';
 
 const props=defineProps({
     editionProp: {
@@ -57,24 +58,6 @@ const edition = ref(props.editionProp || {
         }
     },
     seeds: Array(noOfSeeds.value).fill(null).map(() => ({})),
-    entry_info: {
-        lda: {
-        },
-        lls: [],
-        alts: [],
-        wds: Array(noOfWds.value).fill(null).map(() => ({
-            player: '',
-            reason: ''
-        })),
-        rets: Array(noOfRets.value).fill(null).map(() => ({
-            player: '',
-            reason: ''
-        })),
-        wos: Array(noOfWos.value).fill(null).map(() => ({
-            player: '',
-            reason: ''
-        }))
-    }
 })
 
 const r128Matches = Array(64).fill(null).map((_, index) => ({
@@ -118,20 +101,24 @@ const final = {
     round: 'F'
 }
 
-const noOfSeeds = ref(props.editionProp.seeds.length > 0 ? props.editionProp.seeds.length : edition.value.type_of_draw / 4)
+const noOfSeeds = ref(props.editionProp.seeds.length || edition.value.type_of_draw / 4)
 const noOfSupervisors = ref(props.editionProp.supervisors.length || 1)
-const noOfLLs = ref(props.editionProp.entry_info.lls.length || 1)
-const noOfAlts = ref(props.editionProp.entry_info.alts.length || 1)
-const noOfWds = ref(props.editionProp.entry_info.wds.length || 1)
-const noOfRets = ref(props.editionProp.entry_info.rets.length || 1)
-const noOfWos = ref(props.editionProp.entry_info.wos.length || 1)
+
+const editField = (key, value) => {
+    edition.value[key] = value
+} 
+
+const editSeed = (index, value) => {
+    edition.value.seeds[index].player = value
+}
 
 const handleSubmit = () => {
-    if (props.edit === true) {
-        editEdition()
-    } else if (props.create === true) {
-        createEdition()
-    }
+    console.log(edition.value)
+    // if (props.edit === true) {
+    //     editEdition()
+    // } else if (props.create === true) {
+    //     createEdition()
+    // }
 }
 
 const createEdition = () => {
@@ -175,7 +162,8 @@ const editEdition = () => {
 <template>
     <form @submit.prevent="handleSubmit">
         <InputNoLabel v-if="create" type="number" label="ID" v-model="edition._id" />
-        <InputNoLabel type="text" label="Tournament" v-model="edition.tourney" />
+        <input v-if="edition.tourney && edition.tourney._id" type="number" :placeholder="edition.tourney._id" @change="editField('tourney', $event.target.value)" />
+        <InputNoLabel v-else type="number" label="Tournament" v-model="edition.tourney" />
         <InputNoLabel type="number" label="Year" v-model="edition.year" />
         <InputNoLabel type="text" label="Sponsored name" v-model="edition.sponsor_name" />
         <fieldset>
@@ -233,8 +221,10 @@ const editEdition = () => {
                 <option value="rebound ace">Rebound ace</option>
             </select>
         </fieldset>
-        <InputNoLabel type="text" label="Winner" v-model="edition.winner" />
-        <InputNoLabel type="text" label="Finalist" v-model="edition.finalist" />
+        <input v-if="edition.winner && edition.winner._id" type="text" :placeholder="edition.winner._id" @change="editField('winner', $event.target.value)" />
+        <InputNoLabel v-else type="text" label="Winner" v-model="edition.winner" />
+        <input v-if="edition.finalist && edition.finalist._id" type="text" :placeholder="edition.finalist._id" @change="editField('finalist', $event.target.value)" />
+        <InputNoLabel v-else type="text" label="Finalist" v-model="edition.finalist" />
         <InputNoLabel type="text" label="Final score" v-model="edition.final_score" />
 
         <table>
@@ -300,57 +290,10 @@ const editEdition = () => {
             <tbody>
                 <tr v-for="(_, index) in noOfSeeds">
                     <td>{{ index + 1 }}</td>
-                    <td><InputNoLabel type="text" label="Player" v-model="edition.seeds[index].player" /></td>
+                    <td>
+                        <input v-if="edition.seeds[index].player && edition.seeds[index].player._id" :placeholder="edition.seeds[index].player._id" @change="editSeed(index, $event.target.value)" />
+                        <InputNoLabel v-else type="text" label="Player" v-model="edition.seeds[index].player._id" /></td>
                     <td><InputNoLabel type="number" label="Rank" v-model="edition.seeds[index].rank" /></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Entry info</th>
-                    <th>Player</th>
-                    <th>Reason</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Last direct acceptance</td>
-                    <td><InputNoLabel type="text" label="Player" v-model="edition.entry_info.lda.player" /></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr v-for="(_, index) in noOfLLs">
-                    <td>Lucky loser</td>
-                    <td><InputNoLabel type="text" label="Player" v-model="edition.entry_info.lls[index]" /></td>
-                    <td></td>
-                    <td><FontAwesomeIcon :icon="faSquarePlus" @click="noOfLLs++" /></td>
-                </tr>
-                <tr v-for="(_, index) in noOfAlts">
-                    <td>Alternates</td>
-                    <td><InputNoLabel type="text" label="Player" v-model="edition.entry_info.alts[index]" /></td>
-                    <td></td>
-                    <td><FontAwesomeIcon :icon="faSquarePlus" @click="noOfAlts++" /></td>
-                </tr>
-                <tr v-for="(_, index) in noOfWds">
-                    <td>Withdrawals</td>
-                    <td><InputNoLabel type="text" label="Player" v-model="edition.entry_info.wds[index].player" /></td>
-                    <td><InputNoLabel type="text" label="Reason" v-model="edition.entry_info.wds[index].reason" /></td>
-                    <td><FontAwesomeIcon :icon="faSquarePlus" @click="noOfWds++" /></td>
-                </tr>
-                <tr v-for="(_, index) in noOfRets">
-                    <td>Retirements</td>
-                    <td><InputNoLabel type="text" label="Player" v-model="edition.entry_info.rets[index].player" /></td>
-                    <td><InputNoLabel type="text" label="Reason" v-model="edition.entry_info.rets[index].reason" /></td>
-                    <td><FontAwesomeIcon :icon="faSquarePlus" @click="noOfRets++" /></td>
-                </tr>
-                <tr v-for="(_, index) in noOfWos">
-                    <td>Walkovers</td>
-                    <td><InputNoLabel type="text" label="Player" v-model="edition.entry_info.wos[index].player" /></td>
-                    <td><InputNoLabel type="text" label="Reason" v-model="edition.entry_info.wos[index].reason" /></td>
-                    <td><FontAwesomeIcon :icon="faSquarePlus" @click="noOfWos++" /></td>
                 </tr>
             </tbody>
         </table>

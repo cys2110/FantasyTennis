@@ -2,6 +2,7 @@
 import InputNoLabel from '@/components/BaseForm/InputNoLabel.vue';
 import EditionAdmin from '@/components/EditionAdmin.vue';
 import PlayerAdmin from '@/components/PlayerAdmin.vue';
+import SearchPlayer from '@/components/SearchPlayer.vue';
 import TourneyAdmin from '@/components/TourneyAdmin.vue';
 import EditionService from '@/services/EditionService';
 import MatchScore from '@/services/MatchScore';
@@ -261,8 +262,12 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><input class="number" :placeholder="match.player_2._id"  ></td>
-                    <td v-else><input class="number" type="text" v-model="match.player_2" /></td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'">
+                        <SearchPlayer class="number" :label="match.player_2._id" v-model="match.player_2" />
+                    </td>
+                    <td v-else>
+                        <SearchPlayer class="number" label="P2id" v-model="match.player_2" />
+                    </td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
