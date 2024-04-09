@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faSquarePlus } from '@fortawesome/pro-duotone-svg-icons'
 import { countriesArray } from '@/data/ioc_countries';
 import MatchScore from '@/services/MatchScore';
-import SearchPlayer from './SearchPlayer.vue';
+import SearchPlayer from './BaseForm/SearchPlayer.vue';
 
 const props=defineProps({
     editionProp: {
@@ -57,7 +57,7 @@ const edition = ref(props.editionProp || {
         round1: {
         }
     },
-    seeds: Array(noOfSeeds.value).fill(null).map(() => ({})),
+    seeds: Array(noOfSeeds.value).fill(null).map(() => ({}))
 })
 
 const r128Matches = Array(64).fill(null).map((_, index) => ({
@@ -65,52 +65,42 @@ const r128Matches = Array(64).fill(null).map((_, index) => ({
     round: 'R128',
     match_no: index + 1
 }))
-
 const r64Matches = Array(32).fill(null).map((_, index) => ({
     edition: edition.value._id,
     round: 'R64',
     match_no: index = 1
 }))
-
 const r32Matches = Array(16).fill(null).map((_, index) => ({
     edition: edition.value._id,
     round: 'R32',
     match_no: index = 1
 }))
-
 const r16Matches = Array(8).fill(null).map((_, index) => ({
     edition: edition.value._id,
     round: 'R16',
     match_no: index = 1
 }))
-
 const qfMatches = Array(4).fill(null).map((_, index) => ({
     edition: edition.value._id,
     round: 'QF',
     match_no: index = 1
 }))
-
 const sfMatches = Array(32).fill(null).map((_, index) => ({
     edition: edition.value._id,
     round: 'SF',
     match_no: index = 1
 }))
-
 const final = {
     edition: edition.value._id,
     round: 'F'
 }
 
-const noOfSeeds = ref(props.editionProp.seeds.length || edition.value.type_of_draw / 4)
-const noOfSupervisors = ref(props.editionProp.supervisors.length || 1)
+const noOfSeeds = ref(props.editionProp.seeds.length > 0 ?props.editionProp.seeds.length : edition.value.type_of_draw / 4)
+const noOfSupervisors = ref(props.editionProp.supervisors.length > 0 ? props.editionProp.supervisors.length : 1)
 
 const editField = (key, value) => {
     edition.value[key] = value
 } 
-
-const editSeed = (index, value) => {
-    edition.value.seeds[index].player = value
-}
 
 const handleSubmit = () => {
     console.log(edition.value)
@@ -221,10 +211,10 @@ const editEdition = () => {
                 <option value="rebound ace">Rebound ace</option>
             </select>
         </fieldset>
-        <input v-if="edition.winner && edition.winner._id" type="text" :placeholder="edition.winner._id" @change="editField('winner', $event.target.value)" />
-        <InputNoLabel v-else type="text" label="Winner" v-model="edition.winner" />
-        <input v-if="edition.finalist && edition.finalist._id" type="text" :placeholder="edition.finalist._id" @change="editField('finalist', $event.target.value)" />
-        <InputNoLabel v-else type="text" label="Finalist" v-model="edition.finalist" />
+        <SearchPlayer v-if="edition.winner && edition.winner._id" type="text" :label="edition.winner._id" v-model="edition.winner" />
+        <SearchPlayer v-else type="text" :label="edition.winner" v-model="edition.winner" />
+        <SearchPlayer v-if="edition.finalist && edition.finalist._id" type="text" :label="edition.finalist._id" v-model="edition.finalist" />
+        <SearchPlayer v-else type="text" :label="edition.finalist" v-model="edition.finalist" />
         <InputNoLabel type="text" label="Final score" v-model="edition.final_score" />
 
         <table>
@@ -291,11 +281,14 @@ const editEdition = () => {
                 <tr v-for="(_, index) in noOfSeeds">
                     <td>{{ index + 1 }}</td>
                     <td>
-                        <input v-if="edition.seeds[index].player && edition.seeds[index].player._id" :placeholder="edition.seeds[index].player._id" @change="editSeed(index, $event.target.value)" />
-                        <InputNoLabel v-else type="text" label="Player" v-model="edition.seeds[index].player._id" /></td>
+                        <SearchPlayer v-if="edition.seeds[index].player && edition.seeds[index].player._id" :label="edition.seeds[index].player._id" type="text" v-model="edition.seeds[index].player" />
+                        <SearchPlayer v-else type="text" :label="edition.seeds[index].player" v-model="edition.seeds[index].player" />
+                    </td>
                     <td><InputNoLabel type="number" label="Rank" v-model="edition.seeds[index].rank" /></td>
                 </tr>
             </tbody>
         </table>
+
+        <button type="submit">Save</button>
     </form>
 </template>

@@ -2,7 +2,7 @@
 import InputNoLabel from '@/components/BaseForm/InputNoLabel.vue';
 import EditionAdmin from '@/components/EditionAdmin.vue';
 import PlayerAdmin from '@/components/PlayerAdmin.vue';
-import SearchPlayer from '@/components/SearchPlayer.vue';
+import SearchPlayer from '@/components/BaseForm/SearchPlayer.vue';
 import TourneyAdmin from '@/components/TourneyAdmin.vue';
 import EditionService from '@/services/EditionService';
 import MatchScore from '@/services/MatchScore';
@@ -53,7 +53,6 @@ const submitMatchEdition = () => {
     MatchScore.getMatchesByEdition(selectedMatchEdition.value)
         .then((response) => {
             matches.value = response.data
-            console.log(matches.value)
             for (let i = 0; i < matches.value.length; i++) {
                 switch (matches.value[i].round) {
                     case 'F':
@@ -247,8 +246,12 @@ const submitEdition = () => {
                 <tr v-for="match in r128Matches">
                     <td>{{ match.round }}</td>
                     <td>{{ match.match_no }}</td>
-                    <td v-if="match.player_1 && typeof match.player_1 === 'object'"><input class="number" :placeholder="match.player_1._id"  ></td>
-                    <td v-else><input class="number" type="text" v-model="match.player_1" /></td>
+                    <td v-if="match.player_1 && typeof match.player_1 === 'object'">
+                        <SearchPlayer :label="match.player_1._id" v-model="match.player_1" />
+                    </td>
+                    <td v-else>
+                        <SearchPlayer :label="match.player_1" v-model="match.player_1" />
+                    </td>
                     <td><input type="text" class="name" v-model="match.player_1_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_rank" /></td>
                     <td><input type="number" class="number" v-model="match.player_1_seed" /></td>
@@ -262,12 +265,8 @@ const submitEdition = () => {
                             <option value="WC">WC</option>
                         </select>
                     </td>
-                    <td v-if="match.player_2 && typeof match.player_2 === 'object'">
-                        <SearchPlayer class="number" :label="match.player_2._id" v-model="match.player_2" />
-                    </td>
-                    <td v-else>
-                        <SearchPlayer class="number" label="P2id" v-model="match.player_2" />
-                    </td>
+                    <td v-if="match.player_2 && typeof match.player_2 === 'object'"><SearchPlayer :label="match.player_2._id" v-model="match.player_2" /></td>
+                    <td v-else><SearchPlayer :label="match.player_2" v-model="match.player_2" /></td>
                     <td><input class="name" type="text" v-model="match.player_2_full_name" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_rank" /></td>
                     <td><input type="number" class="number" v-model="match.player_2_seed" /></td>
@@ -673,7 +672,7 @@ const submitEdition = () => {
     </div>
 </template>
 
-<style scoped>
+<style>
 .searches {
     display: flex;
     flex-direction: row;

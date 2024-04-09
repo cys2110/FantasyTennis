@@ -1,3 +1,5 @@
-<script setup></script>
+<script setup>
+const props = defineProps()
+</script>
 
 <template></template>
