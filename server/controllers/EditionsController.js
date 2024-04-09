@@ -48,8 +48,8 @@ const getEditionsByYear = async(req, res) => {
 const getEditionByPlayer = async(req, res) => {
     try {
         const { player } = req.params
-        const wins = await Edition.find({winner: player})
-        const finals = await Edition.find({finalist: player})
+        const wins = await Edition.find({winner: player}).populate('tourney')
+        const finals = await Edition.find({finalist: player}).populate('tourney')
         if (wins || finals) {
             res.json ({wins, finals})
         }
