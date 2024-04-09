@@ -119,12 +119,12 @@ const final = {
 }
 
 const noOfSeeds = ref(props.editionProp.seeds.length > 0 ? props.editionProp.seeds.length : edition.value.type_of_draw / 4)
-const noOfSupervisors = ref(props.editionProp.supervisors.length > 0 ? props.editionProp.supervisors.length : 1)
-const noOfLLs = ref(props.editionProp.entry_info.lls.length > 0 ? props.editionProp.lls.length : 1)
-const noOfAlts = ref(props.editionProp.entry_info.alts.length > 0 ? props.editionProp.alts.length : 1)
-const noOfWds = ref(props.editionProp.entry_info.wds.length > 0 ? props.editionProp.wds.length : 1)
-const noOfRets = ref(props.editionProp.entry_info.rets.length > 0 ? props.editionProp.rets.length : 1)
-const noOfWos = ref(props.editionProp.entry_info.wos.length > 0 ? props.editionProp.wos.length : 1)
+const noOfSupervisors = ref(props.editionProp.supervisors.length || 1)
+const noOfLLs = ref(props.editionProp.entry_info.lls.length || 1)
+const noOfAlts = ref(props.editionProp.entry_info.alts.length || 1)
+const noOfWds = ref(props.editionProp.entry_info.wds.length || 1)
+const noOfRets = ref(props.editionProp.entry_info.rets.length || 1)
+const noOfWos = ref(props.editionProp.entry_info.wos.length || 1)
 
 const handleSubmit = () => {
     if (props.edit === true) {

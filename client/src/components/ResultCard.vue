@@ -65,7 +65,6 @@ const loserStatus = computed(() => {
         return
     } else {
         if (props.match.winner === 1) {
-            console.log(props.match.player_2_seed)
             if (props.match.player_2_seed && props.match.player_2_status) {
                 return `(${props.match.player_2_seed} ${props.match.player_2_status})`
             } else if (props.match.player_2_seed) {

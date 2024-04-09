@@ -45,6 +45,19 @@ const getEditionsByYear = async(req, res) => {
     }
 }
 
+const getEditionByPlayer = async(req, res) => {
+    try {
+        const { player } = req.params
+        const wins = await Edition.find({winner: player})
+        const finals = await Edition.find({finalist: player})
+        if (wins || finals) {
+            res.json ({wins, finals})
+        }
+    } catch (error) {
+        return res.status(500).send(error.message)
+    }
+}
+
 const getUpcomingEditions = async(req, res) => {
     try {
         const editions = await Edition.find({}).populate('tourney')
@@ -107,6 +120,7 @@ module.exports = {
     getEditionsByTournament,
     getEditionsByYear,
     getUpcomingEditions,
+    getEditionByPlayer,
     createEdition,
     editEdition
 }

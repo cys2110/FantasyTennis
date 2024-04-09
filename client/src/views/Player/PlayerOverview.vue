@@ -68,7 +68,7 @@ const height = computed(() => {
                 </div>
                 <div class="detail" v-if="player.preferred_surface.length > 0">
                     <span v-if="player.preferred_surface.length === 1">Preferred surface</span><span v-else>Preferred surfaces</span>
-                    <span>{{ joinArray(player.preferred_surface) }}</span>
+                    <span class="capitalise">{{ joinArray(player.preferred_surface) }}</span>
                 </div>
             </div>
             <div class="details-column">
@@ -216,5 +216,9 @@ td {
     padding: 5px;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.capitalise {
+    text-transform: capitalize;
 }
 </style>

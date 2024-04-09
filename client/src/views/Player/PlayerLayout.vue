@@ -2,7 +2,7 @@
 import PlayerService from '@/services/PlayerService';
 import { computed, onMounted, ref, watch } from 'vue';
 import { gladiator, headshot, flagSrc, formatCurrency } from '@/components/utils';
-import { RouterView, useRouter } from 'vue-router';
+import { RouterView, useRoute, useRouter } from 'vue-router';
 
 const props = defineProps({
     id: {
@@ -12,6 +12,12 @@ const props = defineProps({
 
 const player = ref(null)
 const router = useRouter()
+const route = useRoute()
+const currentTab = ref(route.name)
+
+const setCurrentTab = (tabName) => {
+    currentTab.value = tabName
+}
 
 onMounted(() => {
     PlayerService.getPlayerById(props.id)
@@ -42,9 +48,6 @@ const careerHigh = computed(() => {
 </script>
 
 <template>
-    <!-- <div class="tabs">
-        <div class="tab"><RouterLink :to="{ name: 'PlayerOverview'}">Overview</RouterLink></div>
-    </div> -->
     <div class="player-wrapper" v-if="player">
         <div class="heading-container">
             <div class="details details-container">
@@ -82,7 +85,12 @@ const careerHigh = computed(() => {
             </div>
         </div>
 
-        <RouterView :player="player" />
+        <div class="tabs">
+            <div :class="{'tab': true, 'active-tab': currentTab === 'PlayerOverview'}"><RouterLink :to="{ name: 'PlayerOverview'}" @click="setCurrentTab('PlayerOverview')">Overview</RouterLink></div>
+            <div :class="{'tab': true, 'active-tab': currentTab === 'Titles'}"><RouterLink class="tab-link" :to="{ name: 'Titles'}" @click="setCurrentTab('Titles')">Titles and Finals</RouterLink></div>
+        </div>
+
+        <RouterView v-if="player" :player="player" />
     </div>
 </template>
 
@@ -113,8 +121,8 @@ h1 {
     background-color: var(--vt-c-box-border);
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
     border-radius: 2rem;
     width: 5rem;
     margin-top: 1rem;

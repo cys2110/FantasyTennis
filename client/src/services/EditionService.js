@@ -22,6 +22,9 @@ export default {
     getUpcomingEditions() {
         return apiClient.get('/upcoming')
     },
+    getEditionByPlayer(player) {
+        return apiClient.get('/players/' + player)
+    },
     createEdition(edition) {
         return apiClient.post('', edition)
     },

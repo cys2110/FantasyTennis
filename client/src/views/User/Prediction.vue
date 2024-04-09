@@ -114,6 +114,7 @@ onMounted(() => {
                         break
                     case 'R64':
                         r64Matches.value.push(prediction.value.predictions[i])
+                        console.log(r64Matches.value)
                         break
                     case 'R128':
                         r128Matches.value.push(prediction.value.predictions[i])

@@ -150,6 +150,7 @@ const supervisors = computed(() => {
                                 <td><img v-if="edition.entry_info.lda.player.headshot" :src="headshot(edition.entry_info.lda.player._id)" class="headshot" @click="navigate(edition.entry_info.lda.player_id)" /></td>
                                 <td><img :src="flagSrc(edition.entry_info.lda.player.country)" class="mini-flag" /></td>
                                 <td><RouterLink :to="{name: 'PlayerLayout', params: {id: edition.entry_info.lda.player._id}}" class="hover-link">{{ edition.entry_info.lda.player.full_name }}</RouterLink></td>
+                                <td v-if="edition.entry_info.lda.rank">{{ edition.entry_info.lda.rank }}</td>
                             </tr>
                         </tbody>
                         <thead v-if="edition.entry_info.lls.length > 0">
