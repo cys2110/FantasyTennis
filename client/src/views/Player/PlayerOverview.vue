@@ -221,4 +221,14 @@ td {
 .capitalise {
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 430px) {
+    .details-container {
+        flex-direction: column;
+    }
+
+    .details-column {
+        width: 100%;
+    }
+}
 </style>

@@ -30,20 +30,6 @@ const getMatchByEdition = async(req, res) => {
     }
 }
 
-const getMatchesByPlayerId = async(req, res) => {
-    try {
-        const { id } = req.params
-        const matches = await MatchScore.find({ $or: [{player_1: id}, {player_2: id}] })
-        if (matches) {
-            res.json(matches)
-        } else {
-            return res.status(404).send('Match does not exist')
-        }
-    } catch (error) {
-        return res.status(500).send(error.message)
-    }
-}
-
 const createMatch = async(req, res) => {
     try {
         const match = req.body
@@ -131,7 +117,6 @@ const updateMatch = async(req, res) => {
 
 module.exports = {
     getMatchByEdition,
-    getMatchesByPlayerId,
     createMatch,
     updateMatch
 }

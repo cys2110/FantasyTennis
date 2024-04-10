@@ -63,3 +63,18 @@ export function categorySrc(country) {
 export function capitalise(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
 }
+
+export function groupObjectsByKey(array, key) {
+    const groupedArrays = {};
+    
+    array.forEach(obj => {
+      const value = obj[key];
+      if (!groupedArrays[value]) {
+        groupedArrays[value] = [obj];
+      } else {
+        groupedArrays[value].push(obj);
+      }
+    });
+    
+    return groupedArrays;
+  }

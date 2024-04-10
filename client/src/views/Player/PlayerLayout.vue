@@ -164,4 +164,32 @@ h1 {
     font-weight: bold;
     font-size: x-large;
 }
+
+@media screen and (max-width: 430px) {
+    .heading-container {
+        flex-direction: column-reverse;
+    }
+
+    .gladiator {
+        margin: 0 auto;
+    }
+
+    .bold {
+        font-size: medium
+    }
+
+    .stats-container {
+        flex-flow: row wrap;
+        margin: 0 auto;
+    }
+
+    .stat {
+        width: 50%;
+        margin: 0.5rem;
+    }
+
+    .tabs {
+        margin-top: 1rem;
+    }
+}
 </style>

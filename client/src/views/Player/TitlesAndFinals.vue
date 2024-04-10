@@ -1,6 +1,7 @@
 <script setup>
 import EditionService from '@/services/EditionService';
 import { onMounted, ref } from 'vue';
+import { groupObjectsByKey } from '@/components/utils';
 
 const props = defineProps({
     player: {
@@ -14,21 +15,6 @@ const selection = ref('Titles')
 const titlesByYear = ref({})
 const finalsByYear = ref({})
 
-function groupObjectsByKey(array, key) {
-  const groupedArrays = {};
-  
-  array.forEach(obj => {
-    const value = obj[key];
-    if (!groupedArrays[value]) {
-      groupedArrays[value] = [obj];
-    } else {
-      groupedArrays[value].push(obj);
-    }
-  });
-  
-  return groupedArrays;
-}
-
 onMounted(() => {
     EditionService.getEditionByPlayer(props.player._id)
     .then((response) => {
@@ -36,14 +22,12 @@ onMounted(() => {
             wins.value = response.data.wins
             if (wins.value.length > 0) {
                 titlesByYear.value = groupObjectsByKey(wins.value, 'year')
-                console.log(titlesByYear.value)
             }
         }
         if (response.data.finals.length > 0) {
             finals.value = response.data.finals
             if (finals.value ) {
                 finalsByYear.value = groupObjectsByKey(finals.value, 'year')
-                console.log(finalsByYear.value)
             }
         }
     })

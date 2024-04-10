@@ -16,7 +16,6 @@ import Profile from '@/views/User/Profile.vue'
 import Prediction from '@/views/User/Prediction.vue'
 import Admin from '@/views/Admin.vue'
 import TitlesAndFinals from '@/views/Player/TitlesAndFinals.vue'
-import Activity from '@/views/Player/Activity.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -81,11 +80,6 @@ const router = createRouter({
           path: '',
           name: 'PlayerOverview',
           component: PlayerOverview
-        },
-        {
-          path: 'activity',
-          name: 'Activity',
-          component: Activity
         },
         {
           path: 'titles-and-finals',

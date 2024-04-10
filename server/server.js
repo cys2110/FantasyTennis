@@ -41,7 +41,6 @@ app.post('/editions', editionController.createEdition)
 app.patch('/editions/:id', editionController.editEdition)
 
 app.get('/match-scores/editions/:edition', matchScoreController.getMatchByEdition)
-app.get('/match-scores/player/id/:id', matchScoreController.getMatchesByPlayerId)
 app.post('/match-scores', matchScoreController.createMatch)
 app.patch('/match-scores/:id', matchScoreController.updateMatch)
 

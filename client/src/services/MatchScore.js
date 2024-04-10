@@ -13,9 +13,6 @@ export default {
     getMatchesByEdition(edition) {
         return apiClient.get('/editions/' + edition)
     },
-    getMatchesByPlayer(id) {
-        return apiClient.get('/player/id/' + id)
-    },
     createMatch(match) {
         return apiClient.post('', match)
     },
