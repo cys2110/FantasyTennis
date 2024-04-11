@@ -1,7 +1,7 @@
 <script setup>
 import { useRouter } from 'vue-router';
 import { flagSrc, headshot } from './utils';
-import { computed, ref, watch } from 'vue';
+import { computed, ref } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faCheck } from '@fortawesome/pro-duotone-svg-icons';
 
@@ -21,6 +21,8 @@ const props = defineProps({
         required: false
     }
 })
+
+console.log(props.players)
 
 const emits = defineEmits(['update:editedPrediction', 'update:predictedWinner'])
 

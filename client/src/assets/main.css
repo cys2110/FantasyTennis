@@ -50,6 +50,7 @@ background-size: 100% 0.1em;
 
 .card-flag {
   border-radius: 15px;
+  border: 1px solid var(--color-border)
 }
 
 .card-button {
@@ -77,6 +78,7 @@ background-size: 100% 0.1em;
   width: 30px;
   border-radius: 5px;
   vertical-align: middle;
+  border: 1px solid var(--color-border)
 }
 
 .headshot {
@@ -123,6 +125,7 @@ background-size: 100% 0.1em;
 
 .active-tab {
   background-color: var(--vt-c-box-border);
+  color: var(--vt-c-text-dark-2)
 }
 
 .active-tab:hover {
@@ -200,6 +203,7 @@ background-size: 100% 0.1em;
 .flag {
   width: 150px;
   border-radius: 15px;
+  border: 1px solid var(--color-border)
 }
 
 .navigator {

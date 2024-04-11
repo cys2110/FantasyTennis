@@ -12,6 +12,8 @@ const props = defineProps({
     }
 })
 
+console.log(props.match)
+
 const router = useRouter()
 
 const hour = Math.floor(props.match.duration_mins / 60)
@@ -35,6 +37,8 @@ const loser = computed(() => {
         return props.match.player_1
     }
 })
+
+console.log(loser.value)
 
 const winnerStatus = computed(() => {
     if (props.match.winner === 1) {
@@ -89,12 +93,12 @@ const loserStatus = computed(() => {
 })
 
 const navigate = (player) => {
-    router.push({name: 'PlayerLayout', params: {id: player}})
+    router.push({name: 'PlayerOverview', params: {id: player}})
 }
 </script>
 
 <template>
-    <div class="result-card" v-if="match.winner">
+    <div class="result-card">
         <div class="card-component">
             <div v-if="match.date">Date: {{ regularDate(match.date) }}</div>
             <div class="right-side" v-if="match.duration_mins">Duration: {{ duration }}</div>
@@ -106,12 +110,12 @@ const navigate = (player) => {
             </div>
             <div class="component-column">
                 <div class="component-row"><img :src="flagSrc(winner.country)" class="mini-flag" /></div>
-                <div class="component-row"><img :src="flagSrc(loser.country)" class="mini-flag" /></div>
+                <div class="component-row"><img v-if="loser.country" :src="flagSrc(loser.country)" class="mini-flag" /></div>
             </div>
             <div class="component-column">
-                <div class="component-row"><RouterLink :to="{name: 'PlayerLayout', params: {id: winner._id}}" class="hover-link">{{ winner.full_name }}</RouterLink> <span v-if="match.player_1_seed || match.player_1.status || match.player_2_seed || match.player_2_status" class="small" ><small>{{ winnerStatus }}</small></span></div>
+                <div class="component-row"><RouterLink :to="{name: 'PlayerOverview', params: {id: winner._id}}" class="hover-link">{{ winner.full_name }}</RouterLink> <span v-if="match.player_1_seed || match.player_1.status || match.player_2_seed || match.player_2_status" class="small" ><small>{{ winnerStatus }}</small></span></div>
                 <div v-if="match.bye" class="component-row">Bye</div>
-                <div v-else class="component-row"><RouterLink :to="{name: 'PlayerLayout', params: {id: loser._id}}" class="hover-link">{{ loser.full_name }}</RouterLink> <span v-if="match.player_1_seed || match.player_1_status || match.player_2_seed || match.player_2_status" class="small" ><small>{{ loserStatus }}</small></span></div>
+                <div v-else class="component-row"><RouterLink :to="{name: 'PlayerOverview', params: {id: loser._id}}" class="hover-link">{{ loser.full_name }}</RouterLink> <span v-if="match.player_1_seed || match.player_1_status || match.player_2_seed || match.player_2_status" class="small" ><small>{{ loserStatus }}</small></span></div>
             </div>
             <div class="component-column">
                 <div class="component-row"><FontAwesomeIcon :icon="faCheck" /></div>

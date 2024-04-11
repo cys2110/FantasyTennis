@@ -21,7 +21,6 @@ const r32Matches = ref([])
 const r64Matches = ref([])
 const r128Matches = ref([])
 
-
 for (let i = 0; i < props.matches.length; i++) {
     switch (props.matches[i].round) {
         case 'F':

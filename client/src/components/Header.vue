@@ -47,7 +47,8 @@ const user = localStorage.getItem('user')
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 h1 {
-    font-family: 'Fugaz One'
+    font-family: 'Fugaz One';
+    color: var(--vt-c-text-dark-2)
 }
 
 .nav {
@@ -60,7 +61,7 @@ h1 {
 
 .navIcon {
     cursor: pointer;
-    color: var(--color-text);
+    color: var(--vt-c-text-dark-2);
     font-size: large;
 }
 

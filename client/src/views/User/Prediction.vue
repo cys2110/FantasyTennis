@@ -276,9 +276,9 @@ const deletePrediction = () => {
             <div class="round-wrapper" v-if="prediction.edition.type_of_draw === 128" v-show="selectedRound >= 128">
                 <PredictionCard v-for="(match, index) in r128Matches" :key="match._id" :match="match" :editMode="editMode" :category="prediction.edition.category" v-model:editedPrediction="r128Matches[index]" @update:predictedWinner="handlePredictedWinner(64, index, $event)" />
             </div>
-            <div class="round-wrapper" v-if="prediction.edition.type_of_draw === 64 || prediction.edition.type_of_draw === 128" v-show="selectedRound >= 64">
+            <!-- <div class="round-wrapper" v-if="prediction.edition.type_of_draw === 64 || prediction.edition.type_of_draw === 128" v-show="selectedRound >= 64">
                 <PredictionCard v-for="(match, index) in r64Matches" :key="match._id" :match="match" :editMode="editMode" :category="prediction.edition.category" :players="r64Players[index]" v-model:editedPrediction="r64Matches[index]" @update:predictedWinner="handlePredictedWinner(32, index, $event)"/>
-            </div>
+            </div> -->
             <div class="round-wrapper" v-show="selectedRound >= 32">
                 <PredictionCard v-for="(match, index) in r32Matches" :key="match._id" :match="match" :editMode="editMode" :category="prediction.edition.category" v-model:editedPrediction="r32Matches[index]"  @update:predictedWinner="handlePredictedWinner(16, index, $event)" :players="r32Players[index]" />
             </div>
